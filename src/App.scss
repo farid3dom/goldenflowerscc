@@ -1,0 +1,42 @@
+:root {
+    --f-bold: 'Geologica_Bold';
+    --f-medium: 'Geologica_Medium';
+    --f-regular: 'Geologica_Regular';
+}
+
+@font-face {
+    font-family: 'Geologica_Bold';
+    src: url('./assets/fonts/Geologica-Bold.ttf') format("OpenType");
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+@font-face {
+    font-family: 'Geologica_Medium';
+    src: url('./assets/fonts/Geologica-Medium.ttf') format("OpenType");
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+@font-face {
+    font-family: 'Geologica_Regular';
+    src: url('./assets/fonts/Geologica-Regular.ttf') format("OpenType");
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+.Text {
+    font-family: var(--f-bold);
+}
