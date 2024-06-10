@@ -110,6 +110,9 @@ ol,
 ul {
    list-style: none;
 }
+a, a.active {
+   text-decoration: none;
+}
 
 blockquote,
 q {

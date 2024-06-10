@@ -2,6 +2,11 @@
     --f-bold: 'Geologica_Bold';
     --f-medium: 'Geologica_Medium';
     --f-regular: 'Geologica_Regular';
+    --white: #fff;
+    --black: #000;
+    --main-color: #9966cc;
+    --gold: #ECBB47;
+    --btn-transition: .25s ease;
 }
 
 @font-face {
@@ -35,6 +40,10 @@
     "slnt" 0,
     "CRSV" 0,
     "SHRP" 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .Text {
