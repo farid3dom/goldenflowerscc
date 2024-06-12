@@ -4,7 +4,10 @@ import './style.scss'
 //import images
 import Logo from '../../assets/icons/logo.svg'
 import Logo_S from '../../assets/icons/logo_mini.png'
-import ArrowDown from '../../assets/icons/arrowDown'
+import ArrowDown from '../../assets/icons/arrowDown';
+
+///Import react router dom
+import { Link } from 'react-router-dom';
 
 const Index = ({ menuIsActive, setMenuIsActive }) => {
 
@@ -18,14 +21,14 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                 <div className="nav_logo">
                     <div className="logo">
-                        <a href=''>
+                        <Link to={'/'}>
                             <img src={Logo} alt="Golden Flowers Logo" />
-                        </a>
+                        </Link>
                     </div>
                     <div className="logo_s">
-                        <a href=''>
+                        <Link to={'/'}>
                             <img src={Logo_S} alt="Golden Flowers Logo Mini" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -35,22 +38,22 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className='nav_menu_container'>
 
                         <div className="menu_text_main">
-                            <a href="">
+                            <Link to={'/collection'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Коллекция</p>
                                     <ArrowDown />
                                 </div>
-                            </a>
+                            </Link>
 
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <a href=""><li>Цветы
-                                    </li></a>
-                                    <a href=""><li>Растения
-                                    </li></a>
-                                    <a href=""><li>Аксессуары
-                                    </li></a>
+                                    <Link to={'/flowers'}><li>Цветы
+                                    </li></Link>
+                                    <Link to={'/plants'}><li>Растения
+                                    </li></Link>
+                                    <Link to={'/accessories'}><li>Аксессуары
+                                    </li></Link>
                                 </ul>
                             </div>
                         </div>

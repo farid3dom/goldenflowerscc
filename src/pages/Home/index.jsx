@@ -35,7 +35,7 @@ const Index = () => {
 
                         <div className="content_button">
                             <Button
-                                btnText={'История компании Golden Flowers'}
+                                btnText={'История компании'}
                                 className={'btn btn_white hover_gold'}
                             />
                         </div>
@@ -51,8 +51,7 @@ const Index = () => {
                     <img src={Vitrin} alt="vitrin" />
                     <div className="main_slogan">
                         <div className="main_slogan_text">
-                            <span>ТОЛЬКО СВЕЖИЕ ЦВЕТЫ И РАСТЕНИЯ
-                                <br/> из плодородной земли</span>
+                            <span>Только свежие цветы и растения из плодородной земли</span>
                         </div>
                     </div>
             </div>
@@ -63,12 +62,10 @@ const Index = () => {
                     <img src={Map} alt="map" />
 
                     <div className="map_wrapper_text">
-                        <h2>
-                            ИМПОРТИРУЕМ ТОВАРЫ СО ВСЕХ КОНТИНЕНТОВ МИРА
-                        </h2>
+                        <h2>Импортируем товары со всех континентов мира</h2>
                         <div className="content_button">
                             <Button
-                                btnText={'НАШИ ПОСТАВЩИКИ'}
+                                btnText={'Наши поставщики'}
                                 className={'btn btn_white hover_gold'}
                             />
                         </div>
