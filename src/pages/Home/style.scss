@@ -54,7 +54,6 @@
             max-width: 1023px;
             display: flex;
             align-items: center;
-            gap: 100px;
 
             .buta_left_content {
                 display: flex;
@@ -94,7 +93,7 @@
     .main_video_wrapper {
         width: 100%;
         position: relative;
-        padding: 150px 0;
+        padding: 150px 64px;
         display: flex;
         justify-content: center;
 
@@ -110,25 +109,25 @@
         }
 
         .main_slogan {
-            max-width: 1023px;
-            background: #ffffff80;
+            max-width: 980px;
+            width: 100%;
+            background: rgba(55, 56, 53, 0.5);
             display: flex;
             justify-content: center;
-            backdrop-filter: blur(2px);
-            
+            backdrop-filter: blur(1px);
+
 
             .main_slogan_text {
-
-                padding: 150px 30px;
-                font-size: 50px;
+                width: 100%;
+                padding: 150px 75px;
+                font-size: 48px;
                 font-family: var(--f-bold);
-                color: var(--black);
+                color: var(--white);
                 text-align: center;
-
-                span {
-                }
-
-
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                line-height: 1.2;
             }
         }
     }
@@ -169,62 +168,7 @@
                 color: var(--white);
                 font-family: var(--f-medium);
                 font-size: 50px;
-                padding: 40px;
-
-            }
-        }
-    }
-
-
-    @media screen and (max-width: 767px) {
-
-        .header-video__wrapper {
-            .header_slogan {
-                p {
-                    font-size: 36px;
-                }
-            }
-        }
-
-        .home_buta_wrapper_inner {
-
-            .buta_left_content {
-                .content_title {
-                    font-size: 20px;
-                }
-                .content_desc {
-                    font-size: 14px;
-                }
-            }
-
-            .buta_right_content {}
-        }
-
-        .main_video_wrapper {
-            padding: 0;
-
-            .main_slogan {
-                width: 100%;
-                padding: 0;                   
-
-                .main_slogan_text {
-                    font-size: 20px;
-                    padding: 100px 10px;
-                }
-            }
-        }
-
-        .home_map_wrapper {
-
-            .home_map_wrapper_inner {
-
-                img {
-                    width: 100%;
-                }
-
-                .map_wrapper_text {
-                    font-size: 36px;
-                }
+                padding: 0 64px;
 
             }
         }
@@ -232,52 +176,145 @@
 
     @media screen and (max-width: 1023px) {
 
+        header {
+            .header-video__wrapper {
+                .header_slogan {
+                    left: 40px;
+                }
+            }
+        }
+
         .home_buta_wrapper {
-            padding: 50px;
+            padding: 50px 40px;
 
             .home_buta_wrapper_inner {
+                max-width: 100%;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 gap: 50px;
 
                 .buta_left_content {
                     align-items: center;
+                    width: 100%;
+
                     .content_title {
                         font-size: 36px;
                         text-align: center;
                     }
+
                     .content_desc {
                         font-size: 20px;
                         text-align: center;
                     }
                 }
 
-                .buta_right_content {
-
-                }
+                .buta_right_content {}
             }
         }
 
         .main_video_wrapper {
+            padding: 0;
 
             .main_slogan {
-                
+                max-width: 100%;
+
                 .main_slogan_text {
-                    
+                    padding: 150px 40px;
+                    font-size: 40px
                 }
             }
         }
 
         .home_map_wrapper {
+            padding: 50px 0;
 
             .home_map_wrapper_inner {
 
-                img {
+                .map_wrapper_text {
+                    padding: 0 40px;
+                    font-size: 40px;
+                    gap: 40px;
+                }
 
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+
+        header {
+            height: 50vh;
+
+            .header-video__wrapper {
+                .header_slogan {
+                    left: 24px;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    p {
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+
+        .home_buta_wrapper {
+            padding: 48px 24px;
+
+            .home_buta_wrapper_inner {
+                gap: 48px;  
+
+                .buta_left_content {
+                    gap: 28px;
+
+                    .content_title {
+                        font-size: 24px;
+                    }
+
+                    .content_desc {
+                        font-size: 14px;
+                    }
+
+                    .content_button {
+                        width: auto;
+                    }
+                }
+
+                .buta_right_content {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .main_video_wrapper {
+            padding: 0;
+
+            .main_slogan {
+                width: 100%;
+                padding: 0;
+
+                .main_slogan_text {
+                    font-size: 28px;
+                    padding: 100px 24px;
+                }
+            }
+        }
+
+        .home_map_wrapper {
+            padding: 48px 0;
+
+            .home_map_wrapper_inner {
+                img {
+                    width: 100%;
                 }
 
                 .map_wrapper_text {
-
+                    padding: 0 24px;
+                    font-size: 28px;
+                    gap: 28px;
                 }
 
             }

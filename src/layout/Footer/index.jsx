@@ -9,6 +9,10 @@ import LogoMini from '../../assets/icons/logo_mini.png'
 import Button from '../../components/Button/Index'
 
 const Index = () => {
+
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
         <footer>
             <div class="footer_container">
@@ -70,7 +74,7 @@ const Index = () => {
                     </div>
                 </div>
 
-                <p className='rights_text'>© 2024 Golden Flowers. Все права защищены.</p>
+                <p className='rights_text'>© {year} Golden Flowers. Все права защищены.</p>
             </div>
         </footer>
     )
