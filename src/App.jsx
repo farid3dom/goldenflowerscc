@@ -9,6 +9,7 @@ import Footer from './layout/Footer/index';
 
 //Import Pages
 import Home from './pages/Home/index';
+import Flowers from './pages/Flowers/index'
 
 //Import React router dom
 import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
@@ -28,6 +29,8 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/flowers' element={<Flowers />} />
+
           <Route
             path="*"
             element={<Navigate to="/" replace />}

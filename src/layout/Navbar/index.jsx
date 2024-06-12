@@ -54,7 +54,6 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 </ul>
                             </div>
                         </div>
-
                         <div className="menu_text_main">
                             <a href="">
                                 <div className='menu_text_main_inner'>
@@ -78,12 +77,8 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                     <p>Контакты</p>
                                 </div>
                             </a>
-                        </div>
-
-
+                        </div>             
                     </div>
-
-
                 </div>
 
                 <div className="nav_right">

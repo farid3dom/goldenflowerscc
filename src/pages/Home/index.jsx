@@ -3,14 +3,15 @@ import './style.scss';
 
 //Import images
 import LogoMini from '../../assets/icons/logo_mini.png';
-import Map from '../../assets/media/images/map_purple.png'
+import Map from '../../assets/media/images/map_gold.png'
+import Vitrin from '../../assets/media/images/materials/vetrin.JPG'
 
 //Import Components
 import Button from '../../components/Button/Index';
 
 //import video
 import HeaderVid from '../../assets/media/videos/videoplayback.mp4';
-import MainVid from '../../assets/media/videos/videoplayback_2.mp4'
+//import MainVid from '../../assets/media/videos/videoplayback_2.mp4'
 
 const Index = () => {
     return (
@@ -27,7 +28,7 @@ const Index = () => {
             <div className="home_buta_wrapper">
                 <div className="home_buta_wrapper_inner">
                     <div className="buta_left_content">
-                        <h2 className='content_title'>Уже 30 лет мы являемся премиальной цветочной базой в области растений и цветов.</h2>
+                        <p className='content_title'>Уже 30 лет мы являемся премиальной цветочной базой в области растений и цветов.</p>
 
                         <span className='content_desc'>Компания «GoldenFlowers Cash&Carry»™ уже не первый год является поставщиком цветов от ведущих мировых производителей на российский рынок.
                         Главная цель компании – обеспечение только качественной и новой цветочной продукцией по низким ценам в максимально короткие сроки. Этому способствуют эффективная логистика и собственные торговые представители во всех странах поставщиках.</span>
@@ -46,7 +47,8 @@ const Index = () => {
             </div>
 
             <div className="main_video_wrapper">
-                    <video src={MainVid} loop autoPlay muted></video>
+                    {/* <video src={MainVid} loop autoPlay muted></video> */}
+                    <img src={Vitrin} alt="vitrin" />
                     <div className="main_slogan">
                         <div className="main_slogan_text">
                             <span>ТОЛЬКО СВЕЖИЕ ЦВЕТЫ И РАСТЕНИЯ
@@ -54,11 +56,8 @@ const Index = () => {
                         </div>
                     </div>
             </div>
-
             <div className="home_map_wrapper">
-
                 
-
                 <div className="home_map_wrapper_inner">
 
                     <img src={Map} alt="map" />
@@ -70,7 +69,7 @@ const Index = () => {
                         <div className="content_button">
                             <Button
                                 btnText={'НАШИ ПОСТАВЩИКИ'}
-                                className={'btn btn_white hover_purple'}
+                                className={'btn btn_white hover_gold'}
                             />
                         </div>
                     </div>
