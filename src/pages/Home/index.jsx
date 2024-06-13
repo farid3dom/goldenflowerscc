@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 
 //Import images
-import LogoMini from '../../assets/icons/logo_mini.png';
+import ThirtyYears from '../../assets/media/images/30years.png';
 import Map from '../../assets/media/images/map_gold.png'
 import Vitrin from '../../assets/media/images/materials/vetrin.JPG'
 
@@ -42,7 +42,7 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="buta_right_content">
-                        <img src={LogoMini} alt="" />
+                        <img src={ThirtyYears} alt="" />
                     </div>
                 </div>
             </div>

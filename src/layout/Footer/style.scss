@@ -13,17 +13,15 @@ footer {
         align-items: center;
 
         .footer_container_inner {
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr 2fr 3fr;
             padding-bottom: 30px;
-            border-bottom: .5px solid #292929;
-            flex-wrap: wrap;
+            border-bottom: .5px solid var(--gold);
             gap: 20px 48px;
 
             .f_cont_logo {
-                display: flex;
-                align-items: flex-start;
-
+                text-align: center;
+            
                 img {
                     width: 50px;
                     height: auto;
@@ -214,8 +212,28 @@ footer {
             padding: 28px 16px;
 
             .footer_container_inner {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
                 gap: 12px 28px;
                 justify-content: flex-start;
+
+
+                .logo_1 {
+                    align-self: start;
+                }
+
+                .list_2 {
+
+                }
+
+                .contact_1
+
+                .contact_us {
+
+                    .adres_container {
+                        max-width: 151px;
+                    }
+                }
             }
         }
     }
