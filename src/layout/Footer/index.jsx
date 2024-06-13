@@ -15,7 +15,7 @@ const Index = () => {
 
     return (
         <footer>
-            <div class="footer_container">
+            <div className="footer_container">
                 <div className="footer_container_inner">
 
                     <div className="f_cont_logo logo_1">
@@ -65,7 +65,6 @@ const Index = () => {
                                 <a className="social-button instagram" href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
                                 <a className="social-button telegram" href="https://t.me/GoldenFlowersOpt" target="_blank"><i className="fab fa-telegram"></i></a>
                             </div>
-                            <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
                         </div>
                         <div className="adres_container">
                             <a href='https://yandex.ru/maps/-/CDrK4P8v' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, вл9</a>

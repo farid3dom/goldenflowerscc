@@ -92,8 +92,8 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                     <div className="nav_hamburger">
 
-                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
-                        <label class="burger" for="burger-checkbox" onClick={menuShowHide}></label>
+                        <input type="checkbox" id="burger-checkbox" className="burger-checkbox" />
+                        <label className="burger" htmlFor="burger-checkbox" onClick={menuShowHide}></label>
 
                     </div>
 

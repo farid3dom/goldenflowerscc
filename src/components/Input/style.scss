@@ -1,0 +1,59 @@
+.input__wrapper {
+   position: relative;
+   display: block;
+
+   input {
+      font-family: var(--f-medium);
+      font-size: 16px;
+      padding: 0 50px 0 12px;
+      background: transparent;
+      outline: none;
+      height: 56px;
+      transition: all .25s ease;
+   }
+
+   .input_white {
+      color: var(--white);
+      border: .5px solid rgba(255, 255, 255, 0.5);
+
+      &:focus {
+         border: .5px solid var(--white);
+      }
+   }
+
+   .input_icon_wrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+
+      .search_icon {
+         width: 20px;
+         height: 20px;
+
+         path {
+            transition: all .25s ease;
+            fill: var(--white);
+         } 
+      }
+
+      &:hover {
+         .search_icon {
+            path {
+               fill: var(--gold);
+            }
+         }
+      }
+
+      &:active {
+         transform: scale(0.95);
+      }
+   }
+}

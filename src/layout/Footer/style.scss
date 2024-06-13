@@ -2,6 +2,7 @@ footer {
     background-color: #000000;
     position: relative;
     width: 100%;
+    border-top: 0.5px solid #292929;
 
     .footer_container {
         display: flex;
@@ -208,7 +209,7 @@ footer {
 
     @media screen and (max-width: 767px) {
         .footer_container {
-            padding: 28px 24px;
+            padding: 28px 16px;
 
             .footer_container_inner {
                 display: grid;

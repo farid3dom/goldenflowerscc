@@ -1,0 +1,114 @@
+[
+   {
+      "name": {
+         "en": "Alstroemeria",
+         "ru": "Альстромерия"
+      },
+      "img": "alstroemeria.jpg"
+   },
+   {
+      "name": {
+         "en": "Lily",
+         "ru": "Лилия"
+      },
+      "img": "lily.jpg"
+   },
+   {
+      "name": {
+         "en": "Roses",
+         "ru": "Розы"
+      },
+      "img": "roses.jpg"
+   },
+   {
+      "name": {
+         "en": "Chrysanthemum",
+         "ru": "Хризантема"
+      },
+      "img": "chrysanthemum.jpg"
+   },
+   {
+      "name": {
+         "en": "Tulips",
+         "ru": "Тюльпаны"
+      },
+      "img": "tulips.jpg"
+   },
+   {
+      "name": {
+         "en": "Carnation",
+         "ru": "Гвоздика"
+      },
+      "img": "carnation.jpg"
+   },
+   {
+      "name": {
+         "en": "Hydrangea",
+         "ru": "Гортензия"
+      },
+      "img": "hydrangea.jpg"
+   },
+   {
+      "name": {
+         "en": "Peonies",
+         "ru": "Пионы"
+      },
+      "img": "peonies.jpg"
+   },
+   {
+      "name": {
+         "en": "Calla lily",
+         "ru": "Калла"
+      },
+      "img": "calla-lily.jpg"
+   },
+   {
+      "name": {
+         "en": "Orchid",
+         "ru": "Орхидея"
+      },
+      "img": "orchid.jpg"
+   },
+   {
+      "name": {
+         "en": "Amarillis",
+         "ru": "Амариллис"
+      },
+      "img": "amarillis.jpg"
+   },
+   {
+      "name": {
+         "en": "Anthurium",
+         "ru": "Антуриум"
+      },
+      "img": "anthurium.jpg"
+   },
+   {
+      "name": {
+         "en": "Lisianthus (Eustoma)",
+         "ru": "Лизиантус (Эустома)"
+      },
+      "img": "lisianthus.jpg"
+   },
+   {
+      "name": {
+         "en": "Matiola",
+         "ru": "Матиола"
+      },
+      "img": "matiola.jpg"
+   },
+   {
+      "name": {
+         "en": "Ranunculus",
+         "ru": "Ранункулюс"
+      },
+      "img": "ranunculus.jpg"
+   },
+   {
+      "name": {
+         "en": "Narcissus",
+         "ru": "Нарцисс"
+      },
+      "img": "narcissus.jpg"
+   }
+]

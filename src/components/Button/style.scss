@@ -29,6 +29,10 @@
             transition: all var(--btn-transition);
         }
     }
+
+    &:active {
+        transform: scale(.97);
+    }
 }
 
 .btn_white {
@@ -54,29 +58,31 @@
     }
 }
 
-.hover_purple {
-    &:hover {
-        background: var(--main-color);
-        border: 1px solid var(--main-color);
-        color: var(--white);
+@media screen and (min-width: 768px) {
+    .hover_purple {
+        &:hover {
+            background: var(--main-color);
+            border: 1px solid var(--main-color);
+            color: var(--white);
 
-        svg {
-            path {
-                fill: var(--white);
+            svg {
+                path {
+                    fill: var(--white);
+                }
             }
         }
     }
-}
 
-.hover_gold {
-    &:hover {
-        background: var(--gold);
-        border: 1px solid var(--gold);
-        color: var(--white);
+    .hover_gold {
+        &:hover {
+            background: var(--gold);
+            border: 1px solid var(--gold);
+            color: var(--white);
 
-        svg {
-            path {
-                fill: var(--white);
+            svg {
+                path {
+                    fill: var(--white);
+                }
             }
         }
     }
