@@ -37,6 +37,7 @@ const Index = () => {
                             <Button
                                 btnText={'История компании'}
                                 className={'btn btn_white hover_gold'}
+                                icon={'arrow-right'}
                             />
                         </div>
                     </div>
@@ -67,6 +68,7 @@ const Index = () => {
                             <Button
                                 btnText={'Наши поставщики'}
                                 className={'btn btn_white hover_gold'}
+                                icon={'arrow-right'}
                             />
                         </div>
                     </div>

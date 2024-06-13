@@ -14,7 +14,7 @@
          margin: 0 auto;
          display: flex;
          flex-direction: column;
-         gap: 32px;
+         gap: 48px;
 
          .content_title {
             font-family: var(--f-bold);
@@ -28,6 +28,50 @@
                color: var(--gold);
             }
          }
+
+
+         .search_bar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .input__wrapper {
+               min-width: 265px;
+               
+               input {
+                  width: 100%;
+               }
+            }
+         }
+
+         .flowers_gallery {
+            position: relative;
+
+            .loading_wrapper, .no_result_wrapper {
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               position: absolute;
+               top: 0;
+               left: 0;
+            }
+
+            .no_result_wrapper {
+               h2 {
+                  font-family: var(--f-medium);
+                  font-size: 28px;
+                  color: var(--white);
+               }
+            }
+         }
+
+         .load_more_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 32px;
+         }
       }
    }
 
@@ -39,7 +83,23 @@
 
    @media screen and (max-width: 767px) {
       .flowers_content_wrapper {
-         padding: 50px 24px;
+         padding: 50px 16px;
+
+         .content_wrapper_inner {
+            .content_title {
+               font-size: 28px;
+            }
+
+            .search_bar {
+               .input__wrapper {
+                  width: 100%;
+               }
+            }
+
+            .load_more_wrapper {
+               padding-top: 12px;
+            }
+         }
       }
    }
 }

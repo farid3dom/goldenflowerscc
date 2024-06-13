@@ -1,0 +1,43 @@
+.single_gallery_card {
+   width: 100%;
+   position: relative;
+
+   a {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .image_wrapper {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+         }
+      }
+
+      .card_title {
+         width: 100%;
+
+         h2 {
+            font-family: var(--f-medium);
+            font-size: 28px;
+            color: var(--white);
+            transition: all .25s ease;
+         }
+      }
+
+      @media screen and (min-width: 768px) {
+         &:hover .card_title {
+            h2 {
+               color: var(--gold);
+            }
+         }
+      }
+
+   }
+}
