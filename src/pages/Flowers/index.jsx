@@ -24,58 +24,7 @@ const Index = () => {
                     </div>
                     <div className="flowers">
                         <div className="flowers_inner">
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
-                            <div className="alstromeria">
-                                <img src="" alt="" />
-                                <h3>Альстромерия</h3>
-                            </div>
+
                         </div>
                     </div>
                     <div className="nav_page_numbers">
