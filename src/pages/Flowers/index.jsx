@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import FlowerBG from '../../assets/media/images/materials/flowers_bg.jpg';
+import FlowerBG from '../../assets/media/images/materials/flowers/chrysanthemum/bonus.JPG';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -21,7 +21,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
     const maxLength = 9;
-    let lang = 'en';
+    let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
     const [loading, setLoading] = useState(false);
@@ -88,7 +88,7 @@ const Index = () => {
 
             <div className="flowers_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько растений и <span>цветов</span>!</p>
+                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>цветов</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={FlowerBG}
+                                img={f.img}
                                 title={f.name[lang]}
                             />
                         ))

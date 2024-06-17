@@ -2,8 +2,12 @@ import React from 'react'
 
 import './style.scss'
 
-//Import Cmages
+//Import Images
 import LogoMini from '../../assets/icons/logo_mini.png'
+import TGimg from '../../assets/icons/social/icons8-телеграмма-app.svg'
+import FBimg from '../../assets/icons/social/icons8-facebook.svg'
+import IGimg from '../../assets/icons/social/icons8-instagram.svg'
+import YTimg from '../../assets/icons/social/icons8-youtube.svg'
 
 //Import Components
 import Button from '../../components/Button/Index'
@@ -16,11 +20,12 @@ const Index = () => {
     return (
         <footer>
             <div className="footer_container">
-                <div className="footer_container_inner">
 
-                    <div className="f_cont_logo logo_1">
-                        <img src={LogoMini} alt="logo mini" />
-                    </div>
+                <div className="f_cont_logo logo_1">
+                    <img src={LogoMini} alt="logo mini" />
+                </div>
+
+                <div className="footer_container_inner">
                     <div className="f_cont_nav_list list_1">
                         <a href="#">Цветы</a>
                         <div className="nav_list_inner">
@@ -59,12 +64,14 @@ const Index = () => {
                     </div>
                     <div className="contact_us contact_1">
                         <div className="social_media_container">
-                            <div className="rounded-social-buttons">
-                                <a className="social-button facebook" href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                                <a className="social-button youtube" href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
-                                <a className="social-button instagram" href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
-                                <a className="social-button telegram" href="https://t.me/GoldenFlowersOpt" target="_blank"><i className="fab fa-telegram"></i></a>
-                            </div>
+                            <a href='https://www.instagram.com' target='_blank'>
+                                <img src={IGimg} alt="instagram" /> </a>
+                            <a href={'https://www.telegram.org'} target='_blank'>
+                                <img src={TGimg} alt="telegram" /> </a>
+                            <a href={'https://www.facebook.com'} target='_blank'>
+                                <img src={FBimg} alt="facebook" /> </a>
+                            <a href={'https://www.youtube.com'} target='_blank'>
+                                <img src={YTimg} alt="youtube" /> </a>
                         </div>
                         <div className="adres_container">
                             <a href='https://yandex.ru/maps/-/CDrK4P8v' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, вл9</a>
@@ -72,8 +79,9 @@ const Index = () => {
                     </div>
                 </div>
 
-                <p className='rights_text'>© {year} Golden Flowers. Все права защищены.</p>
+                <p className='rights_text'>© {year} Golden Flowers Cash&Carry. Все права защищены.</p>
             </div>
+
         </footer>
     )
 }

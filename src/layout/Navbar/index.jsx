@@ -66,20 +66,17 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             </a>
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <a href=""><li>Многолетний опыт
-                                    </li></a>
-                                    <a href=""><li>Сотрудничество
-                                    </li></a>
+                                <Link to={'/about'}><li>Наша история
+                                </li></Link>
+                                <Link to={'/cooperation'}><li>Сотрудничество
+                                </li></Link>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="menu_text_main">
-                            <a href="">
-                                <div className='menu_text_main_inner'>
-                                    <p>Контакты</p>
-                                </div>
-                            </a>
+                            <Link to={'/contacts'}><li>Контакты
+                            </li></Link>
                         </div>             
                     </div>
                 </div>

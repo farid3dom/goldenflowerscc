@@ -12,25 +12,28 @@ footer {
         padding: 30px 64px;
         align-items: center;
 
+
+        .f_cont_logo {
+            text-align: center;
+
+            img {
+                width: 50px;
+                height: auto;
+            }
+        }
+
         .footer_container_inner {
             display: grid;
-            grid-template-columns: 1fr 2fr 2fr 2fr 3fr;
-            padding-bottom: 30px;
-            border-bottom: .5px solid var(--gold);
+            grid-template-columns: 1fr 2fr 2fr 2fr;
+            padding: 30px 0;
+            border-bottom: 0.5px solid #292929;
             gap: 20px 48px;
 
-            .f_cont_logo {
-                text-align: center;
-            
-                img {
-                    width: 50px;
-                    height: auto;
-                }
-            }
 
             .f_cont_nav_list {
                 display: flex;
                 flex-direction: column;
+
 
                 a {
                     color: var(--white);
@@ -46,11 +49,13 @@ footer {
                 }
 
                 .nav_list_inner {
-                    text-align: left;
+
 
                     ul {
 
+
                         a {
+
                             font-size: 14px;
                             color: #ffffff7c;
                             font-family: var(--f-regular);
@@ -64,13 +69,8 @@ footer {
                                 }
                             }
                         }
-
                     }
-
-
-
                 }
-
             }
 
             .contact_us {
@@ -79,87 +79,29 @@ footer {
                 gap: 20px;
 
                 .social_media_container {
-                    .rounded-social-buttons {
+                    display: flex;
+                    justify-content: space-around;
+
+
+                    a {
+                        border-radius: 100px;
+                        background: var(--gold);
+                        height: 40px;
+                        width: 40px;
                         display: flex;
-                        justify-content: space-between;
-                    }
+                        justify-content: center;
+                        opacity: 0.85;
+                        transition: all .3s ease;
 
-                    .rounded-social-buttons .social-button {
-                        display: inline-block;
-                        position: relative;
-                        cursor: pointer;
-                        width: 35px;
-                        height: 35px;
-                        border: 0.125rem solid transparent;
-                        padding: 0;
-                        text-decoration: none;
-                        text-align: center;
-                        color: #fefefe;
-                        font-size: 1.5625rem;
-                        font-weight: normal;
-                        line-height: 2em;
-                        border-radius: 1.6875rem;
-                        transition: all 0.5s ease;
-                    }
+                        &:hover {
+                            opacity: 1;
+                            height: 40px;
+                            width: 40px;
+                        }
 
-                    .rounded-social-buttons .social-button:hover,
-                    .rounded-social-buttons .social-button:focus {
-                        -webkit-transform: rotate(360deg);
-                        -ms-transform: rotate(360deg);
-                        transform: rotate(360deg);
-                    }
-
-                    .rounded-social-buttons,
-                    .fa-facebook-f,
-                    .fa-youtube,
-                    .fa-instagram,
-                    .fa-telegram {
-                        font-size: 25px;
-                    }
-
-                    .rounded-social-buttons .social-button.facebook {
-                        background: #3b5998;
-                    }
-
-                    .rounded-social-buttons .social-button.facebook:hover,
-                    .rounded-social-buttons .social-button.facebook:focus {
-                        color: #3b5998;
-                        background: #fefefe;
-                        border-color: #3b5998;
-                    }
-
-
-                    .rounded-social-buttons .social-button.youtube {
-                        background: #bb0000;
-                    }
-
-                    .rounded-social-buttons .social-button.youtube:hover,
-                    .rounded-social-buttons .social-button.youtube:focus {
-                        color: #bb0000;
-                        background: #fefefe;
-                        border-color: #bb0000;
-                    }
-
-                    .rounded-social-buttons .social-button.instagram {
-                        background: #125688;
-                    }
-
-                    .rounded-social-buttons .social-button.instagram:hover,
-                    .rounded-social-buttons .social-button.instagram:focus {
-                        color: #000000;
-                        background: #fefefe;
-                        border-color: #125688;
-                    }
-
-                    .rounded-social-buttons .social-button.telegram {
-                        background: #125688;
-                    }
-
-                    .rounded-social-buttons .social-button.telegram:hover,
-                    .rounded-social-buttons .social-button.telegram:focus {
-                        color: #000000;
-                        background: #fefefe;
-                        border-color: #125688;
+                        img {
+                            width: 30px;
+                        }
                     }
                 }
 
@@ -214,21 +156,27 @@ footer {
             .footer_container_inner {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 12px 28px;
-                justify-content: flex-start;
+                gap: 12px 12px;
+                padding-top: 24px;
 
 
                 .logo_1 {
                     align-self: start;
                 }
 
-                .list_2 {
-
+                .f_cont_nav_list {
+                    display: flex;
+                    justify-content: flex-start;
                 }
 
-                .contact_1
-
                 .contact_us {
+
+                    .social_media_container {
+                        display:grid;
+                        grid-template-columns: 1fr 1fr;
+                        align-self: center;
+                        gap: 15px;
+                    }
 
                     .adres_container {
                         max-width: 151px;

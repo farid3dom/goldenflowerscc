@@ -10,6 +10,10 @@ import Footer from './layout/Footer/index';
 //Import Pages
 import Home from './pages/Home/index';
 import Flowers from './pages/Flowers/index'
+import Plants from './pages/Plants/index'
+import Accessories from './pages/Accessories/index'
+import Cooperation from './pages/Cooperation/index'
+import Contacts from './pages/Contacts/index'
 
 //Import React router dom
 import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
@@ -24,18 +28,23 @@ function App() {
       <div className="App">
 
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
-        <NavbarMenu menuIsActive={menuIsActive} />
+        <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         
 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/flowers' element={<Flowers />} />
+          <Route path='/plants' element={<Plants />} />
+          <Route path='/accessories' element={<Accessories />} />
+          <Route path='/cooperation' element={<Cooperation />} />
+          <Route path='/contacts' element={<Contacts />} />
 
           <Route
             path="*"
             element={<Navigate to="/" replace />}
           />
         </Routes>
+        
         
         <Footer/>
 
