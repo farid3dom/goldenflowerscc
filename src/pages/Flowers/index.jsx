@@ -100,20 +100,22 @@ const Index = () => {
                             submitHandler={searchSubmit}
                         />
                     </div>
-                    <div className="flowers_gallery gallery_grid_wrapper">
-                        {galleryLoading &&
-                            <div className="loading_wrapper">
-                                <img className='loading_icon' src={Loading} alt='' />
-                            </div>
-                        }
-
-                        {!galleryLoading && galleryValue?.length === 0 ?
-                            <div className="no_result_wrapper">
-                                <h2>Товар не найден...</h2>
-                            </div>
-                            :
-                            null
+                    
+                    {galleryLoading &&
+                        <div className="loading_wrapper">
+                            <img className='loading_icon' src={Loading} alt='' />
+                        </div>
                     }
+
+                    {!galleryLoading && galleryValue?.length === 0 ?
+                        <div className="no_result_wrapper">
+                            <h2>Товар не найден...</h2>
+                        </div>
+                        :
+                        null
+                    }
+
+                    <div className="flowers_gallery gallery_grid_wrapper">
 
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard

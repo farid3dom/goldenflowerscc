@@ -18,7 +18,7 @@ const Index = () => {
         <div className="home_page_container">
             <header>
                 <div className="header-video__wrapper">
-                    <video src={HeaderVid} loop autoPlay muted></video>
+                    <video src={HeaderVid} loop autoPlay muted playsInline></video>
                     <div className="header_slogan">
                         <p>GOLDEN FLOWERS <br />cash & carry</p>
                     </div>
