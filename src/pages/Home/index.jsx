@@ -5,6 +5,13 @@ import './style.scss';
 import ThirtyYears from '../../assets/media/images/30years.png';
 import Map from '../../assets/media/images/map_gold.png'
 import Vitrin from '../../assets/media/images/materials/vetrin.JPG'
+import HeadBG from '../../assets/media/images/marblebg_bg.png'
+import Slide1 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
+import Slide2 from '../../assets/media/images/materials/vitrin/komnata_vitrin_qost.jpg'
+import Slide3 from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
+import Slide4 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
+
+
 
 //Import Components
 import Button from '../../components/Button/Index';
@@ -17,8 +24,26 @@ const Index = () => {
     return (
         <div className="home_page_container">
             <header>
-                <div className="header-video__wrapper">
-                    <video src={HeaderVid} loop autoPlay muted playsInline></video>
+                <div className="img_bg">
+                    <img src={HeadBG} alt="" />
+                </div>
+                <div className="slideshow">
+                    <div className="slide_wrapper">
+                        <div className="slide1">
+                            <img src={Slide1} alt="" />
+                        </div>
+                        <div className="slide2">
+                            <img src={Slide2} alt="" />
+                        </div>
+                        <div className="slide3">
+                            <img src={Slide3} alt="" />
+                        </div>
+                        <div className="slide4">
+                            <img src={Slide4} alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className="header-slide__wrapper">
                     <div className="header_slogan">
                         <p>GOLDEN FLOWERS <br />cash & carry</p>
                     </div>
@@ -31,7 +56,7 @@ const Index = () => {
                         <p className='content_title'>Уже 30 лет мы являемся премиальной цветочной базой в области растений и цветов.</p>
 
                         <span className='content_desc'>Компания «GoldenFlowers Cash&Carry»™ уже не первый год является поставщиком цветов от ведущих мировых производителей на российский рынок.
-                        Главная цель компании – обеспечение только качественной и новой цветочной продукцией по низким ценам в максимально короткие сроки. Этому способствуют эффективная логистика и собственные торговые представители во всех странах поставщиках.</span>
+                            Главная цель компании – обеспечение только качественной и новой цветочной продукцией по низким ценам в максимально короткие сроки. Этому способствуют эффективная логистика и собственные торговые представители во всех странах поставщиках.</span>
 
                         <div className="content_button">
                             <Button
@@ -48,16 +73,16 @@ const Index = () => {
             </div>
 
             <div className="main_video_wrapper">
-                    {/* <video src={MainVid} loop autoPlay muted></video> */}
-                    <img src={Vitrin} alt="vitrin" />
-                    <div className="main_slogan">
-                        <div className="main_slogan_text">
-                            <span>Только свежие цветы и растения из плодородной земли</span>
-                        </div>
+                {/* <video src={MainVid} loop autoPlay muted></video> */}
+                <img src={Vitrin} alt="vitrin" />
+                <div className="main_slogan">
+                    <div className="main_slogan_text">
+                        <span>Только свежие цветы и растения из плодородной земли</span>
                     </div>
+                </div>
             </div>
             <div className="home_map_wrapper">
-                
+
                 <div className="home_map_wrapper_inner">
 
                     <img src={Map} alt="map" />
@@ -69,6 +94,8 @@ const Index = () => {
                                 btnText={'Наши поставщики'}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
+                                href={'/cooperation'}
+
                             />
                         </div>
                     </div>

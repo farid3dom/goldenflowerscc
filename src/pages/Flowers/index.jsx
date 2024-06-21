@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import FlowerBG from '../../assets/media/images/materials/flowers_bg.jpg';
+import FlowerBG from '../../assets/media/images/materials/flowers/chrysanthemum/bonus.JPG';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -20,8 +20,8 @@ import FlowersJSON from '../../utils/flowers.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 9;
-    let lang = 'en';
+    const maxLength = 18;
+    let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
     const [loading, setLoading] = useState(false);
@@ -88,24 +88,24 @@ const Index = () => {
 
             <div className="flowers_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько растений и <span>цветов</span>!</p>
+                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>цветов</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
                             type={'text'}
                             className={'input_white'}
-                            placeholder={'Search...'}
+                            placeholder={'Искать...'}
                             icon={'search'}
                             handleChange={(e) => setSearchInputValue(e.target.value)}
                             submitHandler={searchSubmit}
                         />
                     </div>
-                    
-                    {galleryLoading &&
-                        <div className="loading_wrapper">
-                            <img className='loading_icon' src={Loading} alt='' />
-                        </div>
-                    }
+                    <div className="flowers_gallery gallery_grid_wrapper">
+                        {galleryLoading &&
+                            <div className="loading_wrapper">
+                                <img className='loading_icon' src={Loading} alt='' />
+                            </div>
+                        }
 
                     {!galleryLoading && galleryValue?.length === 0 ?
                         <div className="no_result_wrapper">
@@ -120,7 +120,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={require('../../assets/media/images/materials/bonus.JPG')}
+                                img={require(`../../assets/media/images/materials/flowers/${f?.img}`)}
                                 title={f.name[lang]}
                             />
                         ))

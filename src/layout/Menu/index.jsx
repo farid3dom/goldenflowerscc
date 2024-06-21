@@ -2,13 +2,12 @@ import React, { useEffect } from 'react';
 import './style.scss';
 import $ from 'jquery';
 
-import ArrowRight from '../../assets/icons/arrowRight'
 import NavMenuBG from '../../assets/media/images/container_image.jpg';
 
 //import react router dom
 import { Link } from 'react-router-dom';
 
-const Index = ({ menuIsActive }) => {
+const Index = ({ menuIsActive, setMenuIsActive }) => {
 
     useEffect(() => {
         if(menuIsActive) {
@@ -18,37 +17,36 @@ const Index = ({ menuIsActive }) => {
         }
     })
 
+    function menuHide() {
+        setMenuIsActive(false)
+    }
+
     return (
         <div className="Navbar-animated__menu" data-isactive={menuIsActive === true ? 'true' : menuIsActive === false ? 'false' : null}>
             <div className="hamburger_menu_list">
-                <Link to={'/flowers'}>
+                <Link to={'/flowers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Цветы</p>
+                        <p>Ц В Е Т Ы</p>
                     </div>
                 </Link>
-                <Link to={'/plants'}>
+                <Link to={'/plants'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Растения</p>
+                        <p>Р А С Т Е Н И Я</p>
                     </div>
                 </Link>
-                <Link to={'/accessories'}>
+                <Link to={'/accessories'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Аксессуары</p>
+                        <p>А К С Е С С У А Р Ы</p>
                     </div>
                 </Link>
-                <Link to={'/our-experience'}>
+                <Link to={'/cooperation'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Многолетний опыт</p>
+                        <p>С О Т Р У Д Н И Ч Е С Т В О</p>
                     </div>
                 </Link>
-                <Link to={'/co-operation'}>
+                <Link to={'/contacts'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Сотрудничество</p>
-                    </div>
-                </Link>
-                <Link to={'/contacts'}>
-                    <div className='menu_text_main_inner'>
-                        <p>Контакты</p> 
+                        <p>К О Н Т А К Т Ы</p> 
                     </div>
                 </Link>
             </div>

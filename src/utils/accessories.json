@@ -1,0 +1,93 @@
+[
+   {
+      "name": {
+         "en": "For floristry",
+         "ru": "Для флористики"
+      },
+      "img": "floristika.jpg"
+   },
+   {
+      "name": {
+         "en": "Vases and Ceramics",
+         "ru": "Вазы и керамика"
+      },
+      "img": "vazikeramika.jpg"
+   },
+   {
+      "name": {
+         "en": "Packing",
+         "ru": "Упаковка"
+      },
+      "img": "upakovka.jpg"
+   },
+   {
+      "name": {
+         "en": "Baskets",
+         "ru": "Корзины"
+      },
+      "img": "korzini.jpg"
+   },
+   {
+      "name": {
+         "en": "Ribbons",
+         "ru": "Ленты"
+      },
+      "img": "lenti.jpg"
+   },
+   {
+      "name": {
+         "en": "Boxes",
+         "ru": "Ящики"
+      },
+      "img": "yashiki.jpg"
+   },
+   {
+      "name": {
+         "en": "Packages",
+         "ru": "Пакеты"
+      },
+      "img": "paketi.jpg"
+   },
+   {
+      "name": {
+         "en": "Soft toy",
+         "ru": "Мягкая игрушка"
+      },
+      "img": "iqruska.jpg"
+   },
+   {
+      "name": {
+         "en": "Interior items",
+         "ru": "Предметы интерьера"
+      },
+      "img": "interier.jpg"
+   },
+   {
+      "name": {
+         "en": "Postcards",
+         "ru": "Открытки"
+      },
+      "img": "otkritki.jpg"
+   },
+   {
+      "name": {
+         "en": "Oasis",
+         "ru": "Оазис"
+      },
+      "img": "oasis.jpg"
+   },
+   {
+      "name": {
+         "en": "Garden figures",
+         "ru": "Садовые фигуры"
+      },
+      "img": "sadoviyefiguri.jpg"
+   },
+   {
+      "name": {
+         "en": "Instruments",
+         "ru": "Инструменты"
+      },
+      "img": "instrumenti.jpg"
+   }
+]

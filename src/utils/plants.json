@@ -1,0 +1,123 @@
+[
+   {
+      "name": {
+         "en": "Gypsophila",
+         "ru": "Гипсофила"
+      },
+      "img": "/assets/media/images/materials/flowers/gypsophila.jpg"
+   },
+   {
+      "name": {
+         "en": "Limonium",
+         "ru": "Лимониум"
+      },
+      "img": "limonium.jpg"
+   },
+   {
+      "name": {
+         "en": "Pistacia",
+         "ru": "Фисташка"
+      },
+      "img": "pistacia.jpg"
+   },
+   {
+      "name": {
+         "en": "Solidago",
+         "ru": "Солидаго"
+      },
+      "img": "solidago.jpg"
+   },
+   {
+      "name": {
+         "en": "Aspidistra",
+         "ru": "Аспидистра"
+      },
+      "img": "aspidistra.jpg"
+   },
+   {
+      "name": {
+         "en": "Gaultheria shallon",
+         "ru": "Салал"
+      },
+      "img": "salal.jpg"
+   },
+   {
+      "name": {
+         "en": "Aralia",
+         "ru": "Аралия"
+      },
+      "img": "aralia.jpg"
+   },
+   {
+      "name": {
+         "en": "Phoenix Roebelenii",
+         "ru": "Финик Робелини"
+      },
+      "img": "roebelenii.jpg"
+   },
+   {
+      "name": {
+         "en": "Ruscus",
+         "ru": "Рускус"
+      },
+      "img": "ruscus.jpg"
+   },
+   {
+      "name": {
+         "en": "Tree Fern",
+         "ru": "Триферн"
+      },
+      "img": "treefern.jpg"
+   },
+   {
+      "name": {
+         "en": "Limonium sinuatum",
+         "ru": "Статица"
+      },
+      "img": "statica.jpg"
+   },
+   {
+      "name": {
+         "en": "Eucalyptus",
+         "ru": "Эвкалипт"
+      },
+      "img": "eucalyptus.jpg"
+   },
+   {
+      "name": {
+         "en": "Chamelaucium",
+         "ru": "Хамелациум"
+      },
+      "img": "chamelaucium.jpg"
+   },
+   {
+      "name": {
+         "en": "Tee pee",
+         "ru": "Чико"
+      },
+      "img": "teepee.jpg"
+   },
+   {
+      "name": {
+         "en": "Buxus",
+         "ru": "Самшит"
+      },
+      "img": "buxus.jpg"
+   },
+   {
+      "name": {
+         "en": "Thlaspi Green bell",
+         "ru": "Тласпи Green bell"
+      },
+      "img": "thlaspi.jpg"
+   },
+   {
+      "name": {
+         "en": "Beargrass",
+         "ru": "Берграсс"
+      },
+      "img": "beargrass.jpg"
+   }
+   
+
+]

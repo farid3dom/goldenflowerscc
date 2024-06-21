@@ -1,6 +1,20 @@
 [
    {
       "name": {
+         "en": "Agapanthus",
+         "ru": "Агапантус"
+      },
+      "img": "agapanthus.jpg"
+   },
+   {
+      "name": {
+         "en": "Astrantia",
+         "ru": "Астранция"
+      },
+      "img": "astrantia.jpg"
+   },
+   {
+      "name": {
          "en": "Alstroemeria",
          "ru": "Альстромерия"
       },
@@ -57,24 +71,24 @@
    },
    {
       "name": {
-         "en": "Calla lily",
+         "en": "Calla",
          "ru": "Калла"
       },
-      "img": "calla-lily.jpg"
+      "img": "calla.jpg"
    },
    {
       "name": {
          "en": "Orchid",
          "ru": "Орхидея"
       },
-      "img": "orchid.jpg"
+      "img": "orchidaceae.jpg"
    },
    {
       "name": {
          "en": "Amarillis",
          "ru": "Амариллис"
       },
-      "img": "amarillis.jpg"
+      "img": "amaryllis.jpg"
    },
    {
       "name": {
@@ -85,8 +99,8 @@
    },
    {
       "name": {
-         "en": "Lisianthus (Eustoma)",
-         "ru": "Лизиантус (Эустома)"
+         "en": "Lisianthus",
+         "ru": "Лизиантус"
       },
       "img": "lisianthus.jpg"
    },
@@ -95,7 +109,7 @@
          "en": "Matiola",
          "ru": "Матиола"
       },
-      "img": "matiola.jpg"
+      "img": "matthiola.jpg"
    },
    {
       "name": {
@@ -111,4 +125,6 @@
       },
       "img": "narcissus.jpg"
    }
+   
+
 ]
