@@ -120,7 +120,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={FlowerBG}
+                                img={require('../../assets/media/images/materials/bonus.JPG')}
                                 title={f.name[lang]}
                             />
                         ))
