@@ -20,7 +20,7 @@ import AccessoriesJSON from '../../utils/accessories.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 9;
+    const maxLength = 18;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -94,7 +94,7 @@ const Index = () => {
                             value={searchInputValue}
                             type={'text'}
                             className={'input_white'}
-                            placeholder={'Search...'}
+                            placeholder={'Искать...'}
                             icon={'search'}
                             handleChange={(e) => setSearchInputValue(e.target.value)}
                             submitHandler={searchSubmit}

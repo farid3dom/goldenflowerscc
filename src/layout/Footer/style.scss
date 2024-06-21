@@ -85,18 +85,18 @@ footer {
 
                     a {
                         border-radius: 100px;
-                        background: var(--gold);
+                        background: var(--white);
                         height: 40px;
                         width: 40px;
                         display: flex;
                         justify-content: center;
-                        opacity: 0.85;
                         transition: all .3s ease;
 
                         &:hover {
-                            opacity: 1;
+                            transform: scale(1.1);
                             height: 40px;
                             width: 40px;
+                            background: var(--gold);
                         }
 
                         img {
@@ -158,6 +158,7 @@ footer {
                 grid-template-columns: 1fr 1fr;
                 gap: 12px 12px;
                 padding-top: 24px;
+                width: 100%;
 
 
                 .logo_1 {
@@ -174,7 +175,7 @@ footer {
                     .social_media_container {
                         display:grid;
                         grid-template-columns: 1fr 1fr;
-                        align-self: center;
+                        align-self: self-start;
                         gap: 15px;
                     }
 

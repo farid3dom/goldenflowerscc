@@ -4,9 +4,9 @@ import './style.scss'
 
 //Import Images
 import LogoMini from '../../assets/icons/logo_mini.png'
-import TGimg from '../../assets/icons/social/icons8-телеграмма-app.svg'
-import FBimg from '../../assets/icons/social/icons8-facebook.svg'
-import IGimg from '../../assets/icons/social/icons8-instagram.svg'
+import TGimg from '../../assets/icons/social/icons8-telegram.svg'
+import VKimg from '../../assets/icons/social/icons8-vk.svg'
+import Ximg from '../../assets/icons/social/icons8-x.svg'
 import YTimg from '../../assets/icons/social/icons8-youtube.svg'
 
 //Import Components
@@ -64,12 +64,12 @@ const Index = () => {
                     </div>
                     <div className="contact_us contact_1">
                         <div className="social_media_container">
-                            <a href='https://www.instagram.com' target='_blank'>
-                                <img src={IGimg} alt="instagram" /> </a>
+                            <a href='https://www.x.com/goldenflowerscc' target='_blank'>
+                                <img src={Ximg} alt="instagram" /> </a>
                             <a href={'https://www.telegram.org'} target='_blank'>
                                 <img src={TGimg} alt="telegram" /> </a>
-                            <a href={'https://www.facebook.com'} target='_blank'>
-                                <img src={FBimg} alt="facebook" /> </a>
+                            <a href={'https://www.vk.com'} target='_blank'>
+                                <img src={VKimg} alt="facebook" /> </a>
                             <a href={'https://www.youtube.com'} target='_blank'>
                                 <img src={YTimg} alt="youtube" /> </a>
                         </div>

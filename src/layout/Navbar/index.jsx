@@ -60,7 +60,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <div className="menu_text_main">
                             <a href="">
                                 <div className='menu_text_main_inner'>
-                                    <p>Наша история</p>
+                                    <p>О нас</p>
                                     <ArrowDown />
                                 </div>
                             </a>
@@ -75,8 +75,13 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         </div>
 
                         <div className="menu_text_main">
-                            <Link to={'/contacts'}><li>Контакты
-                            </li></Link>
+                            
+                            <Link to={'/contacts'}>
+                                <div className='menu_text_main_inner'>
+                                    <p>Контакты</p>
+                                </div>
+                            </Link>
+                            
                         </div>             
                     </div>
                 </div>

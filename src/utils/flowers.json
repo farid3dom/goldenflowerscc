@@ -4,7 +4,7 @@
          "en": "Agapanthus",
          "ru": "Агапантус"
       },
-      "img": "/assets/media/images/materials/flowers/agapanthus.jpg"
+      "img": "agapanthus.jpg"
    },
    {
       "name": {
@@ -81,14 +81,14 @@
          "en": "Orchid",
          "ru": "Орхидея"
       },
-      "img": "orchid.jpg"
+      "img": "orchidaceae.jpg"
    },
    {
       "name": {
          "en": "Amarillis",
          "ru": "Амариллис"
       },
-      "img": "amarillis.jpg"
+      "img": "amaryllis.jpg"
    },
    {
       "name": {
@@ -109,7 +109,7 @@
          "en": "Matiola",
          "ru": "Матиола"
       },
-      "img": "matiola.jpg"
+      "img": "matthiola.jpg"
    },
    {
       "name": {

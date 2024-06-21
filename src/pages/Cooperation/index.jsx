@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import CooperationBG from '../../assets/media/images/materials/cooperation_bg.jpg.jpg';
+import CooperationBG from '../../assets/media/images/materials/sklad/sklad.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -20,7 +20,7 @@ import CooperationJSON from '../../utils/cooperation.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 9;
+    const maxLength = 16;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -39,7 +39,7 @@ const Index = () => {
             setGalleryLoading(true);
             if (searchValue) {
                 setTimeout(() => {
-                    let searchedValue = CooperationJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                    let searchedValue = CooperationJSON.filter(f => f.name.toLowerCase().includes(searchValue.toLowerCase()))
                     setGalleryValue(searchedValue);
                     setVisibleCardLength(maxLength);
                     setGalleryLoading(false);
@@ -71,15 +71,15 @@ const Index = () => {
     const searchSubmit = (e) => {
         e.preventDefault();
         searchInputValue ?
-            navigate(`/Cooperation?search=${searchInputValue}`)
+            navigate(`/cooperation?search=${searchInputValue}`)
             :
-            navigate('/Cooperation');
+            navigate('/cooperation');
 
         // setSearchInputValue('');
     }
 
     return (
-        <div className="Cooperation_page_container">
+        <div className="cooperation_page_container">
 
             <HeaderRepeat
                 title={'Сотрудничество'}
@@ -88,13 +88,13 @@ const Index = () => {
 
             <div className="cooperation_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Наши поставщики и <span>плантации</span> цветов и растений</p>
+                    <p className='content_title'>У нас <span>лучшие</span> поставщики цветов, растений и аксессуаров!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
                             type={'text'}
                             className={'input_white'}
-                            placeholder={'Search...'}
+                            placeholder={'Искать...'}
                             icon={'search'}
                             handleChange={(e) => setSearchInputValue(e.target.value)}
                             submitHandler={searchSubmit}
@@ -116,10 +116,12 @@ const Index = () => {
                     }
 
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
-                            <GalleryCard
+                            <GalleryCard target='_blank'
                                 key={i}
-                                img={f.img}
-                                title={f.name[lang]}
+                                img={require(`../../assets/media/images/materials/cooperation/${f?.img}`)}
+                                title={f.name}
+                                href={f.href}
+
                             />
                         ))
                         }
