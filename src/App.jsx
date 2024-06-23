@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.scss';
 import './reset.css';
 
@@ -16,20 +16,34 @@ import Cooperation from './pages/Cooperation/index'
 import Contacts from './pages/Contacts/index'
 
 //Import React router dom
-import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
+import { Routes, Route, BrowserRouter as Router, Navigate, useLocation } from 'react-router-dom';
 
 
 function App() {
 
   const [menuIsActive, setMenuIsActive] = useState(null);
 
+  ///PAGE SCROLL TO TOP
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+  }
+
   return (
     <Router>
       <div className="App">
 
+        {/* SCROLL TO TOP */}
+        <ScrollToTop />
+
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
-        
+
 
         <Routes>
           <Route path='/' element={<Home />} />
@@ -44,9 +58,9 @@ function App() {
             element={<Navigate to="/" replace />}
           />
         </Routes>
-        
-        
-        <Footer/>
+
+
+        <Footer />
 
       </div>
     </Router>

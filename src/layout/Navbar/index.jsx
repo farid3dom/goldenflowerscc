@@ -10,6 +10,7 @@ import ArrowDown from '../../assets/icons/arrowDown';
 import { Link } from 'react-router-dom';
 
 const Index = ({ menuIsActive, setMenuIsActive }) => {
+    console.log(menuIsActive)
 
     const menuShowHide = () => {
         menuIsActive ? setMenuIsActive(false) : setMenuIsActive(true)
@@ -25,7 +26,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             <img src={Logo} alt="Golden Flowers Logo" />
                         </Link>
                     </div>
-                    <div className="logo_s">
+                    <div className="logo_s" onClick={() => menuIsActive && setMenuIsActive(false)}>
                         <Link to={'/'}>
                             <img src={Logo_S} alt="Golden Flowers Logo Mini" />
                         </Link>
@@ -92,7 +93,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <a href='tel:84957818888'>+7 (495) 781 88 88</a>
                     </div>
 
-                    <div className="nav_hamburger">
+                    <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>
 
                         <input type="checkbox" id="burger-checkbox" className="burger-checkbox" />
                         <label className="burger" htmlFor="burger-checkbox" onClick={menuShowHide}></label>
