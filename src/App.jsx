@@ -14,6 +14,7 @@ import Plants from './pages/Plants/index'
 import Accessories from './pages/Accessories/index'
 import Cooperation from './pages/Cooperation/index'
 import Contacts from './pages/Contacts/index'
+import About from './pages/About/index'
 
 //Import React router dom
 import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
@@ -38,6 +39,7 @@ function App() {
           <Route path='/accessories' element={<Accessories />} />
           <Route path='/cooperation' element={<Cooperation />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path='/about' element={<About />} />
 
           <Route
             path="*"

@@ -4,8 +4,7 @@ import './style.scss';
 import HeaderRepeat from '../../layout/HeaderRepeat/index'
 
 //import images
-import ContacBG from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
-import MapPNG from '../../assets/media/images/map.png'
+import ContactBG from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
 
 
 function index() {
@@ -14,7 +13,7 @@ function index() {
 
             <HeaderRepeat
                 title={'Контакты'}
-                img={ContacBG}
+                img={ContactBG}
             />
 
             <div className="contacts_content_wrapper">
@@ -44,9 +43,15 @@ function index() {
                     </div>
 
                     <div className="map">
-                        <img src={MapPNG} alt="map" />
-                        <div className="adres_container">
-                            <a href='https://yandex.ru/maps/-/CDrK4P8v' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, вл9</a>
+                        <div className='map_inner'>
+                            <a href="https://yandex.ru/maps/org/golden_flowers/57660294184/?utm_medium=mapframe&utm_source=maps" style={{ color: 'white', fontSize: 12, position: 'absolute', top:0}}>
+                            </a>
+                            <a href="https://yandex.ru/maps/10719/vidnoe/category/flower_shop/184108325/?utm_medium=mapframe&utm_source=maps" style={{ color: 'white', fontSize: 12, position:'absolute', top: 14 }}>
+                            </a>
+                            <a href="https://yandex.ru/maps/10719/vidnoe/category/flowers_and_bouquets_delivery/184108319/?utm_medium=mapframe&utm_source=maps" style={{ color: 'white', fontSize: 12, position:'absolute', top: 28 }}>
+                            </a>
+                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14" width={570} height={627} frameborder={1} allowfullscreen={true} style={{position:'relative'}}>
+                            </iframe>
                         </div>
                     </div>
 
