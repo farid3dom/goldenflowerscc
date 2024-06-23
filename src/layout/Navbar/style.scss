@@ -198,7 +198,9 @@
                     border-radius: 3px;
                     background: var(--white);
                 }
+            }
 
+            .nav_hamburger[data-isactive="false"] {
                 .burger::before {
                     top: 0;
                     height: 3px;
@@ -211,21 +213,21 @@
                     height: 3px;
                     transition: bottom .3s .15s, transform .3s;
                 }
+            }
 
-                .burger-checkbox:checked+.burger::before {
+            .nav_hamburger[data-isactive="true"] {
+                .burger::before {
                     top: 11px;
                     transform: rotate(45deg);
                     box-shadow: 0 6px 0 rgba(101, 101, 101, 0);
                     transition: box-shadow .15s, top .3s, transform .3s .15s;
                 }
 
-                .burger-checkbox:checked+.burger::after {
+                .burger::after {
                     bottom: 11px;
                     transform: rotate(-45deg);
                     transition: bottom .3s, transform .3s .15s;
                 }
-
-
             }
         }
     }

@@ -32,8 +32,6 @@ const Index = () => {
     const searchParams = new URLSearchParams(location.search);
     const searchValue = searchParams.get('search');
 
-    console.log(galleryValue)
-
     useEffect(() => {
         function getSearchedData() {
             setGalleryLoading(true);
