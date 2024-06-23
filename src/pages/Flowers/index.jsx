@@ -115,40 +115,40 @@ const Index = () => {
                             null
                     }
 
-                        {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
-                            <GalleryCard
-                                key={i}
-                                img={require(`../../assets/media/images/materials/flowers/${f?.img}`)}
-                                title={f.name[lang]}
-                            />
-                        ))
+                            {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
+                                <GalleryCard
+                                    key={i}
+                                    img={require(`../../assets/media/images/materials/flowers/${f?.img}`)}
+                                    title={f.name[lang]}
+                                />
+                            ))
+                            }
+
+                        </div>
+
+                        {
+                            loading ?
+                                <div className="load_more_wrapper">
+                                    <img src={Loading} className='loading_icon' alt="" />
+                                </div>
+                                :
+                                !galleryLoading && visibleCardLength < galleryValue?.length ?
+                                    <div className="load_more_wrapper">
+                                        <Button
+                                            className={'btn btn_white hover_gold'}
+                                            btnText={'Загрузить еще...'}
+                                            disabled={loading ? true : false}
+                                            clickHandler={showMoreFunc}
+                                        />
+                                    </div>
+                                    :
+                                    null
                         }
 
                     </div>
-
-                    {
-                        loading ?
-                            <div className="load_more_wrapper">
-                                <img src={Loading} className='loading_icon' alt="" />
-                            </div>
-                            :
-                            !galleryLoading && visibleCardLength < galleryValue?.length ?
-                                <div className="load_more_wrapper">
-                                    <Button
-                                        className={'btn btn_white hover_gold'}
-                                        btnText={'Загрузить еще...'}
-                                        disabled={loading ? true : false}
-                                        clickHandler={showMoreFunc}
-                                    />
-                                </div>
-                                :
-                                null
-                    }
-
                 </div>
-            </div>
 
-        </div>
+            </div>
     )
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 //Import images
@@ -19,22 +19,26 @@ import Button from '../../components/Button/Index';
 //import MainVid from '../../assets/media/videos/videoplayback_2.mp4'
 
 const Index = () => {
+    const [carouselCounter, setCarouselCounter] = useState(1);
+    let carouselLatency = 2500;
+
+    useEffect(() => {
+        setTimeout(() => {
+            if (carouselCounter == 4) {
+                return setCarouselCounter(1);
+            } else {
+                return setCarouselCounter(prev => prev += 1);
+            }
+        }, carouselLatency)
+    })
+
     return (
         <div className="home_page_container">
             <header>
                 {/* <div className="slideshow">
                     <div className="slide_wrapper">
-                        <div className="slide1">
-                            <img src={Slide1} alt="" />
-                        </div>
-                        <div className="slide2">
-                            <img src={Slide2} alt="" />
-                        </div>
-                        <div className="slide3">
-                            <img src={Slide3} alt="" />
-                        </div>
-                        <div className="slide4">
-                            <img src={Slide4} alt="" />
+                        <div className={`slide slide-${carouselCounter}`}>
+                            <img alt="" />
                         </div>
                     </div>
                 </div> */}

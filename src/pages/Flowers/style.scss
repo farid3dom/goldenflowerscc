@@ -45,24 +45,21 @@
             }
          }
 
-         .flowers_gallery {
+         .loading_wrapper, .no_result_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
             position: relative;
+            top: 0;
+            left: 0;
+            padding: 100px 0;
+         }
 
-            .loading_wrapper, .no_result_wrapper {
-               width: 100%;
-               display: flex;
-               justify-content: center;
-               position: absolute;
-               top: 0;
-               left: 0;
-            }
-
-            .no_result_wrapper {
-               h2 {
-                  font-family: var(--f-medium);
-                  font-size: 28px;
-                  color: var(--white);
-               }
+         .no_result_wrapper {
+            h2 {
+               font-family: var(--f-medium);
+               font-size: 28px;
+               color: var(--white);
             }
          }
 
