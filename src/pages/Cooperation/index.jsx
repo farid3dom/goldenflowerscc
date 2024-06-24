@@ -109,7 +109,7 @@ const Index = () => {
 
                         {!galleryLoading && galleryValue?.length === 0 ?
                             <div className="no_result_wrapper">
-                                <h2>Товар не найден...</h2>
+                                <h2>Плантация не найдена...</h2>
                             </div>
                             :
                             null

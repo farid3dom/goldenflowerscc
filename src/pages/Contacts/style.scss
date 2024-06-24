@@ -57,27 +57,11 @@
 
          .map {
 
-            img {
-               width: 100%;
-               height: auto;
-               border: 3px solid white;
-               
-            }
 
-            .adres_container {
-               width: 100%;
-               font-family: var(--f-regular);
-               font-size: 18px;
-               text-align: center;
-               padding-top: 10px;
+            .map_inner {
+               position: relative;
+               overflow: hidden;
 
-               a {
-                  color: var(--white);
-
-                  &:hover {
-                     color: var(--gold);
-                  }
-               }
             }
          }
       }
@@ -117,8 +101,14 @@
             }
 
             .map {
-               .adres_container {
-                  font-size: 14px;
+
+               .map_inner {
+
+
+                  iframe {
+                     width: 370px;
+
+                  }
                }
             }
          }

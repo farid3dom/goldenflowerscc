@@ -64,13 +64,13 @@ const Index = () => {
                     </div>
                     <div className="contact_us contact_1">
                         <div className="social_media_container">
-                            <a href='https://www.x.com/goldenflowerscc' target='_blank'>
+                            <a href={'https://www.x.com/goldenflowerscc'} target='_blank'>
                                 <img src={Ximg} alt="instagram" /> </a>
-                            <a href={'https://www.telegram.org'} target='_blank'>
+                            <a href={'https://t.me/GoldenFlowersOpt'} target='_blank'>
                                 <img src={TGimg} alt="telegram" /> </a>
-                            <a href={'https://www.vk.com'} target='_blank'>
+                            <a href={'https://vk.com/goldenflowerscc'} target='_blank'>
                                 <img src={VKimg} alt="facebook" /> </a>
-                            <a href={'https://www.youtube.com'} target='_blank'>
+                            <a href={'https://www.youtube.com/channel/UCsOclqfB25LzHOh7W9QpSqw'} target='_blank'>
                                 <img src={YTimg} alt="youtube" /> </a>
                         </div>
                         <div className="adres_container">

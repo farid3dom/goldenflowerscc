@@ -1,4 +1,4 @@
-.Navbar-animated__menu { 
+.Navbar-animated__menu {
     display: flex;
     flex-direction: column;
     padding-top: 150px;
@@ -34,6 +34,18 @@
                 font-size: 18px;
                 text-decoration: none;
                 padding-bottom: 30px;
+            }
+        }
+
+        .language {
+            display: flex;
+
+            a {
+                color: var(--white);
+                font-size: 18px;
+                text-decoration: none;
+                font-family: var(--f-medium);
+                padding-left: 25px;
             }
         }
 

@@ -4,18 +4,18 @@ import './style.scss';
 //Import images
 import ThirtyYears from '../../assets/media/images/30years.png';
 import Map from '../../assets/media/images/map_gold.png'
-import Vitrin from '../../assets/media/images/materials/vetrin.JPG'
-import HeadBG from '../../assets/media/images/marblebg_bg.png'
-import Slide1 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
-import Slide2 from '../../assets/media/images/materials/vitrin/komnata_vitrin_qost.jpg'
-import Slide3 from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
-import Slide4 from '../../assets/media/images/materials/vitrin/vitrin_qost_2.jpg'
+import Vitrin from '../../assets/media/images/materials/hydrangea.jpg'
+import Sign from '../../assets/media/images/signature.png'
+// import Slide1 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
+// import Slide2 from '../../assets/media/images/materials/vitrin/komnata_vitrin_qost.jpg'
+// import Slide3 from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
+// import Slide4 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
 
 //Import Components
 import Button from '../../components/Button/Index';
 
 //import video
-import HeaderVid from '../../assets/media/videos/videoplayback.mp4';
+//import HeaderVid from '../../assets/media/videos/videoplayback.mp4';
 //import MainVid from '../../assets/media/videos/videoplayback_2.mp4'
 
 const Index = () => {
@@ -35,45 +35,44 @@ const Index = () => {
     return (
         <div className="home_page_container">
             <header>
-                <div className="img_bg">
-                    <img src={HeadBG} alt="" />
-                </div>
-                <div className="slideshow">
+                {/* <div className="slideshow">
                     <div className="slide_wrapper">
                         <div className={`slide slide-${carouselCounter}`}>
                             <img alt="" />
                         </div>
                     </div>
+                </div> */}
+                <div className="header_slogan">
+                    <p>GOLDEN FLOWERS <br />cash & carry</p>
                 </div>
             </header>
 
-            <div className="home_buta_wrapper">
-                <div className="home_buta_wrapper_inner">
-                    <div className="buta_left_content">
-                        <p className='content_title'>Уже 30 лет мы являемся премиальной цветочной базой в области растений и цветов.</p>
+            <div className="about_wrapper">
+                <div className="about_wrapper_inner">
+                    <div className="left_content">
+                        <p className='content_title'>Кто мы?</p>
 
-                        <span className='content_desc'>Компания «GoldenFlowers Cash&Carry»™ уже не первый год является поставщиком цветов от ведущих мировых производителей на российский рынок.
-                            Главная цель компании – обеспечение только качественной и новой цветочной продукцией по низким ценам в максимально короткие сроки. Этому способствуют эффективная логистика и собственные торговые представители во всех странах поставщиках.</span>
+                        <span className='content_desc'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
 
                         <div className="content_button">
                             <Button
-                                btnText={'История компании'}
+                                btnText={'Подробнее'}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
                             />
                         </div>
                     </div>
-                    <div className="buta_right_content">
-                        <img src={ThirtyYears} alt="" />
+                    <div className="right_content">
+                        <video preload='metadata' src="https://www.youtube.com/watch?v=wHK5GgGLj_0" ></video>
                     </div>
                 </div>
             </div>
 
-            <div className="main_video_wrapper">
-                {/* <video src={MainVid} loop autoPlay muted></video> */}
+            <div className="main_title_wrapper">
                 <img src={Vitrin} alt="vitrin" />
                 <div className="main_slogan">
                     <div className="main_slogan_text">
+                        <img src={Sign} alt="" />
                         <span>Только свежие цветы и растения из плодородной земли</span>
                     </div>
                 </div>
@@ -85,7 +84,7 @@ const Index = () => {
                     <img src={Map} alt="map" />
 
                     <div className="map_wrapper_text">
-                        <h2>Импортируем товары со всех континентов мира</h2>
+                        <span>Импортируем товары со всех континентов мира</span>
                         <div className="content_button">
                             <Button
                                 btnText={'Наши поставщики'}

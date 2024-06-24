@@ -59,36 +59,36 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             </div>
                         </div>
                         <div className="menu_text_main">
-                            <a href="">
+                            <Link to={'/about'}>
                                 <div className='menu_text_main_inner'>
                                     <p>О нас</p>
                                     <ArrowDown />
                                 </div>
-                            </a>
+                            </Link>
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                <Link to={'/about'}><li>Наша история
-                                </li></Link>
-                                <Link to={'/cooperation'}><li>Сотрудничество
-                                </li></Link>
+                                    <Link to={'/about'}><li>Наша история
+                                    </li></Link>
+                                    <Link to={'/cooperation'}><li>Сотрудничество
+                                    </li></Link>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="menu_text_main">
-                            
+
                             <Link to={'/contacts'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Контакты</p>
                                 </div>
                             </Link>
-                            
-                        </div>             
+
+                        </div>
                     </div>
                 </div>
 
                 <div className="nav_right">
-                    
+
                     <div className="phone_number">
                         <a href='tel:84957818888'>+7 (495) 781 88 88</a>
                     </div>
