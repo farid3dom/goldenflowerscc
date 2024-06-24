@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Index = ({ menuIsActive, setMenuIsActive }) => {
 
     useEffect(() => {
-        if(menuIsActive) {
+        if (menuIsActive) {
             $('html, body').css('overflow-y', 'hidden');
         } else {
             $('html, body').css('overflow-y', '');
@@ -39,6 +39,11 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <p>А К С Е С С У А Р Ы</p>
                     </div>
                 </Link>
+                <Link to={'/about'} onClick={menuHide}>
+                    <div className='menu_text_main_inner'>
+                        <p>Н А Ш А  И С Т О Р И Я</p>
+                    </div>
+                </Link>
                 <Link to={'/cooperation'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>С О Т Р У Д Н И Ч Е С Т В О</p>
@@ -46,9 +51,13 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 </Link>
                 <Link to={'/contacts'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>К О Н Т А К Т Ы</p> 
+                        <p>К О Н Т А К Т Ы</p>
                     </div>
                 </Link>
+                <div className='language'>
+                    <a href=""><p>E N</p></a>
+                    <a href=""><p>R U</p></a>
+                </div>
             </div>
             <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" />
 
