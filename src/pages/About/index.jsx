@@ -17,7 +17,7 @@ function index() {
             />
 
             <div className="about_content_wrapper">
-
+                
             </div>
 
         </div>

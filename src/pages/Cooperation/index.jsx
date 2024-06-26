@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import CooperationBG from '../../assets/media/images/materials/sklad/sklad.jpg';
+import CooperationBG from '../../assets/media/images/materials/truck_gold.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout

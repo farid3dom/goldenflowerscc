@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import PlantsBG from '../../assets/media/images/materials/plants/plants_bg.JPG';
+import PlantsBG from '../../assets/media/images/materials/gold_plants.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -20,7 +20,7 @@ import PlantsJSON from '../../utils/plants.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 9;
+    const maxLength = 16;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={f.img}
+                                img={PlantsBG}
                                 title={f.name[lang]}
                             />
                         ))
