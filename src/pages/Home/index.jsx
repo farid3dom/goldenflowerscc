@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 //Import images
-import ThirtyYears from '../../assets/media/images/30years.png';
+// import ThirtyYears from '../../assets/media/images/30years.png';
 import Map from '../../assets/media/images/map_gold.png'
 import Vitrin from '../../assets/media/images/materials/hydrangea.jpg'
 import Sign from '../../assets/media/images/signature.png'
