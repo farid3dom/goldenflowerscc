@@ -6,7 +6,12 @@
    .flowers_content_wrapper {
       width: 100%;
       padding: 100px 64px;
-      background: linear-gradient(-45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.229)), url('../../assets/media/images/container_image.jpg');
+      background: url('../../assets/media/images/container_image.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
 
       .content_wrapper_inner {
          max-width: 1440px;
@@ -38,14 +43,15 @@
 
             .input__wrapper {
                min-width: 265px;
-               
+
                input {
                   width: 100%;
                }
             }
          }
 
-         .loading_wrapper, .no_result_wrapper {
+         .loading_wrapper,
+         .no_result_wrapper {
             width: 100%;
             display: flex;
             justify-content: center;

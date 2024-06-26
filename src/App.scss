@@ -54,11 +54,11 @@
 .gallery_grid_wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 56px 28px;
 
     @media screen and (max-width: 1248px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 40px 20px;
 
         .single_gallery_card {
@@ -71,8 +71,8 @@
     }
 
     @media screen and (max-width: 767px) {
-        grid-template-columns: 1fr;
-        gap: 28px 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
 
         .single_gallery_card {
             .card_title {

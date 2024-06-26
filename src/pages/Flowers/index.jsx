@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import FlowerBG from '../../assets/media/images/materials/flowers/chrysanthemum/bonus.JPG';
+import FlowerBG from '../../assets/media/images/materials/black_gold_flowers.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -20,7 +20,7 @@ import FlowersJSON from '../../utils/flowers.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 18;
+    const maxLength = 16;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
