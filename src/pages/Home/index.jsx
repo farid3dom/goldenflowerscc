@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './style.scss';
 
 
 
 //Import images
 // import Map from '../../assets/media/images/map_gold.png'
-import Slide1 from '../../assets/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
-import Slide2 from '../../assets/media/images/materials/vitrin/komnata_vitrin_qost.jpg'
-import Slide3 from '../../assets/media/images/materials/vitrin/vitrin_qost.jpg'
 
 
 
@@ -32,6 +29,28 @@ const Index = () => {
 
     ]
 
+    let sliderMainOptions = [
+        {
+            img: '/media/images/materials/flowers/orchidaceae.jpg'
+        },
+        {
+            img: '/media/images/materials/flowers/anthurium.jpg'
+        },
+        {
+            img: '/media/images/materials/flowers/chrysanthemum.jpg'
+        },
+        {
+            img: '/media/images/materials/flowers/fressia.jpg'
+        },
+        {
+            img: '/media/images/materials/flowers/hydrangea.jpg'
+        },
+        {
+            img: '/media/images/materials/flowers/roses.jpg'
+        }
+
+    ]
+
     return (
         <div className="home_page_container">
             <header>
@@ -43,9 +62,12 @@ const Index = () => {
 
 
                 <div className="slide_wrapper">
+
+
                     <Slider
                         loop={true}
                         options={sliderOptions}
+
                     />
                 </div>
 
@@ -75,46 +97,51 @@ const Index = () => {
             </div>
 
             <div className="main_title_wrapper">
-                {/* <div className="slideshow">
-                    <div className="slide_wrapper">
-                        <div className={`slide slide-${carouselCounter}`}>
-                            <img alt=''/>
-                        </div>
-                    </div>
-                </div> */}
-                <div className="main_slogan">
-                    <div className="main_slogan_text">
-                        <span>Только свежие цветы и растения из плодородной почвы</span>
-                    </div>
-                    <div className="content_button">
-                        <Button
-                            btnText={'Коллекция'}
-                            className={'btn btn_white hover_gold'}
-                            icon={'arrow-right'}
-                            href={'/collection'}
 
-                        />
-                    </div>
+                <div className="slide_wrapper">
+                    <Slider
+                        loop={true}
+                        options={sliderMainOptions}
+                    />
                 </div>
-            </div>
 
-            <div className="home_map_wrapper">
-                <div className="home_map_wrapper_inner">
+                <div className="main_slogan">
 
-                    <div className="map_wrapper_text">
-                        <span>Импортируем товары со всех континентов мира</span>
+                    <div className="main_slogan_text">
+                        <h1>Только свежие цветы и растения из плодородной почвы</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vero a distinctio quis reprehenderit id provident dignissimos itaque eveniet!
+                        </p>
                         <div className="content_button">
                             <Button
-                                btnText={'Наши поставщики'}
+                                btnText={'Коллекция'}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
-                                href={'/cooperation'}
-
+                                href={'/collection'}
                             />
                         </div>
                     </div>
+
                 </div>
-                <div className="home_map_img"></div>
+
+            </div>
+
+            <div className="home_map_wrapper">
+
+                <div className="map_wrapper_text">
+                    <span>Импортируем товары со всех континентов мира</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quo tenetur repellendus eligendi, natus laboriosam. Doloremque dolores maiores dicta molestiae!</p>
+
+                    <div className="content_button">
+                        <Button
+                            btnText={'Наши поставщики'}
+                            className={'btn btn_white hover_gold'}
+                            icon={'arrow-right'}
+                            href={'/cooperation'}
+                        />
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )

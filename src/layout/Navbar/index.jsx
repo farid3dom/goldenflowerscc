@@ -3,7 +3,7 @@ import './style.scss'
 
 //import images
 import Logo from '../../assets/icons/logo.svg'
-import Logo_S from '../../assets/icons/logo_mini.png'
+import Logo_S from '../../assets/icons/logo_sm.svg'
 import ArrowDown from '../../assets/icons/arrowDown';
 
 ///Import react router dom
@@ -39,12 +39,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className='nav_menu_container'>
 
                         <div className="menu_text_main">
-                            <Link to={'/collection'}>
+                            <a href={'/about/#collection'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Коллекция</p>
                                     <ArrowDown />
                                 </div>
-                            </Link>
+                            </a>
 
 
                             <div className='nav_menu_arrow_list'>

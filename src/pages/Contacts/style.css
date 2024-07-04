@@ -1,0 +1,140 @@
+.contact_page .contacts_content_wrapper {
+  width: 100%;
+  padding: 100px 64px;
+  background: url("../../assets/media/images/container_image.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contact_page .contacts_content_wrapper .content_inner {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.0666666667);
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container {
+  width: 100%;
+  height: 100%;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .number_text {
+  width: 100;
+  font-family: var(--f-medium);
+  font-size: 20px;
+  color: var(--white);
+  text-align: center;
+  line-height: 1.2;
+  padding: 18px 25px;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .number_text .p2 {
+  display: none;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .number_text span {
+  color: var(--gold);
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 25px;
+  padding: 0 20px;
+  font-family: var(--f-medium);
+  font-size: 18px;
+  text-align: left;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a {
+  width: 300px;
+  height: 80px;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5607843137);
+  transition: all 0.3s ease;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a span {
+  padding: 5px;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a p {
+  display: none;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a:hover {
+  padding: 18px;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a:hover span {
+  display: none;
+}
+.contact_page .contacts_content_wrapper .content_inner .number_container .numbers a:hover p {
+  display: block;
+  padding-top: 5px;
+}
+.contact_page .contacts_content_wrapper .content_inner .map .map_inner {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .contact_page .contacts_content_wrapper {
+    padding: 25px 16px;
+  }
+  .contact_page .contacts_content_wrapper .content_inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .number_text {
+    width: 100;
+    font-family: var(--f-medium);
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.2;
+    padding: 25px 25px;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .number_text .p1 {
+    display: none;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .number_text .p2 {
+    display: block;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .number_text span {
+    color: var(--gold);
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .numbers {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+    padding-bottom: 25px;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .numbers a {
+    width: 350px;
+    height: 80px;
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5607843137);
+    transition: all 0.3s ease;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .numbers a span {
+    padding: 25px;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .numbers a:hover span {
+    display: block;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .number_container .numbers a:hover p {
+    display: none;
+  }
+  .contact_page .contacts_content_wrapper .content_inner .map .map_inner iframe {
+    width: calc(100vw - 32px);
+  }
+}/*# sourceMappingURL=style.css.map */

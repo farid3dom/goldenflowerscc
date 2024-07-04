@@ -18,7 +18,7 @@ function Index({ options, loop, speed }) {
             loop={loop}
             speed={speed}
             autoplay={{
-                delay: 2500,
+                delay: 3500,
                 disableOnInteraction: false,
             }}
             modules={[Autoplay, Pagination, Navigation]}

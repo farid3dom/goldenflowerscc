@@ -94,7 +94,7 @@ const Index = () => {
                             value={searchInputValue}
                             type={'text'}
                             className={'input_white'}
-                            placeholder={'Search...'}
+                            placeholder={'Искать'}
                             icon={'search'}
                             handleChange={(e) => setSearchInputValue(e.target.value)}
                             submitHandler={searchSubmit}
@@ -120,6 +120,7 @@ const Index = () => {
                                 key={i}
                                 img={PlantsBG}
                                 title={f.name[lang]}
+                                href={f.href}
                             />
                         ))
                         }

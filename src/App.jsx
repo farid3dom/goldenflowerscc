@@ -11,6 +11,11 @@ import Footer from './layout/Footer/index';
 import Home from './pages/Home/index';
 import Flowers from './pages/Flowers/index'
 import Plants from './pages/Plants/index'
+
+import Grunt from './pages/Plants/Grunt/index'
+import Greenery from './pages/Plants/Greenery/index'
+import Domestic from './pages/Plants/Domestic/index'
+
 import Accessories from './pages/Accessories/index'
 import Cooperation from './pages/Cooperation/index'
 import Contacts from './pages/Contacts/index'
@@ -18,6 +23,7 @@ import About from './pages/About/index'
 
 //Import React router dom
 import { Routes, Route, BrowserRouter as Router, Navigate, useLocation } from 'react-router-dom';
+
 
 
 function App() {
@@ -50,6 +56,11 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/flowers' element={<Flowers />} />
           <Route path='/plants' element={<Plants />} />
+
+          <Route path='/plants/greenery' element={<Greenery />} />
+          <Route path='/plants/grunt' element={<Grunt />} />
+          <Route path='/plants/domestic' element={<Domestic />} />
+
           <Route path='/accessories' element={<Accessories />} />
           <Route path='/cooperation' element={<Cooperation />} />
           <Route path='/contacts' element={<Contacts />} />

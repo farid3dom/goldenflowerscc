@@ -4,7 +4,7 @@ import './style.scss';
 import HeaderRepeat from '../../layout/HeaderRepeat/index'
 
 //import images
-import ContactBG from '../../assets/media/images/materials/flowers/exotic/carthamus.JPG'
+import ContactBG from '../../assets/media/images/materials/ulica.jpg'
 import Num1 from '../../assets/icons/logo_mini.png'
 import Num2 from '../../assets/icons/flowers_icons/chrysanthemum.png'
 import Num3 from '../../assets/icons/flowers_icons/rose.png'

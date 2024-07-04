@@ -42,7 +42,6 @@
                     }
                 }
             }
-
         }
 
         .nav_menu {
@@ -123,6 +122,7 @@
                             align-items: center;
 
                             a {
+
                                 li {
                                     margin: 0;
                                     padding: 0 15px;
@@ -138,8 +138,6 @@
                                 }
                             }
                         }
-
-
                     }
 
                     &:hover .nav_menu_arrow_list {
@@ -156,6 +154,7 @@
             justify-content: flex-end;
 
             .phone_number {
+
                 a {
                     font-size: 18px;
                     font-family: var(--f-regular);
@@ -212,20 +211,22 @@
                     transition: bottom .3s .15s, transform .3s;
                 }
 
-                .burger-checkbox:checked+.burger::before {
+                
+            }
+
+            .nav_hamburger[data-isactive="true"] {
+                .burger::before {
                     top: 11px;
                     transform: rotate(45deg);
                     box-shadow: 0 6px 0 rgba(101, 101, 101, 0);
                     transition: box-shadow .15s, top .3s, transform .3s .15s;
                 }
 
-                .burger-checkbox:checked+.burger::after {
+                .burger::after {
                     bottom: 11px;
                     transform: rotate(-45deg);
                     transition: bottom .3s, transform .3s .15s;
                 }
-
-
             }
         }
     }
@@ -237,6 +238,7 @@
             margin: 0;
 
             .nav_logo {
+
                 .logo {
                     display: none;
                 }
@@ -250,7 +252,6 @@
                         }
                     }
                 }
-
             }
 
             .nav_menu {
@@ -258,6 +259,7 @@
             }
 
             .nav_right {
+                
                 .phone_number {
                     display: none;
                 }
@@ -275,6 +277,7 @@
         .inner_nav {
 
             .nav_logo {
+
                 .logo {
                     display: none;
                 }
@@ -287,6 +290,7 @@
             .nav_right {
 
                 .phone_number {
+
                     a {
                         padding-right: 20px;
                         font-size: 20px;
