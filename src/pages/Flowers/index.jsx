@@ -32,8 +32,6 @@ const Index = () => {
     const searchParams = new URLSearchParams(location.search);
     const searchValue = searchParams.get('search');
 
-    console.log(galleryValue)
-
     useEffect(() => {
         function getSearchedData() {
             setGalleryLoading(true);
@@ -119,9 +117,9 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={f.img}
+                                img={f.images && f.images[0].img}
                                 title={f.name[lang]}
-                                href={`/product/flower/${i += 1}`}
+                                href={`/product/?productType=Flowers&productID=${i}`}
                             />
                         ))
                         }

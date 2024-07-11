@@ -6,12 +6,12 @@ import './reset.css';
 import Navbar from './layout/Navbar/index';
 import NavbarMenu from './layout/Menu/index';
 import Footer from './layout/Footer/index';
-import SingleProduct from './layout/SingleProduct/index';
 
 //Import Pages
 import Home from './pages/Home/index'
 import Flowers from './pages/Flowers/index'
 import Plants from './pages/Plants/index'
+import SingleProduct from './pages/SingleProduct/index'
 
 import Grunt from './pages/Plants/Grunt/index'
 import Greenery from './pages/Plants/Greenery/index'
@@ -57,7 +57,7 @@ function App() {
           <Route path='/' element={<Home />} />
 
           <Route path='/flowers' element={<Flowers />} />
-          <Route path='/product' element={<SingleProduct />} />
+          <Route path='/product' exact element={<SingleProduct />} />
 
           <Route path='/plants' element={<Plants />} />
           <Route path='/plants/greenery' element={<Greenery />} />
