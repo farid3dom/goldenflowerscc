@@ -5,6 +5,7 @@ import './style.scss'
 import Logo from '../../assets/icons/logo.svg'
 import Logo_S from '../../assets/icons/logo_sm.svg'
 import ArrowDown from '../../assets/icons/arrowDown';
+import ShopSVG from '../../assets/icons/shop.svg'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -89,8 +90,13 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                 <div className="nav_right">
 
-                    <div className="phone_number">
-                        <a href='tel:84957818888'>+7 (495) 781 88 88</a>
+                    <div className="shop_button">
+                        <a href={"https://gfcc.clients.site/"} target={'_blank'}>
+                            <button>
+                                <img src={ShopSVG}/>
+                                <span>Магазин</span>
+                            </button>
+                        </a>
                     </div>
 
                     <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>

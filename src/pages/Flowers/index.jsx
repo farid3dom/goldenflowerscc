@@ -20,7 +20,7 @@ import FlowersJSON from '../../utils/flowers.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 16;
+    const maxLength = 48;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -88,7 +88,7 @@ const Index = () => {
 
             <div className="flowers_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>цветов</span>!</p>
+                    <p className='content_title'>Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
@@ -100,12 +100,13 @@ const Index = () => {
                             submitHandler={searchSubmit}
                         />
                     </div>
+                    {galleryLoading &&
+                        <div className="loading_wrapper">
+                            <img className='loading_icon' src={Loading} alt='' />
+                        </div>
+                    }
                     <div className="flowers_gallery gallery_grid_wrapper">
-                        {galleryLoading &&
-                            <div className="loading_wrapper">
-                                <img className='loading_icon' src={Loading} alt='' />
-                            </div>
-                        }
+
 
                         {!galleryLoading && galleryValue?.length === 0 ?
                             <div className="no_result_wrapper">
@@ -113,42 +114,43 @@ const Index = () => {
                             </div>
                             :
                             null
-                    }
+                        }
 
-                            {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
-                                <GalleryCard
-                                    key={i}
-                                    img={require(`../../assets/media/images/materials/flowers/${f?.img}`)}
-                                    title={f.name[lang]}
-                                />
-                            ))
-                            }
-
-                        </div>
-
-                        {
-                            loading ?
-                                <div className="load_more_wrapper">
-                                    <img src={Loading} className='loading_icon' alt="" />
-                                </div>
-                                :
-                                !galleryLoading && visibleCardLength < galleryValue?.length ?
-                                    <div className="load_more_wrapper">
-                                        <Button
-                                            className={'btn btn_white hover_gold'}
-                                            btnText={'Загрузить еще...'}
-                                            disabled={loading ? true : false}
-                                            clickHandler={showMoreFunc}
-                                        />
-                                    </div>
-                                    :
-                                    null
+                        {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
+                            <GalleryCard
+                                key={i}
+                                img={f.img}
+                                title={f.name[lang]}
+                                href={`/product/flower/${i += 1}`}
+                            />
+                        ))
                         }
 
                     </div>
-                </div>
 
+                    {
+                        loading ?
+                            <div className="load_more_wrapper">
+                                <img src={Loading} className='loading_icon' alt="" />
+                            </div>
+                            :
+                            !galleryLoading && visibleCardLength < galleryValue?.length ?
+                                <div className="load_more_wrapper">
+                                    <Button
+                                        className={'btn btn_white hover_gold'}
+                                        btnText={'Загрузить еще...'}
+                                        disabled={loading ? true : false}
+                                        clickHandler={showMoreFunc}
+                                    />
+                                </div>
+                                :
+                                null
+                    }
+
+                </div>
             </div>
+
+        </div>
     )
 }
 

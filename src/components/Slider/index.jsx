@@ -28,7 +28,7 @@ function Index({ options, loop, speed }) {
                 <SwiperSlide key={i}>
 
                     <div className="slider_item">
-                        <img src={require('../../assets' + `${o.img}`)} />
+                        <img src={o.img} />
                         <h3>{o.title && o.title}</h3>
                     </div>
 

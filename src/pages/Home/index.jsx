@@ -18,35 +18,38 @@ const Index = () => {
 
     let sliderOptions = [
         {
-            img: '/media/images/materials/gold_plants.jpg'
+            img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac102310ed9f9d5&type=album'
         },
         {
-            img: '/media/images/materials/gold_vases.jpg'
+            img: 'https://sun9-47.userapi.com/impg/aWv40Qsp8VC0zhUq0ANKb_4y7jXeCqJFGi-h6A/QYUpjoTH_GI.jpg?size=1216x832&quality=95&sign=5187438ce2d23eee6b57157d028b4006&type=album'
         },
         {
-            img: '/media/images/materials/gold_black.jpg'
+            img: 'https://sun9-53.userapi.com/impg/_BCl1gT8S1drOPevOtFY6u5JRZhaoe_DFDPMjQ/Sz7iM2EZgZQ.jpg?size=1216x832&quality=95&sign=da2ca899a9d9b2fa6d3e23fec8352877&type=album'
+        },
+        {
+            img: 'https://sun9-41.userapi.com/impg/TGyE6UbPtOQngAH5jkDf-FZ0pj-KVgBiiPnmaA/v2lsBASwo4Q.jpg?size=1216x832&quality=95&sign=36c05b0287ad903bc7e276e9e999c9bf&type=album'
         }
 
     ]
 
     let sliderMainOptions = [
         {
-            img: '/media/images/materials/flowers/orchidaceae.jpg'
+            img: 'https://sun9-51.userapi.com/impg/PxZkPrrOjVZzit2tlatNh64gPFZ4QFcFBUde4A/_GaNmEAc2YI.jpg?size=1280x853&quality=95&sign=0fb842027c86b8a967d963500b4e8c96&type=album'
         },
         {
-            img: '/media/images/materials/flowers/anthurium.jpg'
+            img: 'https://sun9-52.userapi.com/impg/0NzSz2zT8HymeJpIW9MIuKqe0DBaYk4-lyGuWA/BqLfctZ4fSg.jpg?size=1280x853&quality=95&sign=dede5b363a7217c0cc9a1fa8c9320e5f&type=album'
         },
         {
-            img: '/media/images/materials/flowers/chrysanthemum.jpg'
+            img: 'https://sun9-24.userapi.com/impg/tF3TEh2LLcPSiMWxEuSWKphQyWscnyXjlO-OQQ/lD7NM1PxWLM.jpg?size=1080x720&quality=95&sign=213cc431d5836b35402ef0392d8be844&type=album'
         },
         {
-            img: '/media/images/materials/flowers/fressia.jpg'
+            img: 'https://sun9-29.userapi.com/impg/if-3JNyfbIVZ3rWDy5jfqckIwwrNq6q4eA8tQQ/Bx-5mfiFXOk.jpg?size=1080x720&quality=95&sign=f3138b6260d632ab4cb231ca7894d0a0&type=album'
         },
         {
-            img: '/media/images/materials/flowers/hydrangea.jpg'
+            img: 'https://sun9-40.userapi.com/impg/akYge6qrzYj03BwbGHgjgerHROKE4UM_r8b11g/07z2pBdjBhY.jpg?size=1080x720&quality=95&sign=ce6c4286caca4b4ae1d7bff842fc9aef&type=album'
         },
         {
-            img: '/media/images/materials/flowers/roses.jpg'
+            img: 'https://sun9-19.userapi.com/impg/AM_HAknMYE7Pjbo0dNGj4nOCqXRxSPMckK52Dw/-aw_sXoTmmU.jpg?size=1080x720&quality=95&sign=dbb654a650778a6a7d8e0b4e12cd8cb2&type=album'
         }
 
     ]
@@ -116,7 +119,7 @@ const Index = () => {
                                 btnText={'Коллекция'}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
-                                href={'/collection'}
+                                href={'/about/#collection'}
                             />
                         </div>
                     </div>

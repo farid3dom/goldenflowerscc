@@ -55,10 +55,9 @@ const Index = () => {
                                 <a href="#"><li>Сухоцветы</li></a>
                                 <a href="#"><li>Упаковка</li></a>
                                 <a href="#"><li>Ленты</li></a>
-                                <a href="#"><li>Декор</li></a>
+                                <a href="#"><li>Вазы</li></a>
                                 <a href="#"><li>Корзины</li></a>
-                                <a href="#"><li>Вазы и керамика</li></a>
-                                <a href="#"><li>Инструменты</li></a>
+                                <a href="#"><li>Предметы интерьера</li></a>
                             </ul>
                         </div>
                     </div>

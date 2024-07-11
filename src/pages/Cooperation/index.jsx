@@ -20,8 +20,8 @@ import CooperationJSON from '../../utils/cooperation.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 16;
-    let lang = 'ru';
+    const maxLength = 48;
+    let lang = 'en';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
     const [loading, setLoading] = useState(false);
@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard target='_blank'
                                 key={i}
-                                img={require(`../../assets/media/images/materials/cooperation/${f?.img}`)}
+                                img={f.img}
                                 title={f.name}
                                 href={f.href}
 

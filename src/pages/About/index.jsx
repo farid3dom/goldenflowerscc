@@ -25,47 +25,53 @@ const Index = () => {
 
     let sliderFlowers = [
         {
-            img: '/media/images/materials/vitrin/vitrin_isci_2.jpg'
+            img: 'https://sun9-3.userapi.com/impg/c2-OXz5M5WF2-YCAJ3AeDXHhJ2fsf4xQp3drGA/3SaU5cxIB2k.jpg?size=1280x853&quality=95&sign=707dd3fd3615a3ebeffa7a0675ac2aec&type=album'
         },
         {
-            img: '/media/images/materials/vitrin/vitrin_isci.jpg'
+            img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1280x853&quality=95&sign=c33878e1f3f71cff8618fbbb82646c27&type=album'
         },
         {
-            img: '/media/images/materials/vitrin/vitrin_qost.jpg'
+            img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1280x853&quality=95&sign=bbc3f1accca5ac25f28f371624a2162b&type=album'
         }
 
     ]
 
     let sliderPlants = [
         {
-            img: '/media/images/materials/vitrin/komnata_vitrin_isci.jpg'
+            img: 'https://sun9-58.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1280x853&quality=95&sign=86bec54dfb86b9b999bb3c04308fef92&type=album'
         },
         {
-            img: '/media/images/materials/vitrin/komnata_vitrin_qost.jpg'
+            img: 'https://sun9-8.userapi.com/impg/vEiuWPBouRDDuzFtW3xruOH0Olg4RF_uNDBvNQ/gG1rpa1skJY.jpg?size=1280x852&quality=95&sign=cf090540afc3930949603d2980b5ef0f&type=album'
         },
         {
-            img: '/media/images/materials/vitrin/komnata_sklad.jpg'
+            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1280x853&quality=95&sign=084963b3cdeb9b2cd8f0f18100c30f16&type=album'
         }
 
     ]
 
     let sliderAccessories = [
         {
-            img: '/media/images/materials/accessories/korziny.jpg'
-
+            img: 'https://sun9-43.userapi.com/impg/ftLTaPKsEa5DTQGFTve8J57c1GwkcXYhBjzlhg/3tutFvEh7EY.jpg?size=1080x720&quality=95&sign=30a0f4b3f9de9695b1ab450ec6099145&type=album'
         },
         {
-            img: '/media/images/materials/accessories/lenta.jpg'
+            img: 'https://sun9-19.userapi.com/impg/J4OKLEcTzvUeduVwKw90eqSldDkQmpGimROL-w/BoF69awLVu0.jpg?size=1080x720&quality=95&sign=a498faf687ff20c7eb25fdb72822c28b&type=album'
         },
         {
-            img: '/media/images/materials/accessories/vaza.jpg'
+            img: 'https://sun9-57.userapi.com/impg/ms8bwccVh1djh6bQ_3WDSuPQnhv8zg6Ua0fPRQ/WvHgd9rIgps.jpg?size=1080x720&quality=95&sign=5ad31c30a44210496cbbcb1e01194913&type=album'
         },
         {
-            img: '/media/images/materials/accessories/svechi.jpg'
+            img: 'https://sun9-80.userapi.com/impg/9HIxo772QkQeGkK6P_9BzNEc4wVEhYQTuBwq9w/xk4mr88pa_E.jpg?size=1080x720&quality=95&sign=3c7d08307946ae8528930c9d9716e0d3&type=album'
         },
         {
-            img: '/media/images/materials/accessories/yashiki_2.jpg'
+            img: 'https://sun9-33.userapi.com/impg/aYFNjBZG_28vdHCn2lMkiW2maOn8Z5AQGjEE-A/5atvVZbduzE.jpg?size=1080x720&quality=95&sign=7f5306773cadfcf218fea132a58ac6b2&type=album'
+        },
+        {
+            img: 'https://sun9-80.userapi.com/impg/KNaO7_yhul1-dqWFjaoil_-vHq40VvVLNMEQwQ/o_tMgcIBd2U.jpg?size=1080x720&quality=95&sign=22f32d542935dda4e5b7b9905fa10eac&type=album'
+        },
+        {
+            img: 'https://sun9-17.userapi.com/impg/cXtHr6XmLXD2pBo6eC5EF1JKoaBDCDtdG0usGQ/rS0YlZp4cyI.jpg?size=1080x720&quality=95&sign=f7b13559ef6029d4d6a1ae299a25bb32&type=album'
         }
+
 
     ]
 
@@ -166,9 +172,9 @@ const Index = () => {
                     </div>
                 </div>
 
-                <div ref={collectionRef} className="about_slider_container" id={'collection'}>
+                <div className="about_slider_container" id={'collection'}>
 
-                    <h1 className='container_title'>Наши отделы</h1>
+                    <h1 ref={collectionRef} className='container_title'>Наши отделы</h1>
 
                     <div className="about_slider_container_inner">
 
@@ -190,7 +196,6 @@ const Index = () => {
                                     <li><a href="">Тюльпаны</a></li>
                                     <li><a href="">Гвоздики</a></li>
                                     <li><a href="">Пионы</a></li>
-                                    <li><a href="">Экзотика</a></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button
@@ -247,12 +252,10 @@ const Index = () => {
                                 <h1>Отдел аксессуаров</h1>
                                 <ul className='product_list'>
                                     <li><a href="">Для флористики</a></li>
-                                    <li><a href="">Вазы и керамика</a></li>
                                     <li><a href="">Упаковка</a></li>
                                     <li><a href="">Корзины</a></li>
                                     <li><a href="">Ленты</a></li>
                                     <li><a href="">Мягкая игрушка</a></li>
-                                    <li><a href="">Предметы интерьера и др</a></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button

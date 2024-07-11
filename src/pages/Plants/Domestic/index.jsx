@@ -20,7 +20,7 @@ import DomesticJSON from '../../../utils/domestic.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 16;
+    const maxLength = 48;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -88,7 +88,7 @@ const Index = () => {
 
             <div className="domestic_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>растений</span>!</p>
+                    <p className='content_title'><span>Никогда</span> не иди к врачу, у которого засыхают <span>комнатные растения</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={DomesticBG}
+                                img={f.img}
                                 title={f.name[lang]}
                             />
                         ))

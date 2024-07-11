@@ -20,7 +20,7 @@ import GruntJSON from '../../../utils/grunt.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 16;
+    const maxLength = 48;
     let lang = 'ru';
     const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
     const [galleryValue, setGalleryValue] = useState(null)
@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={GruntBG}
+                                img={f.img}
                                 title={f.name[lang]}
                             />
                         ))

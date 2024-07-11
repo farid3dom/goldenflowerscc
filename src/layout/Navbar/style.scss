@@ -153,18 +153,32 @@
             align-items: center;
             justify-content: flex-end;
 
-            .phone_number {
-
+            .shop_button {
                 a {
-                    font-size: 18px;
-                    font-family: var(--f-regular);
-                    color: var(--white);
 
-                    &:hover {
-                        color: var(--gold);
+                    button {
+                        cursor: pointer;
+                        background: var(--gray);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px 15px;
+                        border: 0;
+                        border-radius: 15px;
+                        transition: all 0.3s ease;
+
+                        span {
+                            font-family: var(--f-regular);
+                            color: var(--white);
+                            font-size: 20px;
+                            padding-left: 5px;
+                        }
+
+                        &:hover {
+                            background: #056add;
+                        }
                     }
                 }
-
             }
 
             .nav_hamburger {
@@ -211,7 +225,7 @@
                     transition: bottom .3s .15s, transform .3s;
                 }
 
-                
+
             }
 
             .nav_hamburger[data-isactive="true"] {
@@ -259,9 +273,9 @@
             }
 
             .nav_right {
-                
-                .phone_number {
-                    display: none;
+
+                .shop_button {
+                    padding-right: 35px;
                 }
 
                 .nav_hamburger {
@@ -289,15 +303,8 @@
 
             .nav_right {
 
-                .phone_number {
-
-                    a {
-                        padding-right: 20px;
-                        font-size: 20px;
-                        font-family: var(--f-regular);
-                        color: var(--white);
-                    }
-
+                .shop_button {
+                    padding-right: 25px;
                 }
 
                 .nav_hamburger {

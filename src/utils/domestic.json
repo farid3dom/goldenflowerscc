@@ -1,122 +1,983 @@
 [
     {
        "name": {
-          "en": "Gypsophila",
-          "ru": "Гипсофила"
+          "en": "Aglaonema",
+          "ru": "Аглаонема"
        },
-       "img": "/assets/media/images/materials/flowers/gypsophila.jpg"
+       "img": "https://www.letto.ru/upload/iblock/e99/tyc02hhtajg9cy3tj27cbrv1pyfbwzpx/aglaonema_ukhod_v_domashnikh_usloviyakh_razmnozhenie_i_peresadka.jpg"
        
     },
     {
        "name": {
-          "en": "Limonium",
-          "ru": "Лимониум"
+          "en": "Adenium",
+          "ru": "Адениум"
        },
-       "img": "limonium.jpg"
+       "img": "https://s15.stc.all.kpcdn.net/family/wp-content/uploads/2023/08/adenium-mnogoczvetkovyj-630.jpg"
+    },
+    {
+      "name": {
+         "en": "Adiantum",
+         "ru": "Адиантум"
+      },
+      "img": "https://www.orchis.ru/wp-content/uploads/2017/10/%D0%B0%D0%B4%D0%B8%D0%B0%D0%BD%D1%82%D1%83%D0%BC-%D0%B3%D0%BB%D0%B0%D0%BD%D0%B0%D1%8F-%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg"
+   },
+    {
+       "name": {
+          "en": "Azalea",
+          "ru": "Азалия"
+       },
+       "img": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcT7mW1nZzjEVXg9x7jbARqOke_9zLP0SsUMIzrtsHMINwrhuTzsRpBX4M4ui4e8kxlw"
     },
     {
        "name": {
-          "en": "Pistacia",
-          "ru": "Фисташка"
+          "en": "Alocasia",
+          "ru": "Алоказия"
        },
-       "img": "pistacia.jpg"
+       "img": "https://cdn.botanichka.ru/wp-content/uploads/2021/05/alokaziya-neimoverno-effektnyie-listya-v-pravilnyih-usloviyah-01.jpg"
     },
     {
        "name": {
-          "en": "Solidago",
-          "ru": "Солидаго"
+          "en": "Aloe",
+          "ru": "Алоэ"
        },
-       "img": "solidago.jpg"
+       "img": "https://www.mayflor.ru/img/work/article/a_57_109.JPG"
+    },
+    {
+       "name": {
+          "en": "Ananas",
+          "ru": "Ананас"
+       },
+       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%AF%E0%B5%81%E0%B4%82_%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%AF%E0%B5%81%E0%B4%82.jpg/1920px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%AF%E0%B5%81%E0%B4%82_%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%AF%E0%B5%81%E0%B4%82.jpg"
+    },
+    {
+       "name": {
+          "en": "Amaryllis",
+          "ru": "Амариллис"
+       },
+       "img": "https://flowertimes.ru/wp-content/uploads/2015/05/amaryllis-cvetok.jpg"
+    },
+    {
+       "name": {
+          "en": "Anthurium",
+          "ru": "Антуриум"
+       },
+       "img": "https://aogarden.ru/upload/resize_cache/webp/iblock/f35/xkpj3d08k4eareaz780j0uhfd00lee03.webp"
+    },
+    {
+       "name": {
+          "en": "Areca",
+          "ru": "Арека"
+       },
+       "img": "https://organic-mix.ru/upload/medialibrary/21f/e26trsgisqd0divvtsi7eu6lray4fvn4.jpg"
+    },
+    {
+       "name": {
+          "en": "Asparagus",
+          "ru": "Аспарагус"
+       },
+       "img": "https://www.ayurveda-shop.ru/published/publicdata/AYURVE38SHOP/attachments/SC/articles_pictures/orig_asparagus_02-fill-605x350fl.jpg"
     },
     {
        "name": {
           "en": "Aspidistra",
           "ru": "Аспидистра"
        },
-       "img": "aspidistra.jpg"
+       "img": "https://flori-da.ru/wp-content/uploads/2013/08/%D0%B0%D1%81%D0%BF%D0%B8%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B0.jpg"
     },
     {
        "name": {
-          "en": "Gaultheria shallon",
-          "ru": "Салал"
+          "en": "Asplenium",
+          "ru": "Асплениум"
        },
-       "img": "salal.jpg"
+       "img": "https://cdn.botanichka.ru/wp-content/uploads/2020/12/asplenium-effektnyiy-i-neprihotlivyiy-v-podhodyashhih-usloviyah-01.jpg"
     },
     {
        "name": {
-          "en": "Aralia",
-          "ru": "Аралия"
+          "en": "Aucuba",
+          "ru": "Аукуба"
        },
-       "img": "aralia.jpg"
+       "img": "https://dva-botanika.ru/s_img/560.jpg"
     },
     {
        "name": {
-          "en": "Phoenix Roebelenii",
-          "ru": "Финик Робелини"
+          "en": "Bambusa",
+          "ru": "Бамбук"
        },
-       "img": "roebelenii.jpg"
-    },
-    {
-       "name": {
-          "en": "Ruscus",
-          "ru": "Рускус"
-       },
-       "img": "ruscus.jpg"
-    },
-    {
-       "name": {
-          "en": "Tree Fern",
-          "ru": "Триферн"
-       },
-       "img": "treefern.jpg"
-    },
-    {
-       "name": {
-          "en": "Limonium sinuatum",
-          "ru": "Статица"
-       },
-       "img": "statica.jpg"
-    },
-    {
-       "name": {
-          "en": "Eucalyptus",
-          "ru": "Эвкалипт"
-       },
-       "img": "eucalyptus.jpg"
-    },
-    {
-       "name": {
-          "en": "Chamelaucium",
-          "ru": "Хамелациум"
-       },
-       "img": "chamelaucium.jpg"
-    },
-    {
-       "name": {
-          "en": "Tee pee",
-          "ru": "Чико"
-       },
-       "img": "teepee.jpg"
+       "img": "https://greendekor.ru/upload/medialibrary/1d2/1d21acfb9bd792c105609c1aabbf5220.jpg"
     },
     {
        "name": {
           "en": "Buxus",
-          "ru": "Самшит"
+          "ru": "Бухус (Самшит)"
        },
-       "img": "buxus.jpg"
+       "img": "https://sarsad.ru/image/cache/catalog/custarnik/145751171600353444-700x700.jpg"
     },
     {
        "name": {
-          "en": "Thlaspi Green bell",
-          "ru": "Тласпи Green bell"
+          "en": "Begonia",
+          "ru": "Бегония"
        },
-       "img": "thlaspi.jpg"
+       "img": "https://gardenerspath.com/wp-content/uploads/2023/08/How-to-Winterize-Begonias-Feature.jpg"
     },
     {
        "name": {
-          "en": "Beargrass",
-          "ru": "Берграсс"
+          "en": "Bonsai",
+          "ru": "Бонсай"
        },
-       "img": "beargrass.jpg"
+       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Trident_Maple_bonsai_52%2C_October_10%2C_2008.jpg/800px-Trident_Maple_bonsai_52%2C_October_10%2C_2008.jpg"
+    },
+    {
+       "name": {
+          "en": "Vanda",
+          "ru": "Ванда"
+       },
+       "img": "https://kashpo.store/image/cache/catalog/7de9f526284111e98127005056be01ad_471f3ff4517f11e98128005056be01ad-auto_width_800.jpg"
+    },
+    {
+       "name": {
+          "en": "Vitis vinifera",
+          "ru": "Виноград"
+       },
+       "img": "https://glav-dacha.ru/wp-content/uploads/2020/11/domashniy-vinograd-komnatnoe-rastenie-3.jpg"
+    },
+    {
+       "name": {
+          "en": "Vriesea",
+          "ru": "Вриезия"
+       },
+       "img": "https://stocvetov.ru/images/cms/data/flowers/ekzoticheskie/vrieziya/vrieziya_astrid.jpg"
+    },
+    {
+       "name": {
+          "en": "Gazania",
+          "ru": "Газания"
+       },
+       "img": "https://whperron.com/en/wp-content/uploads/sites/2/2020/10/60_7810.jpg"
+    },
+    {
+       "name": {
+          "en": "Gardenia",
+          "ru": "Гардения"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/06/1-55-700x586.jpg"
+    },
+    {
+       "name": {
+          "en": "Hyacinthus",
+          "ru": "Гиацинт"
+       },
+       "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRMQocP3eUDLPB2uW6Tle1wVmpTEs0nq2LuE68OHrNuGF5x6_tsMXg3eAZThm1pSHMKv25uSN_jfILXD04"
+    },
+    {
+       "name": {
+          "en": "Hibiscus",
+          "ru": "Гибискус"
+       },
+       "img": "https://www.picturethisai.com/wiki-image/1080/154120121160302616.jpeg"
+    },
+    {
+       "name": {
+          "en": "Hydrangea",
+          "ru": "Гортензия"
+       },
+       "img": "https://sadovnikonline.ru/wp-content/uploads/2020/01/gortenziya-gidrangeya-hydrangea-hortensis-sm.-foto-e1599332455713.jpeg"
+    },
+    {
+       "name": {
+          "en": "Gymnocalycium",
+          "ru": "Гимнокалициум"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/12/16-2.jpg"
+    },
+    {
+       "name": {
+          "en": "Gloxinia",
+          "ru": "Глоксиния"
+       },
+       "img": "https://ru.s.bekhost.com/uploads/files/gloks/gloxinia_02.jpg"
+    },
+    {
+       "name": {
+          "en": "Guzmania",
+          "ru": "Гусмания"
+       },
+       "img": "https://cdn.shopify.com/s/files/1/0068/4215/5090/t/115/assets/8c7c79e408ea--pl-bromeliad-4IN-po-grower-6d68e3.jpg?v=1632171133"
+    },
+    {
+       "name": {
+          "en": "Davallia",
+          "ru": "Даваллия"
+       },
+       "img": "https://baucenter.ru/upload/pictures/93/938006336-0.jpg"
+    },
+    {
+       "name": {
+          "en": "Dahlia",
+          "ru": "Георгина"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQdvneXs7m-SB-Of_LzPuPltk_HTnB_Ff4qKZ6U4XJeYFrK7gqFANfjL3SAyULxQNXHe5vRWIMVUUv65aE"
+    },
+    {
+       "name": {
+          "en": "Dendrobium",
+          "ru": "Дендробиум"
+       },
+       "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR5hFGEzkh5is4xTmlgS0tFVd1mjxQLY_ykrYCXkk6whmMhYYr8JBtiFYzjB0zTk_ESydx18lVBbxsueHg"
+    },
+    {
+       "name": {
+          "en": "Juniperus",
+          "ru": "Можжевельник"
+       },
+       "img": "https://thumbs.dreamstime.com/b/%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-juniperus-communis-119988323.jpg"
+    },
+    {
+       "name": {
+          "en": "Dianthus",
+          "ru": "Диантус"
+       },
+       "img": "https://topcvetok.ru/upload/iblock/6d9/6d97fe294c25aa9d9cc5a64399027398.jpg"
+    },
+    {
+       "name": {
+          "en": "Juncus",
+          "ru": "Джункус"
+       },
+       "img": "https://sun.pilea.ru/2018/01/123566_1.jpg"
+    },
+    {
+       "name": {
+          "en": "Dionaea muscipula",
+          "ru": "Дионея Мухоловка"
+       },
+       "img": "https://grinoteka.ru/upload/iblock/7f8/1pgo79b3aiu9iwjl0tk359r2nohkmel4.webp"
+    },
+    {
+       "name": {
+          "en": "Dieffenbachia",
+          "ru": "Диффенбахия"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTlCnPFqgZYTirnbC4XOD4YjROiRbbkhwi5uasbmXoL7eKnYtIP6bWJ8w4GDetugj6khFijn9K4XJ2rZUE"
+    },
+    {
+       "name": {
+          "en": "Dracaena",
+          "ru": "Драцена"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpNSVlZbwrcI4rd29d7xrm8MdVdJUjKSTEZfYYeevCo3uqswNw"
+    },
+    {
+       "name": {
+          "en": "Zamioculcas",
+          "ru": "Замиокулькас"
+       },
+       "img": "https://cactus.by/sites/default/files/products/112_0.jpg"
+    },
+    {
+       "name": {
+          "en": "Cactaceae",
+          "ru": "Кактус"
+       },
+       "img": "https://baucenter.ru/upload/pictures/93/938000186-1.jpg"
+    },
+    {
+       "name": {
+          "en": "Caladium",
+          "ru": "Каладиум"
+       },
+       "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRq9a0S1N5vKkbQ8tyaTPJgEIKovMyljZAYou35DSMsLcekzfhNA14HEJFF2eqwSjWXtnLYrwdaJhVLcuA"
+    },
+    {
+       "name": {
+          "en": "Kalanchoe",
+          "ru": "Каланхоэ"
+       },
+       "img": "https://flowertimes.ru/wp-content/uploads/2016/06/kalanhoe_cvetok-1.jpg"
+    },
+    {
+       "name": {
+          "en": "Calathea",
+          "ru": "Калатея"
+       },
+       "img": "https://orchidea-shop.ru/base/data/924mid.jpg"
+    },
+    {
+       "name": {
+          "en": "Calla",
+          "ru": "Калла"
+       },
+       "img": "https://agrosemfond.ru/upload/resize_cache/webp/iblock/b41/650_650_1/1e0f7788b63111e6a4d0001e67b6d355_8460bf3833ab11eb80e20cc47a28e351.resize1.webp"
+    },
+    {
+       "name": {
+          "en": "Campanula",
+          "ru": "Кампанула"
+       },
+       "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQB12nijwA2r7apuaNddW-Vbwj_L18Vy1h-U2jdr5X81cV1cNd1"
+    },
+    {
+       "name": {
+          "en": "Clematis",
+          "ru": "Клематис"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQD-61gehNs_BmsxUI6Yzfjji1h2qeQsKTUZVhlMoRbGh5g_NkUaFEpGXFOQs_N_KG7osGLbLcvA7MAH_Q"
+    },
+    {
+       "name": {
+          "en": "Clivia",
+          "ru": "Кливия"
+       },
+       "img": "https://pepinierelocas.com/wp-content/uploads/2020/01/clivia-miniata-132a1277-e1581871259743-1024x1024.jpg"
+    },
+    {
+       "name": {
+          "en": "Pinales",
+          "ru": "Кониферен"
+       },
+       "img": "https://darvin-market.ru/upload/resize_cache/webp/iblock/f23/xqabmec7smqcx956dq5ypq9srfs8jmft.webp"
+    },
+    {
+       "name": {
+          "en": "Cordyline",
+          "ru": "Кордилина"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/06/10-26-700x688.jpg"
+    },
+    {
+       "name": {
+          "en": "Coffea",
+          "ru": "Кофе"
+       },
+       "img": "https://rassadacvetov.com/wp-content/uploads/2020/09/Kofe-Arabika.jpg"
+    },
+    {
+       "name": {
+          "en": "Crassula",
+          "ru": "Крассула"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRvXMRRQ9s8r0dBdb6zf3zNtEg5XhTPamg2krZYUZvmRuC7K9AMeDx476ZAIveiZINAwQm3BccettdUi_g"
+    },
+    {
+       "name": {
+          "en": "Croton",
+          "ru": "Кротон"
+       },
+       "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSk12TCnwU7gZwJ9DBqmerkOKpNgWipDY7F7f6gpyL6bEtlxGDy"
+    },
+    {
+       "name": {
+          "en": "Lavandula",
+          "ru": "Лаванда"
+       },
+       "img": "https://admin29.solinepro.ru/mikaspb2/upload/images/38f7f8d56028acafaad0feb56485b4d1.jpg"
+    },
+    {
+       "name": {
+          "en": "Livistona",
+          "ru": "Ливистона"
+       },
+       "img": "https://cdn.botanichka.ru/wp-content/uploads/2010/03/Livistona-2.jpg"
+    },
+    {
+       "name": {
+          "en": "Lilium",
+          "ru": "Лилия"
+       },
+       "img": "https://www.u-f-l.net/bouquet/-10043_657_o.jpg"
+    },
+    {
+       "name": {
+          "en": "Maranta",
+          "ru": "Маранта"
+       },
+       "img": "https://cdn.botanichka.ru/wp-content/uploads/2020/06/maranta-ochen-vlagolyubivaya-no-otzyivchivaya-na-uhod-01.jpg"
+    },
+    {
+       "name": {
+          "en": "Medinilla",
+          "ru": "Мединилла"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2017/01/5-31.jpg"
+    },
+    {
+       "name": {
+          "en": "Myrtus",
+          "ru": "Мирт"
+       },
+       "img": "https://flowertimes.ru/wp-content/uploads/2013/09/mirt-rastenie.jpg"
+    },
+    {
+       "name": {
+          "en": "Monstera",
+          "ru": "Монстера"
+       },
+       "img": "https://rastenia-biolit.ru/d/monstera.jpg"
+    },
+    {
+       "name": {
+          "en": "Muscari",
+          "ru": "Мускари"
+       },
+       "img": "https://www.nature-and-garden.com/wp-content/uploads/sites/4/2022/11/grape-hyacinth-muscari.jpg"
+    },
+    {
+       "name": {
+          "en": "Nepenthes",
+          "ru": "Непентес"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS93OduP2izdiFBrFH2XpyckJ15Ol4Ov5eSf7uomenACeQuGkQ7"
+    },
+    {
+       "name": {
+          "en": "Nephrolepis",
+          "ru": "Нефролепис"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/07/2-41.jpg"
+    },
+    {
+       "name": {
+          "en": "Nolina",
+          "ru": "Нолина"
+       },
+       "img": "https://daflor.by/upload/iblock/884/884d389e7208728dc616d60e004cf8f2.jpg"
+    },
+    {
+       "name": {
+          "en": "Oncidium",
+          "ru": "Онцидиум"
+       },
+       "img": "https://kashpo.store/image/cache/catalog/1dfd79ac080a11e8811d005056be01ad_e134b30d57d011e98128005056be01ad-auto_width_800.jpg"
+    },
+    {
+       "name": {
+          "en": "Opuntia",
+          "ru": "Опунция"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/05/2-86.jpg"
+    },
+    {
+       "name": {
+          "en": "Osteospermum",
+          "ru": "Остеоспермум"
+       },
+       "img": "https://www.biotechnica.ru/ispitaniya-sortov/img/osteo2.jpg"
+    },
+    {
+       "name": {
+          "en": "Passiflora",
+          "ru": "Пассифлора"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSP9yIwzb67BIn6L45dR1Ns1vuno9PfdreX70loOhGgeLpxST32C_e1Zsjhkm44NriNnInxZm6Evdu8lOA"
+    },
+    {
+       "name": {
+          "en": "Pachira",
+          "ru": "Пахира"
+       },
+       "img": "https://topcvetok.ru/upload/iblock/a76/a7600b6e847c1eab241b878b4e6cdeb4.jpg"
+    },
+    {
+       "name": {
+          "en": "Peperomia",
+          "ru": "Пеперомия"
+       },
+       "img": "https://www.bybrittanygoldwyn.com/wp-content/uploads/2023/01/Peperomia-Care-Propagation-22.jpg.webp"
+    },
+    {
+       "name": {
+          "en": "Picea",
+          "ru": "Пицея"
+       },
+       "img": "https://www.cvet-opt.ru/upload/iblock/ea0/khba7h3ur9rd58az1ok0g25zenm0vu2s.jpg"
+    },
+    {
+       "name": {
+          "en": "Plant Mix",
+          "ru": "Плант микс"
+       },
+       "img": "https://rassadacvetov.com/wp-content/uploads/2020/09/Plant-miks-b.jpg"
+    },
+    {
+       "name": {
+          "en": "Platycodon",
+          "ru": "Платикодон"
+       },
+       "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSe6-gDJa-V_p1bpi94jBCr_yfNJk93EKLfgKlY0OuM6KlsUUR"
+    },
+    {
+       "name": {
+          "en": "Radermachera",
+          "ru": "Радермахера"
+       },
+       "img": "https://indoor-plants.org/wp-content/uploads/2023/05/radermahera.jpg"
+    },
+    {
+       "name": {
+          "en": "Rhipsalis",
+          "ru": "Рипсалис"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/10/12-3.jpg"
+    },
+    {
+       "name": {
+          "en": "Rhododendron",
+          "ru": "Рододендрон"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhpzsTWxZ9kpDdfM_KhYwD5Wo7-TcRYQqkKG0l76cNln35ckDe"
+    },
+    {
+       "name": {
+          "en": "Rose",
+          "ru": "Роза"
+       },
+       "img": "https://www.5-nt.ru/Storage/Image/BlogItemGardener/Image/big/6035/vavava.gif"
+    },
+    {
+       "name": {
+          "en": "Sansevieria",
+          "ru": "Сансевиерия"
+       },
+       "img": "https://geoglass.ru/wp-content/uploads/2021/07/kupit-sansivieriyu.jpg"
+    },
+    {
+       "name": {
+          "en": "Sedum",
+          "ru": "Седум"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSXsxjQt9fD0B_3qOWSR8d6G5jSj5wbdsihNXXbQFnP3MwqPLluKTMoH18PqWHEerAib7OGWNgv9lxfimY"
+    },
+    {
+       "name": {
+          "en": "Sempervivum",
+          "ru": "Семпервивум"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR1CEc_hYUHY3_HtCEEsyKGfUA3NYc57nfZ66tvIdd4VGRn8X_wZbjBBLY7OsL_lB06kVqshu0iVoD6KWM"
+    },
+    {
+       "name": {
+          "en": "Saintpaulia",
+          "ru": "Сенполия"
+       },
+       "img": "https://upload.wikimedia.org/wikipedia/commons/2/22/Saintpaulia_%27Pink_Amiss%27_02.jpg"
+    },
+    {
+       "name": {
+          "en": "Syngonium",
+          "ru": "Сингониум"
+       },
+       "img": "https://organic-mix.ru/upload/medialibrary/684/0jod1161uzmjqfof31t41vy5b6vy23mj.jpg"
+    },
+    {
+       "name": {
+          "en": "Spathiphyllum",
+          "ru": "Спатифиллум"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPH4_GB7iG_h61yON_K8RZ8XVSda731WEnzgEf84PIIzkZDD6_"
+    },
+    {
+       "name": {
+          "en": "Stephanotis",
+          "ru": "Стефанотис"
+       },
+       "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRv888e-I_mVoHBE8_ltWKbpkxqgSkM3MybSkfpI8HimvJZPgr4"
+    },
+    {
+       "name": {
+          "en": "Strelitzia",
+          "ru": "Стрелиция"
+       },
+       "img": "https://rastenievod.com/wp-content/uploads/2016/10/1-39-700x685.jpg"
+    },
+    {
+       "name": {
+          "en": "Succulenten mix",
+          "ru": "Суккуленты микс"
+       },
+       "img": "https://photo.floraccess.com/96hfvl6uujddj89153cqih5dc6hbugdtup3dosrl_Preview480.jpg"
+    },
+    {
+       "name": {
+          "en": "Tillandsia",
+          "ru": "Тилландсия"
+       },
+       "img": "https://exotiks.ru/image/catalog/stat'i%20/%D1%83%D1%85%D0%BE%D0%B4%20%D0%B7%D0%B0%20%D1%82%D0%B8%D0%BB%D0%BB%D0%B0%D0%BD%D0%B4%D1%81%D0%B8%D1%8F%D0%BC%D0%B8/1.jpg"
+    },
+    {
+       "name": {
+          "en": "Tradescantia",
+          "ru": "Традесканция"
+       },
+       "img": "https://f-f.flowers/image/cache/catalog/image/cache/catalog/produkt/komnatnye_rasteniya/listvennye/6057-500x600.webp"
+    },
+    {
+       "name": {
+          "en": "Thuja",
+          "ru": "Туя"
+       },
+       "img": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/158/214/974/471/311/47/600007225347b0.png"
+    },
+    {
+       "name": {
+          "en": "Phalaenopsis",
+          "ru": "Фаленопсис"
+       },
+       "img": "https://baucenter.ru/upload/pictures/93/938005006-0.jpg"
+    },
+    {
+       "name": {
+          "en": "Fatsia",
+          "ru": "Фатсия"
+       },
+       "img": "https://www.sad.ru/upload/articles/fatsiya-neprikhotlivaya-yaponka/1.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus elastica",
+          "ru": "Фикус Эластика"
+       },
+       "img": "https://diantus.biz/upload/iblock/985/9851e294f0af2ed7afba1733c89a42d6.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus benjamina",
+          "ru": "Фикус бенджамина"
+       },
+       "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT272M64KSsrUSq3QouLXw5H-P6dHglJYB-eljd_HidJG165c4L"
+    },
+    {
+       "name": {
+          "en": "Ficus Moclame",
+          "ru": "Фикус Моклейм"
+       },
+       "img": "https://geoglass.ru/wp-content/uploads/2022/05/Fikus-Moklame.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus Amstel King",
+          "ru": "Фикус Амстел Кинг"
+       },
+       "img": "https://baucenter.ru/preview/r/612x612/c/612x612/q/95/upload/pictures/93/938003714-0@2x.jpg?1601376943"
+    },
+    {
+       "name": {
+          "en": "Ficus Ginseng",
+          "ru": "Фикус Гинсенг"
+       },
+       "img": "https://dolinasad.by/upload/iblock/de9/1g7o559z19ch8v0rxl1tx2r2h26ruhvq.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus Audrey",
+          "ru": "Фикус Одри"
+       },
+       "img": "https://rassadacvetov.com/wp-content/uploads/2020/01/Fikus-bengalskij-Odri-4.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus carica",
+          "ru": "Фикус Карика (Инжир)"
+       },
+       "img": "https://luckygreen.ru/wa-data/public/shop/products/53/72/7253/images/19676/19676.650@2x.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus lyrata",
+          "ru": "Фикус Лирата"
+       },
+       "img": "https://www.leomebel.ru/upload/iblock/2ec/2xnf8ddj5k6x0qe568knmuphx2712vdd.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus Melany",
+          "ru": "Фикус Мелани"
+       },
+       "img": "https://bloom-story.ru/wa-data/public/shop/products/43/31/3143/images/8095/8095.750@2x.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus Cyathistipula",
+          "ru": "Фикус Циатистипула"
+       },
+       "img": "https://rassadacvetov.com/wp-content/uploads/2021/12/Fikus-Ciastipula.jpg"
+    },
+    {
+       "name": {
+          "en": "Ficus Shivereana",
+          "ru": "Фикус Шривериана"
+       },
+       "img": "https://bloom-story.ru/wa-data/public/shop/products/70/38/3870/images/19046/19046.750.jpg"
+    },
+    {
+       "name": {
+          "en": "Phlebodium",
+          "ru": "Флебодиум"
+       },
+       "img": "https://topplant.ru/assets/images/products/1950/flebodium-blyu-star-17-40.jpg"
+    },
+    {
+       "name": {
+          "en": "Philodendron",
+          "ru": "Филодендрон"
+       },
+       "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRXn4Miswe_AJrRtJ47RmXikG3jIR9UkHq-ppmOwFDUFra1K82Wp-RkG_KI-o9RuW1Zyek3e5RUS3eWZtg"
+    },
+    {
+       "name": {
+          "en": "Philodendon Birkin",
+          "ru": "Филодендрон Биркин"
+       },
+       "img": "https://bloom-story.ru/wa-data/public/shop/products/19/21/2119/images/7458/7458.750@2x.jpeg"
+    },
+    {
+       "name": {
+          "en": "Philodendron Brasil",
+          "ru": "Филодендрон Бразил"
+       },
+       "img": "https://topplant.ru/assets/images/products/801/filodendron-skandens-brazil-d12sm.jpg"
+    },
+    {
+       "name": {
+          "en": "Philodendron White Princess",
+          "ru": "Филодендрон Вайт Принцесс"
+       },
+       "img": "https://www.picturethisai.com/image-handle/website_cmsname/image/1080/317024575649054720.jpeg?x-oss-process=image/format,webp/resize,s_500/quality,q_70&v=1.3"
+    },
+    {
+       "name": {
+          "en": "Philodendron Warscewiczii",
+          "ru": "Филодендрон Варшевича"
+       },
+       "img": "https://kensphilodendrons.com/wp-content/uploads/z2-7-R-PHI-WAR-6-11.jpg"
+    },
+    {
+       "name": {
+          "en": "Philodendron Imperial Red",
+          "ru": "Филодендрон Империал Ред"
+       },
+       "img": "https://f-f.flowers/image/cache/catalog/image/cache/catalog/produkt/komnatnye_rasteniya/listvennye/6073-500x600.webp"
+    },
+    {
+       "name": {
+          "en": "Philodendron Melanochrysum",
+          "ru": "Филодендрон Меланохризум"
+       },
+       "img": "https://aroidmarket.com/cdn/shop/products/MelanoLONG10_800x.jpg?v=1624522611"
+    },
+    {
+       "name": {
+          "en": "Philodendron Pink Princess",
+          "ru": "Филодендрон Пинк Принцесс"
+       },
+       "img": "https://izhevsk.zpitomnik.ru/upload/resize_cache/webp/iblock/c83/xtdagkhnhycr8l3ex04xp7ltctkpti0n.webp"
+    },
+    {
+       "name": {
+          "en": "Phoenix roebelenii",
+          "ru": "Финик Робелена"
+       },
+       "img": "https://topplant.ru/assets/images/products/1947/phoenix-roebelenii-27-120.jpg"
+    },
+    {
+       "name": {
+          "en": "Fittonia mix",
+          "ru": "Фиттония микс"
+       },
+       "img": "https://lenta.servicecdn.ru/globalassets/1/-/48/46/85/124844.png?preset=fulllossywhite"
+    },
+    {
+       "name": {
+          "en": "Freesia",
+          "ru": "Фрезия"
+       },
+       "img": "https://i.pinimg.com/1200x/0a/f7/8c/0af78c6ab1632cdfdff44408e4fe605c.jpg"
+    },
+    {
+       "name": {
+          "en": "Fuchsia",
+          "ru": "Фуксия"
+       },
+       "img": "https://dic.academic.ru/pictures/wiki/files/68/DoubleFuchsias_wb.jpg"
+    },
+    {
+       "name": {
+          "en": "Haworthia",
+          "ru": "Хавортия"
+       },
+       "img": "https://polygon.garden/image/cache/catalog/Plants/succulent-haworthia-fasciata-concolor-02-900x900.jpg"
+    },
+    {
+       "name": {
+          "en": "Hamaekiparis",
+          "ru": "Хамаекипарис"
+       },
+       "img": "https://baucenter.ru/upload/pictures/90/900000688-0.jpg"
+    },
+    {
+       "name": {
+          "en": "Chamaedorea",
+          "ru": "Хамедорея"
+       },
+       "img": "https://arsenal-orel.ru/upload/iblock/f03/fejt1as3k7vbih88rhz40k2d9kfrcihb.jpg"
+    },
+    {
+       "name": {
+          "en": "Hedera",
+          "ru": "Хедера"
+       },
+       "img": "https://gardengrove.ru/upload/iblock/aa6/plyushch_khedera_kheliks_vander_4hewoha12_1.jpg"
+    },
+    {
+       "name": {
+          "en": "Chlorophytum",
+          "ru": "Хлорофитум"
+       },
+       "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRnuNY5BtXAoc_9Mjq81JwywllhH4blk-hgo1nNV3t23xeRFA_VnR24cAp1--K7h-viTJCfNCNJinlagV8"
+    },
+    {
+       "name": {
+          "en": "Howea",
+          "ru": "Ховея"
+       },
+       "img": "https://cactus.by/sites/default/files/products/pbk_3413.jpg"
+    },
+    {
+       "name": {
+          "en": "Hoya",
+          "ru": "Хойя"
+       },
+       "img": "https://fiftyflowers.ru/image/catalog/blog/%D0%A5%D0%BE%D0%B9%D1%8F/khoyya-1-carnosa.jpg"
+    },
+    {
+       "name": {
+          "en": "Chrysanthemum",
+          "ru": "Хризантема"
+       },
+       "img": "https://orchidea-shop.ru/base/data/676mid.jpg"
+    },
+    {
+       "name": {
+          "en": "Cycas",
+          "ru": "Цикас"
+       },
+       "img": "https://www.flowerbunker.ru/tn_1200x1200__f_cc_ffffff_0/catalog/item/1000/851/tsikas1200.jpg"
+    },
+    {
+       "name": {
+          "en": "Cyclamen",
+          "ru": "Цикламен"
+       },
+       "img": "https://bloom-story.ru/wa-data/public/shop/products/74/02/274/images/2666/2666.750@2x.JPG"
+    },
+    {
+       "name": {
+          "en": "Cymbidium",
+          "ru": "Цимбидиум"
+       },
+       "img": "https://www.orgmebel.ru/upload/iblock/45a/45ac67394846db3916118f702f0bf052.jpg"
+    },
+    {
+       "name": {
+          "en": "Cineraria",
+          "ru": "Цинерария"
+       },
+       "img": "https://s13.stc.all.kpcdn.net/family/wp-content/uploads/2023/04/top-v-tsinerariya-960x540-1.jpg"
+    },
+    {
+       "name": {
+          "en": "Citrus Calamondin",
+          "ru": "Цитрус Каламондин"
+       },
+       "img": "https://citrus-mix.ru/upload/iblock/3de/hp9y41kg5fa4qilrpke36l2ex0tf2prx.webp"
+    },
+    {
+       "name": {
+          "en": "Citrus Fortunella",
+          "ru": "Цитрус Кумкват"
+       },
+       "img": "https://s9.travelask.ru/system/images/files/001/139/793/wysiwyg_jpg/0001.jpg?1535726940"
+    },
+    {
+       "name": {
+          "en": "Schefflera",
+          "ru": "Шеффлера"
+       },
+       "img": "https://images.dostavkin.su/uploads/images/large/704/085/70408543_p0.jpg"
+    },
+    {
+       "name": {
+          "en": "Schefflera Gerda",
+          "ru": "Шеффлера Герда"
+       },
+       "img": "https://flowerbunker.ru/media/catalog/item/3000/2114/SHeffleraGerda1200.jpg"
+    },
+    {
+       "name": {
+          "en": "Schefflera Gold Capella",
+          "ru": "Шеффлера Голд Капелла"
+       },
+       "img": "https://luckygreen.ru/wa-data/public/shop/products/09/42/4209/images/10226/10226.650@2x.jpg"
+    },
+    {
+       "name": {
+          "en": "Schefflera Compacta",
+          "ru": "Шеффлера Компакта"
+       },
+       "img": "https://topplant.ru/assets/images/products/2281/shefflera-kompakta-perepletennaya-31-125.jpg"
+    },
+    {
+       "name": {
+          "en": "Schefflera Nora",
+          "ru": "Шеффлера Нора"
+       },
+       "img": "https://topcvetok.ru/upload/iblock/8f3/8f3341a3ada782d32912ad360dcf4a5a.jpg"
+    },
+    {
+       "name": {
+          "en": "Schlumbergera",
+          "ru": "Шлюмбергера"
+       },
+       "img": "https://rastenia-biolit.ru/d/shlyumbergera_ili_dekabrist1.jpg"
+    },
+    {
+       "name": {
+          "en": "Epipremnum",
+          "ru": "Эпипремнум"
+       },
+       "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTSatoDl6Oet7zM-DAAKcYMg1QwJk83rm_wQy6VZ7wBFTDy3QuGLL4M4CgDVheGiGpD3hh0TPBezJ4uguk"
+    },
+    {
+       "name": {
+          "en": "Aeschynanthus",
+          "ru": "Эсхинантус"
+       },
+       "img": "https://organic-mix.ru/upload/medialibrary/a2b/dmzvd38mp3lppnznhv82e6l0iy1cwydl.jpg"
+    },
+    {
+       "name": {
+          "en": "Euphorbia",
+          "ru": "Эуфорбия"
+       },
+       "img": "https://flobas.ru/upload/iblock/cdd/la8vd94reo0rjht2y7vpeokvf5xkllix.JPG"
+    },
+    {
+       "name": {
+          "en": "Echinocactus ",
+          "ru": "Эхинокактус"
+       },
+       "img": "https://gardengrove.ru/upload/iblock/f63/xxamo3kourg0939um52sxoxlnzw2sf3e/ekhinokaktus_gruzoni_4ecgrkk91.jpg"
+    },
+    {
+       "name": {
+          "en": "Aechmea",
+          "ru": "Эхмея"
+       },
+       "img": "https://elektro-sadovnik.ru/wp-content/uploads/2016/12/ehmeya-8.jpg"
+    },
+    {
+       "name": {
+          "en": "Yucca",
+          "ru": "Юкка"
+       },
+       "img": "https://cdn.leroymerlin.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1545755556/lmcode/CENo7I-v3UOz7M7hvmbypw/13534319.jpg"
     }
  ]

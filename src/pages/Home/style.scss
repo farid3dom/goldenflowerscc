@@ -22,7 +22,7 @@
             font-size: 48px;
             font-family: var(--f-bold);
             color: var(--white);
-            background: #ffffff33;
+            background: var(--gray);
             padding: 150px 64px;
 
             .p1 {
@@ -99,7 +99,7 @@
         height: 70vh;
         display: flex;
         align-items: center;
-        background: #8e8e8e85;
+        background: var(--gray);
 
         .slide_wrapper {
             width: 60%;

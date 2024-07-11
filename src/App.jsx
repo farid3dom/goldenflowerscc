@@ -6,9 +6,10 @@ import './reset.css';
 import Navbar from './layout/Navbar/index';
 import NavbarMenu from './layout/Menu/index';
 import Footer from './layout/Footer/index';
+import SingleProduct from './layout/SingleProduct/index';
 
 //Import Pages
-import Home from './pages/Home/index';
+import Home from './pages/Home/index'
 import Flowers from './pages/Flowers/index'
 import Plants from './pages/Plants/index'
 
@@ -54,14 +55,18 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/flowers' element={<Flowers />} />
-          <Route path='/plants' element={<Plants />} />
 
+          <Route path='/flowers' element={<Flowers />} />
+          <Route path='/product' element={<SingleProduct />} />
+
+          <Route path='/plants' element={<Plants />} />
           <Route path='/plants/greenery' element={<Greenery />} />
           <Route path='/plants/grunt' element={<Grunt />} />
           <Route path='/plants/domestic' element={<Domestic />} />
 
           <Route path='/accessories' element={<Accessories />} />
+
+
           <Route path='/cooperation' element={<Cooperation />} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/about' element={<About />} />

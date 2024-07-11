@@ -118,7 +118,7 @@ const Index = () => {
                         {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
                             <GalleryCard
                                 key={i}
-                                img={PlantsBG}
+                                img={f.img}
                                 title={f.name[lang]}
                                 href={f.href}
                             />

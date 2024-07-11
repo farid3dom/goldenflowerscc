@@ -24,7 +24,7 @@
             text-align: center;
             font-size: 50px;
             backdrop-filter: blur(2px);
-            background: var(--gold);
+            background: var(--gray);
             padding: 35px;
         }
 
@@ -58,7 +58,7 @@
                     align-items: center;
                     color: var(--white);
                     backdrop-filter: blur(2px);
-                    background: #00000083;
+                    background: var(--gray);
                     text-align: center;
                     padding: 15px;
                     margin: 150px 0;
@@ -66,7 +66,7 @@
 
 
                     .count {
-                        
+
 
                         h1 {
                             font-size: 50px;
@@ -83,6 +83,7 @@
                             font-size: 11px;
                         }
                     }
+
                     &:hover {
                         transform: scale(1.2);
                     }
@@ -246,6 +247,7 @@
                 .flowers_slider {
                     display: flex;
                     flex-direction: row-reverse;
+                    margin-bottom: 35px;
 
                     .slide_wrapper {
                         width: 60%;
@@ -254,20 +256,22 @@
                     .main_slogan_text {
                         width: 40%;
                         color: var(--white);
-                        background: #00000080;
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
                         padding: 35px;
-        
+
                         h1 {
                             font-family: var(--f-bold);
                             font-size: 48px;
                             padding-bottom: 15px;
                         }
-        
+
                         ul {
+                            font-size: 24px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
-                            
+
 
                             li {
 
@@ -279,7 +283,7 @@
                                         color: var(--gold);
                                     }
                                 }
-                                
+
                             }
 
                         }
@@ -288,6 +292,7 @@
 
                 .plants_slider {
                     display: flex;
+                    margin-bottom: 35px;
 
                     .slide_wrapper {
                         width: 60%;
@@ -295,20 +300,22 @@
 
                     .main_slogan_text {
                         color: var(--white);
-                        background: #00000080;
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
                         padding: 35px;
-        
+
                         h1 {
                             font-family: var(--f-bold);
                             font-size: 48px;
                             padding-bottom: 15px;
                         }
-        
+
                         ul {
+                            font-size: 24px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
-                            
+
 
                             li {
 
@@ -320,7 +327,7 @@
                                         color: var(--gold);
                                     }
                                 }
-                                
+
                             }
 
                         }
@@ -338,20 +345,22 @@
 
                     .main_slogan_text {
                         color: var(--white);
-                        background: #00000080;
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
                         padding: 35px;
-        
+
                         h1 {
                             font-family: var(--f-bold);
                             font-size: 48px;
                             padding-bottom: 15px;
                         }
-        
+
                         ul {
+                            font-size: 24px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
-                            
+
 
                             li {
 
@@ -363,7 +372,7 @@
                                         color: var(--gold);
                                     }
                                 }
-                                
+
                             }
 
                         }
@@ -384,9 +393,9 @@
                     width: 100%;
                 }
             }
+
             .about_slider_container {
                 width: 100%;
-                padding-bottom: 0;
 
                 .container_title {
                     text-align: center;
@@ -406,14 +415,14 @@
 
                         .main_slogan_text {
                             width: 100%;
-                            padding: 35px;
+                            padding: 45px;
                             text-align: center;
 
                             h1 {
                                 font-size: 36px;
                             }
 
-                            p {
+                            ul {
                                 font-size: 20px;
                             }
                         }
@@ -437,7 +446,8 @@
                                 font-size: 36px;
                             }
 
-                            p {
+
+                            ul {
                                 font-size: 20px;
                             }
                         }
@@ -461,7 +471,7 @@
                                 font-size: 36px;
                             }
 
-                            p {
+                            ul {
                                 font-size: 20px;
                             }
                         }
@@ -482,9 +492,9 @@
                 padding: 15px;
             }
 
-            .animated_numbers_wrapper { 
-                padding-top: 60px; 
-          
+            .animated_numbers_wrapper {
+                padding-top: 60px;
+
 
                 .animated_num_wrap_inner {
                     display: flex;
@@ -567,6 +577,7 @@
                     .flowers_slider {
                         display: flex;
                         flex-direction: column;
+                        margin: 0;
 
                         .slide_wrapper {
                             width: 100%;
@@ -583,7 +594,7 @@
                             }
 
                             p {
-                                font-size: 14px;
+                                font-size: 20px;
                             }
                         }
                     }
@@ -591,6 +602,7 @@
                     .plants_slider {
                         display: flex;
                         flex-direction: column;
+                        margin: 0;
 
                         .slide_wrapper {
                             width: 100%;
@@ -615,6 +627,7 @@
                     .accessories_slider {
                         display: flex;
                         flex-direction: column;
+                        margin: 0;
 
                         .slide_wrapper {
                             width: 100%;

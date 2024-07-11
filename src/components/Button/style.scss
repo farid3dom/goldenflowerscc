@@ -59,10 +59,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .hover_purple {
+    .hover_blue {
         &:hover {
-            background: var(--main-color);
-            border: 1px solid var(--main-color);
+            background: #056add;
+            border: 1px solid #056add;
             color: var(--white);
 
             svg {
