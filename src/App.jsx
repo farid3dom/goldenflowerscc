@@ -6,6 +6,7 @@ import './reset.css';
 import Navbar from './layout/Navbar/index';
 import NavbarMenu from './layout/Menu/index';
 import Footer from './layout/Footer/index';
+import Loading from './layout/Loading/index';
 
 //Import Pages
 import Home from './pages/Home/index'
@@ -51,6 +52,7 @@ function App() {
         
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
+        <Loading />
 
 
         <Routes>
