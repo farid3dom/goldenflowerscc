@@ -4,7 +4,6 @@ import './style.scss';
 import HeaderRepeat from '../../layout/HeaderRepeat/index'
 
 //import images
-import ContactBG from '../../assets/media/images/materials/ulica.jpg'
 import Num1 from '../../assets/icons/logo_mini.png'
 import Num2 from '../../assets/icons/flowers_icons/chrysanthemum.png'
 import Num3 from '../../assets/icons/flowers_icons/rose.png'
@@ -22,7 +21,7 @@ function index() {
 
             <HeaderRepeat
                 title={'Контакты'}
-                img={ContactBG}
+                img={'https://sun9-11.userapi.com/impg/SV5dio_s-WuOSeti8urkzfFtF8vPfIh9ZsH1QQ/Gz72YJKRNHk.jpg?size=2560x1707&quality=95&sign=b15efe0d2281fdc23eeca731ce6ee10c&type=album'}
             />
 
             <div className="contacts_content_wrapper">

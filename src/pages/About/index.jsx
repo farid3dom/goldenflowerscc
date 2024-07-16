@@ -3,6 +3,8 @@ import './style.scss';
 
 import { useLocation } from 'react-router-dom';
 
+import CountUp from 'react-countup';
+
 import Slider from '../../components/Slider/index'
 import Button from '../../components/Button/Index'
 
@@ -135,7 +137,9 @@ const Index = () => {
 
                         <div className="year_section num_section">
                             <div className="year_count count">
-                                <h1>26+</h1>
+                                <h1>
+                                    <CountUp end={26} duration={2} />+
+                                </h1>
                             </div>
                             <div className="year_text num_text">
                                 <span>ЛЕТ ОПЫТА В СФЕРЕ ЦВЕТОЧНОГО БИЗНЕСА</span>
@@ -144,7 +148,7 @@ const Index = () => {
 
                         <div className="plantation_section num_section">
                             <div className="plantation_count count">
-                                <h1>100+</h1>
+                                <h1><CountUp end={100} duration={2} />+</h1>
                             </div>
                             <div className="plantation_text num_text">
                                 <span>ЛУЧШИХ ПЛАНТАЦИЙ СОТРУДНИЧАЮТ С НАМИ</span>
@@ -153,7 +157,7 @@ const Index = () => {
 
                         <div className="products_section num_section">
                             <div className="products_count count">
-                                <h1>25+</h1>
+                                <h1><CountUp end={25} duration={2} />+</h1>
                             </div>
                             <div className="products_text num_text">
                                 <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
@@ -162,7 +166,7 @@ const Index = () => {
 
                         <div className="starts_section num_section">
                             <div className="starts_count count">
-                                <h1>5+</h1>
+                                <h1><CountUp end={5} duration={2} />+</h1>
                             </div>
                             <div className="starts_text num_text">
                                 <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>

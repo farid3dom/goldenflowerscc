@@ -94,7 +94,7 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="right_content">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KjOUOvrEwLY?si=BFUtqLk7_QYqFIBv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fDuztNgtajw?si=8FXgbBLZj8AI0wdv" title="YouTube video player" frameborder="0" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>

@@ -55,6 +55,10 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
             position: relative;
 
+            .single_gallery_card a .image_wrapper img {
+               height: auto;
+            }
+
             .loading_wrapper,
             .no_result_wrapper {
                width: 100%;
@@ -110,6 +114,11 @@
                display: grid;
                gap: 10px;
                grid-template-columns: 1fr 1fr;
+
+               .single_gallery_card a .image_wrapper img {
+                  height: auto;
+                  object-fit: contain;
+               }
             }
 
             .content_title {

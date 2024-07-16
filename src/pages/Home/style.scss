@@ -49,12 +49,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         object-fit: cover;
-        padding: 125px 64px;
-        background: #000000b6;
+        padding:64px 0;
 
         .about_wrapper_inner {
             max-width: 1140px;

@@ -121,7 +121,6 @@ const Index = () => {
                                 img={f.img}
                                 title={f.name}
                                 href={f.href}
-
                             />
                         ))
                         }
