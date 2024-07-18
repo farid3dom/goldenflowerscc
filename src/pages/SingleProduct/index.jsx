@@ -43,8 +43,7 @@ const Index = () => {
          <div className="product_about">
             <h1 className='product_title'>{productData?.name[lang]}</h1>
             <span className='product_description'>{productData?.desc && productData.desc[lang]}</span>
-
-            <div className="product_flag">
+            {/* <div className="product_flag">
                {
                   productData?.productInfo?.map((p, i) => (
                      <div className="single-flag__item" key={i}>
@@ -53,11 +52,20 @@ const Index = () => {
                      </div>
                   ))
                }
-            </div>
-
+            </div> */}
             <div className="product_elements">
                <div className="product_elements_wrapper">
-                  <div className="product_type">
+                  <div className="product_type_0">
+                     <div className="product_quantity">
+                        <h1>Плантация</h1>
+                        <span>{productData?.plantation ? productData.plantation : '-'}</span>
+                     </div>
+                     <div className="product_color">
+                        <h1>Страна поставщика</h1>
+                        <span>{productData?.flag ? productData?.flag[lang] : '-'}</span>
+                     </div>
+                  </div>
+                  <div className="product_type_1">
                      <div className="product_quantity">
                         <h1>Количество в упаковке (шт.)</h1>
                         <span>{productData?.quantity ? productData.quantity : '-'}</span>

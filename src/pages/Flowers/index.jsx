@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './style.scss';
 
 //Import Images
-import FlowerBG from '../../assets/media/images/materials/black_gold_flowers.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -81,7 +80,7 @@ const Index = () => {
 
             <HeaderRepeat
                 title={'Цветы'}
-                img={FlowerBG}
+                img={'https://sun9-36.userapi.com/impg/4XweD-DC3E2gmh8IdfOQyVPCsZSLz-p8ZEqenA/C_i-g1-BkYE.jpg?size=1920x1280&quality=95&sign=714231975274a0a06bb3a8b4f1c7e68f&type=album'}
             />
 
             <div className="flowers_content_wrapper">

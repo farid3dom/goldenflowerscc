@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import '../Domestic/style.scss';
 
 //Import Images
-import DomesticBG from '../../../assets/media/images/materials/gold_plants.jpg';
 import Loading from '../../../assets/icons/loading.svg';
 
 //Import Layout
@@ -83,7 +82,7 @@ const Index = () => {
 
             <HeaderRepeat
                 title={'Комнатные растения'}
-                img={DomesticBG}
+                img={"https://sun9-42.userapi.com/impg/yDiaiiSfUeHH0DOYKoBqM0FOikGmkDXnCSVLwg/1IraivzOnuU.jpg?size=1920x1280&quality=95&sign=b764cf5ffcea021228149cb83d547181&type=album"}
             />
 
             <div className="domestic_content_wrapper">

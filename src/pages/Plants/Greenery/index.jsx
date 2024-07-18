@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import '../Greenery/style.scss';
 
 //Import Images
-import GreeneryBG from '../../../assets/media/images/materials/gold_plants.jpg';
 import Loading from '../../../assets/icons/loading.svg';
 
 //Import Layout
@@ -83,7 +82,7 @@ const Index = () => {
 
             <HeaderRepeat
                 title={'Зелень'}
-                img={GreeneryBG}
+                img={"https://sun9-18.userapi.com/impg/GCmVZrIvn949kON_tHsQ8ML2WpcqXA4OygJTWQ/NN1JSzgE2SA.jpg?size=1920x1280&quality=95&sign=94eaeb5aad090b91083416eb493d3426&type=album"}
             />
 
             <div className="greenery_content_wrapper">
