@@ -10,6 +10,7 @@ import Loading from './layout/Loading/index';
 
 //Import Pages
 import Home from './pages/Home/index'
+import Products from './pages/Products/index'
 import Flowers from './pages/Flowers/index'
 import Plants from './pages/Plants/index'
 import SingleProduct from './pages/SingleProduct/index'
@@ -58,8 +59,13 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
 
+          <Route path="/products/flowers" element={<Products />} />
+          <Route path="/products/plants" element={<Products />} />
+          <Route path="/products/accessories" element={<Products />} />
+          <Route path="/products/cooperations" element={<Products />} />
+
           <Route path='/flowers' element={<Flowers />} />
-          <Route path='/product' exact element={<SingleProduct />} />
+          <Route path='/products/:productType/:productName' exact element={<SingleProduct />} />
 
           <Route path='/plants' element={<Plants />} />
           <Route path='/plants/greenery' element={<Greenery />} />

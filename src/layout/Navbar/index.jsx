@@ -11,7 +11,6 @@ import ShopSVG from '../../assets/icons/shop.svg'
 import { Link } from 'react-router-dom';
 
 const Index = ({ menuIsActive, setMenuIsActive }) => {
-    console.log(menuIsActive)
 
     const menuShowHide = () => {
         menuIsActive ? setMenuIsActive(false) : setMenuIsActive(true)
