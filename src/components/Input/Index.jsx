@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-const Index = ({ type, className, readOnly, disabled, placeholder, value, maxLength, autoComplete, handleChange, icon, submitHandler }) => {
+const Index = ({ type, className, readOnly, disabled, placeholder, value, maxLength, autoComplete, handleChange, handleBlur, icon, submitHandler }) => {
    return (
       <div className="input__wrapper">
          <form onSubmit={submitHandler}>
@@ -15,6 +15,7 @@ const Index = ({ type, className, readOnly, disabled, placeholder, value, maxLen
                maxLength={maxLength}
                autoComplete={autoComplete}
                onInput={handleChange}
+               onBlur={handleBlur}
             />
 
             {

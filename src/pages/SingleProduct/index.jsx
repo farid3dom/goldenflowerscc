@@ -11,7 +11,6 @@ import Flowers from '../../utils/flowers.json';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-
    const lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
@@ -33,7 +32,7 @@ const Index = () => {
             break;
          default:
             setProductData(null);
-            navigate('/');
+            // navigate('/');
             console.log('asjdh')
       }
    }
