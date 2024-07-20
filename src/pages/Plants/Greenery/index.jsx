@@ -87,7 +87,7 @@ const Index = () => {
 
             <div className="greenery_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Нет <span>ничего</span> более изобретательного, чем <span>природа</span>!</p>
+                    <p className='content_title'><span>Зелень</span> помогает добиться плавного перехода оттенков и подчеркивает форму <span>букета</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}
