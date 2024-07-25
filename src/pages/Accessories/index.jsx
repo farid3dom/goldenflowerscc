@@ -81,12 +81,12 @@ const Index = () => {
 
             <HeaderRepeat
                 title={'Аксессуары'}
-                img={AccessoriesBG}
+                img={"https://cdn.davanuserviss.lv/storage/photos/products/010441/31767.jpg"}
             />
 
             <div className="accessories_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>аксессуаров</span>!</p>
+                    <p className='content_title'>Цветы говорят на языке красоты, а <span>аксессуары</span> помогают им рассказать свою <span>историю</span>!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}

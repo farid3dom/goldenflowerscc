@@ -112,7 +112,7 @@ const Index = () => {
 
                     <div className="main_slogan_text">
                         <h1>Только свежие цветы и растения из плодородной почвы</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vero a distinctio quis reprehenderit id provident dignissimos itaque eveniet!
+                        <p>Кроме того, на складе всегда имеются товары для ухода за растениями: грунт и почвосмеси, минеральные и органические удобрения, подкормки по оптовым ценам. Для владельцев салонов цветов и флористов представлен большой ассортимент аксессуаров для создания букетов
                         </p>
                         <div className="content_button">
                             <Button
@@ -132,7 +132,7 @@ const Index = () => {
 
                 <div className="map_wrapper_text">
                     <span>Импортируем товары со всех континентов мира</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quo tenetur repellendus eligendi, natus laboriosam. Doloremque dolores maiores dicta molestiae!</p>
+                    <p>Мы поставляем цветы, растения и аксессуары из Голландии, Италии, Испании, Израиль, США, Турция, Эквадор, Коста Рика, Колумбия, Эфиопия, Уганда, Кения и др.</p>
 
                     <div className="content_button">
                         <Button
