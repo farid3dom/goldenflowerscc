@@ -31,49 +31,49 @@ const Index = () => {
     const searchParams = new URLSearchParams(location.search);
     const searchValue = searchParams.get('search');
 
-    // useEffect(() => {
-    //     function getSearchedData() {
-    //         setGalleryLoading(true);
-    //         if (searchValue) {
-    //             setTimeout(() => {
-    //                 let searchedValue = FlowersJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
-    //                 setGalleryValue(searchedValue);
-    //                 setVisibleCardLength(maxLength);
-    //                 setGalleryLoading(false);
-    //             }, 500)
-    //         } else {
-    //             setTimeout(() => {
-    //                 setGalleryValue(FlowersJSON);
-    //                 setVisibleCardLength(maxLength);
-    //                 setGalleryLoading(false);
-    //             }, 500)
-    //         }
-    //     }
-    //     getSearchedData();
-    // }, [location])
+    useEffect(() => {
+        function getSearchedData() {
+            setGalleryLoading(true);
+            if (searchValue) {
+                setTimeout(() => {
+                    let searchedValue = FlowersJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                    setGalleryValue(searchedValue);
+                    setVisibleCardLength(maxLength);
+                    setGalleryLoading(false);
+                }, 500)
+            } else {
+                setTimeout(() => {
+                    setGalleryValue(FlowersJSON);
+                    setVisibleCardLength(maxLength);
+                    setGalleryLoading(false);
+                }, 500)
+            }
+        }
+        getSearchedData();
+    }, [location])
 
-    // const showMoreFunc = (e) => {
-    //     e.preventDefault();
+    const showMoreFunc = (e) => {
+        e.preventDefault();
 
-    //     if (!loading) {
-    //         setLoading(true);
-    //         setTimeout(() => {
-    //             setVisibleCardLength(prev => prev + maxLength);
-    //             return setLoading(false);
-    //         }, 500)
-    //     }
-    // }
+        if (!loading) {
+            setLoading(true);
+            setTimeout(() => {
+                setVisibleCardLength(prev => prev + maxLength);
+                return setLoading(false);
+            }, 500)
+        }
+    }
 
-    // //Search On Submit
-    // const searchSubmit = (e) => {
-    //     e.preventDefault();
-    //     searchInputValue ?
-    //         navigate(`/flowers?search=${searchInputValue}`)
-    //         :
-    //         navigate('/flowers');
+    //Search On Submit
+    const searchSubmit = (e) => {
+        e.preventDefault();
+        searchInputValue ?
+            navigate(`/flowers?search=${searchInputValue}`)
+            :
+            navigate('/flowers');
 
-    //     // setSearchInputValue('');
-    // }
+        // setSearchInputValue('');
+    }
 
     return (
         <div className="flowers_page_container">
@@ -94,7 +94,7 @@ const Index = () => {
                             placeholder={'Искать...'}
                             icon={'search'}
                             handleChange={(e) => setSearchInputValue(e.target.value)}
-                            // submitHandler={searchSubmit}
+                            submitHandler={searchSubmit}
                         />
                     </div>
                     {galleryLoading &&
@@ -137,7 +137,7 @@ const Index = () => {
                                         className={'btn btn_white hover_gold'}
                                         btnText={'Загрузить еще...'}
                                         disabled={loading ? true : false}
-                                        // clickHandler={showMoreFunc}
+                                        clickHandler={showMoreFunc}
                                     />
                                 </div>
                                 :

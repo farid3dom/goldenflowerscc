@@ -1,86 +1,379 @@
 [
-   {
-      "name": {
-         "en": "For floristry",
-         "ru": "Для флористики"
-      },
-      "img": "https://sun9-29.userapi.com/impg/RyLmhdg_XJB6dB9pE9iu9nMjvNeU9m12pgTQcA/WfMJzWXaexk.jpg?size=1080x720&quality=95&sign=7340454df30ea395fad3cdad6ae62020&type=album"
+ {
+   "name": {
+      "en": "For floristry",
+      "ru": "Для флористики"
    },
-   {
-      "name": {
-         "en": "Packing",
-         "ru": "Упаковка"
+   "images": [
+      {
+         "img": "https://sun9-29.userapi.com/impg/RyLmhdg_XJB6dB9pE9iu9nMjvNeU9m12pgTQcA/WfMJzWXaexk.jpg?size=1080x720&quality=95&sign=7340454df30ea395fad3cdad6ae62020&type=album"
       },
-      "img": "https://sun9-40.userapi.com/impg/oezBxyFg8Q6RYAH9TivATd3e0kgTwPfWbCcphg/siy36WjCrqM.jpg?size=1080x720&quality=95&sign=0b44467b8ea6f7ee96d349b0d2ec4b5e&type=album"
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "This department offers a wide range of products to help you create unique and stylish floral arrangements. Here you will find everything you need: from decorative ribbons and packaging to special tools and materials for working with flowers. Our department presents both classic and modern solutions that will inspire both professional florists and amateurs. We strive to provide high-quality products that will help realize the most daring ideas and make each composition truly unique.",
+      "ru": "Этот отдел предлагает широкий ассортимент товаров, которые помогут создать уникальные и стильные цветочные композиции. Здесь вы найдете всё необходимое: от декоративных лент и упаковки до специальных инструментов и материалов для работы с цветами. В нашем отделе представлены как классические, так и современные решения, которые вдохновят как профессиональных флористов, так и любителей. Мы стремимся предоставить высококачественные товары, которые помогут реализовать самые смелые идеи и сделать каждую композицию по-настоящему уникальной."
    },
-   {
-      "name": {
-         "en": "Baskets",
-         "ru": "Корзины"
-      },
-      "img": "https://sun9-67.userapi.com/impg/7WLMK8wBerTuOgDQKHNfemx-ssxBAF0l-YQXhw/-vPO_8M6eqQ.jpg?size=1080x720&quality=95&sign=23596fc3f021304b9d5f23b19a25e960&type=album"
+   "flag": {
+      "en": "China, Germany",
+      "ru": "Китай, Германия"
    },
-   {
-      "name": {
-         "en": "Ribbons",
-         "ru": "Ленты"
-      },
-      "img": "https://sun9-77.userapi.com/impg/BcvYYilhUPmN7Aw4nuVJQNFa5LprkiuWUPnJMg/gX36op2Ig7g.jpg?size=1080x720&quality=95&sign=99f9a94b39d88974c94ddfdc902eab97&type=album"
+   "department": "Инструменты, аксессуары"
+},
+ {
+   "name": {
+      "en": "Package",
+      "ru": "Упаковка"
    },
-   {
-      "name": {
-         "en": "Boxes",
-         "ru": "Ящики"
+   "images": [
+      {
+         "img": "https://sun9-40.userapi.com/impg/oezBxyFg8Q6RYAH9TivATd3e0kgTwPfWbCcphg/siy36WjCrqM.jpg?size=1080x720&quality=95&sign=0b44467b8ea6f7ee96d349b0d2ec4b5e&type=album"
       },
-      "img": "https://sun9-35.userapi.com/impg/qKEwXqmWJor8eWInxw8oOoICf8O6hN-U4-D9Pw/t-61sGMZF3k.jpg?size=1080x720&quality=95&sign=bc997172239e5573b72ae26b2dc00ced&type=album"
+      {
+         "img": "https://sun9-79.userapi.com/impg/3QHsB5ssjUoeeEwG05VMMTKsdBBB2MvPDQ3-MA/KEXiWtGL6zA.jpg?size=1080x720&quality=95&sign=265bec2a976b1ac74352c4746e0f41c6&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Packaging Department offers a variety of product design and packaging solutions that will help highlight the individuality of your product. Here you will find a wide selection of packaging materials: from kraft paper and boxes to stylish films and tapes. We offer both classic and modern packaging options that are suitable for any event - from gifts to corporate orders. Our goal is to help you create attractive and functional packaging that will not only protect your product, but also be a striking addition to your brand.",
+      "ru": "Отдел Упаковки предлагает разнообразные решения для оформления и упаковки товаров, которые помогут подчеркнуть индивидуальность вашего продукта. Здесь вы найдете широкий выбор упаковочных материалов: от крафт-бумаги и коробок до стильных пленок и лент. Мы предлагаем как классические, так и современные варианты упаковки, которые подойдут для любых мероприятий — от подарков до корпоративных заказов. Наша цель — помочь вам создать привлекательную и функциональную упаковку, которая не только защитит ваш товар, но и станет ярким дополнением к вашему бренду."
    },
-   {
-      "name": {
-         "en": "Dried flowers",
-         "ru": "Сухоцветы"
-      },
-      "img": "https://sun9-34.userapi.com/impg/vKJ05xMQoM5xFQJKO9NYvYSUYeHkX4n6OLKTSA/3L_NPujoFWY.jpg?size=1080x720&quality=95&sign=ee5b54a60828c79ac064c11cfb7aa8cd&type=album"
+   "flag": {
+      "en": "China, Germany",
+      "ru": "Китай, Германия"
    },
-   {
-      "name": {
-         "en": "Packages",
-         "ru": "Пакеты"
-      },
-      "img": "https://sun9-16.userapi.com/impg/Sz5xylz8r-OoveG3M-Q4JYr6l9s4FFeV_9jlNA/JErd3JpsP3E.jpg?size=1080x720&quality=95&sign=30a44ba0a2ea2c4e318d3ceb7cb015d8&type=album"
+   "department": "Пленки матовые, полупрозрачные, прозрачные и цветные, Крафт-бумага, Фетр, Сизал, Фаомиран и др."
+},
+ {
+   "name": {
+      "en": "Baskets",
+      "ru": "Корзины"
    },
-   {
-      "name": {
-         "en": "Soft toy",
-         "ru": "Мягкая игрушка"
+   "images": [
+      {
+         "img": "https://sun9-67.userapi.com/impg/7WLMK8wBerTuOgDQKHNfemx-ssxBAF0l-YQXhw/-vPO_8M6eqQ.jpg?size=1080x720&quality=95&sign=23596fc3f021304b9d5f23b19a25e960&type=album"
       },
-      "img": "https://sun9-57.userapi.com/impg/ypOwvm_hAN2wIvoy8cAmeHi6YsZKbxJayA1J6Q/ETSH1ENEnFQ.jpg?size=1080x720&quality=95&sign=4a5ebe619ee29754ed828c831c518791&type=album"
+      {
+         "img": "https://sun9-26.userapi.com/impg/JSwHY86aj_23TsTNV1jX9geAENYLpFuhY9r0-Q/pcvJAMt_u_4.jpg?size=1080x720&quality=95&sign=231742fce39137fd6be5ba0c6306d3ac&type=album"
+      },
+      {
+         "img": "https://sun9-59.userapi.com/impg/RskiIP8lZHmiW5LecgnB0Qpcf2ACYrkQbwzMFg/KroEiIO6CPE.jpg?size=1080x720&quality=95&sign=26928ae499997607f4dbd68cc6d0e38a&type=album"
+      },
+      {
+         "img": "https://sun9-57.userapi.com/impg/ms8bwccVh1djh6bQ_3WDSuPQnhv8zg6Ua0fPRQ/gOPeZj01E1c.jpg?size=1080x720&quality=95&sign=0b21843e4a7f7da9303b9054edafbb23&type=album"
+      }
+   ],
+   "desc": {
+      "en": "The Baskets department offers a wide range of stylish and functional solutions for decorating bouquets and flower arrangements. In our department you will find a variety of baskets and willows that will highlight the beauty of your plants and create a unique atmosphere in the interior. We offer high-quality materials and unique designs to ensure that each of your projects becomes a true work of art.",
+      "ru": "Отдел Корзины предлагает широкий ассортимент стильных и функциональных решений для оформления букетов и цветочных композиций. В нашем отделе вы найдете разнообразные корзины, ивовы, которые подчеркнут красоту ваших растений и создадут уникальную атмосферу в интерьере. Мы предлагаем высококачественные материалы и уникальный дизайн, чтобы каждый ваш проект стал настоящим произведением искусства."
    },
-   {
-      "name": {
-         "en": "Interior items",
-         "ru": "Предметы интерьера"
-      },
-      "img": "https://sun9-42.userapi.com/impg/N-8rwQHcR0eg-MlV9TuXjYwoQ72sW5qb7kvXKw/NifbK9d5FlI.jpg?size=1080x720&quality=95&sign=62dbeadb3acd3db23f2f0b0655ac3b9d&type=album"
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
    },
-   {
-      "name": {
-         "en": "Postcards",
-         "ru": "Открытки"
-      },
-      "img": "https://sun9-32.userapi.com/impg/71RZGHrvn_-l_cGcqwn4X8sPJZKfM66sNr0Upw/Doi1HUGWjbg.jpg?size=1080x720&quality=95&sign=2fb8cd6d9afb2454000f6ee31605cd9a&type=album"
+   "department": "Ивовые, травяные, бамбуковые и металлические."
+},
+ {
+   "name": {
+      "en": "Cartons",
+      "ru": "Коробки"
    },
-   {
-      "name": {
-         "en": "Vases",
-         "ru": "Вазы"
+   "images": [
+      {
+         "img": "https://sun9-65.userapi.com/impg/volC-0kkx1HwOg3PzKEsTL7T6-TIgZKy4TYjTw/yP4r9WoIzcY.jpg?size=2471x1647&quality=95&sign=081ed389a334a3a4340ed61d4d936d35&type=album"
       },
-      "img": "https://sun9-38.userapi.com/impg/zUG8Z0XHczaCOjplZ6p7at4V6FtWXOIp-DRjVA/MZSKs432fwk.jpg?size=1280x1280&quality=95&sign=3d3de39e1027fa7b45ca1404a16c4ef7&type=album"
+      {
+         "img": "https://sun9-80.userapi.com/impg/KNaO7_yhul1-dqWFjaoil_-vHq40VvVLNMEQwQ/L0ytPVPCT9A.jpg?size=1080x720&quality=95&sign=f441f2e9e7323f5a9eb87256408d37a7&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Cartons department offers a wide range of packaging for bouquets and floral arrangements, providing a practical and stylish solution for delivery and storage. Our boxes come in a variety of sizes, shapes and designs, allowing you to choose the perfect option for any occasion - from a romantic gift to a corporate display. Each box reliably protects flowers and emphasizes their beauty, creating a unique visual effect. Use our boxes to make your floral proposal even more memorable and elegant.",
+      "ru": "Отдел Коробки предлагает широкий выбор упаковки для букетов и цветочных композиций, предоставляя практичное и стильное решение для доставки и хранения. Наши коробки различаются по размерам, формам и дизайну, что позволяет выбрать идеальный вариант для любого случая — от романтического подарка до корпоративного оформления. Каждая коробка надежно защищает цветы и подчеркивает их красоту, создавая неповторимый визуальный эффект. Используйте наши коробки, чтобы сделать ваше цветочное предложение еще более запоминающимся и элегантным."
    },
-   {
-      "name": {
-         "en": "Plastic pots",
-         "ru": "Пластиковые горшки"
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Разные цвета и разные формы."
+},
+ {
+   "name": {
+      "en": "Ribbons",
+      "ru": "Ленты"
+   },
+   "images": [
+      {
+         "img": "https://sun9-77.userapi.com/impg/BcvYYilhUPmN7Aw4nuVJQNFa5LprkiuWUPnJMg/gX36op2Ig7g.jpg?size=1080x720&quality=95&sign=99f9a94b39d88974c94ddfdc902eab97&type=album"
       },
-      "img": "https://sun9-62.userapi.com/impg/9fhUV53mWIZU4h6IrF9P_YLj0XM_29EXZ5WsCw/PsShCEzNl0o.jpg?size=1080x720&quality=95&sign=9632bcbb5d42f7619043237a315f421d&type=album"
-   }
+      {
+         "img": "https://sun9-19.userapi.com/impg/J4OKLEcTzvUeduVwKw90eqSldDkQmpGimROL-w/mqct6hhdwDY.jpg?size=1080x720&quality=95&sign=6d114ac41d2a4ed9b5d6f022341c8c14&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Ribbons department offers an exquisite selection of decorative ribbons for bouquets and festive arrangements. Here you will find ribbons of various colors, textures and widths, which allows you to create unique accents and emphasize the individuality of each floral work. Our ribbons are ideal for tying bouquets, decorating vases and creating unique gift wrappings, adding elegance and style to every floral creation.",
+      "ru": "Отдел Ленты предлагает изысканный выбор декоративных лент для оформления букетов и праздничных композиций. У нас вы найдете ленты различных цветов, текстур и ширины, что позволяет создавать неповторимые акценты и подчеркивать индивидуальность каждой флористической работы. Наши ленты идеально подходят для завязывания букетов, декорирования ваз и создания оригинальных подарочных упаковок, добавляя элегантность и стиль в каждое цветочное произведение."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Атласные и декоративные."
+},
+ {
+   "name": {
+      "en": "Boxes",
+      "ru": "Ящики"
+   },
+   "images": [
+      {
+         "img": "https://sun9-35.userapi.com/impg/qKEwXqmWJor8eWInxw8oOoICf8O6hN-U4-D9Pw/t-61sGMZF3k.jpg?size=1080x720&quality=95&sign=bc997172239e5573b72ae26b2dc00ced&type=album"
+      },
+      {
+         "img": "https://sun9-17.userapi.com/impg/cXtHr6XmLXD2pBo6eC5EF1JKoaBDCDtdG0usGQ/DleQuGNw2Pg.jpg?size=1080x720&quality=95&sign=14a0e2d42a47429d8dc5700604bebb3a&type=album"
+      },
+      {
+         "img": "https://sun9-13.userapi.com/impg/vfGiYwTphMaNxl8tSDxejeq-eFA3raU9BbzD7Q/OqWhBqMvpPw.jpg?size=1080x720&quality=95&sign=95ebd063d2ae933ca58beb920e83ddd5&type=album"
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Boxes department will be of interest to lovers of the original design of flower arrangements and bouquets. We offer a variety of boxes in different shapes, sizes and finishes that are perfect for creating stylish gifts and unique flower arrangements. Boxes made of natural wood, plywood or cardboard give flowers a special charm and fit harmoniously into any interior. Use our boxes to highlight the beauty of your flowers and make a gift truly memorable.",
+      "ru": "Отдел Ящики заинтересует любителей оригинального оформления цветочных композиций и букетов. Мы предлагаем разнообразные ящики различных форм, размеров и отделок, которые идеально подходят для создания стильных подарков и уникальных цветочных аранжировок. Ящики из натурального дерева, фанеры или картона придают цветам особый шарм и гармонично вписываются в любой интерьер. Используйте наши ящики, чтобы подчеркнуть красоту ваших цветов и сделать подарок поистине запоминающимся."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Разные цвета и разные формы."
+},
+ {
+   "name": {
+      "en": "Dried flowers",
+      "ru": "Сухоцветы"
+   },
+   "images": [
+      {
+         "img": "https://sun9-34.userapi.com/impg/vKJ05xMQoM5xFQJKO9NYvYSUYeHkX4n6OLKTSA/3L_NPujoFWY.jpg?size=1080x720&quality=95&sign=ee5b54a60828c79ac064c11cfb7aa8cd&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "Dried flowers are amazing plants that retain their beauty and shape even after drying. They are becoming a popular decorative element due to their durability and variety of textures and colors. Dried flowers are ideal for creating bouquets, compositions and interior designs, giving the space naturalness and comfort. They also require minimal maintenance, making them an ideal choice for busy people looking to add a little nature into their lives. Dried flowers not only please the eye, but also remind us of how beautiful nature is in any of its manifestations.",
+      "ru": "Сухоцветы — это удивительные растения, которые сохраняют свою красоту и форму даже после сушки. Они становятся популярным элементом декора благодаря своей долговечности и разнообразию текстур и цветов. Сухоцветы идеально подходят для создания букетов, композиций и интерьерных решений, придавая пространству естественность и уют. Кроме того, они требуют минимального ухода, что делает их идеальным выбором для занятых людей, желающих добавить немного природы в свою жизнь. Сухоцветы не только радуют глаз, но и напоминают о том, как прекрасна природа в любом ее проявлении."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Силиконовые и сухие цветы."
+},
+ {
+   "name": {
+      "en": "Packages",
+      "ru": "Пакеты"
+   },
+   "images": [
+      {
+         "img": "https://sun9-16.userapi.com/impg/Sz5xylz8r-OoveG3M-Q4JYr6l9s4FFeV_9jlNA/JErd3JpsP3E.jpg?size=1080x720&quality=95&sign=30a44ba0a2ea2c4e318d3ceb7cb015d8&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Packages department offers many solutions for stylish packaging of your bouquets and flower arrangements. In our assortment you will find bags made of various materials, including paper, film and textiles, which are suitable for any holiday or event. Aesthetic design and variety of colors will help emphasize the individuality of each bouquet, making it even more attractive as a gift. Packaging in our bags will not only add charm, but also ensure reliability when transporting flowers.",
+      "ru": "Отдел Пакеты предлагает множество решений для стильной упаковки ваших букетов и цветочных композиций. В нашем ассортименте вы найдете пакеты из различных материалов, включая бумагу, пленку и текстиль, которые подойдут для любого праздника и мероприятия. Эстетичный дизайн и разнообразие цветов помогут подчеркнуть индивидуальность каждого букета, делая его еще более привлекательным для подарка. Упаковка в наши пакеты не только добавит шарма, но и обеспечит надежность при транспортировке цветов."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "цветные и прозрачные пакеты."
+},
+ {
+   "name": {
+      "en": "Soft toy",
+      "ru": "Мягкая игрушка"
+   },
+   "images": [
+      {
+         "img": "https://sun9-57.userapi.com/impg/ypOwvm_hAN2wIvoy8cAmeHi6YsZKbxJayA1J6Q/ETSH1ENEnFQ.jpg?size=1080x720&quality=95&sign=4a5ebe619ee29754ed828c831c518791&type=album"
+      },
+      {
+         "img": "https://sun9-68.userapi.com/impg/g1sRaF961UAUCII1R31IHoNZPjvS-FH1zuh4OA/fa_H2a02-Hk.jpg?size=849x1080&quality=95&sign=76b6a18518d71cf0fcee3a0005ec50b0&type=album"
+      },
+      {
+         "img": "https://sun9-39.userapi.com/impg/Z3y44b6yAT586OJ66LLpjrJCH1WcoKBKULQerQ/TsNnGSFGego.jpg?size=1280x719&quality=95&sign=f57aff21912239780daf84efb562f411&type=album"
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The Soft Toy department offers unique additions to flower bouquets and arrangements, adding a touch of warmth and coziness to every gift combination. Our soft toys come in a variety of shapes and sizes, perfect for creating unique and cute gifts that will delight both children and adults. By combining flowers with bright and cute toys, you can convey your feelings and make the moment special. Let your congratulations become unforgettable with the help of our original accessories!",
+      "ru": "Отдел Мягкая игрушка предлагает уникальные дополнения к цветочным букетам и композициям, привнося в каждую подарочную комбинацию нотку тепла и уюта. Наши мягкие игрушки различных форм и размеров идеально подходят для создания необычных и милых подарков, которые смогут порадовать как детей, так и взрослых. Комбинируя цветы с яркими и симпатичными игрушками, вы можете передать свои чувства и сделать момент особенным. Пусть ваше поздравление станет незабываемым с помощью наших оригинальных аксессуаров!"
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Разные игрушки и различных размеров."
+},
+ {
+   "name": {
+      "en": "Interior items",
+      "ru": "Предметы интерьера"
+   },
+   "images": [
+      {
+         "img": "https://sun9-42.userapi.com/impg/N-8rwQHcR0eg-MlV9TuXjYwoQ72sW5qb7kvXKw/NifbK9d5FlI.jpg?size=1080x720&quality=95&sign=62dbeadb3acd3db23f2f0b0655ac3b9d&type=album"
+      },
+      {
+         "img": "https://sun9-19.userapi.com/impg/Ibf7h7_f2kMf8XC1EuEfOw73vBieFzRTosyCgg/1D4C7y5-e98.jpg?size=2560x2560&quality=95&sign=d445600d22a3d358a0703d04fd99621f&type=album"
+      },
+      {
+         "img": "https://sun9-39.userapi.com/impg/IpT8MZvlw6diLydyP4hgIFWa5QfUc8GJCrG4Lg/mHbxNCwT9t8.jpg?size=2560x1280&quality=95&sign=b473001692c1548f5277a8a3712db596&type=album"
+      },
+      {
+         "img": "https://sun9-27.userapi.com/impg/m5I6auDCXgTP-_c_rVg7I1oje5qr4e4l890c-A/A73GiyEhh-k.jpg?size=2144x2144&quality=95&sign=2bc0b6379be62bb8c6bd0b4e26f8b4bd&type=album"
+      }
+   ],
+   "desc": {
+      "en": "The Interior Items department offers a wide selection of stylish and original decors that will perfectly complement your floral arrangements and bring harmony to any space. Diffusers, candles, decorative vases, soaps and other items that will help highlight the beauty of your flowers and create a cozy atmosphere in your home or office. We make sure that every detail is functional and aesthetically pleasing, allowing you to harmoniously combine nature with your interior. Create a unique style for your space by choosing accessories from our range!",
+      "ru": "Отдел Предметы интерьера предлагает широкий выбор стильных и оригинальных декоров, которые идеально дополнят ваши цветочные композиции и привнесут гармонию в любое пространство. Диффузоры, свечи, декоративные вазы, мыло и другие предметы, которые помогут выделить красоту ваших цветов и создать уютную атмосферу в доме или офисе. Мы заботимся о том, чтобы каждая деталь была функциональной и эстетически привлекательной, позволяя вам гармонично сочетать природу с интерьером. Создайте уникальный стиль вашего пространства, выбрав аксессуары из нашего ассортимента!"
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Диффузоры, свечи, декоративные вазы, мыло и др."
+},
+ {
+   "name": {
+      "en": "Postcards",
+      "ru": "Открытки"
+   },
+   "images": [
+      {
+         "img": "https://sun9-32.userapi.com/impg/71RZGHrvn_-l_cGcqwn4X8sPJZKfM66sNr0Upw/Doi1HUGWjbg.jpg?size=1080x720&quality=95&sign=2fb8cd6d9afb2454000f6ee31605cd9a&type=album"
+      },
+      {
+         "img": "https://sun9-23.userapi.com/impg/-YUtjZURcHiNQ0OVfTRJdItWuphYKP5N2JIxfg/PwAktxfU0IQ.jpg?size=2559x1290&quality=95&sign=992d9595e4b4c49ea96ba921e733ea28&type=album"
+      },
+      {
+         "img": "https://sun9-68.userapi.com/impg/bdVwFTGGBrs_NULaG-s9UwzimAkEv4TaUW-hVA/eJfj1Z1A80I.jpg?size=2409x1223&quality=95&sign=d9cce9cddc3ed756c5a19e5e32a9debb&type=album"
+      },
+      {
+         "img": "https://sun9-27.userapi.com/impg/SYIx4Lm-jCBUN0G3OUP9iVw16X-PEC4yLfGXSQ/zmpwCy7zCNc.jpg?size=2447x1240&quality=95&sign=dffb7d0143851b5280f8bf736d5e2980&type=album"
+      }
+   ],
+   "desc": {
+      "en": "The Cards department offers a variety of quality and stylish greeting cards that will perfectly complement your floral bouquets and gifts. We believe that every message plays an important role in expressing feelings, so our cards are created with love and attention to detail. Here you will find both classic and modern designs that are suitable for any occasion, from birthdays to weddings. Our cards will help make your gift even more individual and unforgettable, adding a special touch of warmth and care.",
+      "ru": "Отдел Открытки предлагает разнообразие качественных и стильных поздравительных открыток, которые идеально дополнят ваши цветочные букеты и подарки. Мы уверены, что каждое послание играет важную роль в выражении чувств, поэтому наши открытки созданы с любовью и вниманием к деталям. Здесь вы найдете как классические, так и современные дизайны, которые подойдут для любого случая: от дней рождения до свадеб. Наши открытки помогут сделать ваш подарок еще более индивидуальным и незабываемым, добавив особую нотку теплоты и заботы."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Деревянные и бумажные."
+},
+ {
+   "name": {
+      "en": "Vases",
+      "ru": "Вазы"
+   },
+   "images": [
+      {
+         "img": "https://sun9-4.userapi.com/impg/sFdiO3-bAhtXJlhAmYKxaNBoOo_hawK69Xz4dQ/WHHHdpUkgf4.jpg?size=2434x2434&quality=95&sign=6cccab47b5ff089d8bf85c52d58936bb&type=album"
+      },
+      {
+         "img": "https://sun9-80.userapi.com/impg/AUDQkBmtpHEgI1MeWJERtlIqquh4KZv3R3NL_A/PBcJvmRkGOY.jpg?size=1080x720&quality=95&sign=bc7828664a83fd80e8890945ed45e68c&type=album"
+      },
+      {
+         "img": "https://sun9-38.userapi.com/impg/zUG8Z0XHczaCOjplZ6p7at4V6FtWXOIp-DRjVA/MZSKs432fwk.jpg?size=1280x1280&quality=95&sign=3d3de39e1027fa7b45ca1404a16c4ef7&type=album"
+      },
+      {
+         "img": "https://sun9-54.userapi.com/impg/hC_06o9YbrbN6UzKND-E4WYhjUQt0qWcTr_6hQ/H7fSciZdVOg.jpg?size=1728x1728&quality=95&sign=a1955c133bc28349243268e30274fbec&type=album"
+      }
+   ],
+   "desc": {
+      "en": "The Vases department offers a wide selection of stylish and original vases suitable for any composition and interior. We are confident that a correctly selected vase not only enhances the beauty of flowers, but also becomes a bright accent in your home or at an event. Our assortment includes both sophisticated classic models and modern design solutions made from various materials. Each vase is crafted with attention to detail and quality to provide lasting support for your flower mushrooms and bring joy to their owners.",
+      "ru": "Отдел Ваз предлагает широкий выбор стильных и оригинальных ваз, подходящих для любых композиций и интерьеров. Мы уверены, что правильно подобранная ваза не только подчеркивает красоту цветов, но и становится ярким акцентом в вашем доме или на мероприятии. В нашем ассортименте представлены как утонченные классические модели, так и современные дизайнерские решения, выполненные из различных материалов. Каждая ваза создана с вниманием к деталям и качеству, чтобы обеспечить надежную поддержку вашим цветочным грибам и подарить радость их обладателям."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Стеклянные вазы различных форм и размеров."
+},
+ {
+   "name": {
+      "en": "Plastic pots",
+      "ru": "Пластиковые горшки"
+   },
+   "images": [
+      {
+         "img": "https://sun9-62.userapi.com/impg/9fhUV53mWIZU4h6IrF9P_YLj0XM_29EXZ5WsCw/PsShCEzNl0o.jpg?size=1080x720&quality=95&sign=9632bcbb5d42f7619043237a315f421d&type=album"
+      },
+      {
+         "img": "https://sun9-78.userapi.com/impg/C5bkFJBMxLaZnzperHDbbNkZsluIvGlh1ubXEA/KT2pcb82rgg.jpg?size=2560x2560&quality=95&sign=3696e3f79d3cbe10983f16b5e125ea5d&type=album"
+      },
+      {
+         "img": "https://sun9-23.userapi.com/impg/7FRipzrK_Vy3uXmq8OoOZqg_GCWclEZwL8NeIg/A0GyWfD1o6Q.jpg?size=2329x2329&quality=95&sign=4611abc7a13b69d26fe1da0b3d9acbd6&type=album"
+      },
+      {
+         "img": "https://sun9-36.userapi.com/impg/xSQui1kK591CpCGP7930CuUnuavXUvaSCZP_uQ/Dfo7JDG9el8.jpg?size=2246x2246&quality=95&sign=1226615d685fc5c8b810d4364a339338&type=album"
+      }
+   ],
+   "desc": {
+      "en": "The Plastic Pots department offers practical and varied solutions for planting. Our range includes pots of various shapes, sizes and colors, making it easy to choose the perfect option for any plant and interior. Plastic pots are lightweight and durable, and have excellent resistance to moisture and sunlight, making them ideal for both indoor and outdoor use. With modern designs and functionality, our pots will help you create a cozy atmosphere and enhance the beauty of your green pets.",
+      "ru": "Отдел Пластиковые горшки предлагает практичные и разнообразные решения для посадки растений. Наш ассортимент включает горшки различных форм, размеров и цветов, что позволяет легко выбрать идеальный вариант для любого растения и интерьера. Пластиковые горшки легкие и долговечные, они обладают отличной устойчивостью к воздействию влаги и солнечных лучей, что делает их идеальными для использования как в помещении, так и на улице. Благодаря современным дизайнам и функциональности, наши горшки помогут вам создать уютную атмосферу и подчеркнуть красоту ваших зеленых питомцев."
+   },
+   "flag": {
+      "en": "China",
+      "ru": "Китай"
+   },
+   "department": "Разные цвета и разные формы и размеры."
+}
 ]

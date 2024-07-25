@@ -83,12 +83,12 @@ const Index = () => {
 
             <HeaderRepeat
                 title={'Грунт и удобрения'}
-                img={GruntBG}
+                img={"https://cdn.botanichka.ru/wp-content/uploads/2022/04/grunt-kak-primenyat-povtorno-i-opasno-li-eto.jpeg"}
             />
 
             <div className="grunt_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>растений</span>!</p>
+                    <p className='content_title'>Как поддержка друзей питает наши <span>сердца</span>, так и хорошее <span>удобрение</span> питает растения!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}

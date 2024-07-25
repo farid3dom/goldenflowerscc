@@ -87,7 +87,7 @@ const Index = () => {
 
             <div className="plants_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>Вы <span>никогда</span> не найдете столько <span>растений</span>!</p>
+                    <p className='content_title'> <span>Природа</span> всегда находит способ напомнить нам о том, что <span>жизнь</span> — это непрерывный цикл роста и обновления!</p>
                     <div className="search_bar">
                         <Input
                             value={searchInputValue}

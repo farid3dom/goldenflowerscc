@@ -1,373 +1,262 @@
 [
-    {
-       "name": {
-          "en": "Spray balm for flowers",
-          "ru": "Спрей бальзам для для цветков"
-       },
-       "img": "https://sun9-12.userapi.com/impg/bMnarHRBwHo4LSQLdWYdtUh1oNI_sNKUitbfCA/dPfkefeEk0c.jpg?size=2560x1920&quality=95&sign=1375c81e39006bf4c4af252bf055c63d&type=album"
-    },
-    {
-       "name": {
-          "en": "Means for flowers and plants",
-          "ru": "Средство для цветков и растений"
-       },
-       "img": "https://sun9-77.userapi.com/impg/DJgL00Nvp5U-Br_4U5ASrd4LG82o-HiIUyecqw/gpuzgRHI5eI.jpg?size=2560x1920&quality=95&sign=0156db3194d409fa49e40b68bf24e315&type=album"
-    },
-    {
-       "name": {
-          "en": "Elixir for seedlings",
-          "ru": "Эликсир для рассады"
-       },
-       "img": "https://sun9-2.userapi.com/impg/kyryct50vb_aWBOlAuY1yfrvK4u5hbR6ZMZhCg/VW8E9m9wNhM.jpg?size=2560x1920&quality=95&sign=d2170713f20687382845cb245f0d7db5&type=album"
-    },
-    {
-       "name": {
-          "en": "Elixir for growth",
-          "ru": "Эликсир для роста"
-       },
-       "img": "https://sun9-52.userapi.com/impg/BFA7V8r05JpFQP-rmwuxmcACoJz1SbnjdilTCw/4g-lBVxgpH4.jpg?size=2560x1920&quality=95&sign=32986e42901e28499dc797105f8f969d&type=album"
-    },
-    {
-       "name": {
-          "en": "Vegetable fertilizer",
-          "ru": "Овощное удобрение"
-       },
-       "img": "https://sun9-18.userapi.com/impg/ocjtOzPmR0pwvSxnYFAleRAJ-vj4NTL6-qyZUA/XuDlCHmjAno.jpg?size=2560x1920&quality=95&sign=8535a04666f3d07ff43adc7acea7a91d&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": "Спрей для предотвращения испарения влаги из цветов"
-       },
-       "img": "https://sun9-77.userapi.com/impg/yNzqIWxigmVHWwOhTIIY-SaS3Vm0JiY8mrd6yw/lVwZysbI-P4.jpg?size=2560x1920&quality=95&sign=ab3b1ee18c8a6ed1aaa873df24f33c0a&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": "Удобрение для продолжительного цветения"
-       },
-       "img": "https://sun9-18.userapi.com/impg/uDbWijhmls5Add7pM_GLoc59VEJ64V-3gdaZ3Q/Kk2uIGzhyFQ.jpg?size=2560x1920&quality=95&sign=c96df481a75709c096e578ddfa73f4fa&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": "Универсальное удобрение"
-       },
-       "img": "https://sun9-26.userapi.com/impg/cJEsN_7130na3-3jsYDH8r0IO1w3OIocsS6msA/D0K1SSrE090.jpg?size=2560x1920&quality=95&sign=5aa0c66f8f5c61fb123cda0e49b279d7&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": "Минеральное удобрение пролонгированного действия"
-       },
-          "ru": "https://sun9-30.userapi.com/impg/YYodj6FdkhlI6_SdnxgMeWSFxrVitLEPpzQnsg/RHz0X-E40R8.jpg?size=2560x1920&quality=95&sign=2128b724a93e36269334429ba97318f5&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": "Лекарство от колорадского жука"
-       },
-       "img": "https://sun9-13.userapi.com/impg/glivfmHiNi7ksvpzLqtDKSzXqgTK3SnRdB-rqg/Xh6QpT60Xew.jpg?size=2560x1920&quality=95&sign=b8017cc4e3dbd8d3a4d1caa8a43930c2&type=album"
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    },
-    {
-       "name": {
-          "en": "",
-          "ru": ""
-       },
-       "img": ""
-    }
- ]
+ {
+   "name": {
+      "en": "Spray balm for flowers",
+      "ru": "Спрей бальзам для для цветков"
+   },
+   "images": [
+      {
+         "img": "https://sun9-12.userapi.com/impg/bMnarHRBwHo4LSQLdWYdtUh1oNI_sNKUitbfCA/dPfkefeEk0c.jpg?size=2560x1920&quality=95&sign=1375c81e39006bf4c4af252bf055c63d&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "NOTE! The shape of the fertilizer bottle may differ from the photo depending on the delivery batch. If you receive a flat bottle, when you remove the cap, a protective plastic ring remains on the neck, which also needs to be removed. After this, screw the nozzle tightly. The balm is made from organic raw materials based on wood vinegar from walnut shells, a proven means for promoting growth, controlling pests, and improving soil quality. Suitable for indoor, exotic, garden plants and flowers, as well as for fruit crops, various vegetables and fruits. Organic fertilizer, a unique environmentally friendly product. This series is intended for indoor decorative flowering plants (violet, hibiscus, geranium, spathiphyllum, anthurium, fuchsia, primrose, balsam, hydrangea, camellia, petunia, begonia, etc.) The fertilizer contains a complex of macro- and microelements necessary for complete and balanced plant nutrition. Ingredients: water, wood vinegar from walnut shells, a complex of macro- and microelements\n(Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B)\nAction:\nPromotes plant growth and development;\nActivates photosynthesis;\nPromotes abundant foliage growth and the formation of strong shoots;\nMaintains rich color;\nIncreases plant immunity to diseases and pests.\nApplication: \nAs a top dressing to improve plant growth and strengthen immunity: spray on leaves/stems with medium intensity once every 10 days.\nWhen the plant wilts (yellowing of leaves, loss, weakening of stems), as well as to combat diseases and pests, spray the affected areas once every 3 days for 10 days. If necessary, extend for another 10 days. \n\nRecommendations:\nDo not use this product together with alkaline preparations!\nApply the balm only to the leaves, do not apply to the flowers!\n\nThe balm has the smell of liquid smoke.\n\nPrecautionary measures:\n\nUse strictly as directed.\n\nIn case of contact with eyes or mouth, rinse with plenty of water and consult a doctor.\n\nKeep out of the reach of children.\n\nAvoid exposure to direct sunlight.\n\n \n\nStore at temperature: from 1C to 35C\n\nShake before use, turn the valve to SPRAY or STREAM, and use as directed.\nEquipment\nLiquid in a plastic bottle with spray\n\nCharacteristics\nEquipment\nQuantity per package, pcs.\n1\nBasic\nProduct release form\nSpray\nApplication area\nuniversal, to stimulate root formation, against diseases\nPest type\nAphid, Ant\nProduct weight, g\n500\nPurpose of the fertilizer: For decorative deciduous crops, For cacti and succulents, For greens / microgreens, For indoor plants, For palm trees, Universal\nAre common\nManufacturer country\nRussia\nVolume\nVolume, ml\n500\nAdditional\nvendor code\n758037713\nType\nFertilizer\nColor\nWhite\nSeller code\nBLM-KR-3\nInformation about technical characteristics, delivery set, country of manufacture, appearance and color of the product is for reference only and is based on the latest information available at the time of publication\nProduct selections in the Fertilizers category\nPotassium permanganate Pharmacy\nWeed killers\nTornado Weed Killer\nPotassium Monophosphate Fertilizer\nDrug 30 Plus\nZircon for Plants\nRoundup\nFull Action Herbicides\nPotassium permanganate Potassium permanganate\nSapropel\n\nProduct reviews\n790\n\nQuestions about the product\n6\n+38\nShow first: new and usefulhighly rated\nN\nNatalya U.\nJuly 21, 2024\nProduct purchased on OZON\nAdvantages\nGood packing \nA comment\nDidn’t appreciate it, didn’t see the result and leaves stains on the leaves \nDid this review help you?\n\nYes 0\n\nNo 0\n\nAnswer\n\n\nSHAHCOAL\nin response to Natalya U.\nJuly 21, 2024\nHello! Thank you for your high rating and review of the product. Happy shopping. We are waiting for you again!\n\n0\n\n0\n\nAnswer\n\nN\nNatalia Yu.\nJuly 19, 2024\nProduct purchased on OZON\nI received the fertilizer quickly, well packaged, along with BIOCHARS. The box contained a colorful booklet with all types of products offered and descriptions. I haven’t tried it in action yet. I hope everything will be great. Thank you. I recommend \nDid this review help you?\n\nYes 0\n\nNo 0\n\nAnswer\n\n\nSHAHCOAL\nin response to Natalia Yu.\nJuly 21, 2024\nHello! Thank you for your high rating and review of the product. Happy shopping. We are waiting for you again!\n\n0\n\n0\n\nAnswer\n\nE\nEkaterina M.\nJuly 17, 2024\nProduct purchased on OZON\nI use fertilizer on outdoor geraniums. Flowers began to feel better, foliage is growing faster, chlorosis is gradually disappearing. The smell doesn't bother me, but at home I would spray it) \nDid this review help you?\n\nYes 0\n\nNo 0\n\nAnswer\n\n\nSHAHCOAL\nin response to Ekaterina M.\nJuly 18, 2024\nHello! Thank you for your high rating and review of the product. Happy shopping. We are waiting for you again!\n\n0\n\n0\n\nAnswer\n\nWe also recommend\n\n\n385₽\n850₽\n−55%\nJapanese FUJIMA fertilizer, universal for all types of indoor plants (strengthening), complex fertilizer for gardens and flowers, 10 pcs, 35 ml\n4.9 3,667 reviews\n\nOrganic liquid fertilizer for flowers, roses, peonies 500ml, Organic+ We also recommend\n211₽\n514₽\n−59%\nOrganic liquid fertilizer for flowers, roses, peonies 500ml, Organic+\n5.0 51 reviews\n\nGold Line diatomite large, soil improver for indoor plants, flowers, garden and vegetable garden 5 l, Organic+ We also recommend\n433₽\n1,245₽\n−65%\nLarge Gold Line diatomite, soil improver for indoor plants, flowers, gardening, 5 l, Organic+\n4.8 192 reviews\n\nAmmophos nitrogen-phosphorus fertilizer 1kg We also recommend\n265₽\n449₽\n−41%\nAmmophos nitrogen-phosphorus fertilizer 1kg\n4.9 261 reviews\n4.8 / 5\nThe rating is formed based on current reviews\n5 stars\t\n677\n4 stars\t\n75\n3 stars\t\n22\n2 stars\t\n8\n1 star\t\n8\nOnly those who have purchased the product can leave reviews. This is how we form an honest rating\nSimilar products\n\n\n415₽\n699 RUR\n−41%\nFertilizer for ficus and palm trees Purshat. Mineral growth stimulator (Purshat) spray 500 ml\n4.7 665 reviews\n\n\n403₽\n998₽\n−60%\n864 pcs left\nSpring - summer fertilizer for plants of all crops Purshat 3 kg\n4.9 655 reviews\n\nFertilizer FERTIKA FERTIKA CRYSTALON for garden flowers 0.5 l Similar products\n328₽\n1,990₽\n−84%\n77 pcs left\nFertika\nFertilizer FERTIKA FERTIKA CRYSTALON for garden flowers 0.5 l\n4.9 22 reviews\n\nCEO Fertilizer, 2400ml Similar products\n413₽\n1,097₽\n−62%\n1₽/piece\nCEO Fertilizer, 2400ml\n4.9 1,243 reviews\n\nAlatar Fertilizer, 25ml Similar products\n334₽\n790₽\n−58%\n54 pcs left\nAlatar Fertilizer, 25ml\n4.9 159 reviews\n\n\n294₽\n450₽\n−35%\nGREENLIFE organic fertilizer Fertilizer, 500ml\n4.9 45 reviews\n\nLiquid fertilizer \"For flowering plants\" JOY, 250 ml Similar products\n267₽\n425₽\n−37%\nLiquid fertilizer \"For flowering plants\" JOY, 250 ml\n4.9 32 reviews\n\nFertilizer for indoor flower plants Similar products\n569₽\n1,080₽\n−47%\n23 pieces left\nFertilizer for indoor flowers\n4.9 229 reviews\n\nFertilizer for indoor plants LOMONOSOFF 150 ml Similar products\n274₽\n950₽\n−71%\n151 pieces left\nFertilizer for indoor plants LOMONOSOFF 150 ml\n4.9 73 reviews\n\nNutrient additive for plants ZION LIGHT (ZION LIGHT) \"For orchids\", replaces fertilizer, one application for up to two years, plastic container 450g Similar products\n603₽\n920₽\n−34%\n188 pcs left\nZION\nNutrient additive for plants ZION LIGHT (ZION LIGHT) \"For orchids\", replaces fertilizer, one application for up to two years, plastic container 450g\n4.9 225 reviews\n\nLiquid mineral fertilizer for all indoor plants Bona Forte bottle 285 ml Similar products\n420₽\n495 RUR\n−15%\nLiquid mineral fertilizer for all indoor plants Bona Forte bottle 285 ml\n4.9 216 reviews\n\nLiquid fertilizer plant growth stimulator Sea cocktail for vegetables, flowers, berries, seedlings Similar products\n431 RUR\n900₽\n−52%\nLiquid fertilizer plant growth stimulator Sea cocktail for vegetables, flowers, berries, seedlings\n4.9 4,150 reviews\n\n\n519 RUR\n822₽\n−37%\nAminosil\nVitamins for flowers Aminosil, concentrate 250 ml (Fertilizer, fertilizing)\n4.9 315 reviews\n\nYOKUDO Fertilizer, 350ml Similar products\n294₽\n699 RUR\n−58%\n29 RUR/piece\nYOKUDO Fertilizer, 350ml\n4.9 1,831 reviews\n\n\n205₽\n499₽\n−59%\nNadzor Fertilizer for indoor plants, flowers: primroses and violets, mineral, liquid, fertilizing, 200 ml.\n4.9 219 reviews\n\nDobrotsvet Fertilizer, 500ml Similar products\n323₽\n590₽\n−45%\n252 pcs left\nDobrotsvet Fertilizer, 500ml\n4.9 588 reviews\n\nBiona Fertilizer, 100ml Similar products\n319₽\n950₽\n−66%\n32 pcs left\nBiona Fertilizer, 100ml\n5.0 70 reviews\n\nComplex granular fertilizer Fertika Universal-2, 2.5 kg Similar products\n411₽\n898₽\n−54%\n8 pieces left\nFertika\nComplex granular fertilizer Fertika Universal-2, 2.5 kg\n5.0 13 reviews\n\nBona Forte Fertilizer Similar Products\n426₽\n899 RUR\n−53%\n68 pcs left\nBona Forte Fertilizer\n5.0 127 reviews\n\nNutrient additive for plants ZION (ZION) \"Cosmo\" for indoor plants, replaces fertilizer, one application for up to three years, plastic container 700g Similar products\n818₽\n1,390₽\n−41%\n927 pcs left\nZION\nNutrient additive for plants ZION (ZION) \"Cosmo\" for indoor plants, replaces fertilizer, one application for up to three years, plastic container 700g\n4.9 4,256 reviews\n\nVitamins for plants Aminosil Universal, concentrate 5 ml. (Fertilizer, fertilizing). Similar products\n166₽\n242₽\n−31%\nAminosil\nVitamins for plants Aminosil Universal, concentrate 5 ml. (Fertilizer, fertilizing).\n4.7 71 reviews\n\n\n305₽\n650₽\n−53%\n103 pcs left\nIon soil for aroid zamioculcas and anthurium 0.3 kg LOMONOSOFF / Highly nutritious organic additive to soil, soil substrate peat drainage vermicompost vermiculite for indoor plants\n4.8 359 reviews\n\nPremium garden diatomite for plants and indoor flowers 5l, Organic+ Similar products\n442₽\n1,254₽\n−65%\nPremium garden diatomite for plants and indoor flowers 5l, Organic+\n4.9 212 reviews\n\nFertilizer against diseases 100 ml GOTA VITA \"Protection against Diseases\" Liquid organic Drop of Life Similar products\n513₽\n1,130₽\n−55%\nFertilizer against diseases 100 ml GOTA VITA \"Protection against Diseases\" Liquid organic Drop of Life\n4.9 351 reviews\n\nFertilizer for thujas and conifers LOMONOSOFF 150 ml Similar products\n274₽\n950₽\n−71%\n151 pieces left\nFertilizer for thujas and conifers LOMONOSOFF 150 ml\n4.8 58 reviews\n\nMycorrhiza for plants Double Roots 1 kg Planting Watering Similar products\n557₽\n945 RUR\n−41%\nMycorrhiza for plants Double Roots 1 kg Planting Watering\n4.9 254 reviews\n\nPotassium humate fertilizer with microelements 150 ml / Growth stimulator for garden and vegetable garden plants, indoor plants, orchid flowers, roses, ficus, succulents, blueberries, strawberries, conifers Similar products\n269₽\n950₽\n−72%\n81 pieces left\nPotassium humate fertilizer with microelements 150 ml / Growth stimulator for garden and vegetable garden plants, indoor plants, flowers, orchids, roses, ficus, succulents, blueberries, strawberries, conifers\n4.9 196 reviews\n\nGolden drop GOTA VITA For indoor and garden plants Liquid organic Drop of life Similar products\n525 RUR\n990₽\n−47%\nGolden drop GOTA VITA For indoor and garden plants Liquid organic Drop of life\n4.9 35 reviews\n\n\n243₽\n899 RUR\n−73%\n184 pcs left\nFertilizer for anthurium LOMONOSOFF 150 ml\n4.6 81 reviews\n\nDobrotsvet Fertilizer, 500ml Similar products\n300₽\n590₽\n−49%\n68 pcs left\nDobrotsvet Fertilizer, 500ml\n4.9 449 reviews\n",
+      "ru": "ОБРАТИТЕ ВНИМАНИЕ! Форма флакона удобрения может отличаться от фото в зависимости от партии поставки. В случае получения плоской бутылки, при снятии крышки на горлышке остаётся защитное пластиковое кольцо, которое тоже необходимо снять. После этого плотно закрутить распылитель. Бальзам изготовлен из органического сырья на основе древесного уксуса из скорлупы грецкого ореха, - зарекомендовавшего себя средства для развития роста, борьбы с вредителями, улучшения качества почвы. Подходит для комнатных, экзотических, садовых растений и цветов, а так же для плодовых культур, различных овощей и фруктов. Органическое удобрение, уникальный экологически чистый продукт. Данная серия предназначена для комнатных декоративно-цветущих растений (фиалка, гибискус, герань, спатифилум, антуриум,  фуксии, примулы, бальзамин, гортензии, камелии, петунии, бегонии и др.) Удобрение содержит комплекс макро- и микроэлементов, необходимых для полноценного и сбалансированного питания растений. Состав: вода, древесный уксус из скорлупы грецкого ореха, комплекс макро- и микроэлементов\n(Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B)\nДействие:\nСпособствует росту и развитию растений;\nАктивизирует фотосинтез;\nСпособствует обильному росту листвы, формированию крепких побегов;\nПоддерживает сочность окраски;\nПовышает иммунитет растений к заболеваниям и вредителям.\nПрименение: \nВ качестве подкормки для улучшения роста и укрепления иммунитета растения: опрыскивать на листья/стебли со средней интенсивностью 1 раз в 10  дней\nПри увядании растения (пожелтении листьев, выпадении, ослаблении стеблей), а также для борьбы с болезнями и вредителями опрыскивать пораженные места  1 раз в 3 дня на протяжении 10 дней. При необходимости продлить еще на 10 дней. \n\nРекомендации:\nНе использовать данный продукт совместно с щелочными препаратами!\nБальзам применять только по листьям, по цветкам не применять!\n\nБальзам имеет запах жидкого дыма.\n\nМеры предосторожности:\n\nИспользовать строго по назначению.\n\nПри попадании в глаза или рот промыть большим количеством воды и обратиться к врачу.\n\nХранить в недоступном для детей месте.\n\nИзбегать попадания прямых солнечных лучей.\n\n \n\nХранить при температуре: от 1С до 35C\n\nПеред использованием встряхнуть, повернуть клапан на SPRAY или STREAM, использовать по назначению.\nКомплектация\nЖидкость в пластиковой бутылке с распылителем\n\nХарактеристики\nКомплектация\nКоличество в упаковке, шт.\n1\nОсновные\nФорма выпуска средства\nСпрей\nОбласть применения\nуниверсальное, для стимуляции корнеобразования, от болезней\nВид вредителя\nТля, Муравей\nВес товара, г\n500\nНазначение удобрения: Для декоративно-лиственных культур, Для кактусов и суккулентов, Для зелени / микрозелени, Для комнатных растений, Для пальм, Универсальное\nОбщие\nСтрана-изготовитель\nРоссия\nОбъем\nОбъем, мл\n500\nДополнительные\nАртикул\n758037713\nТип\nУдобрение\nЦвет\nБелый\nКод продавца\nБЛМ-КР-3\nИнформация о технических характеристиках, комплекте поставки, стране изготовления, внешнем виде и цвете товара носит справочный характер и основывается на последних доступных к моменту публикации сведениях\nПодборки товаров в категории Удобрения\nМарганцовка Аптечная\nСредства от сорняков\nСредство от Сорняков Торнадо\nМонофосфат Калия Удобрение\nПрепарат 30 Плюс\nЦиркон для Растений\nРаундап\nГербициды Сплошного Действия\nПерманганат Калия Марганцовка\nСапропель\n\nОтзывы о товаре\n790\n\nВопросы о товаре\n6\n+38\nПоказать сначала: новые и полезныес высокой оценкой\nН\nНаталья У.\n21 июля 2024\nТовар куплен на OZON\nДостоинства\nХорошая упаковка \nКомментарий\nНе оценили, результат не увидели и оставляет пятна на листочках \nВам помог этот отзыв?\n\nДа 0\n\nНет 0\n\nОтветить\n\n\nSHAHCOAL\nв ответ Наталья У.\n21 июля 2024\nЗдравствуйте! Благодарим Вас за высокую оценку и отзыв о товаре. Приятных покупок. Ждем Вас снова!\n\n0\n\n0\n\nОтветить\n\nН\nНаталия Ю.\n19 июля 2024\nТовар куплен на OZON\nУдобрение получила быстро, хорошо упаковано, вместе с БИОЧАРСом. В коробочке был вложен красочный буклет со всеми видами предлагаемой продукции с описанием. В действии ещё не испробовала. Надеюсь, что всё будет замечательно. Спасибо. Рекомендую \nВам помог этот отзыв?\n\nДа 0\n\nНет 0\n\nОтветить\n\n\nSHAHCOAL\nв ответ Наталия Ю.\n21 июля 2024\nЗдравствуйте! Благодарим Вас за высокую оценку и отзыв о товаре. Приятных покупок. Ждем Вас снова!\n\n0\n\n0\n\nОтветить\n\nЕ\nЕкатерина М.\n17 июля 2024\nТовар куплен на OZON\nИспользую удобрение на уличных геранях. Цветы стали чувствовать себя лучше, листва растет быстрее, хлороз постепенно исчезает. Запах меня не смущает, но дома я бы стала брызгать) \nВам помог этот отзыв?\n\nДа 0\n\nНет 0\n\nОтветить\n\n\nSHAHCOAL\nв ответ Екатерина М.\n18 июля 2024\nЗдравствуйте! Благодарим Вас за высокую оценку и отзыв о товаре. Приятных покупок. Ждем Вас снова!\n\n0\n\n0\n\nОтветить\n\nРекомендуем также\n\n\n385 ₽\n850 ₽\n−55%\nУдобрение Японское FUJIMA универсальное для всех видов комнатных растений (укрепляющее), комплексная подкормка для сада и цветов, 10 шт по 35 мл\n4.9  3 667 отзывов\n\nУдобрение жидкое органическое для цветов, роз, пионов 500мл, Органик+ Рекомендуем также\n211 ₽\n514 ₽\n−59%\nУдобрение жидкое органическое для цветов, роз, пионов 500мл, Органик+\n5.0  51 отзыв\n\nДиатомит Gold Line крупный, почвоулучшитель для комнатных растений, цветов, сада и огорода 5л, Органик+ Рекомендуем также\n433 ₽\n1 245 ₽\n−65%\nДиатомит Gold Line крупный, почвоулучшитель для комнатных растений, цветов, сада и огорода 5л, Органик+\n4.8  192 отзыва\n\nАммофос азотно-фосфорное удобрение 1кг Рекомендуем также\n265 ₽\n449 ₽\n−41%\nАммофос азотно-фосфорное удобрение 1кг\n4.9  261 отзыв\n4.8 / 5\nРейтинг формируется на основе актуальных отзывов\n5 звёзд\t\n677\n4 звезды\t\n75\n3 звезды\t\n22\n2 звезды\t\n8\n1 звезда\t\n8\nОтзывы могут оставлять только те, кто купил товар. Так мы формируем честный рейтинг\nПохожие товары\n\n\n415 ₽\n699 ₽\n−41%\nУдобрение для фикусов и пальм Пуршат. Минеральный стимулятор роста (Purshat) спрей 500 мл\n4.7  665 отзывов\n\n\n403 ₽\n998 ₽\n−60%\nОсталось 864 шт\nВесеннее - летнее удобрение для растений всех культур Пуршат 3 кг\n4.9  655 отзывов\n\nУдобрение FERTIKA ФЕРТИКА КРИСТАЛОН для садовых цветов 0,5 л Похожие товары\n328 ₽\n1 990 ₽\n−84%\nОсталось 77 шт\nFertika\nУдобрение FERTIKA ФЕРТИКА КРИСТАЛОН для садовых цветов 0,5 л\n4.9  22 отзыва\n\nЦЕО Удобрение,2400мл Похожие товары\n413 ₽\n1 097 ₽\n−62%\n1 ₽ / шт\nЦЕО Удобрение,2400мл\n4.9  1 243 отзыва\n\nАлатар Удобрение,25мл Похожие товары\n334 ₽\n790 ₽\n−58%\nОсталось 54 шт\nАлатар Удобрение,25мл\n4.9  159 отзывов\n\n\n294 ₽\n450 ₽\n−35%\nGREENLIFE органическое удобрение Удобрение,500мл\n4.9  45 отзывов\n\nЖидкое удобрение \"Для цветущих растений\" JOY, 250 мл Похожие товары\n267 ₽\n425 ₽\n−37%\nЖидкое удобрение \"Для цветущих растений\" JOY, 250 мл\n4.9  32 отзыва\n\nУдобрение для комнатных растений цветов Похожие товары\n569 ₽\n1 080 ₽\n−47%\nОсталось 23 шт\nУдобрение для комнатных растений цветов\n4.9  229 отзывов\n\nУдобрение для комнатных растений LOMONOSOFF 150 мл Похожие товары\n274 ₽\n950 ₽\n−71%\nОсталось 151 шт\nУдобрение для комнатных растений LOMONOSOFF 150 мл\n4.9  73 отзыва\n\nПитательная добавка для растений ZION LIGHT (ЦИОН ЛАЙТ) \"Для орхидей\", заменяет удобрение, одно внесение на срок до двух лет, пластиковый контейнер 450гр Похожие товары\n603 ₽\n920 ₽\n−34%\nОсталось 188 шт\nZION\nПитательная добавка для растений ZION LIGHT (ЦИОН ЛАЙТ) \"Для орхидей\", заменяет удобрение, одно внесение на срок до двух лет, пластиковый контейнер 450гр\n4.9  225 отзывов\n\nЖидкое минеральное удобрение для всех комнатных растений Bona Forte флакон 285 мл Похожие товары\n420 ₽\n495 ₽\n−15%\nЖидкое минеральное удобрение для всех комнатных растений Bona Forte флакон 285 мл\n4.9  216 отзывов\n\nУдобрение жидкое стимулятор роста растений Морской коктейль для овощей, цветов, ягод, рассады Похожие товары\n431 ₽\n900 ₽\n−52%\nУдобрение жидкое стимулятор роста растений Морской коктейль для овощей, цветов, ягод, рассады\n4.9  4 150 отзывов\n\n\n519 ₽\n822 ₽\n−37%\nАминосил\nВитамины для цветов Аминосил, концентрат 250 мл (Удобрение, подкормка)\n4.9  315 отзывов\n\nYOKUDO Удобрение,350мл Похожие товары\n294 ₽\n699 ₽\n−58%\n29 ₽ / шт\nYOKUDO Удобрение,350мл\n4.9  1 831 отзыв\n\n\n205 ₽\n499 ₽\n−59%\nNadzor Удобрение для комнатных растений, цветов: примул и фиалок, минеральное, жидкое, подкормка, 200 мл.\n4.9  219 отзывов\n\nДоброцвет Удобрение,500мл Похожие товары\n323 ₽\n590 ₽\n−45%\nОсталось 252 шт\nДоброцвет Удобрение,500мл\n4.9  588 отзывов\n\nBiona Удобрение,100мл Похожие товары\n319 ₽\n950 ₽\n−66%\nОсталось 32 шт\nBiona Удобрение,100мл\n5.0  70 отзывов\n\nКомплексное гранулированное удобрение Fertika Универсал-2, 2,5 кг Похожие товары\n411 ₽\n898 ₽\n−54%\nОсталось 8 шт\nFertika\nКомплексное гранулированное удобрение Fertika Универсал-2, 2,5 кг\n5.0  13 отзывов\n\nBona Forte Удобрение Похожие товары\n426 ₽\n899 ₽\n−53%\nОсталось 68 шт\nBona Forte Удобрение\n5.0  127 отзывов\n\nПитательная добавка для растений ZION (ЦИОН) \"Космо\" для комнатных растений, заменяет удобрение, одно внесение на срок до трёх лет, пластиковый контейнер 700гр Похожие товары\n818 ₽\n1 390 ₽\n−41%\nОсталось 927 шт\nZION\nПитательная добавка для растений ZION (ЦИОН) \"Космо\" для комнатных растений, заменяет удобрение, одно внесение на срок до трёх лет, пластиковый контейнер 700гр\n4.9  4 256 отзывов\n\nВитамины для растений Аминосил Универсальный, концентрат 5 мл. (Удобрение, подкормка). Похожие товары\n166 ₽\n242 ₽\n−31%\nАминосил\nВитамины для растений Аминосил Универсальный, концентрат 5 мл. (Удобрение, подкормка).\n4.7  71 отзыв\n\n\n305 ₽\n650 ₽\n−53%\nОсталось 103 шт\nИон грунт для ароидных замиокулькас и антуриума 0,3 кг ЛОМОНОСОФФ /Высокопитательная органик добавка в грунт, землю субстрат торф дренаж биогумус вермикулит для комнатных растений\n4.8  359 отзывов\n\nДиатомит Премиум садовый для растений и комнатных цветов 5л, Органик+ Похожие товары\n442 ₽\n1 254 ₽\n−65%\nДиатомит Премиум садовый для растений и комнатных цветов 5л, Органик+\n4.9  212 отзывов\n\nУдобрение от болезней 100 мл GOTA VITA \"Защита от Болезней\" Жидкое органическое Капля Жизни Похожие товары\n513 ₽\n1 130 ₽\n−55%\nУдобрение от болезней 100 мл GOTA VITA \"Защита от Болезней\" Жидкое органическое Капля Жизни\n4.9  351 отзыв\n\nУдобрение для туй и хвойных растений LOMONOSOFF 150 мл Похожие товары\n274 ₽\n950 ₽\n−71%\nОсталось 151 шт\nУдобрение для туй и хвойных растений LOMONOSOFF 150 мл\n4.8  58 отзывов\n\nМикориза для растений Двойные Корни 1 кг Сажаем Поливаем Похожие товары\n557 ₽\n945 ₽\n−41%\nМикориза для растений Двойные Корни 1 кг Сажаем Поливаем\n4.9  254 отзыва\n\nГумат калия удобрение с микроэлементами 150 мл / Стимулятор роста растений сада и огорода, комнатных растений, цветов орхидей роз фикуса суккулентов голубики клубники хвойных Похожие товары\n269 ₽\n950 ₽\n−72%\nОсталось 81 шт\nГумат калия удобрение с микроэлементами 150 мл / Стимулятор роста растений сада и огорода, комнатных растений, цветов орхидей роз фикуса суккулентов голубики клубники хвойных\n4.9  196 отзывов\n\nЗолотая капля GOTA VITA Для комнатных и садовых растений Жидкое органическое Капля жизни Похожие товары\n525 ₽\n990 ₽\n−47%\nЗолотая капля GOTA VITA Для комнатных и садовых растений Жидкое органическое Капля жизни\n4.9  35 отзывов\n\n\n243 ₽\n899 ₽\n−73%\nОсталось 184 шт\nУдобрение для антуриума ЛОМОНОСОФФ 150 мл\n4.6  81 отзыв\n\nДоброцвет Удобрение,500мл Похожие товары\n300 ₽\n590 ₽\n−49%\nОсталось 68 шт\nДоброцвет Удобрение,500мл\n4.9  449 отзывов\n"
+   },
+   "brand": "Shahcoal",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Organomineral fertilizer Bona Forte 285 ml",
+      "ru": "Органоминеральное удобрение Bona Forte 285 мл"
+   },
+   "images": [
+      {
+         "img": "https://sun9-77.userapi.com/impg/DJgL00Nvp5U-Br_4U5ASrd4LG82o-HiIUyecqw/gpuzgRHI5eI.jpg?size=2560x1920&quality=95&sign=0156db3194d409fa49e40b68bf24e315&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "The fertilizer was created by Bona Forte laboratories to restore depleted soil and increase plant immunity. Health is the first and main step to the beauty of ornamental plants. The fertilizer contains a full range of substances necessary for complete and balanced nutrition of plants.\n\nConsumption of one bottle:\n• for root feeding: 43 liters of solution.\n\n! Unused ready-made working solution can be stored until the next feeding, but no more than two weeks.\n\nImportant:\n·Feed transplanted plants no earlier than after 7-14 days.\n·You should not feed sick plants unless the disease is due to a lack of nutrients.\n\nApplication period\nMarch-October 1 time per week; November-February once a month.\n\nAdditional Information:\nThe fertilizer is not afraid of freezing: after defrosting, the fertilizer does not lose its properties.\nAfter the expiration date, the fertilizer does not lose its agronomic value.\n\n> Bona Forte recommendation: to provide plants with all the substances necessary for life, alternate the use of mineral fertilizers from the BEAUTY series and organic-mineral fertilizers from the HEALTH series. Bona Forte recommends using a fertilizer from one series for at least two to three months, and a fertilizer from a different series for the next 2-3 months.\n\nCOMPOUND\nThree main macroelements (NPK): nitrogen (N) - 6%, phosphorus (P2O5) - 4%, potassium (K2O) - 5%\nHumic acids: humate – 0.5%\nNine trace elements: boron, iron, manganese, zinc, copper, molybdenum, cobalt, as well as calcium and magnesium. Of these, six microelements are in chelated form: (iron, manganese, zinc, copper, molybdenum, cobalt).",
+      "ru": "Удобрение создано создана лабораториями Bona Forte для восстановления истощенной почвы и повышения иммунитета растений. Здоровье – первый и основной шаг к красоте декоративных растений. Удобрение содержит полный комплекс веществ, необходимых для полноценного и сбалансированного питания растений.\n\nРасход одного флакона:\n• при корневой подкормке: 43 литра раствора.\n\n! Неиспользованный готовый рабочий раствор можно хранить до следующей подкормки, но не более двух недель.\n\nВажно:\n·Пересаженные растения подкармливать не ранее, чем через 7-14 дней.\n·Нельзя подкармливать больные растения, если только это болезненное состояние не связано с недостатком питательных веществ.\n\nПериод применения\nМарт-октябрь 1 раз в неделю; ноябрь- февраль 1 раз в месяц.\n\nДополнительная информация:\nУдобрение не боится заморозки: после размораживания, удобрение не теряет своих свойств.\nПосле окончания срока годности удобрение не теряет агрономической ценности.\n\n> Рекомендация Bona Forte: для обеспечения растений всеми необходимыми для жизнедеятельности веществами чередуйте использование минеральных удобрений серии КРАСОТА и органо-минеральных удобрений серии ЗДОРОВЬЕ. Bona Forte рекомендует минимум два - три месяца использовать удобрение одной серии, в последующие 2-3 месяца - удобрение другой серии.\n\nСОСТАВ\nТри основных макроэлемента (NPK): азот (N) - 6 %, фосфор (P2O5) - 4 %, калий (K2O) - 5 %\nГуминовые кислоты: гумат – 0,5 %\nДевять микроэлементов: бор, железо, марганец, цинк, медь, молибден, кобальт, а также кальций и магний. Из них шесть микроэлементов в хелатной форме: (железо, марганец, цинк, медь, молибден, кобальт)."
+   },
+   "brand": "Bona Forte",
+   "country": "Германия"
+},
+ {
+   "name": {
+      "en": "Elixir for seedlings",
+      "ru": "Эликсир для рассады"
+   },
+   "images": [
+      {
+         "img": "https://sun9-2.userapi.com/impg/kyryct50vb_aWBOlAuY1yfrvK4u5hbR6ZMZhCg/VW8E9m9wNhM.jpg?size=2560x1920&quality=95&sign=d2170713f20687382845cb245f0d7db5&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Joy",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Elixir for growth",
+      "ru": "Эликсир для роста"
+   },
+   "images": [
+      {
+         "img": "https://sun9-52.userapi.com/impg/BFA7V8r05JpFQP-rmwuxmcACoJz1SbnjdilTCw/4g-lBVxgpH4.jpg?size=2560x1920&quality=95&sign=32986e42901e28499dc797105f8f969d&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Joy",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Vegetable fertilizer",
+      "ru": "Овощное удобрение"
+   },
+   "images": [
+      {
+         "img": "https://sun9-18.userapi.com/impg/ocjtOzPmR0pwvSxnYFAleRAJ-vj4NTL6-qyZUA/XuDlCHmjAno.jpg?size=2560x1920&quality=95&sign=8535a04666f3d07ff43adc7acea7a91d&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Joy",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Spray to prevent moisture evaporation from flowers",
+      "ru": "Спрей для предотвращения испарения влаги из цветов"
+   },
+   "images": [
+      {
+         "img": "https://sun9-77.userapi.com/impg/yNzqIWxigmVHWwOhTIIY-SaS3Vm0JiY8mrd6yw/lVwZysbI-P4.jpg?size=2560x1920&quality=95&sign=ab3b1ee18c8a6ed1aaa873df24f33c0a&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Flora Life",
+   "country": "Германия"
+},
+ {
+   "name": {
+      "en": "Fertilizer for long flowering",
+      "ru": "Удобрение для продолжительного цветения"
+   },
+   "images": [
+      {
+         "img": "https://sun9-18.userapi.com/impg/uDbWijhmls5Add7pM_GLoc59VEJ64V-3gdaZ3Q/Kk2uIGzhyFQ.jpg?size=2560x1920&quality=95&sign=c96df481a75709c096e578ddfa73f4fa&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Сад Чудес",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Universal fertilizer",
+      "ru": "Универсальное удобрение"
+   },
+   "images": [
+      {
+         "img": "https://sun9-26.userapi.com/impg/cJEsN_7130na3-3jsYDH8r0IO1w3OIocsS6msA/D0K1SSrE090.jpg?size=2560x1920&quality=95&sign=5aa0c66f8f5c61fb123cda0e49b279d7&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Flora Life",
+   "country": "Германия"
+},
+ {
+   "name": {
+      "en": "Long-acting mineral fertilizer",
+      "ru": "Минеральное удобрение пролонгированного действия"
+   },
+   "images": [
+      {
+         "img": "https://sun9-30.userapi.com/impg/YYodj6FdkhlI6_SdnxgMeWSFxrVitLEPpzQnsg/RHz0X-E40R8.jpg?size=1280x960&quality=95&sign=aedf2984fd5cdc3d2c39aa64fe0952f2&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Joy Garden",
+   "country": "Россия"
+},
+ {
+   "name": {
+      "en": "Aktara Expert Garden insecticide against Colorado potato beetle powder 1.2 g",
+      "ru": "Инсектицид Актара Expert Garden от колорадского жука порошок 1.2 г"
+   },
+   "images": [
+      {
+         "img": "https://sun9-13.userapi.com/impg/glivfmHiNi7ksvpzLqtDKSzXqgTK3SnRdB-rqg/Xh6QpT60Xew.jpg?size=2560x1920&quality=95&sign=b8017cc4e3dbd8d3a4d1caa8a43930c2&type=album"
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      },
+      {
+         "img": ""
+      }
+   ],
+   "desc": {
+      "en": "",
+      "ru": ""
+   },
+   "brand": "Expert Garden",
+   "country": "Россия"
+}
+]
