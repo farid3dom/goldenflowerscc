@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
+import './style.scss';
 
 //Import Images
 import Loading from '../../assets/icons/loading.svg';
@@ -10,8 +11,6 @@ import HeaderRepeat from '../../layout/HeaderRepeat/index';
 import Button from '../../components/Button/Index';
 import Input from '../../components/Input/Index';
 import GalleryCard from '../../components/GalleryCard/Index';
-import Flowers from './Flowers/index';
-import Plants from './Plants/index';
 
 //Import Utils
 import PagesUtils from '../../utils/pages.json';
@@ -26,17 +25,18 @@ import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 const Index = () => {
    const maxLength = 48;
    let lang = 'en';
-   const params = useParams();
-   const location = useLocation();
-   const navigate = useNavigate();
    const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
    const [loading, setLoading] = useState(false);
    const [galleryLoading, setGalleryLoading] = useState(false);
+   const params = useParams();
+   const location = useLocation();
+   const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');
    const [pageData, setPageData] = useState({});
    const [galleryData, setGalleryData] = useState([]);
    const [searchInputValue, setSearchInputValue] = useState(searchValue);
+   console.log(params);
 
    useEffect(() => {
       let currentLocation = location.pathname.split('/')[2];
@@ -49,97 +49,97 @@ const Index = () => {
       });
    }, [location]);
 
-   // function getGalleryData() {
-   //    switch (pageData.page_URL) {
-   //       case 'flowers':
-   //          setGalleryLoading(true);
+   function getGalleryData() {
+      switch (pageData.page_URL) {
+         case 'flowers':
+            setGalleryLoading(true);
 
-   //          setTimeout(() => {
-   //             if (searchValue) {
-   //                let searchedValue = FlowersJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
-   //                setGalleryData(searchedValue);
-   //             } else {
-   //                setGalleryData(FlowersJSON);
-   //             }
-   //             setGalleryLoading(false);
-   //          }, 500)
+            setTimeout(() => {
+               if (searchValue) {
+                  let searchedValue = FlowersJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                  setGalleryData(searchedValue);
+               } else {
+                  setGalleryData(FlowersJSON);
+               }
+               setGalleryLoading(false);
+            }, 500)
 
-   //          break;
-   //       case 'plants':
-   //          setGalleryLoading(true);
+            break;
+         case 'plants':
+            setGalleryLoading(true);
 
-   //          setTimeout(() => {
-   //             if (searchValue) {
-   //                let searchedValue = PlantsJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
-   //                setGalleryData(searchedValue);
-   //             } else {
-   //                setGalleryData(PlantsJSON);
-   //             }
-   //             setGalleryLoading(false);
-   //          }, 500);
+            setTimeout(() => {
+               if (searchValue) {
+                  let searchedValue = PlantsJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                  setGalleryData(searchedValue);
+               } else {
+                  setGalleryData(PlantsJSON);
+               }
+               setGalleryLoading(false);
+            }, 500);
 
-   //          break;
-   //       case 'accessories':
-   //          setGalleryLoading(true);
+            break;
+         case 'accessories':
+            setGalleryLoading(true);
 
-   //          setTimeout(() => {
-   //             if (searchValue) {
-   //                let searchedValue = AccessoriesJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
-   //                setGalleryData(searchedValue);
-   //             } else {
-   //                setGalleryData(AccessoriesJSON);
-   //             }
-   //             setGalleryLoading(false);
-   //          }, 500);
+            setTimeout(() => {
+               if (searchValue) {
+                  let searchedValue = AccessoriesJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                  setGalleryData(searchedValue);
+               } else {
+                  setGalleryData(AccessoriesJSON);
+               }
+               setGalleryLoading(false);
+            }, 500);
 
-   //          break;
-   //       case 'cooperation':
-   //          setGalleryLoading(true);
+            break;
+         case 'cooperation':
+            setGalleryLoading(true);
 
-   //          setTimeout(() => {
-   //             if (searchValue) {
-   //                let searchedValue = CooperationJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
-   //                setGalleryData(searchedValue);
-   //             } else {
-   //                setGalleryData(CooperationJSON);
-   //             }
-   //             setGalleryLoading(false);
-   //          }, 500);
+            setTimeout(() => {
+               if (searchValue) {
+                  let searchedValue = CooperationJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                  setGalleryData(searchedValue);
+               } else {
+                  setGalleryData(CooperationJSON);
+               }
+               setGalleryLoading(false);
+            }, 500);
 
-   //          break;
-   //    }
-   // }
+            break;
+      }
+   }
 
-   // useEffect(() => {
-   //    setGalleryLoading(true);
-   //    setVisibleCardLength(maxLength);
+   useEffect(() => {
+      setGalleryLoading(true);
+      setVisibleCardLength(maxLength);
 
-   //    getGalleryData();
+      getGalleryData();
 
-   // }, [pageData]);
+   }, [pageData]);
 
-   // const showMoreFunc = (e) => {
-   //    e.preventDefault();
+   const showMoreFunc = (e) => {
+      e.preventDefault();
 
-   //    if (!loading) {
-   //       setLoading(true);
-   //       setTimeout(() => {
-   //          setVisibleCardLength(prev => prev + maxLength);
-   //          return setLoading(false);
-   //       }, 500)
-   //    }
-   // }
+      if (!loading) {
+         setLoading(true);
+         setTimeout(() => {
+            setVisibleCardLength(prev => prev + maxLength);
+            return setLoading(false);
+         }, 500)
+      }
+   }
 
-   // //Search On Submit
-   // const searchSubmit = (e) => {
-   //    e.preventDefault();
+   //Search On Submit
+   const searchSubmit = (e) => {
+      e.preventDefault();
 
-   //    if (searchValue !== searchInputValue) {
-   //       navigate(`${location.pathname}?s=${searchInputValue}`)
-   //    }
+      if (searchValue !== searchInputValue) {
+         navigate(`${location.pathname}?s=${searchInputValue}`)
+      }
 
-   //    // setSearchInputValue('');
-   // }
+      // setSearchInputValue('');
+   }
 
    return (
       <div className="products-page__container">
@@ -148,18 +148,11 @@ const Index = () => {
             img={pageData?.headerImg}
          />
 
-         <div className="products_content_wrapper">
+         <div className="products_content_wrapper inner-flowers__container">
             <div className="content_wrapper_inner">
                <p className='content_title' dangerouslySetInnerHTML={{ __html: pageData?.galleryTitle }}></p>
-
-               {
-                  pageData.page_URL === 'flowers' ?
-                     <Flowers />
-                     : pageData.page_URL === 'plants' ?
-                     <Plants /> : null
-               }
-               {/* <div className="search_bar">
-                  <Input
+               <div className="search_bar">
+                  {/* <Input
                      value={searchInputValue}
                      type={'text'}
                      className={'input_white'}
@@ -168,7 +161,7 @@ const Index = () => {
                      handleChange={(e) => setSearchInputValue(e.target.value)}
                      handleBlur={searchSubmit}
                      submitHandler={searchSubmit}
-                  />
+                  /> */}
                </div>
                {galleryLoading &&
                   <div className="loading_wrapper">
@@ -220,7 +213,8 @@ const Index = () => {
                         </div>
                         :
                         null
-               } */}
+               }
+
             </div>
          </div>
       </div>

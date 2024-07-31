@@ -1,7 +1,14 @@
 [
    {
-      "name": "Beyond Chrysant",
-      "img": "https://sun9-48.userapi.com/impg/nMctEaxRZdeF4u3ad-nnx4aH06fvtGNBVzAWiw/4qNNq6-VWP4.jpg?size=1080x720&quality=95&sign=6961a86d4edb0d31f7e8b4d1295badf1&type=album",
+      "name": {
+         "en": "Beyond Chrysant",
+         "ru": ""
+      },
+      "images": [
+         {
+            "img": "https://sun9-48.userapi.com/impg/nMctEaxRZdeF4u3ad-nnx4aH06fvtGNBVzAWiw/4qNNq6-VWP4.jpg?size=1080x720&quality=95&sign=6961a86d4edb0d31f7e8b4d1295badf1&type=album"
+         }
+      ],
       "href": "https://www.beyondchrysant.nl/"
    },
    {

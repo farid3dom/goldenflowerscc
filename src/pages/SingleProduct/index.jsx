@@ -6,34 +6,32 @@ import Button from '../../components/Button/Index';
 
 ////IMPORT UTILS
 import Flowers from '../../utils/flowers.json';
+import Grund from '../../utils/grunt.json';
 
 ///Import React router Dom
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 
 const Index = () => {
    const lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
+   const { productType, productName } = useParams();
    const searchParams = new URLSearchParams(location.search);
    const searchValue = Array.from(searchParams.values());
    const [productData, setProductData] = useState(null);
 
-   console.log(productData);
-
    useEffect(() => {
       getProductDatas();
-      console.log('test')
    }, []);
 
-   const getProductDatas = () => {
-      switch (searchValue[0]) {
-         case 'Flowers':
-            setProductData(Flowers[searchValue[1]])
-            break;
-         default:
-            setProductData(null);
-            // navigate('/');
-            console.log('asjdh')
+   const getProductDatas = async () => {
+      if (searchParams.get('collection')) {
+         let singleData = await Flowers.find(f => f.inner_URL === searchParams.get('collection'));
+         let getDataFromCollection = await singleData.items.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+         console.log(getDataFromCollection);
+      } else {
+         let singleData = await Flowers.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+         setProductData(singleData);
       }
    }
 
@@ -41,7 +39,8 @@ const Index = () => {
       <div className="single-product_container">
          <div className="product_about">
             <h1 className='product_title'>{productData?.name[lang]}</h1>
-            <span className='product_description'>{productData?.desc && productData.desc[lang]}</span>
+            <span className='product_description' dangerouslySetInnerHTML={{ __html: productData?.desc && productData.desc[lang] }}></span>
+            {/* <span className='product_description' dangerouslySetInnerHTML={{ __html: Grund[1].desc['ru'] }}></span> */}
             {/* <div className="product_flag">
                {
                   productData?.productInfo?.map((p, i) => (
@@ -105,11 +104,13 @@ const Index = () => {
             <div className="images__wrapper">
                {
                   productData?.images?.map((i, index) => (
-                     <img src={i.img} alt="" />
+                     <img src={i.img} key={index} alt="" />
                   ))
                }
             </div>
          </div>
+
+         <Outlet />
       </div>
 
    )

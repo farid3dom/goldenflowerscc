@@ -49,11 +49,11 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <Link to={'/flowers'}><li>Цветы
+                                    <Link to={'/products/flowers'}><li>Цветы
                                     </li></Link>
-                                    <Link to={'/plants'}><li>Растения
+                                    <Link to={'/products/plants'}><li>Растения
                                     </li></Link>
-                                    <Link to={'/accessories'}><li>Аксессуары
+                                    <Link to={'/products/accessories'}><li>Аксессуары
                                     </li></Link>
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 <ul>
                                     <Link to={'/about'}><li>Наша история
                                     </li></Link>
-                                    <Link to={'/cooperation'}><li>Сотрудничество
+                                    <Link to={'/products/cooperation'}><li>Сотрудничество
                                     </li></Link>
                                 </ul>
                             </div>

@@ -11,8 +11,10 @@ import Loading from './layout/Loading/index';
 //Import Pages
 import Home from './pages/Home/index'
 import Products from './pages/Products/index'
-import Flowers from './pages/Flowers/index'
-import Plants from './pages/Plants/index'
+import InnerFlowers from './pages/InnerFlowers/Index'
+import Flowers from './pages/Products/Flowers/index';
+import DetailsFlowers1 from './pages/Products/Flowers/Details1/index'
+import Plants from './pages/Products/Plants/index';
 import SingleProduct from './pages/SingleProduct/index'
 
 import Grunt from './pages/Plants/Grunt/index'
@@ -25,9 +27,7 @@ import Contacts from './pages/Contacts/index'
 import About from './pages/About/index'
 
 //Import React router dom
-import { Routes, Route, BrowserRouter as Router, Navigate, useLocation } from 'react-router-dom';
-
-
+import { Routes, Route, BrowserRouter as Router, Navigate, useLocation, Outlet } from 'react-router-dom';
 
 function App() {
 
@@ -44,13 +44,15 @@ function App() {
     return null;
   }
 
+  let flowersFirstOptions = ['dianthus', 'roses', 'chrysanthemum']
+
   return (
     <Router>
       <div className="App">
 
         {/* SCROLL TO TOP */}
         <ScrollToTop />
-        
+
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <Loading />
@@ -59,23 +61,26 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
 
-          <Route path="/products/flowers" element={<Products />} />
-          <Route path="/products/plants" element={<Products />} />
-          <Route path="/products/accessories" element={<Products />} />
-          <Route path="/products/cooperations" element={<Products />} />
+          {/* <Route path='/products' element={<Products />}>
+            <Route path='flowers' element={<Flowers />}>
+              <Route path=':details1' element={<DetailsFlowers1 />} />
+            </Route>
+            <Route path='plants' element={<Plants />} />
+            <Route path='accessories' />
+            <Route path='cooperation' />
+          </Route> */}
 
-          <Route path='/flowers' element={<Flowers />} />
-          <Route path='/products/:productType/:productName' exact element={<SingleProduct />} />
+          {/* PRODUCTS PAGES */}
+          <Route path='/products/flowers/' element={<Products />} />
+          <Route path='/products/flowers/:details1' element={<DetailsFlowers1 />} />
 
-          <Route path='/plants' element={<Plants />} />
-          <Route path='/plants/greenery' element={<Greenery />} />
-          <Route path='/plants/grunt' element={<Grunt />} />
-          <Route path='/plants/domestic' element={<Domestic />} />
+          <Route path='/products/plants' element={<Products />} />
+          <Route path='/products/accessories' element={<Products />} />
+          <Route path='/products/cooperation' element={<Products />} />
+          
+          {/* SINGLE PRODUCT PAGE */}
+          <Route path='/product' element={<SingleProduct />} />
 
-          <Route path='/accessories' element={<Accessories />} />
-
-
-          <Route path='/cooperation' element={<Cooperation />} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/about' element={<About />} />
 
@@ -89,6 +94,7 @@ function App() {
         <Footer />
 
       </div>
+
     </Router>
   );
 }
