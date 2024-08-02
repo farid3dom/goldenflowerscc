@@ -39,12 +39,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className='nav_menu_container'>
 
                         <div className="menu_text_main">
-                            <a href={'/about/#collection'}>
+                            <Link to={'/products/flowers'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Коллекция</p>
                                     <ArrowDown />
                                 </div>
-                            </a>
+                            </Link>
 
 
                             <div className='nav_menu_arrow_list'>

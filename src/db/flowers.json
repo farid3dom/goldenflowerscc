@@ -13,25 +13,96 @@
       "items": [
          {
             "name": {
+               "en": "Single-headed on water",
+               "ru": "Одноголовые на воде"
+            },
+            "images": [
+               {
+                  "img": "https://sputnikspb.com/image/cache/catalog/product/gvozdika/Odnogolovaya/Green%20Trick/gvozdika-tureckaya-diantus-barbatus-grin-trik-5-800x800.jpg"
+               },
+               {
+                  "img": "https://www.roza4u.ru/image/catalog/iris/gvozdika-tureckaja-jarko-rozovaja-2.jpg"
+               },
+               {
+                  "img": "https://amsterflowers.ru/assets/images/products/742/gvozdikaimg-4915-(2).jpg"
+               },
+               {
+                  "img": "https://photo.freshportal.delivery/iri/31f8afbbc8e22e4f23cfa47dc0368530/700x700@max-ffffff/39862743.jpg"
+               }
+            ],
+            "desc": {
+               "en": "Carnation Painted",
+               "ru": "Гвоздика Крашеная"
+            },
+            "plantation": "",
+            "quantity": 20,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
+         },
+         {
+            "name": {
                "en": "Single-headed Baku",
                "ru": "Одноголовые Баку"
             },
             "images": [
                {
-                  "img": "https://sun9-22.userapi.com/impg/aaD6YKAV4uDG74iK7b8QUJx9nMzivg-H5udqpA/LxqhRHM92do.jpg?size=1080x720&quality=95&sign=d2447810c2439547b64b2b1f370517be&type=album"
+                  "img": "https://www.roza4u.ru/image/cache/catalog/gvozdika/gvozdika-bordovaya-1-1400x1400.jpg"
+               },
+               {
+                  "img": "https://img.vkusvill.ru/pim/images/site_LargeWebP/da49350c-8f99-44c4-9630-bd06c1974f14.webp?1701183217.3902"
+               },
+               {
+                  "img": "https://krd.monoflowers.ru/upload/resize_cache/iblock/dc1/600_600_140cd750bba9870f18aada2478b24840a/d237jh6geux1b3kgmszgupzis53cl7tz.jpg"
+               },
+               {
+                  "img": "https://www.roza4u.ru/image/catalog/51_krasnaya_gvozdika_v_korzine_/51_krasnaya_gvozdika_v_korzine_5.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Baku",
+               "ru": "Гвоздика Баку"
+            },
+            "plantation": "",
+            "quantity": 25,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
                "en": "Single-headed Turkey",
-               "ru": "Одноголовые Тyрция"
+               "ru": "Одноголовые Турция"
             },
             "images": [
                {
-                  "img": "https://sun9-16.userapi.com/impg/96Zvav8qKSPLmiyTjgz226jX5mk3Q-B87qfheA/OOjr377lbc4.jpg?size=1080x720&quality=95&sign=04a97dcabd3b881a5f6b9a6f8aca07bd&type=album"
+                  "img": "https://iris-flowers.ru/upload/resize_cache/webp/upload/iblock/6b6/l4jl4fc0f7k8ophytn3pr7vbnm6cev2e/IMG_4810.webp"
+               },
+               {
+                  "img": "https://permflower.ru/upload/iblock/2fc/2fcc0636079f73384a632ce7a0e579b2.jpg"
+               },
+               {
+                  "img": "https://sputnikspb.com/image/cache/catalog/product/gvozdika/Odnogolovaya/Green%20Trick/gvozdika-tureckaya-diantus-barbatus-grin-trik-1-800x800.jpg"
+               },
+               {
+                  "img": "https://www.roza4u.ru/image/catalog/gvozdika/IMG_3222230.jpg.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Fancy\nDianthus florigena\nCarnation Türkiye Single Head",
+               "ru": "Гвоздика Фанси\nГвоздика Флоригена\nГвоздика Турция Одноголовая"
+            },
+            "plantation": "",
+            "quantity": 25,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -40,9 +111,29 @@
             },
             "images": [
                {
-                  "img": "https://sun9-10.userapi.com/impg/sEUz70d-5Aw5oCh08nt5ma6rjMxoXmTDEnAT6w/pKNq9e6wgUc.jpg?size=1080x720&quality=95&sign=12768f4a92392af30e04c038e962aaf8&type=album"
+                  "img": "https://dvorikcvetov.ru/images/goods/2469"
+               },
+               {
+                  "img": "https://florarm.ru/images/stories/virtuemart/product/%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B8%D0%BA%D0%B0%201%D0%B3.jpg"
+               },
+               {
+                  "img": "https://rastmir74.ru/files/images/gvozdikastcountry.jpg"
+               },
+               {
+                  "img": "https://www.roza4u.ru/image/catalog/gvozdika/IMG_3222230.jpg.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Ecuador\nCarnation Ecuador Mix",
+               "ru": "Гвоздика Эквадор\nГвоздика Эквадор Микс"
+            },
+            "plantation": "Azeriflores",
+            "quantity": 20,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -51,9 +142,29 @@
             },
             "images": [
                {
-                  "img": "https://sun9-61.userapi.com/impg/iKnAayQp7IEplmM8l3Um7V1Vqd8QhLrfw5kCRg/gIa-pIxz2iI.jpg?size=1080x720&quality=95&sign=50de579a9fac23a79fded63c9c41dd2e&type=album"
+                  "img": "https://geoflora.co/wp-content/uploads/2023/08/POSTCOSECHA-8-GEOFLORA.jpg"
+               },
+               {
+                  "img": "https://thursd.com/storage/media/25874/geoflora-grower-on-thursd-header.jpg"
+               },
+               {
+                  "img": "https://geoflora.co/wp-content/uploads/2023/08/POSTCOSECHA-10-GEOFLORA.jpg"
+               },
+               {
+                  "img": "https://geoflora.co/wp-content/uploads/2023/08/POSTCOSECHA-4-GEOFLORA.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Colombia Floregene\nCarnation Colombia Geo Flora Bush\nCarnation Colombia Geo Flora Mix\nCarnation Colombia Geo Flora Varietal",
+               "ru": "Гвоздика Колумбия Floregene\nГвоздика Колумбия Geo Flora Кустовая\nГвоздика Колумбия Geo Flora Микс\nГвоздика Колумбия Geo Flora Сортовая"
+            },
+            "plantation": "Geo Flora, Floregene",
+            "quantity": 25,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -62,20 +173,60 @@
             },
             "images": [
                {
-                  "img": "https://sun9-58.userapi.com/impg/0GGQZr-LRXcvMq5rinQ1sVD2EgYkH1gnj0BZPA/mTDtAifff14.jpg?size=1080x720&quality=95&sign=520a61a71a0df8d416560e3ccc56b523&type=album"
+                  "img": "https://storage.delikateska.ru/c/9/c0752a3a-b88c-430f-8023-56a8b1939ece.webp"
+               },
+               {
+                  "img": "https://magcvetov.ru/files/common/171_1.jpg"
+               },
+               {
+                  "img": "https://m.orangespb.ru/upload/iblock/01a/01a673dba36c5129504fa3676cc2ef8b.jpg"
+               },
+               {
+                  "img": "https://www.5-nt.ru/Storage/Image/BlogItemGardener/Image/big/7845/5.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Ecuador Bush",
+               "ru": "Гвоздика Эквадор Кустовая"
+            },
+            "plantation": "",
+            "quantity": 25,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
                "en": "Spray Turkey",
-               "ru": "Кустовые Тyрция"
+               "ru": "Кустовые Турция"
             },
             "images": [
                {
-                  "img": "https://sun9-75.userapi.com/impg/WuJ_epZ14D55jKCbCNHSVvM6mC2ddNzZWTKZUA/DIJdax7d7qo.jpg?size=1080x720&quality=95&sign=a16d3df9c1098a1e35b6997164cee6c6&type=album"
+                  "img": "https://alleya-cvetov.ru/images/product/big/2022/2022-05-02/627002d408708.jpg"
+               },
+               {
+                  "img": "https://kartinki.pibig.info/uploads/posts/2023-04/thumbs/1680500805_kartinki-pibig-info-p-krasivie-buketi-gvozdik-kartinki-arti-51.jpg"
+               },
+               {
+                  "img": "https://www.5-nt.ru/Storage/Image/BlogItemGardener/Image/big/7845/5.jpg"
+               },
+               {
+                  "img": "https://flowersbryansk.ru/upload/resize_cache/iblock/af7/800_600_140cd750bba9870f18aada2478b24840a/7adka949m9nyv4qtfgn9jy5i44i2p979.webp"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Carnation Türkiye Bush",
+               "ru": "Гвоздика Турция Кустовая"
+            },
+            "plantation": "",
+            "quantity": 25,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          }
       ]
    },
@@ -98,9 +249,32 @@
             },
             "images": [
                {
-                  "img": "https://sun9-41.userapi.com/impg/py8RRq12zVXAPsGvzNJ2nz7vrY33hLLzXukkRw/kj69M5LUqNQ.jpg?size=1080x720&quality=95&sign=6a3386da5bf073dfe00791adaeba33cd&type=album"
+                  "img": "https://content2.flowwow-images.com/data/flowers/1000x1000/76/1625823918_62178776.jpg"
+               },
+               {
+                  "img": "https://voornroses.com/wp-content/uploads/2021/12/Party-Trendsetter_bunch.jpg"
+               },
+               {
+                  "img": "https://rozyminsk.by/assets/images/products/60/%D1%80%D0%BE%D0%B7%D0%B0-sweet-avalanche.jpg"
+               },
+               {
+                  "img": "https://ekaterinburg.zpitomnik.ru/upload/resize_cache/webp/iblock/51b/fl2c0m5nr8toqjslm033bhq54acskb7k.webp"
+               },
+               {
+                  "img": "https://5.imimg.com/data5/SELLER/Default/2024/1/378906927/ET/MS/AM/7538151/dutch-roses-500x500.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Alva\nAnnesley\nBachelor\nWhite Chapel\nWestminster\nWindsor\nVuvuzella\nGolden\nJust\nDorset\nCountry\nCoffee\nLovely\nMayfield\nMenta\nMix\nParadise\nPinky\nPriscilla\nEd\nRetro\nSanta\nSweet\nSilvermine\nTinkerbelle\nHarper\nChick\nAbby",
+               "ru": "Альва\nАннесли\nБакалавр\nВайт шапл\nВестминстер\nВиндзор\nВувузелла\nГолден\nДжаст\nДорсет\nКантри\nКофе\nЛавли\nМайфилд\nМента\nМикс\nПарадайс\nПинки\nПрисцилла\nРед\nРетро\nСант\nСвит\nСилвермайн\nТинкербель\nХарпер\nЧик\nЭбби"
+            },
+            "plantation": "Vip Roses, Sian Flowers",
+            "quantity": "10 15",
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -109,9 +283,32 @@
             },
             "images": [
                {
-                  "img": "https://sun9-1.userapi.com/impg/v4EDjqS_THzjHRGu5RAKwH-lBfzz4IqzozuXPg/_IgszFS7Kqw.jpg?size=1080x720&quality=95&sign=91402b178ba8d3af15150741bc84801a&type=album"
+                  "img": "https://thursd.com/storage/media/60193/Rose-Be-Sweet-Top-10-De-Ruiter-Ecuador-(1).jpg?1695827068909"
+               },
+               {
+                  "img": "https://kampongflowers.com/cdn/shop/products/Mandarin_Xpression_Single_Alta-scaled_1200x.jpg?v=1664424710"
+               },
+               {
+                  "img": "https://flirtyfleurs.com/wp-content/uploads/2014/02/Peach_Rose_Study_Flirty_Fleurs.jpg"
+               },
+               {
+                  "img": "https://flowerlinkla.com/wp-content/uploads/2019/06/P3150503-2-640x640.jpg"
+               },
+               {
+                  "img": "https://rosaholics.com/cdn/shop/products/xxxl-long-stems-5_1024x1024.png?v=1707166752"
                }
-            ]
+            ],
+            "desc": {
+               "en": "3D \nAbsalut Pink\nAlba \nAljoha \nAltamira \nAmsterdam \nEngagement \nAspen (Rosaprima)\nAtomic \nBarista \nWhite chocolate\nBee Sweet\nBlues \nBrighton \nBoulevard \nWild Cat\nWhite Shimmer\nWhite/Pink Ohara\nVeggie \nWendella \nWestminster Abbey\nGotcha \nDallas \nDeep Purple\nIguazu \nIguana \nCabaret \nKaen \nCountry Blues\nCountry Sun\nCountry Home\nCarousel \nKahala (Tessa)\nKahala \nQuicksend \nQueen Crown\nCoral Reef\nCotton Expression\nCream Carpediem\nCream Expression\nCandy Expression\nCandlelight \nLemonade \nLola \nLorena Sommerhous\nLuciana \nMyra Pink\nMyra Red\nMandala \nMandarin Expression\nMarzipan \nMagic Time\nMenta \nMix \nMia \nModi Blue\nMomentum \nMondial \nMohana \nMoonstone \nMansfield Park\nNautica \nNina \nNovia \nOpal \nHoya Verde+Joy\nPaloma \nPandora \nPink Mondial\nPink Promise\nPink Floyd\nPink Expression\nPeony-shaped \nPlaya Blanca\nPolar Star\nPomarosa \nPrincess Crown\nProud \nRagazza \nRed Panther\nRed/Pink Monster\nRainbow \nSalma \nSunset Expression\nSwan \nSweet Memoriy\nSweet Eskimo\nSweetness \nCielo/Rosalin \nSilantoy \nTiffany \nToffee \nFarfalla \nFelicity \nFlamingo (Rosaprima)\nFreedom \nFrutetto \nFull Monty\nHigh Yellow\nHigh Magic\nHearts \nHot Spot\nHot/Pink Explorer\nHoudini \nHoudini50cm (Annie\nHermosa \nCheckmate \nShimmer \nEq Mix\nExplorer \nEnchantment \nApple Jack\nEsperanza ",
+               "ru": "3Д \nАбсалут Пинк\nАльба \nАльоха \nАльтамира \nАмстердам \nАнгажемент \nАспен (Розаприма)\nАтомик \nБариста \nБелый Шоколад\nБи Свит\nБлюз \nБрайтон \nБулевард \nВайлд Кэт\nВайт Шиммер\nВайт/Пинк Охара\nВеггие \nВенделла \nВестминстер Эбби\nГотча \nДаллас \nДип Перпл\nИгуазу \nИгуана \nКабарет \nКаен \nКантри Блюз\nКантри Сан\nКантри Хоум\nКарусель \nКахала (Тесса)\nКахала \nКвиксенд \nКвин Краун\nКорал Риф\nКоттон Экспрешн\nКрем Карпедием\nКрем Экспрешн\nКэнди Экспрешн\nКэндллайт \nЛимонад \nЛола \nЛорена Соммерхоус\nЛусиана \nМайра Пинк\nМайра Ред\nМандала \nМандарин Экспрешн\nМарзипан \nМеджик Тайм\nМента \nМикс \nМия \nМоди Блю\nМоментум \nМондиаль \nМохана \nМунстоун \nМэнсфилд Парк\nНаутика \nНина \nНовиа \nОпала \nХойа Верде+Джой\nПалома \nПандора \nПинк Мондиаль\nПинк Промис\nПинк Флойд\nПинк Экспрешн\nПионовидная \nПлайя Бланка\nПолар Стар\nПомароса \nПринсесс Краун\nПроуд \nРагацца \nРед Пантера\nРед/Пинк Монстер\nРейнбоу \nСалма \nСансет Экспрешн\nСван \nСвит Меморий\nСвит Эскимо\nСвитнесс \nСиело/Росалин \nСилантой \nТиффани \nТоффи \nФарфала \nФелисити \nФламинго (Розаприма)\nФридом \nФрутетто \nФул Монти\nХай Еллоу\nХай Мэджик\nХартс \nХот Спот\nХот/Пинк Эксплорер\nХоудини \nХоудини50См (Анни\nХэрмоса \nЧекмэйт \nШиммер \nЭкв Микс\nЭксплорер \nЭнчантмент \nЭппл Джек\nЭсперанса "
+            },
+            "plantation": "Vip Roses, Sian Flowers",
+            "quantity": "25",
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -120,9 +317,32 @@
             },
             "images": [
                {
-                  "img": "https://sun9-30.userapi.com/impg/JwmiZJPy5g6GL4CMMhZhx3E1HyHfKshf7Leyhg/-ntlzXAWoFA.jpg?size=1080x720&quality=95&sign=99297f202670b0813141e9f1e16ccf62&type=album"
+                  "img": "https://fareastfloramarket.com/pub/media/catalog/product/cache/b65e39677432e53b1cd178cba9bd3e99/2/3/2393flamingo-c.jpg"
+               },
+               {
+                  "img": "https://www.sensecuador.com/images/stories/virtuemart/product/mia.png"
+               },
+               {
+                  "img": "https://www.kikwetuflowers.com/wp-content/uploads/2024/01/Royal-Magic-09-768x512.jpg?v=1710475725"
+               },
+               {
+                  "img": "https://www.kikwetuflowers.com/wp-content/uploads/2024/01/Fire-n-Flame-10-768x512.jpg?v=1710475785"
+               },
+               {
+                  "img": "https://www.kikwetuflowers.com/wp-content/uploads/2024/01/Pomarosa-10-768x452.jpg?v=1710475745"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Baraka, Branan, Black Tulip Flowers",
+               "ru": "Baraka, Branan, Black Tulip Flowers"
+            },
+            "plantation": "Baraka, Branan, Black Tulip Flowers",
+            "quantity": "20",
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -131,9 +351,32 @@
             },
             "images": [
                {
-                  "img": "https://sun9-20.userapi.com/impg/pLvz4D0Cqv4rqIBeAeXkGFXhx3Jl1_ZTBRzlCA/HQYieAf7L8s.jpg?size=1080x720&quality=95&sign=fd38b39d510f0db7d27e100c887c591d&type=album"
+                  "img": "https://voornroses.com/wp-content/uploads/2022/06/voorn_spray_roses_joyful.jpg"
+               },
+               {
+                  "img": "https://voornroses.com/wp-content/uploads/2018/09/voorn_spray_roses-Coral-Bubbles_W1A1304.jpg"
+               },
+               {
+                  "img": "https://kartinki.pics/pics/uploads/posts/2022-09/1663556420_1-kartinkin-net-p-trendsetter-roza-kustovaya-vkontakte-1.jpg"
+               },
+               {
+                  "img": "https://img.webcdn.ru/catalog/Photo/00-00011730.jpg"
+               },
+               {
+                  "img": "https://opt-fp.ru/uploads/store/product/17898b0d617711eb80dd005056aebb19_4051d3879b1911eb80e4005056aebb19.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Azores\nEyeliner\nAleksina\nAmata\nAmazing\nAngel\nAntigua\nAria\nArtesia\nAerobics\nAyala\nBandalero\nBarbados\nBella-Trendsetter\nBlushing\nBombastic\nBridal\nBritney\nBaby\nWeding\nVictor\nGaletto\nGalina\nGiseli\nGrandee\nGrandmays\nGreen\nGood\nGuincy\nJustin\nGentle\nJosephine\nJoyful\nJudy\nJuliet\nDominica\nDomino\nDaylight\nButt\nYoga\nKata-Lin\nCatalina\nClass\nCandylane\nLa Vie\nLavender\nLatoya\nLady\nLeila\nLem\nLianna\nLydia\nLimousine\nLov-Ait\nMadam\nMix\nMirabel\nMiss\nMisty\nMoring\nMotoun\nMagic\nMansfield\nNadia\nNinka\nNew\nNotre\nOdile\nHe\nOrange\nPiano\nPink\nPurple\nRamona\nEd\nReflex\nRoma\nRosanella\nRoyal\nSummer\nSummerrose\nSandial\nSancerre\nSweet\nSeverina\nSilva\nSliviana\nSmashing\nSofia\nSofia\nSpeke\nSushi\nTahiti\nTanya\nTrinity\nWhitney\nFireWorks\nFi-Flash\nFancy\nFatal\nFemka\nFurst\nFlinder\nFlow\nFlame\nHappy\nChimo\nCheyenne\nEmilia",
+               "ru": "Азоре\nАй лайнер\nАлексина\nАмата\nАмейзинг\nАнгел\nАнтигуа\nАрия\nАртесиа\nАэробик\nАяла\nБандалеро\nБарбадос\nБелла-Трендсеттер\nБлашинг\nБомбастик\nБрайдал\nБритни\nБэйби\nВединг\nВиктор\nГалетто\nГалина\nГисели\nГранд\nГрандмайс\nГрин\nГуд\nГуинси\nДжастин\nДжентл\nДжозефина\nДжойфул\nДжуди\nДжульетта\nДоминика\nДомино\nДэйлайт\nЗадик\nЙога\nКата-Лин\nКаталина\nКласс\nКэндилейн\nЛа-Вие\nЛавандер\nЛатоя\nЛеди\nЛейла\nЛем\nЛианна\nЛидия\nЛимузин\nЛов-Айт\nМадам\nМикс\nМирабел\nМисс\nМисти\nМоринг\nМотоун\nМэджик\nМэнсфилд\nНадиа\nНинка\nНовый\nНотр\nОдилия\nОн\nОранж\nПиано\nПинк\nПурпл\nРамона\nРед\nРефлекс\nРома\nРосанелла\nРоял\nСаммер\nСаммерроуз\nСандиал\nСансерра\nСвит\nСеверина\nСилва\nСливиана\nСмэшинг\nСофиа\nСофие\nСпик\nСуши\nТаити\nТаня\nТринити\nУитни\nФаеворкс\nФай-Флеш\nФанси\nФатал\nФемка\nФерст\nФлиндер\nФлоу\nФлэйм\nХеппи\nЧимо\nШайенн\nЭмилья"
+            },
+            "plantation": "Voorn Spray Roses, Vip Roses, Rift Valley Roses, Holla Roses, Sian Flowers",
+            "quantity": "10",
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
          },
          {
             "name": {
@@ -142,9 +385,102 @@
             },
             "images": [
                {
-                  "img": "https://sun9-39.userapi.com/impg/_TUI6wBnDvoPOZF_rmluPnXi3DuHHAnbF9i-CQ/IztRVJmFRD0.jpg?size=1080x720&quality=95&sign=a7e2d9ab6b2f4b5f4e34cd50308cee7e&type=album"
+                  "img": "https://img.freepik.com/premium-photo/pink-spray-roses-grey-background-top-view-copy-space-birthday-woman-s-day-mother-s-st-valentine-s-day-concept_97255-146.jpg"
+               },
+               {
+                  "img": "https://img1.wsimg.com/isteam/ip/99ed396a-5ce9-4fd0-9db8-16ea5c0025db/IMG-20211027-WA0011.jpg"
+               },
+               {
+                  "img": "https://www.kikwetuflowers.com/wp-content/uploads/2023/11/La-Mandarina-03.png"
+               },
+               {
+                  "img": "https://deruiter.com/wp-content/uploads/2019/08/B-Bubbles.jpg"
+               },
+               {
+                  "img": "https://www.rosesonly.co.uk/cdn/shop/products/50-Yellow-Roses-1_530x@2x.jpg?v=1678465369"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Baraka, Branan, Black Tulip Flowers",
+               "ru": "Baraka, Branan, Black Tulip Flowers"
+            },
+            "plantation": "Red Lands Roses, mZurrie Flowers, Subati Group, Batian Flowers, Black Tulip Flowers, Credible Blooms, Flora Ola Ltd, Gatoka Flowers, Heritage Flowers, Mount Elgon Orchards, Penta Flowers, PJ Dave Flowers Group, Primarosa, Uhuru",
+            "quantity": "10",
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": ""
+         }
+      ]
+   },
+   {
+      "name": {
+         "en": "Roses Local ⥤",
+         "ru": "Розы местные ⥤"
+      },
+      "images": [
+         {
+            "img": "https://sun9-66.userapi.com/impg/f373G0H7ve9Ke0IEF3fVKcQigOCi0MCjF3N5yw/aFwUD29NDng.jpg?size=1080x720&quality=95&sign=8609649f7db18dc63101dd2aecb71898&type=album"
+         }
+      ],
+      "inner_URL": "roses-local",
+      "items": [
+         {
+            "name": {
+               "en": "Single-headed",
+               "ru": "Одноголовые"
+            },
+            "images": [
+               {
+                  "img": "https://opt-fp.ru/uploads/store/product/693fe002cc4e11eb80e6005056aebb19_693fe003cc4e11eb80e6005056aebb19.jpg"
+               },
+               {
+                  "img": "https://delo360.ru/wp-content/uploads/2016/01/vyrashchivanie-roz-na-prodazhu-0-min.jpg"
+               },
+               {
+                  "img": "https://cdn.myslo.ru/Content/Contents/a6/78/c1c7-b2b6-4c85-a200-f8399fc3144d/7c035139-e8f5-4d34-8206-3b233211aad9.jpg"
+               }
+            ],
+            "desc": {
+               "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen house\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
+               "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+            },
+            "plantation": "",
+            "quantity": 10,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": "50\n60\n70\n80"
+         },
+          {
+            "name": {
+               "en": "Spray",
+               "ru": "Кустовые"
+            },
+            "images": [
+               {
+                  "img": "https://www.agroinvestor.ru/upload/iblock/593/5935517c7b9a443dda2d7d7da327d91d.jpg"
+               },
+               {
+                  "img": "https://dubabah.club/uploads/posts/2023-05/1684211206_dubabah-club-p-roza-kustovaya-chekhovskii-sad-pinterest-16.jpg"
+               },
+               {
+                  "img": "https://dubabah.club/uploads/posts/2023-02/1675274448_dubabah-club-p-samie-obilnotsvetushchie-rozi-vkontakte-67.jpg"
+               }
+            ],
+            "desc": {
+               "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen house\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
+               "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+            },
+            "plantation": "",
+            "quantity": 10,
+            "color": {
+               "en": "",
+               "ru": ""
+            },
+            "height": "50\n60\n70\n80"
          }
       ]
    },
@@ -163,24 +499,70 @@
          {
             "name": {
                "en": "Deco",
-               "ru": "Одноголовая"
+               "ru": "Деко"
             },
             "images": [
                {
                   "img": "https://sun9-80.userapi.com/impg/l_pp4zpVQQZvoYWs4N8VzB2PkgC6bHtTfaFtDg/hd1aVJOe_gw.jpg?size=1920x1280&quality=95&sign=ae22a9fdc987e61d2e32cc68fb235b90&type=album"
+               },
+               {
+                  "img": "https://www.woolmans.com/cdn/shop/files/CHR-294z.jpg?v=1721852282&width=2048"
+               },
+               {
+                  "img": "https://btfgroup.com/wp-content/uploads/2021/05/Chrysanthemum-Deco-Snowdown-Peach-600x600-5.jpg"
+               },
+               {
+                  "img": "https://rukminim2.flixcart.com/image/720/864/xif0q/plant-seed/3/r/b/30-chrysanthemum-flower-mix-seeds-mix-seeds-for-chrysanthemum-original-imaghe2csnk4pgdp.jpeg?q=60&crop=false"
+               },
+               {
+                  "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/0/j/e/75-chrysanthemum-flower-seeds-c-747-kanaya-original-imaghmweugap9mm8.jpeg?q=90&crop=false"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Anastasia white\nAnastasia yellow\nUndercover\nAntonov\nAntonov painted\nBrasiliana\nGagarin\nKalimba\nKalimba Salmon\nKasandra\nLamira\nMagnum\nMagnum yellow\nMomoko\nPeter\nPip\nPeep red\nPip Pretty\nRossano\nSouvenir\nSuper Bowl\nEtrusco Pink",
+               "ru": "Анастасия белая\nАнастасия желтая\nАндекавер\nАнтонов\nАнтонов крашеный\nБрасилиана\nГагарин\nКалимба\nКалимба Салмон\nКасандра\nЛамира\nМагнум\nМагнум желтый\nМомоко\nПётр\nПип\nПип красный\nПип Претти\nРоссано\nСувенир\nСупербоул\nЭтруско Пинк"
+            },
+            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
+            "quantity": 10,
+            "color": {
+               "en": "White Yellow Gold Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Золотый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 60
          },
          {
             "name": {
                "en": "Spray",
-               "ru": "Кустовая"
+               "ru": "Кустовые"
             },
             "images": [
                {
                   "img": "https://sun9-13.userapi.com/impg/_G5fdugScl_XxrudAzXUuBOClTSyogVuDn-h8g/19lt1LgR3UE.jpg?size=1920x1280&quality=95&sign=e3d5ac6e25a0528551f6539261338bd9&type=album"
+               },
+               {
+                  "img": "https://ludaflower.com/wp-content/uploads/2018/06/WhiteChr.jpg"
+               },
+               {
+                  "img": "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/original/products/7028/25736/Chrysanthemum_Pompom_Rose_0006978__08703.1638360658.jpg"
+               },
+               {
+                  "img": "https://www.woolmans.com/cdn/shop/files/10-young-plants-1-of-each-chrysanthemum-cut-flower-bloom-and-spray-collection-44367488647442.jpg?v=1702687679&width=800"
+               },
+               {
+                  "img": "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/08/chrysanthemum-plants-pots-1024x683.jpg?x63657"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Altai\nAltai Yellow\nBacardi Yellow\nBacardi Dyed\nBaller Dark\nBaller Pink\nBaltika\nBaltika Yellow\nBaltika Painted\nBaltika Cream\nBaltika Pink\nBaltika Salmon\nBaltika Beyond\nBolte\nBombardino\nBontempi\nBonus\nBaby\nGaidar\nGaidar Yellow\nGuinthus\nDelian Yellow\nJulin\nEuro White\nEuro Yellow\nKalimba\nKatinka\nKatinka Salmon\nKaya\nCode Green\nCommander\nCommander Painted\nCommander Pink\nCrown\nLamira\nLet's Go Pink\nLimoncello\nMexicano\nNewton\nOptimist Pink\nPastel White\nPastel Yellow\nPastela Pink\nProsecco\nPurple Star\nJoy\nJoy Cream\nRihana\nSerenity\nSerenity Purple\nSerenity Suite\nSofton\nStellini\nStress\nSouvenir\nTendenza\nTopspin\nFabianna\nFlarstar\nChick\nChick Cream\nAbby",
+               "ru": "Алтай\nАлтай Желтый\nБакарди Желтый\nБакарди Крашеный\nБаллер Дарк\nБаллер Пинк\nБалтика\nБалтика Желтая\nБалтика Крашеная\nБалтика Крем\nБалтика Розовая\nБалтика Салмон\nБалтика Beyond\nБолте\nБомбардино\nБонтемпи\nБонус\nБэби\nГайдар\nГайдар Желтый\nГуинтус\nДелиан Желтый\nДжулин\nЕвро Белый\nЕвро Желтый\nКалимба\nКатинка\nКатинка Салмон\nКая\nКод Грин\nКомандир\nКомандир Крашеный\nКомандир Розовый\nКорона\nЛамира\nЛетс Го Пинк\nЛимончелло\nМексикано\nНьютон\nОптимист Розовый\nПастела Белая\nПастела Желтая\nПастела Пинк\nПросекко\nПурпл Стар\nРадость\nРадость Крем\nРихана\nСеренити\nСеренити Пурпл\nСеренити Свит\nСофтон\nСтеллини\nСтреса\nСувенир\nТенденза\nТопспин\nФабианна\nФларстар\nЧик\nЧик Крем\nЭбби"
+            },
+            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
+            "quantity": 5,
+            "color": {
+               "en": "White Yellow Green Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 60
          },
          {
             "name": {
@@ -190,8 +572,31 @@
             "images": [
                {
                   "img": "https://sun9-79.userapi.com/impg/HH4odNxbSv-o9mAmPIkPc_xnL2aWbV-ipnR0hg/dfDYAVsG12A.jpg?size=1920x1280&quality=95&sign=a21d26ba9c89c724f9f2b022642c5eaf&type=album"
+               },
+               {
+                  "img": "https://shop.flowersforflorists.co.uk/user/products/flowers/104414.jpg"
+               },
+               {
+                  "img": "https://thursd.com/storage/media/37078/Chrysanthemum-Santini-Maverick-White-FeelHarmony-on-Thursd.jpg?1646224600825"
+               },
+               {
+                  "img": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_64f6eef0a35e890be432ae5c_64f6eef7a35e890be432b131/scale_1200"
+               },
+               {
+                  "img": "https://opt-fp.ru/uploads/store/product/698f8b3a939011eb80e2005056aebb19_59f702ae9b1011eb80e4005056aebb19.jpg"
                }
-            ]
+            ],
+            "desc": {
+               "en": "Santini Dyed\nSantini Mix\nSantini Rossi Cream\nSantini Rossi Pink\nSantini Rossi Sunny\nSantini Rossi White\nSantini Sun Up",
+               "ru": "Сантини Крашеный\nСантини Микс\nСантини Rossi Cream\nСантини Rossi Pink\nСантини Rossi Sunny\nСантини Rossi White\nСантини Sun Up"
+            },
+            "plantation": "Zentoo, Vannova",
+            "quantity": 25,
+            "color": {
+               "en": "White Yellow Green Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 50
          }
       ]
    },
@@ -209,9 +614,6 @@
          },
          {
             "img": "https://elabuga.loveflowers.ru/wp-content/uploads/2021/10/Liliya-rozovaya.jpg"
-         },
-         {
-            "img": "https://flowers-kostroma.ru/assets/cache_image/products/252/img-20220304-132938_1000x0_b3f.jpg"
          }
       ],
       "desc": {

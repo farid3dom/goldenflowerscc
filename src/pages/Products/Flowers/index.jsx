@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './style.scss';
 
 //Import Images
 import Loading from '../../../assets/icons/loading.svg';
@@ -9,51 +8,39 @@ import Button from '../../../components/Button/Index';
 import Input from '../../../components/Input/Index';
 import GalleryCard from '../../../components/GalleryCard/Index';
 
-//Import Utils
-import FlowersJSON from '../../../utils/flowers.json';
+//Import DB
+import FlowersData from '../../../db/flowers.json';
 
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
+///IMPORT HOOKS
+import useShowMore from '../../../hooks/useShowMore';
+
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-   const params = useParams();
    const location = useLocation();
    const navigate = useNavigate();
-   const maxLength = 48;
+   const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
    const lang = 'en';
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');
-   const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
-   const [loading, setLoading] = useState(false);
    const [galleryLoading, setGalleryLoading] = useState(false);
    const [searchInputValue, setSearchInputValue] = useState(searchValue);
    const [galleryData, setGalleryData] = useState([]);
 
    useEffect(() => {
       setGalleryLoading(true);
-      setVisibleCardLength(maxLength);
+      setMaxLengthDefault();
 
       setTimeout(() => {
          if (searchValue) {
-            let searchedValue = FlowersJSON.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+            let searchedValue = FlowersData.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
             setGalleryData(searchedValue);
          } else {
-            setGalleryData(FlowersJSON);
+            setGalleryData(FlowersData);
          }
          setGalleryLoading(false);
       }, 500)
    }, [location]);
-
-   const showMoreFunc = (e) => {
-      e.preventDefault();
-
-      if (!loading) {
-         setLoading(true);
-         setTimeout(() => {
-            setVisibleCardLength(prev => prev + maxLength);
-            return setLoading(false);
-         }, 500)
-      }
-   }
 
    //Search On Submit
    const searchSubmit = (e) => {
@@ -62,14 +49,10 @@ const Index = () => {
       if (searchValue !== searchInputValue) {
          navigate(`${location.pathname}?s=${searchInputValue}`)
       }
-
-      // setSearchInputValue('');
    }
 
    return (
       <div className="details__container">
-         {/* <h2 style={{ color: 'white' }}>Flowers</h2> */}
-
          <div className="search_bar">
             <Input
                value={searchInputValue}
@@ -81,16 +64,15 @@ const Index = () => {
                handleBlur={searchSubmit}
                submitHandler={searchSubmit}
             />
-
          </div>
 
-         {galleryLoading &&
-            <div className="loading_wrapper">
-               <img className='loading_icon' src={Loading} alt='' />
-            </div>
-         }
-
          <div className="gallery_grid_wrapper">
+            {galleryLoading &&
+               <div className="loading_wrapper">
+                  <img className='loading_icon' src={Loading} alt='' />
+               </div>
+            }
+
             {!galleryLoading && galleryData?.length === 0 ?
                <div className="no_result_wrapper">
                   <h2>Товар не найден...</h2>
@@ -106,9 +88,9 @@ const Index = () => {
                   title={f?.name[lang]}
                   href={
                      f.inner_URL ?
-                     `${location.pathname}/${f.inner_URL}`
-                     :
-                     `/product?productType=flowers&productName=${f.name['en'].toLowerCase()}`
+                        `${location.pathname}/${f.inner_URL}`
+                        :
+                        `/product?productType=flowers&productName=${f.name['en'].toLowerCase()}`
                   }
                />
             ))

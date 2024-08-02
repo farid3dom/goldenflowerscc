@@ -11,18 +11,10 @@ import Loading from './layout/Loading/index';
 //Import Pages
 import Home from './pages/Home/index'
 import Products from './pages/Products/index'
-import InnerFlowers from './pages/InnerFlowers/Index'
-import Flowers from './pages/Products/Flowers/index';
-import DetailsFlowers1 from './pages/Products/Flowers/Details1/index'
-import Plants from './pages/Products/Plants/index';
+import FlowersCollection from './pages/Products/Flowers/Collection/index';
+import PlantsCollection from './pages/Products/Plants/Collection/index';
 import SingleProduct from './pages/SingleProduct/index'
 
-import Grunt from './pages/Plants/Grunt/index'
-import Greenery from './pages/Plants/Greenery/index'
-import Domestic from './pages/Plants/Domestic/index'
-
-import Accessories from './pages/Accessories/index'
-import Cooperation from './pages/Cooperation/index'
 import Contacts from './pages/Contacts/index'
 import About from './pages/About/index'
 
@@ -72,12 +64,14 @@ function App() {
 
           {/* PRODUCTS PAGES */}
           <Route path='/products/flowers/' element={<Products />} />
-          <Route path='/products/flowers/:details1' element={<DetailsFlowers1 />} />
+          <Route path='/products/flowers/:collection' element={<FlowersCollection />} />
 
           <Route path='/products/plants' element={<Products />} />
+          <Route path='/products/plants/:collection' element={<PlantsCollection />} />
+
           <Route path='/products/accessories' element={<Products />} />
           <Route path='/products/cooperation' element={<Products />} />
-          
+
           {/* SINGLE PRODUCT PAGE */}
           <Route path='/product' element={<SingleProduct />} />
 

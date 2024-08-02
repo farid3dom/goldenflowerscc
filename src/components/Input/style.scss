@@ -15,11 +15,12 @@
 
    .input_white {
       color: var(--white);
-      border: .5px solid rgba(255, 255, 255, 0.5);
+      // border: .5px solid rgba(255, 255, 255, 0.5);
+      border: .5px solid var(--white);
 
-      &:focus {
-         border: .5px solid var(--white);
-      }
+      // &:focus {
+      //    border: .5px solid var(--white);
+      // }
    }
 
    .input_icon_wrapper {
@@ -42,7 +43,7 @@
          path {
             transition: all .25s ease;
             fill: var(--white);
-         } 
+         }
       }
 
       &:hover {

@@ -22,7 +22,7 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
-      padding: 200px 32px 48px 64px;
+      padding: 150px 32px 48px 64px;
 
       .product_title {
          font-family: var(--f-bold);
@@ -91,159 +91,29 @@
 
          .product_elements_wrapper {
             display: flex;
-            flex-direction: column;
             color: var(--white);
             font-family: var(--f-regular);
             font-size: 20px;
             opacity: 1;
             transition: all 0.3s ease;
+            flex-wrap: wrap;
 
             &:hover {
                opacity: 1;
             }
 
-            .product_type_0 {
-               display: flex;
-
-               .product_quantity {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-
-               .product_color {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-            }
-
-            .product_type_1 {
-               display: flex;
-
-               .product_quantity {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-
-               .product_color {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-            }
-
-            .product_type_2 {
-               display: flex;
-
-               .product_seasons {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-
-               .product_size {
-                  background: var(--gray);
-                  width: 50%;
-                  padding: 25px;
-                  line-height: 1.3;
-                  transition: all 0.3s ease;
-                  display: flex;
-                  flex-direction: column;
-                  gap: 6px;
-
-                  h1 {
-                     font-family: var(--f-bold);
-                  }
-
-                  &:hover {
-                     background: #8d8d8d;
-                  }
-               }
-            }
-
-            .product_care {
+            .product-elements__item {
                background: var(--gray);
-               width: 100%;
                padding: 25px;
                line-height: 1.3;
                transition: all 0.3s ease;
                display: flex;
                flex-direction: column;
                gap: 6px;
+               flex: 50%;
 
                h1 {
                   font-family: var(--f-bold);
-               }
-
-               span {
-                  text-align: justify;
                }
 
                &:hover {
@@ -319,29 +189,14 @@
             gap: 32px;
 
             .product_elements_wrapper {
-               .product_type {
-                  flex-direction: column;
-
-                  .product_quantity,
-                  .product_color {
-                     width: 100%;
-                     padding: 12px 16px;
-                  }
-               }
-
-               .product_type_2 {
-                  flex-direction: column;
-
-                  .product_seasons,
-                  .product_size {
-                     width: 100%;
-                     padding: 12px 16px;
-                  }
-               }
-
-               .product_care {
+               .product-elements__item {
+                  flex: 100%;
                   padding: 12px 16px;
 
+                  h1 {
+                     font-size: 18px;
+                  }
+                  
                   span {
                      font-size: 16px;
                   }

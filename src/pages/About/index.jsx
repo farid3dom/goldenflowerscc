@@ -6,11 +6,11 @@ import { useLocation } from 'react-router-dom';
 import CountUp from 'react-countup';
 
 import Slider from '../../components/Slider/index'
-import Button from '../../components/Button/Index'
+import Button from '../../components/Button/Index';
+
+import { Link } from 'react-router-dom';
 
 //import images
-
-
 
 const Index = () => {
     const collectionRef = useRef(null);
@@ -194,12 +194,12 @@ const Index = () => {
                             <div className="main_slogan_text">
                                 <h1>Отдел цветков</h1>
                                 <ul className='product_list'>
-                                    <li><a href="">Розы</a></li>
-                                    <li><a href="">Хризантема</a></li>
-                                    <li><a href="">Лилии</a></li>
-                                    <li><a href="">Тюльпаны</a></li>
-                                    <li><a href="">Гвоздики</a></li>
-                                    <li><a href="">Пионы</a></li>
+                                    <li><Link to={'/products/flowers/roses'}>Розы</Link></li>
+                                    <li><Link to={'/products/flowers/chrysanthemum'}>Хризантема</Link></li>
+                                    <li><Link to={'/product?productType=flowers&productName=lily'}>Лилии</Link></li>
+                                    <li><Link to={'/product?productType=flowers&productName=tulips'}>Тюльпаны</Link></li>
+                                    <li><Link to={'/products/flowers/dianthus'}>Гвоздики</Link></li>
+                                    <li><Link to={'/product?productType=flowers&productName=peonies'}>Пионы</Link></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button
@@ -226,9 +226,9 @@ const Index = () => {
                             <div className="main_slogan_text">
                                 <h1>Отдел растений</h1>
                                 <ul className='product_list'>
-                                    <li><a href="">Комнатные растения</a></li>
-                                    <li><a href="">Зелень</a></li>
-                                    <li><a href="">Грунт и удобрения</a></li>
+                                    <li><Link to={'/products/plants/domestic'}>Комнатные растения</Link></li>
+                                    <li><Link to={'/products/plants/greenery'}>Зелень</Link></li>
+                                    <li><Link to={'/products/plants/grunt'}>Грунт и удобрения</Link></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button
