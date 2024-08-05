@@ -9,6 +9,7 @@
     position: relative;
 
 
+
     //Header
     header {
         width: 100%;
@@ -50,7 +51,7 @@
         align-items: center;
         justify-content: center;
         object-fit: cover;
-        padding:64px 0;
+        padding: 64px 0;
 
         .about_wrapper_inner {
             max-width: 1140px;
@@ -114,7 +115,7 @@
 
             .main_slogan_text {
                 color: var(--white);
-                
+
                 padding: 35px;
 
                 h1 {
@@ -218,7 +219,7 @@
             .slide_wrapper {
                 width: 100%;
                 height: 100%;
-                
+
             }
 
             .main_slogan {
@@ -227,7 +228,7 @@
                 text-align: center;
                 background: #0000004e;
                 backdrop-filter: blur(2px);
-                
+
                 .main_slogan_text {
                     padding: 35px;
 
@@ -342,7 +343,7 @@
             .slide_wrapper {
                 width: 100%;
                 height: 100%;
-                
+
             }
 
             .main_slogan {
@@ -350,7 +351,7 @@
                 width: 100%;
                 text-align: center;
                 // background: #8e8e8e85;
-                
+
                 .main_slogan_text {
                     padding: 35px;
 

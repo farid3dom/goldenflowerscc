@@ -6,6 +6,7 @@ import Logo from '../../assets/icons/logo.svg'
 import Logo_S from '../../assets/icons/logo_sm.svg'
 import ArrowDown from '../../assets/icons/arrowDown';
 import ShopSVG from '../../assets/icons/shop.svg'
+import DownloadSVG from '../../assets/icons/download.svg'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -90,10 +91,16 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 <div className="nav_right">
 
                     <div className="shop_button">
-                        <a href={"https://gfcc.clients.site/"} target={'_blank'}>
+                        {/* <a href={"https://gfcc.clients.site/"} target={'_blank'}>
                             <button>
                                 <img src={ShopSVG}/>
                                 <span>Магазин</span>
+                            </button>
+                        </a> */}
+                        <a href={"https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148"} target={'_blank'}>
+                            <button>
+                                <img src={DownloadSVG}/>
+                                <span>Прайс-лист</span>
                             </button>
                         </a>
                     </div>

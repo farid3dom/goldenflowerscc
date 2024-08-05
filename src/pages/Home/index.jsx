@@ -65,8 +65,7 @@ const Index = () => {
 
 
                 <div className="slide_wrapper">
-
-
+                    
                     <Slider
                         loop={true}
                         options={sliderOptions}
