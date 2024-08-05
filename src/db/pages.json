@@ -8,7 +8,7 @@
             "ru": "Цветы"
          }
       },
-      "galleyTitle": {
+      "galleryTitle": {
          "en": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!",
          "ru": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!"
       }
@@ -22,7 +22,7 @@
             "ru": "Растения"
          }
       },
-      "galleyTitle": {
+      "galleryTitle": {
          "en": "Вы <span>никогда</span> не найдете столько <span>растений</span>!",
          "ru": "Вы <span>никогда</span> не найдете столько <span>растений</span>!"
       }
@@ -36,23 +36,23 @@
             "ru": "Аксессуары"
          }
       },
-      "galleyTitle": {
-         "en": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!",
-         "ru": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!"
+      "galleryTitle": {
+         "en": "Flowers speak the language of beauty, and <span>accessories</span> help them tell their <span>story</span>!",
+         "ru": "Цветы говорят на языке красоты, а <span>аксессуары</span> помогают им рассказать свою <span>историю</span>!"
       }
    },
    {
       "page_name": "cooperation",
       "headerWrapper": {
-         "img": "https://sun9-36.userapi.com/impg/4XweD-DC3E2gmh8IdfOQyVPCsZSLz-p8ZEqenA/C_i-g1-BkYE.jpg?size=1920x1280&quality=95&sign=714231975274a0a06bb3a8b4f1c7e68f&type=album",
+         "img": "https://sun9-25.userapi.com/impg/-7O9FhBTxqI04f7ZsuhlKkY_a39Qs3lFJcUK4A/Y3XXBcEQ1ys.jpg?size=1216x832&quality=95&sign=a5781aa2d2355b975dc4d32cd8a80d6e&type=album",
          "title": {
-            "en": "Flowers",
-            "ru": "Цветы"
+            "en": "Cooperation",
+            "ru": "Сотрудничество"
          }
       },
-      "galleyTitle": {
-         "en": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!",
-         "ru": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!"
+      "galleryTitle": {
+         "en": "We have the <span>best suppliers</span> of flowers, plants and accessories!",
+         "ru": "У нас <span>лучшие</span> поставщики цветов, растений и аксессуаров!"
       }
    }
 ]

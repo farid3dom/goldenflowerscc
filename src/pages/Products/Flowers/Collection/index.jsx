@@ -31,20 +31,16 @@ const Index = () => {
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');
    const [searchInputValue, setSearchInputValue] = useState(searchValue);
-   const [pageData, setPageData] = useState({});
+   const [pageData, setPageData] = useState(null);
    const [galleryData, setGalleryData] = useState([]);
-   const [collectionName, setCollectionName] = useState('');
+   const [collectionData, setCollectionData] = useState(null);
 
    useEffect(() => {
       let currentLocation = location.pathname.split('/')[2];
       let itemName = location.pathname.split('/')[3];
-      let pageValues = PagesData.find((p, i) => p.page_name === currentLocation);
       setMaxLengthDefault();
 
       setPageData({
-         headerImg: pageValues.headerWrapper.img,
-         headerTitle: pageValues.headerWrapper.title[lang],
-         galleryTitle: pageValues.galleyTitle[lang],
          page_URL: currentLocation,
          itemName: itemName
       });
@@ -59,17 +55,22 @@ const Index = () => {
       }, 500)
    }, [pageData]);
 
-   const getSearchedData = async () => {
-      if (searchValue) {
-         let selectedFlowerData = await FlowersData.find((p, i) => p.inner_URL === pageData.itemName);
-         let searchedValue = await selectedFlowerData?.items?.filter(p => p.name[lang].toLowerCase().includes(searchValue.toLowerCase()));
-         setGalleryData(searchedValue);
-      } else {
-         let selectedFlowerData = await FlowersData.find((p, i) => p.inner_URL === pageData.itemName);
-         setGalleryData(selectedFlowerData?.items);
-         setCollectionName(selectedFlowerData?.inner_URL);
+   const getSearchedData = () => {
+      if (pageData) {
+         if (searchValue) {
+            let selectedFlowerData = FlowersData.find((p, i) => p.inner_URL === pageData.itemName);
+            let searchedValue = selectedFlowerData?.items?.filter(p => p.name[lang].toLowerCase().includes(searchValue.toLowerCase()));
+            setGalleryData(searchedValue);
+            setCollectionData(selectedFlowerData);
+         } else {
+            let selectedFlowerData = FlowersData.find((p, i) => p.inner_URL === pageData.itemName);
+            setGalleryData(selectedFlowerData?.items);
+            setCollectionData(selectedFlowerData);
+         }
       }
    }
+
+   console.log(collectionData);
 
    //Search On Submit
    const searchSubmit = (e) => {
@@ -83,13 +84,13 @@ const Index = () => {
    return (
       <div className="products-page__container">
          <HeaderRepeat
-            title={pageData?.headerTitle}
-            img={pageData?.headerImg}
+            title={collectionData?.name[lang].replace('⥤', ' ')}
+            img={collectionData?.images[0].img}
          />
 
          <div className="products_content_wrapper">
             <div className="content_wrapper_inner">
-               <p className='content_title' dangerouslySetInnerHTML={{ __html: pageData?.galleryTitle }}></p>
+               <p className='content_title' dangerouslySetInnerHTML={{ __html: collectionData?.galleryTitle }}></p>
 
                <div className="details__container">
 
@@ -130,7 +131,7 @@ const Index = () => {
                            img={f.images && f.images[0].img}
                            title={f?.name[lang]}
                            href={
-                              `/product?productType=flowers&productName=${f.name['en'].toLowerCase()}&collection=${collectionName}`
+                              `/product?productType=flowers&productName=${f.name['en'].toLowerCase()}&collection=${collectionData.inner_URL}`
                            }
                         />
                      ))

@@ -1,18 +1,11 @@
 import React from 'react';
 import './style.scss';
-
-
-
-//Import images
-// import Map from '../../assets/media/images/map_gold.png'
-
-
+import "@google/model-viewer";
 
 //Import Components
 import Button from '../../components/Button/Index';
 import Slider from '../../components/Slider/index';
-
-
+import ThreeDItem from '../../assets/media/threeD.glb';
 
 const Index = () => {
 
@@ -56,6 +49,22 @@ const Index = () => {
 
     return (
         <div className="home_page_container">
+
+            {/* <model-viewer
+                src={ThreeDItem && ThreeDItem}
+                className="model-viewer"
+                // shadow-intensity="2"
+                camera-controls
+                // disable-zoom
+                ar
+                autoplay
+                style={{
+                    width: '100%',
+                    height: '600px',
+                }}
+            >
+            </model-viewer> */}
+
             <header>
 
                 <div className="header_slogan">

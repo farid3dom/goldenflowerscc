@@ -13,7 +13,8 @@ import Home from './pages/Home/index'
 import Products from './pages/Products/index'
 import FlowersCollection from './pages/Products/Flowers/Collection/index';
 import PlantsCollection from './pages/Products/Plants/Collection/index';
-import SingleProduct from './pages/SingleProduct/index'
+import SingleProduct from './pages/SingleProduct/index';
+import Cooperation from './pages/Cooperation/index';
 
 import Contacts from './pages/Contacts/index'
 import About from './pages/About/index'
@@ -70,7 +71,7 @@ function App() {
           <Route path='/products/plants/:collection' element={<PlantsCollection />} />
 
           <Route path='/products/accessories' element={<Products />} />
-          <Route path='/products/cooperation' element={<Products />} />
+          <Route path='/cooperation' element={<Cooperation />} />
 
           {/* SINGLE PRODUCT PAGE */}
           <Route path='/product' element={<SingleProduct />} />

@@ -69,7 +69,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 <ul>
                                     <Link to={'/about'}><li>Наша история
                                     </li></Link>
-                                    <Link to={'/products/cooperation'}><li>Сотрудничество
+                                    <Link to={'/cooperation'}><li>Сотрудничество
                                     </li></Link>
                                 </ul>
                             </div>

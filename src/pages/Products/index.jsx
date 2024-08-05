@@ -6,6 +6,7 @@ import HeaderRepeat from '../../layout/HeaderRepeat/index';
 //Import Component
 import Flowers from './Flowers/index';
 import Plants from './Plants/index';
+import Accessories from './Accessories/index';
 
 //Import DB
 import PagesData from '../../db/pages.json';
@@ -24,7 +25,7 @@ const Index = () => {
       setPageData({
          headerImg: pageValues.headerWrapper.img,
          headerTitle: pageValues.headerWrapper.title[lang],
-         galleryTitle: pageValues.galleyTitle[lang],
+         galleryTitle: pageValues.galleryTitle[lang],
          page_URL: currentLocation
       });
    }, [location]);
@@ -44,7 +45,9 @@ const Index = () => {
                   pageData.page_URL === 'flowers' ?
                      <Flowers />
                      : pageData.page_URL === 'plants' ?
-                     <Plants /> : null
+                        <Plants />
+                        : pageData.page_URL === 'accessories' ?
+                           <Accessories /> : null
                }
             </div>
          </div>

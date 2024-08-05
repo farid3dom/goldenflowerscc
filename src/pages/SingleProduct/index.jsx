@@ -8,12 +8,13 @@ import BackBtn from '../../components/BackBtn/index';
 ////IMPORT DB
 import FlowersData from '../../db/flowers.json';
 import PlantsData from '../../db/plants.json';
+import AccessoriesData from '../../db/accessories.json';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 
 const Index = () => {
-   const lang = 'ru';
+   const lang = 'en';
    const location = useLocation();
    const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);
@@ -42,6 +43,16 @@ const Index = () => {
                setProductData(getDataFromCollection);
             } else {
                let singleData = await PlantsData.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(singleData);
+            }
+            break;
+         case 'accessories':
+            if (searchParams.get('collection')) {
+               let singleData = await AccessoriesData.find(f => f.inner_URL === searchParams.get('collection'));
+               let getDataFromCollection = await singleData.items.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(getDataFromCollection);
+            } else {
+               let singleData = await AccessoriesData.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
                setProductData(singleData);
             }
             break;
@@ -117,8 +128,15 @@ const Index = () => {
                         <span>{productData?.care[lang]}</span>
                      </div>
                   }
+                  {
+                     productData?.department &&
+                     <div className="product_care product-elements__item">
+                        <h1>Уход</h1>
+                        <span>{productData?.department}</span>
+                     </div>
+                  }
                </div>
-               <div className="product_button">
+               {/* <div className="product_button">
                   <Button
                      btnText={'Перейти в магазин'}
                      className={'btn btn_white hover_gold'}
@@ -126,7 +144,7 @@ const Index = () => {
                      href={'https://gfcc.clients.site/'}
                      target={'_blank'}
                   />
-               </div>
+               </div> */}
             </div>
          </div>
          <div className="product_info">
