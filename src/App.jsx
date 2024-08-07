@@ -23,7 +23,6 @@ import About from './pages/About/index'
 import { Routes, Route, BrowserRouter as Router, Navigate, useLocation, Outlet } from 'react-router-dom';
 
 function App() {
-
   const [menuIsActive, setMenuIsActive] = useState(null);
 
   ///PAGE SCROLL TO TOP
@@ -78,7 +77,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

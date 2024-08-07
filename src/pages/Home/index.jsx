@@ -5,7 +5,6 @@ import "@google/model-viewer";
 //Import Components
 import Button from '../../components/Button/Index';
 import Slider from '../../components/Slider/index';
-import ThreeDItem from '../../assets/media/threeD.glb';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
