@@ -5,9 +5,12 @@ import "@google/model-viewer";
 //Import Components
 import Button from '../../components/Button/Index';
 import Slider from '../../components/Slider/index';
-import ThreeDItem from '../../assets/media/threeD.glb';
+
+//Import Utils
+import { useTranslation } from 'react-i18next';
 
 const Index = () => {
+    const { t, i18n } = useTranslation();
 
     let sliderOptions = [
         {
@@ -50,6 +53,7 @@ const Index = () => {
     return (
         <div className="home_page_container">
 
+
             {/* <model-viewer
                 src={ThreeDItem && ThreeDItem}
                 className="model-viewer"
@@ -81,8 +85,6 @@ const Index = () => {
 
                     />
                 </div>
-
-
             </header>
 
             <div className="about_wrapper">
