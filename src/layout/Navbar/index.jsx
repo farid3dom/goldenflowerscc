@@ -6,14 +6,26 @@ import Logo from '../../assets/icons/logo.svg'
 import Logo_S from '../../assets/icons/logo_sm.svg'
 import ArrowDown from '../../assets/icons/arrowDown';
 import ShopSVG from '../../assets/icons/shop.svg'
+import DownloadSVG from '../../assets/icons/download.svg'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
 
+///Import Utils
+import { useTranslation } from 'react-i18next';
+
 const Index = ({ menuIsActive, setMenuIsActive }) => {
+    const { t, i18n } = useTranslation();
 
     const menuShowHide = () => {
         menuIsActive ? setMenuIsActive(false) : setMenuIsActive(true)
+    }
+
+    console.log(i18n.language)
+
+    const changeLanguage = async lang => {
+        window.location.reload();
+        await i18n.changeLanguage(lang);
     }
 
     return (
@@ -90,12 +102,30 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 <div className="nav_right">
 
                     <div className="shop_button">
-                        <a href={"https://gfcc.clients.site/"} target={'_blank'}>
+                        {/* <a href={"https://gfcc.clients.site/"} target={'_blank'}>
                             <button>
                                 <img src={ShopSVG}/>
                                 <span>Магазин</span>
                             </button>
+                        </a> */}
+                        <a href={"https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148"} target={'_blank'}>
+                            <button>
+                                <img src={DownloadSVG} />
+                                <span>Прайс-лист</span>
+                            </button>
                         </a>
+                    </div>
+
+                    <div className="localization__wrapper">
+                        <span
+                            onClick={() => changeLanguage('ru')}
+                            style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
+                        >RU</span>
+                        <span>|</span>
+                        <span
+                            onClick={() => changeLanguage('en')}
+                            style={{ color: i18n.language === 'en' && 'var(--gold)' }}
+                        >EN</span>
                     </div>
 
                     <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>

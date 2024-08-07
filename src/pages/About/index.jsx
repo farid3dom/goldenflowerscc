@@ -10,7 +10,12 @@ import Button from '../../components/Button/Index';
 
 import { Link } from 'react-router-dom';
 
-//import images
+//import icons
+import YearIcon from '../../assets/icons/num_icons/work.svg'
+import PlantationIcon from '../../assets/icons/num_icons/plantation.svg'
+import ProductsIcon from '../../assets/icons/num_icons/products.svg'
+import ReviewsIcon from '../../assets/icons/num_icons/reviews.svg'
+
 
 const Index = () => {
     const collectionRef = useRef(null);
@@ -27,26 +32,26 @@ const Index = () => {
 
     let sliderFlowers = [
         {
-            img: 'https://sun9-3.userapi.com/impg/c2-OXz5M5WF2-YCAJ3AeDXHhJ2fsf4xQp3drGA/3SaU5cxIB2k.jpg?size=1280x853&quality=95&sign=707dd3fd3615a3ebeffa7a0675ac2aec&type=album'
+            img: 'https://sun9-79.userapi.com/impg/nHXbGzLXVky0tSscl1fTz63FN2doDMf9eI1cog/7KigjjixuJ8.jpg?size=1920x1280&quality=95&sign=fbcda4c32c53089c795f27ad5926b4c2&type=album'
         },
         {
-            img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1280x853&quality=95&sign=c33878e1f3f71cff8618fbbb82646c27&type=album'
+            img: 'https://sun9-78.userapi.com/impg/dOWdZv_YJvHrT72Pn3yjVl6LF6UPnaWOWvMahg/35TNSIxvNHA.jpg?size=1920x1280&quality=95&sign=c620451cb5f02868b820150727b43927&type=album'
         },
         {
-            img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1280x853&quality=95&sign=bbc3f1accca5ac25f28f371624a2162b&type=album'
+            img: 'https://sun9-16.userapi.com/impg/l9WxXmysucE1_H-FR_aWX-HoHNLgQo-_KMDCEg/U7SURtC_YX4.jpg?size=1080x720&quality=95&sign=49805dcd2595149dfce32166f0cfe58a&type=album'
         }
 
     ]
 
     let sliderPlants = [
         {
-            img: 'https://sun9-58.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1280x853&quality=95&sign=86bec54dfb86b9b999bb3c04308fef92&type=album'
-        },
-        {
             img: 'https://sun9-8.userapi.com/impg/vEiuWPBouRDDuzFtW3xruOH0Olg4RF_uNDBvNQ/gG1rpa1skJY.jpg?size=1280x852&quality=95&sign=cf090540afc3930949603d2980b5ef0f&type=album'
         },
         {
             img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1280x853&quality=95&sign=084963b3cdeb9b2cd8f0f18100c30f16&type=album'
+        },
+        {
+            img: 'https://sun9-15.userapi.com/impg/TuPwr6vZkxsS1-km13U7Xj539A0hzQzxLgpHjg/-9wZz7pdeho.jpg?size=1920x1280&quality=95&sign=84b12418dc525ead76d3834a8824a4b5&type=album'
         }
 
     ]
@@ -82,99 +87,72 @@ const Index = () => {
 
             <div className="about_content_wrapper">
 
-                {/* <div className="timeline">
+                <div className="about_head">
 
-                    <div className="container left_container">
-
-                        <img src={IconRA} width={40} />
-
-                        <div className="text_box ">
-                            <h2>Радужное</h2>
-                            <p>1999-2005</p>
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore doloribus totam voluptates officiis autem rem molestias asperiores mollitia qui quisquam?</span>
-                            <span className="left_container_arrow"></span>
-                        </div>
-
+                    <div className="about_title">
+                        <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона</h1>
+                        <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
                     </div>
 
-                    <div className="container right_container">
-                        <img src={IconRA} width={40} />
-                        <div className="text_box">
-                            <h2>Радостное</h2>
-                            <p>2005-2011</p>
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore doloribus totam voluptates officiis autem rem molestias asperiores mollitia qui quisquam?</span>
-                            <span className="right_container_arrow"></span>
+                    <div className="animated_numbers_wrapper">
+                        <div className="animated_num_wrap_inner">
+
+                            <div className="year_section num_section">
+                                <div className="num_icon">
+                                    <img src={YearIcon} />
+                                </div>
+                                <div className="year_count count">
+                                    <h1>
+                                        <CountUp end={26} duration={2} />+
+                                    </h1>
+                                </div>
+                                <div className="year_text num_text">
+                                    <span>ЛЕТ ОПЫТА В СФЕРЕ ЦВЕТОЧНОГО БИЗНЕСА</span>
+                                </div>
+                            </div>
+
+                            <div className="plantation_section num_section">
+                                <div className="num_icon">
+                                    <img src={PlantationIcon} />
+                                </div>
+                                <div className="plantation_count count">
+                                    <h1><CountUp end={100} duration={2} />+</h1>
+                                </div>
+                                <div className="plantation_text num_text">
+                                    <span>ЛУЧШИХ ПЛАНТАЦИЙ СОТРУДНИЧАЮТ С НАМИ</span>
+                                </div>
+                            </div>
+
+                            <div className="products_section num_section">
+                                <div className="num_icon">
+                                    <img src={ProductsIcon} />
+                                </div>
+                                <div className="products_count count">
+                                    <h1><CountUp end={25} duration={2} />+</h1>
+                                </div>
+                                <div className="products_text num_text">
+                                    <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
+                                </div>
+                            </div>
+
+                            <div className="starts_section num_section">
+                                <div className="num_icon">
+                                    <img src={ReviewsIcon} />
+                                </div>
+                                <div className="starts_count count">
+                                    <h1><CountUp end={5} duration={2} />+</h1>
+                                </div>
+                                <div className="starts_text num_text">
+                                    <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div className="container left_container">
-                        <img src={IconGF} width={40} />
-                        <div className="text_box">
-                            <h2>Golden Flowers</h2>
-                            <p>с 2011</p>
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore doloribus totam voluptates officiis autem rem molestias asperiores mollitia qui quisquam?</span>
-                            <span className="left_container_arrow"></span>
-                        </div>
-                    </div>
-
-                    <div className="container right_container">
-                        <img src={IconOA} width={40} />
-                        <div className="text_box">
-                            <h2>Oasis Cash&Carry</h2>
-                            <p>с 2016</p>
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore doloribus totam voluptates officiis autem rem molestias asperiores mollitia qui quisquam?</span>
-                            <span className="right_container_arrow"></span>
-                        </div>
-                    </div>
-
-                </div> */}
-
-                <div className="animated_numbers_wrapper">
-
-                    <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона.</h1>
-
-                    <div className="animated_num_wrap_inner">
-
-                        <div className="year_section num_section">
-                            <div className="year_count count">
-                                <h1>
-                                    <CountUp end={26} duration={2} />+
-                                </h1>
-                            </div>
-                            <div className="year_text num_text">
-                                <span>ЛЕТ ОПЫТА В СФЕРЕ ЦВЕТОЧНОГО БИЗНЕСА</span>
-                            </div>
-                        </div>
-
-                        <div className="plantation_section num_section">
-                            <div className="plantation_count count">
-                                <h1><CountUp end={100} duration={2} />+</h1>
-                            </div>
-                            <div className="plantation_text num_text">
-                                <span>ЛУЧШИХ ПЛАНТАЦИЙ СОТРУДНИЧАЮТ С НАМИ</span>
-                            </div>
-                        </div>
-
-                        <div className="products_section num_section">
-                            <div className="products_count count">
-                                <h1><CountUp end={25} duration={2} />+</h1>
-                            </div>
-                            <div className="products_text num_text">
-                                <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
-                            </div>
-                        </div>
-
-                        <div className="starts_section num_section">
-                            <div className="starts_count count">
-                                <h1><CountUp end={5} duration={2} />+</h1>
-                            </div>
-                            <div className="starts_text num_text">
-                                <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
+
+
 
                 <div className="about_slider_container" id={'collection'}>
 

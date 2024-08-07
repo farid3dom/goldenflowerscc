@@ -50,18 +50,8 @@ function App() {
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <Loading />
 
-
         <Routes>
           <Route path='/' element={<Home />} />
-
-          {/* <Route path='/products' element={<Products />}>
-            <Route path='flowers' element={<Flowers />}>
-              <Route path=':details1' element={<DetailsFlowers1 />} />
-            </Route>
-            <Route path='plants' element={<Plants />} />
-            <Route path='accessories' />
-            <Route path='cooperation' />
-          </Route> */}
 
           {/* PRODUCTS PAGES */}
           <Route path='/products/flowers/' element={<Products />} />
@@ -85,11 +75,8 @@ function App() {
           />
         </Routes>
 
-
         <Footer />
-
       </div>
-
     </Router>
   );
 }

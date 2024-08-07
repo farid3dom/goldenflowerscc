@@ -152,6 +152,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            gap: 20px;
 
             .shop_button {
                 a {
@@ -174,6 +175,24 @@
                             padding-left: 5px;
                         }
 
+                    }
+                }
+            }
+
+            .localization__wrapper {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                span {
+                    font-family: var(--f-regular);
+                    color: var(--white);
+                    font-size: 18px;
+                    padding-left: 5px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: var(--gold);
                     }
                 }
             }
@@ -271,8 +290,8 @@
 
             .nav_right {
 
-                .shop_button {
-                    padding-right: 35px;
+                .localization__wrapper {
+                    display: none;
                 }
 
                 .nav_hamburger {
