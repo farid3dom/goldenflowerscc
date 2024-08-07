@@ -26,37 +26,37 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
             <div className="hamburger_menu_list">
                 <Link to={'/flowers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Ц В Е Т Ы</p>
+                        <p>ЦВЕТЫ</p>
                     </div>
                 </Link>
                 <Link to={'/plants'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Р А С Т Е Н И Я</p>
+                        <p>РАСТЕНИЯ</p>
                     </div>
                 </Link>
                 <Link to={'/accessories'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>А К С Е С С У А Р Ы</p>
+                        <p>АКСЕССУАРЫ</p>
                     </div>
                 </Link>
                 <Link to={'/about'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>Н А Ш А  И С Т О Р И Я</p>
+                        <p>НАША ИСТОРИЯ</p>
                     </div>
                 </Link>
                 <Link to={'/cooperation'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>С О Т Р У Д Н И Ч Е С Т В О</p>
+                        <p>СОТРУДНИЧЕСТВО</p>
                     </div>
                 </Link>
                 <Link to={'/contacts'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>К О Н Т А К Т Ы</p>
+                        <p>КОНТАКТЫ</p>
                     </div>
                 </Link>
                 <div className='language'>
-                    <a href=""><p>E N</p></a>
-                    <a href=""><p>R U</p></a>
+                    <a href=""><p>EN</p></a>
+                    <a href=""><p>RU</p></a>
                 </div>
             </div>
             <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" />

@@ -1,7 +1,575 @@
 .about_page {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/media/images/container_image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
 
- }
- 
- @media screen and (max-width:767px) {
+    .about_content_wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: var(--f-medium);
 
- }
+
+        .about_head {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0;
+            background: url('../../assets/media/images/materials/vetrin.JPG') fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .about_title {
+                max-width: 1140px;
+                text-align: center;
+                padding: 50px 15px;
+                background: var(--gray);
+
+                .container_title_num {
+                    width: 100%;
+                    font-family: var(--f-bold);
+                    color: var(--white);
+                    padding: 20px;
+                    font-size: 50px;
+                }
+
+                .container_text_num {
+                    width: 100%;
+                    color: var(--white);
+                    font-size: 20px;
+                    padding: 20px;
+                }
+            }
+
+            .animated_numbers_wrapper {
+                max-width: 1140px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background: var(--gray);
+
+                .animated_num_wrap_inner {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 20px;
+
+                    .num_section {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: var(--white);
+                        backdrop-filter: blur(2px);
+                        text-align: center;
+                        padding: 15px;
+                        transition: all 0.5s ease;
+                        border: 1px solid #fff;
+
+                        .num_icon {
+
+                            img {
+                                width: 50px;
+                                height: auto;
+                            }
+                        }
+
+                        .count {
+
+
+                            h1 {
+                                font-size: 50px;
+                                font-family: var(--f-bold);
+
+                            }
+                        }
+
+                        .num_text {
+                            border-top: 1px solid var(--white);
+                            width: 150px;
+
+                            span {
+                                font-size: 11px;
+                            }
+                        }
+
+                        &:hover {
+                            background: #0000008c;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .about_slider_container {
+            width: 1140px;
+            height: 100%;
+            padding-bottom: 35px;
+
+            .container_title {
+                color: var(--white);
+                text-align: center;
+                font-size: 50px;
+                font-family: var(--f-bold);
+                padding: 35px;
+            }
+
+            .about_slider_container_inner {
+                width: 100%;
+                height: 100%;
+
+                .flowers_slider {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    margin-bottom: 35px;
+
+                    .slide_wrapper {
+                        width: 60%;
+                    }
+
+                    .main_slogan_text {
+                        width: 40%;
+                        color: var(--white);
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
+                        padding: 35px;
+
+                        h1 {
+                            font-family: var(--f-bold);
+                            font-size: 48px;
+                            padding-bottom: 15px;
+                        }
+
+                        ul {
+                            font-size: 24px;
+                            font-family: var(--f-regular);
+                            padding-bottom: 15px;
+                            line-height: 1.5;
+
+
+                            li {
+
+
+                                a {
+                                    color: var(--white);
+
+                                    &:hover {
+                                        color: var(--gold);
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+                .plants_slider {
+                    display: flex;
+                    margin-bottom: 35px;
+
+                    .slide_wrapper {
+                        width: 60%;
+                    }
+
+                    .main_slogan_text {
+                        color: var(--white);
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
+                        padding: 35px;
+
+                        h1 {
+                            font-family: var(--f-bold);
+                            font-size: 48px;
+                            padding-bottom: 15px;
+                        }
+
+                        ul {
+                            font-size: 24px;
+                            font-family: var(--f-regular);
+                            padding-bottom: 15px;
+                            line-height: 1.5;
+
+
+                            li {
+
+
+                                a {
+                                    color: var(--white);
+
+                                    &:hover {
+                                        color: var(--gold);
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+                .accessories_slider {
+                    display: flex;
+                    flex-direction: row-reverse;
+
+                    .slide_wrapper {
+                        width: 60%;
+                        height: 100%;
+                    }
+
+                    .main_slogan_text {
+                        color: var(--white);
+                        background: var(--gray);
+                        backdrop-filter: blur(2px);
+                        padding: 35px;
+
+                        h1 {
+                            font-family: var(--f-bold);
+                            font-size: 48px;
+                            padding-bottom: 15px;
+                        }
+
+                        ul {
+                            font-size: 24px;
+                            font-family: var(--f-regular);
+                            padding-bottom: 15px;
+                            line-height: 1.5;
+
+
+                            li {
+
+
+                                a {
+                                    color: var(--white);
+
+                                    &:hover {
+                                        color: var(--gold);
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width:1161px) {
+
+
+        .about_content_wrapper {
+
+            .about_head {
+                background: url('../../assets/media/images/materials/vetrin.JPG');
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .about_title {
+
+
+                    .container_title_num {}
+
+                    .container_text_num {}
+                }
+
+                .animated_numbers_wrapper {
+                    width: 100%;
+                    height: 100%;
+
+                    .animated_num_wrap_inner {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        .num_section {
+
+
+                            .num_icon {
+
+                                img {}
+                            }
+
+                            .count {
+
+
+                                h1 {}
+                            }
+
+                            .num_text {
+
+
+                                span {}
+                            }
+
+                            &:hover {}
+                        }
+                    }
+
+
+                }
+
+            }
+
+            .about_slider_container {
+                width: 100%;
+
+                .container_title {
+                    text-align: center;
+                    font-size: 36px;
+                }
+
+                .about_slider_container_inner {
+
+                    .flowers_slider {
+                        display: flex;
+                        flex-direction: column;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 70vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 45px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 36px;
+                            }
+
+                            ul {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .plants_slider {
+                        display: flex;
+                        flex-direction: column;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 70vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 35px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 36px;
+                            }
+
+
+                            ul {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .accessories_slider {
+                        display: flex;
+                        flex-direction: column;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 70vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 35px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 36px;
+                            }
+
+                            ul {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:767px) {
+
+        .about_content_wrapper {
+
+            .about_head {
+                padding: 0;
+
+                .about_title {
+                    padding: 100px 16px 0;
+
+                    .container_title_num {
+                        font-size: 50px;
+                    }
+
+                    .container_text_num {}
+                }
+
+                .animated_numbers_wrapper {
+                    width: 100%;
+                    height: 100%;
+
+                    .animated_num_wrap_inner {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        .num_section {
+                            padding: 15px 45px;
+                            margin: 15px;
+
+
+                            .num_icon {
+
+                                img {
+                                    width: 50px;
+                                }
+                            }
+
+                            .count {
+
+
+                                h1 {}
+                            }
+
+                            .num_text {
+                            
+
+
+                                span {
+                                
+                                }
+                            }
+
+                            &:hover {}
+                        }
+                    }
+
+
+                }
+
+            }
+
+            .about_slider_container {
+                width: 100%;
+                padding-bottom: 0;
+
+                .container_title {
+                    text-align: center;
+                    font-size: 36px;
+                }
+
+                .about_slider_container_inner {
+
+                    .flowers_slider {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 30vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 16px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 24px;
+                            }
+
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .plants_slider {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 30vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 16px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 24px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .accessories_slider {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+
+                        .slide_wrapper {
+                            width: 100%;
+                            height: 30vh;
+                        }
+
+                        .main_slogan_text {
+                            width: 100%;
+                            padding: 16px;
+                            text-align: center;
+
+                            h1 {
+                                font-size: 24px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

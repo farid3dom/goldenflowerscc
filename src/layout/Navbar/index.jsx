@@ -3,16 +3,29 @@ import './style.scss'
 
 //import images
 import Logo from '../../assets/icons/logo.svg'
-import Logo_S from '../../assets/icons/logo_mini.png'
+import Logo_S from '../../assets/icons/logo_sm.svg'
 import ArrowDown from '../../assets/icons/arrowDown';
+import ShopSVG from '../../assets/icons/shop.svg'
+import DownloadSVG from '../../assets/icons/download.svg'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
 
+///Import Utils
+import { useTranslation } from 'react-i18next';
+
 const Index = ({ menuIsActive, setMenuIsActive }) => {
+    const { t, i18n } = useTranslation();
 
     const menuShowHide = () => {
         menuIsActive ? setMenuIsActive(false) : setMenuIsActive(true)
+    }
+
+    console.log(i18n.language)
+
+    const changeLanguage = async lang => {
+        window.location.reload();
+        await i18n.changeLanguage(lang);
     }
 
     return (
@@ -25,7 +38,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             <img src={Logo} alt="Golden Flowers Logo" />
                         </Link>
                     </div>
-                    <div className="logo_s">
+                    <div className="logo_s" onClick={() => menuIsActive && setMenuIsActive(false)}>
                         <Link to={'/'}>
                             <img src={Logo_S} alt="Golden Flowers Logo Mini" />
                         </Link>
@@ -38,7 +51,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className='nav_menu_container'>
 
                         <div className="menu_text_main">
-                            <Link to={'/collection'}>
+                            <Link to={'/products/flowers'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Коллекция</p>
                                     <ArrowDown />
@@ -48,11 +61,11 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <Link to={'/flowers'}><li>Цветы
+                                    <Link to={'/products/flowers'}><li>Цветы
                                     </li></Link>
-                                    <Link to={'/plants'}><li>Растения
+                                    <Link to={'/products/plants'}><li>Растения
                                     </li></Link>
-                                    <Link to={'/accessories'}><li>Аксессуары
+                                    <Link to={'/products/accessories'}><li>Аксессуары
                                     </li></Link>
                                 </ul>
                             </div>
@@ -88,11 +101,34 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                 <div className="nav_right">
 
-                    <div className="phone_number">
-                        <a href='tel:84957818888'>+7 (495) 781 88 88</a>
+                    <div className="shop_button">
+                        {/* <a href={"https://gfcc.clients.site/"} target={'_blank'}>
+                            <button>
+                                <img src={ShopSVG}/>
+                                <span>Магазин</span>
+                            </button>
+                        </a> */}
+                        <a href={"https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148"} target={'_blank'}>
+                            <button>
+                                <img src={DownloadSVG} />
+                                <span>Прайс-лист</span>
+                            </button>
+                        </a>
                     </div>
 
-                    <div className="nav_hamburger">
+                    <div className="localization__wrapper">
+                        <span
+                            onClick={() => changeLanguage('ru')}
+                            style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
+                        >RU</span>
+                        <span>|</span>
+                        <span
+                            onClick={() => changeLanguage('en')}
+                            style={{ color: i18n.language === 'en' && 'var(--gold)' }}
+                        >EN</span>
+                    </div>
+
+                    <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>
 
                         <input type="checkbox" id="burger-checkbox" className="burger-checkbox" />
                         <label className="burger" htmlFor="burger-checkbox" onClick={menuShowHide}></label>

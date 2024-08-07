@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import './style.scss';
+import React, { useEffect, useState } from 'react';
 
 //Import Images
-import CooperationBG from '../../assets/media/images/materials/sklad/sklad.jpg';
+import CooperationBG from '../../assets/media/images/materials/truck_gold.jpg';
 import Loading from '../../assets/icons/loading.svg';
 
 //Import Layout
@@ -14,139 +13,124 @@ import Input from '../../components/Input/Index';
 import GalleryCard from '../../components/GalleryCard/Index';
 
 //Import Utils
-import CooperationJSON from '../../utils/cooperation.json';
+import PagesData from '../../db/pages.json';
+import CooperationData from '../../db/cooperation.json';
+
+///IMPORT HOOKS
+import useShowMore from '../../hooks/useShowMore';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-    const maxLength = 16;
-    let lang = 'ru';
-    const [visibleCardLength, setVisibleCardLength] = useState(maxLength);
-    const [galleryValue, setGalleryValue] = useState(null)
-    const [loading, setLoading] = useState(false);
-    const [searchInputValue, setSearchInputValue] = useState('');
-    const [galleryLoading, setGalleryLoading] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
+    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
+    const lang = 'en';
     const searchParams = new URLSearchParams(location.search);
-    const searchValue = searchParams.get('search');
-
-    console.log(galleryValue)
+    const searchValue = searchParams.get('s');
+    const [galleryLoading, setGalleryLoading] = useState(false);
+    const [searchInputValue, setSearchInputValue] = useState(searchValue);
+    const [galleryData, setGalleryData] = useState([]);
+    const pageData = PagesData.find(p => p.page_name === 'cooperation');
 
     useEffect(() => {
-        function getSearchedData() {
-            setGalleryLoading(true);
+        setGalleryLoading(true);
+        setMaxLengthDefault();
+
+        setTimeout(() => {
             if (searchValue) {
-                setTimeout(() => {
-                    let searchedValue = CooperationJSON.filter(f => f.name.toLowerCase().includes(searchValue.toLowerCase()))
-                    setGalleryValue(searchedValue);
-                    setVisibleCardLength(maxLength);
-                    setGalleryLoading(false);
-                }, 500)
+                let searchedValue = CooperationData.filter(f => f.name[lang].toLowerCase().includes(searchValue.toLowerCase()))
+                setGalleryData(searchedValue);
             } else {
-                setTimeout(() => {
-                    setGalleryValue(CooperationJSON);
-                    setVisibleCardLength(maxLength);
-                    setGalleryLoading(false);
-                }, 500)
+                setGalleryData(CooperationData);
             }
-        }
-        getSearchedData();
-    }, [location])
-
-    const showMoreFunc = (e) => {
-        e.preventDefault();
-
-        if (!loading) {
-            setLoading(true);
-            setTimeout(() => {
-                setVisibleCardLength(prev => prev + maxLength);
-                return setLoading(false);
-            }, 500)
-        }
-    }
+            setGalleryLoading(false);
+        }, 500)
+    }, [location]);
 
     //Search On Submit
     const searchSubmit = (e) => {
         e.preventDefault();
-        searchInputValue ?
-            navigate(`/cooperation?search=${searchInputValue}`)
-            :
-            navigate('/cooperation');
 
-        // setSearchInputValue('');
+        if (searchValue !== searchInputValue) {
+            navigate(`${location.pathname}?s=${searchInputValue}`)
+        }
     }
 
     return (
-        <div className="cooperation_page_container">
+        <div className="products-page__container">
 
             <HeaderRepeat
-                title={'Сотрудничество'}
-                img={CooperationBG}
+                title={pageData?.headerWrapper.title[lang]}
+                img={pageData?.headerWrapper.img}
             />
 
-            <div className="cooperation_content_wrapper">
+            <div className="products_content_wrapper">
                 <div className="content_wrapper_inner">
-                    <p className='content_title'>У нас <span>лучшие</span> поставщики цветов, растений и аксессуаров!</p>
-                    <div className="search_bar">
-                        <Input
-                            value={searchInputValue}
-                            type={'text'}
-                            className={'input_white'}
-                            placeholder={'Искать...'}
-                            icon={'search'}
-                            handleChange={(e) => setSearchInputValue(e.target.value)}
-                            submitHandler={searchSubmit}
-                        />
-                    </div>
-                    <div className="cooperation_gallery gallery_grid_wrapper">
-                        {galleryLoading &&
-                            <div className="loading_wrapper">
-                                <img className='loading_icon' src={Loading} alt='' />
-                            </div>
-                        }
+                    <p className='content_title' dangerouslySetInnerHTML={{ __html: pageData?.galleryTitle[lang] }}></p>
 
-                        {!galleryLoading && galleryValue?.length === 0 ?
-                            <div className="no_result_wrapper">
-                                <h2>Плантация не найдена...</h2>
-                            </div>
-                            :
-                            null
-                    }
-
-                        {!galleryLoading && galleryValue?.slice(0, visibleCardLength).map((f, i) => (
-                            <GalleryCard target='_blank'
-                                key={i}
-                                img={require(`../../assets/media/images/materials/cooperation/${f?.img}`)}
-                                title={f.name}
-                                href={f.href}
-
+                    <div className="details__container">
+                        <div className="search_bar">
+                            <Input
+                                value={searchInputValue}
+                                type={'text'}
+                                className={'input_white'}
+                                placeholder={'Искать...'}
+                                icon={'search'}
+                                handleChange={(e) => setSearchInputValue(e.target.value)}
+                                handleBlur={searchSubmit}
+                                submitHandler={searchSubmit}
                             />
-                        ))
-                        }
+                        </div>
 
-                    </div>
+                        <div className="gallery_grid_wrapper">
+                            {galleryLoading &&
+                                <div className="loading_wrapper">
+                                    <img className='loading_icon' src={Loading} alt='' />
+                                </div>
+                            }
 
-                    {
-                        loading ?
-                            <div className="load_more_wrapper">
-                                <img src={Loading} className='loading_icon' alt="" />
-                            </div>
-                            :
-                            !galleryLoading && visibleCardLength < galleryValue?.length ?
-                                <div className="load_more_wrapper">
-                                    <Button
-                                        className={'btn btn_white hover_gold'}
-                                        btnText={'Загрузить еще...'}
-                                        disabled={loading ? true : false}
-                                        clickHandler={showMoreFunc}
-                                    />
+                            {!galleryLoading && galleryData?.length === 0 ?
+                                <div className="no_result_wrapper">
+                                    <h2>Товар не найден...</h2>
                                 </div>
                                 :
                                 null
-                    }
+                            }
 
+                            {!galleryLoading && galleryData?.slice(0, visibleCardLength).map((f, i) => (
+                                <GalleryCard
+                                    key={i}
+                                    img={f.images && f.images.img}
+                                    title={f?.name[lang]}
+                                    href={f.href}
+                                    target={'_blank'}
+                                />
+                            ))
+                            }
+
+                        </div>
+
+                        {
+                            loading ?
+                                <div className="load_more_wrapper">
+                                    <img src={Loading} className='loading_icon' alt="" />
+                                </div>
+                                :
+                                !galleryLoading && visibleCardLength < galleryData?.length ?
+                                    <div className="load_more_wrapper">
+                                        <Button
+                                            className={'btn btn_white hover_gold'}
+                                            btnText={'Загрузить еще...'}
+                                            disabled={loading ? true : false}
+                                            clickHandler={showMoreFunc}
+                                        />
+                                    </div>
+                                    :
+                                    null
+                        }
+                    </div>
                 </div>
             </div>
 

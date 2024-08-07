@@ -42,7 +42,6 @@
                     }
                 }
             }
-
         }
 
         .nav_menu {
@@ -123,6 +122,7 @@
                             align-items: center;
 
                             a {
+
                                 li {
                                     margin: 0;
                                     padding: 0 15px;
@@ -138,8 +138,6 @@
                                 }
                             }
                         }
-
-
                     }
 
                     &:hover .nav_menu_arrow_list {
@@ -154,18 +152,49 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            gap: 20px;
 
-            .phone_number {
+            .shop_button {
                 a {
-                    font-size: 18px;
+
+                    button {
+                        cursor: pointer;
+                        background: var(--gold);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px 15px;
+                        border: 0;
+                        border-radius: 15px;
+                        transition: all 0.3s ease;
+
+                        span {
+                            font-family: var(--f-regular);
+                            color: var(--white);
+                            font-size: 20px;
+                            padding-left: 5px;
+                        }
+
+                    }
+                }
+            }
+
+            .localization__wrapper {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                span {
                     font-family: var(--f-regular);
                     color: var(--white);
+                    font-size: 18px;
+                    padding-left: 5px;
+                    cursor: pointer;
 
                     &:hover {
                         color: var(--gold);
                     }
                 }
-
             }
 
             .nav_hamburger {
@@ -212,20 +241,22 @@
                     transition: bottom .3s .15s, transform .3s;
                 }
 
-                .burger-checkbox:checked+.burger::before {
+
+            }
+
+            .nav_hamburger[data-isactive="true"] {
+                .burger::before {
                     top: 11px;
                     transform: rotate(45deg);
                     box-shadow: 0 6px 0 rgba(101, 101, 101, 0);
                     transition: box-shadow .15s, top .3s, transform .3s .15s;
                 }
 
-                .burger-checkbox:checked+.burger::after {
+                .burger::after {
                     bottom: 11px;
                     transform: rotate(-45deg);
                     transition: bottom .3s, transform .3s .15s;
                 }
-
-
             }
         }
     }
@@ -237,6 +268,7 @@
             margin: 0;
 
             .nav_logo {
+
                 .logo {
                     display: none;
                 }
@@ -250,7 +282,6 @@
                         }
                     }
                 }
-
             }
 
             .nav_menu {
@@ -258,7 +289,8 @@
             }
 
             .nav_right {
-                .phone_number {
+
+                .localization__wrapper {
                     display: none;
                 }
 
@@ -275,6 +307,7 @@
         .inner_nav {
 
             .nav_logo {
+
                 .logo {
                     display: none;
                 }
@@ -286,14 +319,8 @@
 
             .nav_right {
 
-                .phone_number {
-                    a {
-                        padding-right: 20px;
-                        font-size: 20px;
-                        font-family: var(--f-regular);
-                        color: var(--white);
-                    }
-
+                .shop_button {
+                    padding-right: 25px;
                 }
 
                 .nav_hamburger {

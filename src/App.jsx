@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.scss';
 import './reset.css';
 
@@ -6,38 +6,65 @@ import './reset.css';
 import Navbar from './layout/Navbar/index';
 import NavbarMenu from './layout/Menu/index';
 import Footer from './layout/Footer/index';
+import Loading from './layout/Loading/index';
 
 //Import Pages
-import Home from './pages/Home/index';
-import Flowers from './pages/Flowers/index'
-import Plants from './pages/Plants/index'
-import Accessories from './pages/Accessories/index'
-import Cooperation from './pages/Cooperation/index'
+import Home from './pages/Home/index'
+import Products from './pages/Products/index'
+import FlowersCollection from './pages/Products/Flowers/Collection/index';
+import PlantsCollection from './pages/Products/Plants/Collection/index';
+import SingleProduct from './pages/SingleProduct/index';
+import Cooperation from './pages/Cooperation/index';
+
 import Contacts from './pages/Contacts/index'
 import About from './pages/About/index'
 
 //Import React router dom
-import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
-
+import { Routes, Route, BrowserRouter as Router, Navigate, useLocation, Outlet } from 'react-router-dom';
 
 function App() {
-
   const [menuIsActive, setMenuIsActive] = useState(null);
+
+  ///PAGE SCROLL TO TOP
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+  }
+
+  let flowersFirstOptions = ['dianthus', 'roses', 'chrysanthemum']
 
   return (
     <Router>
       <div className="App">
 
+        {/* SCROLL TO TOP */}
+        <ScrollToTop />
+
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
-        
+        <Loading />
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/flowers' element={<Flowers />} />
-          <Route path='/plants' element={<Plants />} />
-          <Route path='/accessories' element={<Accessories />} />
+
+          {/* PRODUCTS PAGES */}
+          <Route path='/products/flowers/' element={<Products />} />
+          <Route path='/products/flowers/:collection' element={<FlowersCollection />} />
+
+          <Route path='/products/plants' element={<Products />} />
+          <Route path='/products/plants/:collection' element={<PlantsCollection />} />
+
+          <Route path='/products/accessories' element={<Products />} />
           <Route path='/cooperation' element={<Cooperation />} />
+
+          {/* SINGLE PRODUCT PAGE */}
+          <Route path='/product' element={<SingleProduct />} />
+
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/about' element={<About />} />
 
@@ -46,13 +73,11 @@ function App() {
             element={<Navigate to="/" replace />}
           />
         </Routes>
-        
-        
-        <Footer/>
 
+        <Footer />
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

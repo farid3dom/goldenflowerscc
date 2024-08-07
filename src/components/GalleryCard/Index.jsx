@@ -9,7 +9,7 @@ const Index = ({ img, title, href, target }) => {
       <div className="single_gallery_card">
          <Link to={href} target={target && target}>
             <div className="image_wrapper">
-               <img src={img} alt="" />
+               <img src={img}/>
             </div>
 
             <div className="card_title">
