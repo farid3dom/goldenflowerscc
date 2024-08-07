@@ -40,21 +40,21 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className='nav_menu_container'>
 
                         <div className="menu_text_main">
-                            <a href={'/about/#collection'}>
+                            <Link to={'/products/flowers'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Коллекция</p>
                                     <ArrowDown />
                                 </div>
-                            </a>
+                            </Link>
 
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <Link to={'/flowers'}><li>Цветы
+                                    <Link to={'/products/flowers'}><li>Цветы
                                     </li></Link>
-                                    <Link to={'/plants'}><li>Растения
+                                    <Link to={'/products/plants'}><li>Растения
                                     </li></Link>
-                                    <Link to={'/accessories'}><li>Аксессуары
+                                    <Link to={'/products/accessories'}><li>Аксессуары
                                     </li></Link>
                                 </ul>
                             </div>

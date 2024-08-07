@@ -1,47 +1,72 @@
 import React, { useEffect, useState } from 'react';
 import './style.scss';
 
-import Slider from '../../components/Slider/index';
+////IMPORT COMPONENT
 import Button from '../../components/Button/Index';
+import BackBtn from '../../components/BackBtn/index';
 
-////IMPORT UTILS
-import Flowers from '../../utils/flowers.json';
+////IMPORT DB
+import FlowersData from '../../db/flowers.json';
+import PlantsData from '../../db/plants.json';
+import AccessoriesData from '../../db/accessories.json';
 
 ///Import React router Dom
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 
 const Index = () => {
    const lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);
-   const searchValue = Array.from(searchParams.values());
    const [productData, setProductData] = useState(null);
-
-   console.log(productData);
 
    useEffect(() => {
       getProductDatas();
-      console.log('test')
    }, []);
 
-   const getProductDatas = () => {
-      switch (searchValue[0]) {
-         case 'Flowers':
-            setProductData(Flowers[searchValue[1]])
+   const getProductDatas = async () => {
+      switch (searchParams.get('productType')) {
+         case 'flowers':
+            if (searchParams.get('collection')) {
+               let singleData = await FlowersData.find(f => f.inner_URL === searchParams.get('collection'));
+               let getDataFromCollection = await singleData.items.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(getDataFromCollection);
+            } else {
+               let singleData = await FlowersData.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(singleData);
+            }
             break;
-         default:
-            setProductData(null);
-            // navigate('/');
-            console.log('asjdh')
+         case 'plants':
+            if (searchParams.get('collection')) {
+               let singleData = await PlantsData.find(f => f.inner_URL === searchParams.get('collection'));
+               let getDataFromCollection = await singleData.items.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(getDataFromCollection);
+            } else {
+               let singleData = await PlantsData.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(singleData);
+            }
+            break;
+         case 'accessories':
+            if (searchParams.get('collection')) {
+               let singleData = await AccessoriesData.find(f => f.inner_URL === searchParams.get('collection'));
+               let getDataFromCollection = await singleData.items.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(getDataFromCollection);
+            } else {
+               let singleData = await AccessoriesData.find(f => f.name['en'].toLowerCase() === searchParams.get('productName'));
+               setProductData(singleData);
+            }
+            break;
       }
    }
 
    return (
       <div className="single-product_container">
          <div className="product_about">
+            <BackBtn className={'btn btn_white hover_gold'} />
+
             <h1 className='product_title'>{productData?.name[lang]}</h1>
-            <span className='product_description'>{productData?.desc && productData.desc[lang]}</span>
+            <span className='product_description' dangerouslySetInnerHTML={{ __html: productData?.desc && productData.desc[lang] }}></span>
+            {/* <span className='product_description' dangerouslySetInnerHTML={{ __html: Grund[1].desc['ru'] }}></span> */}
             {/* <div className="product_flag">
                {
                   productData?.productInfo?.map((p, i) => (
@@ -54,42 +79,64 @@ const Index = () => {
             </div> */}
             <div className="product_elements">
                <div className="product_elements_wrapper">
-                  <div className="product_type_0">
-                     <div className="product_quantity">
+                  {
+                     productData?.plantation &&
+                     <div className="product_quantity product-elements__item">
                         <h1>Плантация</h1>
-                        <span>{productData?.plantation ? productData.plantation : '-'}</span>
+                        <span>{productData?.plantation}</span>
                      </div>
-                     <div className="product_color">
+                  }
+                  {
+                     productData?.flag &&
+                     <div className="product_color product-elements__item">
                         <h1>Страна поставщика</h1>
-                        <span>{productData?.flag ? productData?.flag[lang] : '-'}</span>
+                        <span>{productData?.flag[lang]}</span>
                      </div>
-                  </div>
-                  <div className="product_type_1">
-                     <div className="product_quantity">
+                  }
+                  {
+                     productData?.quantity &&
+                     <div className="product_quantity product-elements__item">
                         <h1>Количество в упаковке (шт.)</h1>
-                        <span>{productData?.quantity ? productData.quantity : '-'}</span>
+                        <span>{productData?.quantity}</span>
                      </div>
-                     <div className="product_color">
+                  }
+                  {
+                     productData?.color &&
+                     <div className="product_color product-elements__item">
                         <h1>Цвет</h1>
-                        <span>{productData?.color ? productData?.color[lang] : '-'}</span>
+                        <span>{productData?.color[lang]}</span>
                      </div>
-                  </div>
-                  <div className="product_type_2">
-                     <div className="product_seasons">
+                  }
+                  {
+                     productData?.season &&
+                     <div className="product_seasons product-elements__item">
                         <h1>Сезон</h1>
-                        <span>{productData?.season ? productData?.season[lang] : '-'}</span>
+                        <span>{productData?.season[lang]}</span>
                      </div>
-                     <div className="product_size">
+                  }
+                  {
+                     productData?.height &&
+                     <div className="product_size product-elements__item">
                         <h1>Высота (см)</h1>
-                        <span>{productData?.height ? productData.height : '-'}</span>
+                        <span>{productData?.height}</span>
                      </div>
-                  </div>
-                  <div className="product_care">
-                     <h1>Уход</h1>
-                     <span>{productData?.care ? productData?.care[lang] : '-'}</span>
-                  </div>
+                  }
+                  {
+                     productData?.care &&
+                     <div className="product_care product-elements__item">
+                        <h1>Уход</h1>
+                        <span>{productData?.care[lang]}</span>
+                     </div>
+                  }
+                  {
+                     productData?.department &&
+                     <div className="product_care product-elements__item">
+                        <h1>Уход</h1>
+                        <span>{productData?.department}</span>
+                     </div>
+                  }
                </div>
-               <div className="product_button">
+               {/* <div className="product_button">
                   <Button
                      btnText={'Перейти в магазин'}
                      className={'btn btn_white hover_gold'}
@@ -97,7 +144,7 @@ const Index = () => {
                      href={'https://gfcc.clients.site/'}
                      target={'_blank'}
                   />
-               </div>
+               </div> */}
             </div>
          </div>
          <div className="product_info">
@@ -105,12 +152,14 @@ const Index = () => {
             <div className="images__wrapper">
                {
                   productData?.images?.map((i, index) => (
-                     <img src={i.img} alt="" />
+                     <img src={i.img} key={index} alt="" />
                   ))
                }
             </div>
          </div>
-      </div>
+
+         <Outlet />
+      </div >
 
    )
 }
