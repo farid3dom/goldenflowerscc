@@ -131,7 +131,7 @@ const Index = () => {
                   {
                      productData?.department &&
                      <div className="product_care product-elements__item">
-                        <h1>Уход</h1>
+                        <h1>Товары</h1>
                         <span>{productData?.department}</span>
                      </div>
                   }

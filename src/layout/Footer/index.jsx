@@ -75,7 +75,7 @@ const Index = () => {
                                 <img src={YTimg} alt="youtube" /> </Link>
                         </div>
                         <div className="adres_container">
-                            <a href='https://yandex.ru/maps/-/CDrK4P8v' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, владение 9, строение 1, помещение 3</a>
+                            <Link to={'https://yandex.ru/maps/-/CDrK4P8v'} target='_blank' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, владение 9, строение 1, помещение 3</Link>
                         </div>
                     </div>
                 </div>

@@ -24,17 +24,17 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
     return (
         <div className="Navbar-animated__menu" data-isactive={menuIsActive === true ? 'true' : menuIsActive === false ? 'false' : null}>
             <div className="hamburger_menu_list">
-                <Link to={'/flowers'} onClick={menuHide}>
+                <Link to={'/products/flowers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>ЦВЕТЫ</p>
                     </div>
                 </Link>
-                <Link to={'/plants'} onClick={menuHide}>
+                <Link to={'/products/plants'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>РАСТЕНИЯ</p>
                     </div>
                 </Link>
-                <Link to={'/accessories'} onClick={menuHide}>
+                <Link to={'/products/accessories'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>АКСЕССУАРЫ</p>
                     </div>

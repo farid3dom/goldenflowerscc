@@ -20,127 +20,130 @@
 
         .about_head {
             width: 100%;
+            height: 90vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 100px 0;
-            background: url('../../assets/media/images/materials/vetrin.JPG') fixed;
+            background: url('https://sun9-66.userapi.com/impg/275BlY1J897xI56yBvL9_9ajYjJpJLl6o-Wnjg/9abc57NmMNw.jpg?size=2560x1707&quality=95&sign=bc02d5f714e9866114da1132ca011aa5&type=album') fixed;
             background-repeat: no-repeat;
             background-size: cover;
 
-            .about_title {
-                max-width: 1140px;
-                text-align: center;
-                padding: 50px 15px;
+
+
+            .about_div {
                 background: var(--gray);
 
-                .container_title_num {
-                    width: 100%;
-                    font-family: var(--f-bold);
-                    color: var(--white);
-                    padding: 20px;
-                    font-size: 50px;
+                .about_title {
+                    max-width: 1140px;
+                    text-align: center;
+                    padding: 50px;
+                    line-height: 1.2;
+
+                    .container_title_num {
+                        width: 100%;
+                        font-family: var(--f-bold);
+                        color: var(--white);
+                        padding: 0 0 20px 0;
+                        font-size: 36px;
+                    }
+
+                    .container_text_num {
+                        width: 100%;
+                        color: var(--white);
+                        font-size: 20px;
+
+
+                    }
                 }
 
-                .container_text_num {
+                .animated_numbers_wrapper {
+                    max-width: 1140px;
                     width: 100%;
-                    color: var(--white);
-                    font-size: 20px;
-                    padding: 20px;
-                }
-            }
-
-            .animated_numbers_wrapper {
-                max-width: 1140px;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background: var(--gray);
-
-                .animated_num_wrap_inner {
-                    width: 100%;
-                    height: 100%;
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
                     align-items: center;
-                    padding: 20px;
 
-                    .num_section {
+                    .animated_num_wrap_inner {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 50px 50px;
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
+                        gap: 16px;
+                        flex-direction: row;
+                        justify-content: space-between;
                         align-items: center;
-                        color: var(--white);
-                        backdrop-filter: blur(2px);
-                        text-align: center;
-                        padding: 15px;
-                        transition: all 0.5s ease;
-                        border: 1px solid #fff;
 
-                        .num_icon {
+                        .num_section {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            color: var(--white);
+                            backdrop-filter: blur(5px);
+                            text-align: center;
+                            padding: 15px;
+                            transition: all 0.5s ease;
+                            border: 1px solid #fff;
 
-                            img {
-                                width: 50px;
-                                height: auto;
+                            .num_icon {
+
+                                img {
+                                    width: 50px;
+                                    height: auto;
+                                }
                             }
-                        }
 
-                        .count {
+                            .count {
 
 
-                            h1 {
-                                font-size: 50px;
-                                font-family: var(--f-bold);
+                                h1 {
+                                    font-size: 50px;
+                                    font-family: var(--f-bold);
 
+                                }
                             }
-                        }
 
-                        .num_text {
-                            border-top: 1px solid var(--white);
-                            width: 150px;
+                            .num_text {
+                                width: 150px;
 
-                            span {
-                                font-size: 11px;
+                                span {
+                                    font-size: 11px;
+                                }
                             }
-                        }
 
-                        &:hover {
-                            background: #0000008c;
+                            &:hover {
+                                background: #0000008c;
+                            }
                         }
                     }
                 }
             }
-
         }
 
         .about_slider_container {
-            width: 1140px;
+            max-width: 1140px;
             height: 100%;
-            padding-bottom: 35px;
+            padding-bottom: 25px;
 
             .container_title {
                 color: var(--white);
                 text-align: center;
-                font-size: 50px;
+                font-size: 36px;
                 font-family: var(--f-bold);
-                padding: 35px;
+                padding: 25px;
             }
 
             .about_slider_container_inner {
                 width: 100%;
                 height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
 
                 .flowers_slider {
                     display: flex;
                     flex-direction: row-reverse;
-                    margin-bottom: 35px;
 
                     .slide_wrapper {
                         width: 60%;
@@ -149,18 +152,16 @@
                     .main_slogan_text {
                         width: 40%;
                         color: var(--white);
-                        background: var(--gray);
-                        backdrop-filter: blur(2px);
                         padding: 35px;
 
                         h1 {
                             font-family: var(--f-bold);
-                            font-size: 48px;
+                            font-size: 36px;
                             padding-bottom: 15px;
                         }
 
                         ul {
-                            font-size: 24px;
+                            font-size: 20px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
@@ -185,34 +186,29 @@
 
                 .plants_slider {
                     display: flex;
-                    margin-bottom: 35px;
 
                     .slide_wrapper {
                         width: 60%;
                     }
 
                     .main_slogan_text {
+                        width: 40%;
                         color: var(--white);
-                        background: var(--gray);
-                        backdrop-filter: blur(2px);
-                        padding: 35px;
+                        padding: 25px;
 
                         h1 {
                             font-family: var(--f-bold);
-                            font-size: 48px;
+                            font-size: 36px;
                             padding-bottom: 15px;
                         }
 
                         ul {
-                            font-size: 24px;
+                            font-size: 20px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
 
-
                             li {
-
-
                                 a {
                                     color: var(--white);
 
@@ -237,19 +233,20 @@
                     }
 
                     .main_slogan_text {
+                        width: 40%;
                         color: var(--white);
-                        background: var(--gray);
-                        backdrop-filter: blur(2px);
-                        padding: 35px;
+                        padding: 25px;
+                        display: flex;
+                        flex-direction: column;
 
                         h1 {
                             font-family: var(--f-bold);
-                            font-size: 48px;
+                            font-size: 36px;
                             padding-bottom: 15px;
                         }
 
                         ul {
-                            font-size: 24px;
+                            font-size: 20px;
                             font-family: var(--f-regular);
                             padding-bottom: 15px;
                             line-height: 1.5;
@@ -275,65 +272,60 @@
         }
     }
 
-
-    @media screen and (max-width:1161px) {
+    @media screen and (min-width : 768px) and (max-width : 1140px) {
 
 
         .about_content_wrapper {
 
             .about_head {
-                background: url('../../assets/media/images/materials/vetrin.JPG');
-                background-repeat: no-repeat;
-                background-size: cover;
 
-                .about_title {
+                .about_div {
 
+                    .animated_numbers_wrapper {
 
-                    .container_title_num {}
-
-                    .container_text_num {}
-                }
-
-                .animated_numbers_wrapper {
-                    width: 100%;
-                    height: 100%;
-
-                    .animated_num_wrap_inner {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-around;
-                        align-items: center;
-
-                        .num_section {
+                        .animated_num_wrap_inner {
+                            justify-content: space-between;
+                            padding: 0 50px 50px;
 
 
-                            .num_icon {
+                            .num_section {
 
-                                img {}
+                                padding: 10px;
+
+                                .num_icon {
+
+                                    img {
+                                        width: 35px;
+                                    }
+                                }
+
+                                .count {
+
+
+                                    h1 {
+                                        font-size: 36px;
+                                    }
+                                }
+
+                                .num_text {
+                                    width: 150px;
+                                    height: auto;
+
+
+                                    span {
+                                        font-size: 11px;
+                                    }
+                                }
+
                             }
-
-                            .count {
-
-
-                                h1 {}
-                            }
-
-                            .num_text {
-
-
-                                span {}
-                            }
-
-                            &:hover {}
                         }
                     }
-
-
                 }
 
             }
 
             .about_slider_container {
+                max-width: 1140px;
                 width: 100%;
 
                 .container_title {
@@ -342,23 +334,27 @@
                 }
 
                 .about_slider_container_inner {
+                    width: 100%;
+
 
                     .flowers_slider {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row-reverse;
 
                         .slide_wrapper {
-                            width: 100%;
-                            height: 70vh;
+                            width: 60%;
+                            height: 100%;
                         }
 
                         .main_slogan_text {
-                            width: 100%;
-                            padding: 45px;
-                            text-align: center;
+                            width: 40%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            text-align: end;
 
                             h1 {
-                                font-size: 36px;
+                                font-size: 24px;
                             }
 
                             ul {
@@ -369,22 +365,23 @@
 
                     .plants_slider {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
 
                         .slide_wrapper {
-                            width: 100%;
-                            height: 70vh;
+                            width: 60%;
+                            height: 100%;
                         }
 
                         .main_slogan_text {
-                            width: 100%;
-                            padding: 35px;
-                            text-align: center;
+                            width: 40%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            text-align: start;
 
                             h1 {
-                                font-size: 36px;
+                                font-size: 24px;
                             }
-
 
                             ul {
                                 font-size: 20px;
@@ -394,20 +391,22 @@
 
                     .accessories_slider {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row-reverse;
 
                         .slide_wrapper {
-                            width: 100%;
-                            height: 70vh;
+                            width: 60%;
+                            height: 100%;
                         }
 
                         .main_slogan_text {
-                            width: 100%;
-                            padding: 35px;
-                            text-align: center;
+                            width: 40%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            text-align: end;
 
                             h1 {
-                                font-size: 36px;
+                                font-size: 24px;
                             }
 
                             ul {
@@ -417,6 +416,7 @@
                     }
                 }
             }
+
         }
     }
 
@@ -425,53 +425,57 @@
         .about_content_wrapper {
 
             .about_head {
-                padding: 0;
+                height: 100%;
 
-                .about_title {
-                    padding: 100px 16px 0;
+                .about_div {
 
-                    .container_title_num {
-                        font-size: 50px;
+                    .about_title {
+                        padding: 125px 16px 20px;
+
+                        .container_title_num {
+                            font-size: 36px;
+                        }
+
+                        .container_text_num {
+                            font-size: 16px;
+                        }
                     }
-
-                    .container_text_num {}
                 }
 
                 .animated_numbers_wrapper {
-                    width: 100%;
-                    height: 100%;
+                    padding: 10px 16px 30px;
 
                     .animated_num_wrap_inner {
                         display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center !important;
+                        gap: 20px !important;
                         align-items: center;
+                        padding: 0 !important;
 
                         .num_section {
-                            padding: 15px 45px;
-                            margin: 15px;
-
+                            padding: 10px !important;
 
                             .num_icon {
 
                                 img {
-                                    width: 50px;
+                                    width: 30px !important;
                                 }
                             }
 
                             .count {
 
 
-                                h1 {}
+                                h1 {
+                                    font-size: 36px !important;
+                                }
                             }
 
                             .num_text {
-                            
+                                width: 130px !important;
 
-
-                                span {
-                                
-                                }
+                                span {}
                             }
 
                             &:hover {}
@@ -488,11 +492,11 @@
                 padding-bottom: 0;
 
                 .container_title {
-                    text-align: center;
-                    font-size: 36px;
+                    padding: 20px;
                 }
 
                 .about_slider_container_inner {
+                    gap: 0;
 
                     .flowers_slider {
                         display: flex;
@@ -501,7 +505,7 @@
 
                         .slide_wrapper {
                             width: 100%;
-                            height: 30vh;
+                            height: 100%;
                         }
 
                         .main_slogan_text {
@@ -526,7 +530,7 @@
 
                         .slide_wrapper {
                             width: 100%;
-                            height: 30vh;
+                            height: 100%;
                         }
 
                         .main_slogan_text {
@@ -551,7 +555,7 @@
 
                         .slide_wrapper {
                             width: 100%;
-                            height: 30vh;
+                            height: 100%;
                         }
 
                         .main_slogan_text {

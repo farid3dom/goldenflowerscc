@@ -45,7 +45,7 @@ const Index = () => {
 
     let sliderPlants = [
         {
-            img: 'https://sun9-8.userapi.com/impg/vEiuWPBouRDDuzFtW3xruOH0Olg4RF_uNDBvNQ/gG1rpa1skJY.jpg?size=1280x852&quality=95&sign=cf090540afc3930949603d2980b5ef0f&type=album'
+            img: 'https://sun9-48.userapi.com/impg/tbUSHneizP5m-aOqnNMkwuF6leihuHqJ0II5ug/qFtOOvvWvrI.jpg?size=1078x720&quality=95&sign=9118adbc3740c5b47f2aacd53cf1f634&type=album'
         },
         {
             img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1280x853&quality=95&sign=084963b3cdeb9b2cd8f0f18100c30f16&type=album'
@@ -89,66 +89,74 @@ const Index = () => {
 
                 <div className="about_head">
 
-                    <div className="about_title">
-                        <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона</h1>
-                        <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
-                    </div>
+                    <div className="about_div">
+                        <div className="about_title">
+                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона</h1>
+                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
+                        </div>
 
-                    <div className="animated_numbers_wrapper">
-                        <div className="animated_num_wrap_inner">
+                        <div className="animated_numbers_wrapper">
+                            <div className="animated_num_wrap_inner">
 
-                            <div className="year_section num_section">
-                                <div className="num_icon">
-                                    <img src={YearIcon} />
+                                <div className="year_section num_section">
+                                    <div className="num_icon">
+                                        <img src={YearIcon} />
+                                    </div>
+                                    <div className="year_count count">
+                                        <h1>
+                                            <CountUp end={26} duration={2} />+
+                                        </h1>
+                                    </div>
+                                    <div className="year_text num_text">
+                                        <span>ЛЕТ ОПЫТА В СФЕРЕ ЦВЕТОЧНОГО БИЗНЕСА</span>
+                                    </div>
                                 </div>
-                                <div className="year_count count">
-                                    <h1>
-                                        <CountUp end={26} duration={2} />+
-                                    </h1>
+
+                                <div className="plantation_section num_section">
+                                    <div className="num_icon">
+                                        <img src={PlantationIcon} />
+                                    </div>
+                                    <div className="plantation_count count">
+                                        <h1><CountUp end={100} duration={2} />+</h1>
+                                    </div>
+                                    <div className="plantation_text num_text">
+                                        <span>ЛУЧШИХ ПЛАНТАЦИЙ СОТРУДНИЧАЮТ С НАМИ</span>
+                                    </div>
                                 </div>
-                                <div className="year_text num_text">
-                                    <span>ЛЕТ ОПЫТА В СФЕРЕ ЦВЕТОЧНОГО БИЗНЕСА</span>
+
+                                <div className="products_section num_section">
+                                    <div className="num_icon">
+                                        <img src={ProductsIcon} />
+                                    </div>
+                                    <div className="products_count count">
+                                        <h1><CountUp end={25} duration={2} />+</h1>
+                                    </div>
+                                    <div className="products_text num_text">
+                                        <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
+                                    </div>
                                 </div>
+
+                                <div className="starts_section num_section">
+                                    <div className="num_icon">
+                                        <img src={ReviewsIcon} />
+                                    </div>
+                                    <div className="starts_count count">
+                                        <h1><CountUp end={5} duration={2} />+</h1>
+                                    </div>
+                                    <div className="starts_text num_text">
+                                        <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
+                                    </div>
+                                </div>
+
                             </div>
-
-                            <div className="plantation_section num_section">
-                                <div className="num_icon">
-                                    <img src={PlantationIcon} />
-                                </div>
-                                <div className="plantation_count count">
-                                    <h1><CountUp end={100} duration={2} />+</h1>
-                                </div>
-                                <div className="plantation_text num_text">
-                                    <span>ЛУЧШИХ ПЛАНТАЦИЙ СОТРУДНИЧАЮТ С НАМИ</span>
-                                </div>
-                            </div>
-
-                            <div className="products_section num_section">
-                                <div className="num_icon">
-                                    <img src={ProductsIcon} />
-                                </div>
-                                <div className="products_count count">
-                                    <h1><CountUp end={25} duration={2} />+</h1>
-                                </div>
-                                <div className="products_text num_text">
-                                    <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
-                                </div>
-                            </div>
-
-                            <div className="starts_section num_section">
-                                <div className="num_icon">
-                                    <img src={ReviewsIcon} />
-                                </div>
-                                <div className="starts_count count">
-                                    <h1><CountUp end={5} duration={2} />+</h1>
-                                </div>
-                                <div className="starts_text num_text">
-                                    <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
+
+                    {/* <div className="yandex_otziv">
+                        <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=rating" width={150} height={50} frameborder="0"></iframe>
+                    </div> */}
+
+
 
                 </div>
 
@@ -174,17 +182,14 @@ const Index = () => {
                                 <ul className='product_list'>
                                     <li><Link to={'/products/flowers/roses'}>Розы</Link></li>
                                     <li><Link to={'/products/flowers/chrysanthemum'}>Хризантема</Link></li>
-                                    <li><Link to={'/product?productType=flowers&productName=lily'}>Лилии</Link></li>
-                                    <li><Link to={'/product?productType=flowers&productName=tulips'}>Тюльпаны</Link></li>
                                     <li><Link to={'/products/flowers/dianthus'}>Гвоздики</Link></li>
-                                    <li><Link to={'/product?productType=flowers&productName=peonies'}>Пионы</Link></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button
                                         btnText={'Перейти'}
                                         className={'btn btn_white hover_gold'}
                                         icon={'arrow-right'}
-                                        href={'/flowers'}
+                                        href={'/products/flowers'}
                                     />
                                 </div>
                             </div>
@@ -236,8 +241,6 @@ const Index = () => {
                                     <li><Link to={'/product?productType=accessories&productName=for%20floristry'}>Для флористики</Link></li>
                                     <li><Link to={'/product?productType=accessories&productName=package'}>Упаковка</Link></li>
                                     <li><Link to={'/product?productType=accessories&productName=baskets'}>Корзины</Link></li>
-                                    <li><Link to={'/product?productType=accessories&productName=ribbons'}>Ленты</Link></li>
-                                    <li><Link to={'/product?productType=accessories&productName=soft%20toy'}>Мягкая игрушка</Link></li>
                                 </ul>
                                 <div className="content_button">
                                     <Button
