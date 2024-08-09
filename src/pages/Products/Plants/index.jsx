@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Images
-import Loading from '../../../assets/icons/loading.svg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Component
-import Button from '../../../components/Button/Index';
-import Input from '../../../components/Input/Index';
-import GalleryCard from '../../../components/GalleryCard/Index';
+import Button from '@components/Button/Index';
+import Input from '@components/Input/Index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import DB
-import PlantsData from '../../../db/plants.json';
+import PlantsData from '@db/plants.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
 
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 

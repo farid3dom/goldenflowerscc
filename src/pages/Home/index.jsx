@@ -3,8 +3,8 @@ import './style.scss';
 import "@google/model-viewer";
 
 //Import Components
-import Button from '../../components/Button/Index';
-import Slider from '../../components/Slider/index';
+import Button from '@components/Button/Index';
+import Slider from '@components/Slider/index';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -104,7 +104,7 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="right_content">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fDuztNgtajw?si=8FXgbBLZj8AI0wdv" title="YouTube video player" frameborder="0" allowFullScreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fDuztNgtajw?si=8FXgbBLZj8AI0wdv" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>

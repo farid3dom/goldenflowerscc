@@ -5,30 +5,29 @@ import { useLocation } from 'react-router-dom';
 
 import CountUp from 'react-countup';
 
-import Slider from '../../components/Slider/index'
-import Button from '../../components/Button/Index';
+import Slider from '@components/Slider/index'
+import Button from '@components/Button/Index';
 
 import { Link } from 'react-router-dom';
 
 //import icons
-import YearIcon from '../../assets/icons/num_icons/work.svg'
-import PlantationIcon from '../../assets/icons/num_icons/plantation.svg'
-import ProductsIcon from '../../assets/icons/num_icons/products.svg'
-import ReviewsIcon from '../../assets/icons/num_icons/reviews.svg'
+import YearIcon from '@assets/icons/num_icons/work.svg'
+import PlantationIcon from '@assets/icons/num_icons/plantation.svg'
+import ProductsIcon from '@assets/icons/num_icons/products.svg'
+import ReviewsIcon from '@assets/icons/num_icons/reviews.svg'
 
 
 const Index = () => {
     const collectionRef = useRef(null);
     const location = useLocation();
 
-    useEffect(() => {
-        console.log(location)
-        setTimeout(() => {
-            if (location.hash === '#collection') {
-                collectionRef.current.scrollIntoView({ behavior: 'smooth' });
-            }
-        }, 100)
-    }, [location]);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         if (location.hash === '#collection') {
+    //             collectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    //         }
+    //     }, 100)
+    // }, [location]);
 
     let sliderFlowers = [
         {

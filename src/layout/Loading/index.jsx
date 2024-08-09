@@ -3,7 +3,7 @@ import './style.scss';
 import $ from 'jquery';
 
 ///LOADING ANIM IMPORT
-import LoadingAnim from '../../assets/media/images/animated_logo/animation_logo.gif';
+import LoadingAnim from '@assets/media/images/animated_logo/animation_logo.gif';
 
 ///DOT LOTTIE IMPORT
 // import { DotLottieReact } from '@lottiefiles/dotlottie-react';

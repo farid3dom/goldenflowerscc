@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 ////IMPORT COMPONENT
-import Button from '../../components/Button/Index';
-import BackBtn from '../../components/BackBtn/index';
+import Button from '@components/Button/Index';
+import BackBtn from '@components/BackBtn/index';
 
 ////IMPORT DB
-import FlowersData from '../../db/flowers.json';
-import PlantsData from '../../db/plants.json';
-import AccessoriesData from '../../db/accessories.json';
+import FlowersData from '@db/flowers.json';
+import PlantsData from '@db/plants.json';
+import AccessoriesData from '@db/accessories.json';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
@@ -22,7 +22,7 @@ const Index = () => {
 
    useEffect(() => {
       getProductDatas();
-   }, []);
+   }, [location]);
 
    const getProductDatas = async () => {
       switch (searchParams.get('productType')) {

@@ -1,17 +1,17 @@
 import React from 'react'
 import './style.scss';
 
-import HeaderRepeat from '../../layout/HeaderRepeat/index'
+import HeaderRepeat from '@layout/HeaderRepeat/index'
 
 //import images
-import Num1 from '../../assets/icons/logo_mini.png'
-import Num2 from '../../assets/icons/flowers_icons/chrysanthemum.png'
-import Num3 from '../../assets/icons/flowers_icons/rose.png'
-import Num5 from '../../assets/icons/flowers_icons/rose.png'
-import Num7 from '../../assets/icons/flowers_icons/rose.png'
-import Num4 from '../../assets/icons/flowers_icons/exotic.png'
-import Num6 from '../../assets/icons/flowers_icons/domestic.png'
-import Num8 from '../../assets/icons/flowers_icons/packaging.png'
+import Num1 from '@assets/icons/logo_mini.png'
+import Num2 from '@assets/icons/flowers_icons/chrysanthemum.png'
+import Num3 from '@assets/icons/flowers_icons/rose.png'
+import Num5 from '@assets/icons/flowers_icons/rose.png'
+import Num7 from '@assets/icons/flowers_icons/rose.png'
+import Num4 from '@assets/icons/flowers_icons/exotic.png'
+import Num6 from '@assets/icons/flowers_icons/domestic.png'
+import Num8 from '@assets/icons/flowers_icons/packaging.png'
 
 
 
@@ -86,7 +86,7 @@ function index() {
                     </div>
                     <div className="map">
                         <div className='map_inner'>
-                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14" width={500} height={500} frameborder={1} allowfullscreen={true} style={{ position: 'relative' }}>
+                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14" width={500} height={500} frameBorder={1} allowfullscreen={true} style={{ position: 'relative' }}>
                             </iframe>
                         </div>
                     </div>

@@ -3,14 +3,14 @@ import React from 'react'
 import './style.scss'
 
 //Import Images
-import LogoMini from '../../assets/icons/logo_mini.png'
-import TGimg from '../../assets/icons/social/icons8-telegram.svg'
-import VKimg from '../../assets/icons/social/icons8-vk.svg'
-import Ximg from '../../assets/icons/social/icons8-x.svg'
-import YTimg from '../../assets/icons/social/icons8-youtube.svg'
+import LogoMini from '@assets/icons/logo_mini.png'
+import TGimg from '@assets/icons/social/icons8-telegram.svg'
+import VKimg from '@assets/icons/social/icons8-vk.svg'
+import Ximg from '@assets/icons/social/icons8-x.svg'
+import YTimg from '@assets/icons/social/icons8-youtube.svg'
 
 //Import Components
-import Button from '../../components/Button/Index'
+import Button from '@components/Button/Index'
 
 const Index = () => {
 
