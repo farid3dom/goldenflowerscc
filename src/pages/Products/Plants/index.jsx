@@ -19,7 +19,7 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom';
 const Index = () => {
    const location = useLocation();
    const navigate = useNavigate();
-   const lang = 'en';
+   const lang = 'ru';
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');

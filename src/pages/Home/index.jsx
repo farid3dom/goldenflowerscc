@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import "@google/model-viewer";
+import { motion } from 'framer-motion';
 
 //Import Components
 import Button from '@components/Button/Index';
@@ -8,6 +8,9 @@ import Slider from '@components/Slider/index';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
+
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 const Index = () => {
     const { t, i18n } = useTranslation();
@@ -47,11 +50,18 @@ const Index = () => {
         {
             img: 'https://sun9-19.userapi.com/impg/AM_HAknMYE7Pjbo0dNGj4nOCqXRxSPMckK52Dw/-aw_sXoTmmU.jpg?size=1080x720&quality=95&sign=dbb654a650778a6a7d8e0b4e12cd8cb2&type=album'
         }
-
     ]
 
     return (
-        <div className="home_page_container">
+        <motion.div
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}
+            className="home_page_container">
+
+            <div className="fixed-img__wrapper"></div>
 
 
             {/* <model-viewer
@@ -78,7 +88,7 @@ const Index = () => {
 
 
                 <div className="slide_wrapper">
-                    
+
                     <Slider
                         loop={true}
                         options={sliderOptions}
@@ -156,7 +166,7 @@ const Index = () => {
                 </div>
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

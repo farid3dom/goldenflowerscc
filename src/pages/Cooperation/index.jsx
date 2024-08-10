@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 //Import Images
-import CooperationBG from '@assets/media/images/materials/truck_gold.jpg';
 import Loading from '@assets/icons/loading.svg';
 
 //Import Layout
@@ -18,6 +18,9 @@ import CooperationData from '@db/cooperation.json';
 
 ///IMPORT HOOKS
 import useShowMore from '@hooks/useShowMore';
+
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -59,7 +62,15 @@ const Index = () => {
     }
 
     return (
-        <div className="products-page__container">
+        <motion.div
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}
+            className="products-page__container">
+
+            <div className="fixed-img__wrapper"></div>
 
             <HeaderRepeat
                 title={pageData?.headerWrapper.title[lang]}
@@ -134,7 +145,7 @@ const Index = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

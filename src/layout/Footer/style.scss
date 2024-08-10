@@ -3,6 +3,7 @@ footer {
     position: relative;
     width: 100%;
     border-top: 0.5px solid #292929;
+    z-index: 999;
 
     .footer_container {
         display: flex;
@@ -156,7 +157,7 @@ footer {
             .footer_container_inner {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 12px;
+                gap: 25px;
                 padding: 24px;
                 width: 100%;
 
@@ -168,14 +169,30 @@ footer {
                 .f_cont_nav_list {
                     display: flex;
                     justify-content: flex-start;
+                    align-items: center;
+
+                    .nav_list_inner {
+
+                        .list_text {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            a {
+                                padding: 0;
+                            }
+                        }
+                    }
                 }
 
                 .contact_us {
+                    align-items: center;
+
 
                     .social_media_container {
-                        display:grid;
+                        display: grid;
                         grid-template-columns: 1fr 1fr;
-                        align-self: self-start;
                         gap: 15px;
                     }
 

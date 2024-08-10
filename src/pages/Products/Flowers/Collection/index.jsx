@@ -23,7 +23,7 @@ import useShowMore from '@hooks/useShowMore';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-   let lang = 'en';
+   let lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
@@ -81,6 +81,8 @@ const Index = () => {
 
    return (
       <div className="products-page__container">
+         <div className="fixed-img__wrapper"></div>
+         
          <HeaderRepeat
             title={collectionData?.name[lang].replace('⥤', ' ')}
             img={collectionData?.images[0].img}
@@ -88,7 +90,7 @@ const Index = () => {
 
          <div className="products_content_wrapper">
             <div className="content_wrapper_inner">
-               <p className='content_title' dangerouslySetInnerHTML={{ __html: collectionData?.galleryTitle }}></p>
+               <p className='content_title' dangerouslySetInnerHTML={{ __html: collectionData?.galleryTitle[lang] }}></p>
 
                <div className="details__container">
 
