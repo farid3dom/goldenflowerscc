@@ -2,11 +2,11 @@ import React from 'react'
 import './style.scss'
 
 //import images
-import Logo from '../../assets/icons/logo.svg'
-import Logo_S from '../../assets/icons/logo_sm.svg'
-import ArrowDown from '../../assets/icons/arrowDown';
-import ShopSVG from '../../assets/icons/shop.svg'
-import DownloadSVG from '../../assets/icons/download.svg'
+import Logo from '@assets/icons/logo.svg'
+import Logo_S from '@assets/icons/logo_sm.svg'
+import ArrowDown from '@assets/icons/arrowDown';
+import ShopSVG from '@assets/icons/shop.svg'
+import DownloadSVG from '@assets/icons/download.svg'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';

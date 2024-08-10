@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 ////IMPORT COMPONENT
-import Button from '../../components/Button/Index';
-import BackBtn from '../../components/BackBtn/index';
+import Button from '@components/Button/Index';
+import BackBtn from '@components/BackBtn/index';
 
 ////IMPORT DB
-import FlowersData from '../../db/flowers.json';
-import PlantsData from '../../db/plants.json';
-import AccessoriesData from '../../db/accessories.json';
+import FlowersData from '@db/flowers.json';
+import PlantsData from '@db/plants.json';
+import AccessoriesData from '@db/accessories.json';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
@@ -22,7 +22,7 @@ const Index = () => {
 
    useEffect(() => {
       getProductDatas();
-   }, []);
+   }, [location]);
 
    const getProductDatas = async () => {
       switch (searchParams.get('productType')) {
@@ -130,9 +130,23 @@ const Index = () => {
                   }
                   {
                      productData?.department &&
-                     <div className="product_care product-elements__item">
+                     <div className="product_department product-elements__item">
                         <h1>Товары</h1>
                         <span>{productData?.department}</span>
+                     </div>
+                  }
+                  {
+                     productData?.brand &&
+                     <div className="product_brand product-elements__item">
+                        <h1>Бренд</h1>
+                        <span>{productData?.brand}</span>
+                     </div>
+                  }
+                  {
+                     productData?.country &&
+                     <div className="product_country product-elements__item">
+                        <h1>Страна производителя</h1>
+                        <span>{productData?.country[lang]}</span>
                      </div>
                   }
                </div>

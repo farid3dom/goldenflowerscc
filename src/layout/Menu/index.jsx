@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './style.scss';
 import $ from 'jquery';
 
-import NavMenuBG from '../../assets/media/images/container_image.jpg';
+import NavMenuBG from '@assets/media/images/container_image.jpg';
 
 //import react router dom
 import { Link } from 'react-router-dom';

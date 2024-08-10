@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
 
 //Import Images
-import Loading from '../../../../assets/icons/loading.svg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Layout
-import HeaderRepeat from '../../../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
-import Button from '../../../../components/Button/Index';
-import Input from '../../../../components/Input/Index';
-import BackBtn from '../../../../components/BackBtn/index';
-import GalleryCard from '../../../../components/GalleryCard/Index';
+import Button from '@components/Button/Index';
+import Input from '@components/Input/Index';
+import BackBtn from '@components/BackBtn/index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import DB
-import PagesData from '../../../../db/pages.json';
-import PlantsData from '../../../../db/plants.json';
+import PagesData from '@db/pages.json';
+import PlantsData from '@db/plants.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';

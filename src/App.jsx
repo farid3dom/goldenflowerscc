@@ -2,21 +2,23 @@ import { useState, useEffect } from 'react';
 import './App.scss';
 import './reset.css';
 
+///Import Components
+import ScrollToTop from '@components/ScrollToTop';
+
 //import layout
-import Navbar from './layout/Navbar/index';
-import NavbarMenu from './layout/Menu/index';
-import Footer from './layout/Footer/index';
+import Navbar from '@layout/Navbar';
+import NavbarMenu from '@layout/Menu';
+import Footer from '@layout/Footer';
 
 //Import Pages
-import Home from './pages/Home/index'
-import Products from './pages/Products/index'
-import FlowersCollection from './pages/Products/Flowers/Collection/index';
-import PlantsCollection from './pages/Products/Plants/Collection/index';
-import SingleProduct from './pages/SingleProduct/index';
-import Cooperation from './pages/Cooperation/index';
-
-import Contacts from './pages/Contacts/index'
-import About from './pages/About/index'
+import Home from '@pages/Home';
+import Products from '@pages/Products';
+import FlowersCollection from '@pages/Products/Flowers/Collection';
+import PlantsCollection from '@pages/Products/Plants/Collection';
+import SingleProduct from '@pages/SingleProduct';
+import Cooperation from '@pages/Cooperation';
+import Contacts from '@pages/Contacts';
+import About from '@pages/About';
 
 //Import React router dom
 import { Routes, Route, BrowserRouter as Router, Navigate, useLocation, Outlet } from 'react-router-dom';
@@ -25,24 +27,23 @@ function App() {
   const [menuIsActive, setMenuIsActive] = useState(null);
 
   ///PAGE SCROLL TO TOP
-  function ScrollToTop() {
-    const { pathname } = useLocation();
+  function ScrollToTopFunc() {
+    const { pathname, search } = useLocation();
 
     useEffect(() => {
       window.scrollTo(0, 0);
-    }, [pathname]);
+    }, [pathname, search]);
 
     return null;
-  }
-
-  let flowersFirstOptions = ['dianthus', 'roses', 'chrysanthemum']
+  };
 
   return (
     <Router>
-      <div className="App">
+      <>
 
         {/* SCROLL TO TOP */}
         <ScrollToTop />
+        <ScrollToTopFunc />
 
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
@@ -73,7 +74,7 @@ function App() {
         </Routes>
 
         <Footer />
-      </div>
+      </>
     </Router>
   )
 }

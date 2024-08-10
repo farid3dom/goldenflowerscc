@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Layout
-import HeaderRepeat from '../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
 import Flowers from './Flowers/index';
@@ -9,7 +9,7 @@ import Plants from './Plants/index';
 import Accessories from './Accessories/index';
 
 //Import DB
-import PagesData from '../../db/pages.json';
+import PagesData from '@db/pages.json';
 
 //Import react router dom
 import { useLocation } from 'react-router-dom';

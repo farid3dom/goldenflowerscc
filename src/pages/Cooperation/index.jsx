@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Images
-import CooperationBG from '../../assets/media/images/materials/truck_gold.jpg';
-import Loading from '../../assets/icons/loading.svg';
+import CooperationBG from '@assets/media/images/materials/truck_gold.jpg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Layout
-import HeaderRepeat from '../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
-import Button from '../../components/Button/Index';
-import Input from '../../components/Input/Index';
-import GalleryCard from '../../components/GalleryCard/Index';
+import Button from '@components/Button/Index';
+import Input from '@components/Input/Index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import Utils
-import PagesData from '../../db/pages.json';
-import CooperationData from '../../db/cooperation.json';
+import PagesData from '@db/pages.json';
+import CooperationData from '@db/cooperation.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';

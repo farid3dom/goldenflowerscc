@@ -5,53 +5,52 @@ import { useLocation } from 'react-router-dom';
 
 import CountUp from 'react-countup';
 
-import Slider from '../../components/Slider/index'
-import Button from '../../components/Button/Index';
+import Slider from '@components/Slider/index'
+import Button from '@components/Button/Index';
 
 import { Link } from 'react-router-dom';
 
 //import icons
-import YearIcon from '../../assets/icons/num_icons/work.svg'
-import PlantationIcon from '../../assets/icons/num_icons/plantation.svg'
-import ProductsIcon from '../../assets/icons/num_icons/products.svg'
-import ReviewsIcon from '../../assets/icons/num_icons/reviews.svg'
+import YearIcon from '@assets/icons/num_icons/work.svg'
+import PlantationIcon from '@assets/icons/num_icons/plantation.svg'
+import ProductsIcon from '@assets/icons/num_icons/products.svg'
+import ReviewsIcon from '@assets/icons/num_icons/reviews.svg'
 
 
 const Index = () => {
     const collectionRef = useRef(null);
     const location = useLocation();
 
-    useEffect(() => {
-        console.log(location)
-        setTimeout(() => {
-            if (location.hash === '#collection') {
-                collectionRef.current.scrollIntoView({ behavior: 'smooth' });
-            }
-        }, 100)
-    }, [location]);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         if (location.hash === '#collection') {
+    //             collectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    //         }
+    //     }, 100)
+    // }, [location]);
 
     let sliderFlowers = [
         {
-            img: 'https://sun9-79.userapi.com/impg/nHXbGzLXVky0tSscl1fTz63FN2doDMf9eI1cog/7KigjjixuJ8.jpg?size=1920x1280&quality=95&sign=fbcda4c32c53089c795f27ad5926b4c2&type=album'
+            img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1920x1280&quality=95&sign=020b3999919f7fb9eb94d3ae355cc713&type=album'
         },
         {
-            img: 'https://sun9-78.userapi.com/impg/dOWdZv_YJvHrT72Pn3yjVl6LF6UPnaWOWvMahg/35TNSIxvNHA.jpg?size=1920x1280&quality=95&sign=c620451cb5f02868b820150727b43927&type=album'
+            img: 'https://sun9-3.userapi.com/impg/c2-OXz5M5WF2-YCAJ3AeDXHhJ2fsf4xQp3drGA/3SaU5cxIB2k.jpg?size=1920x1280&quality=95&sign=2ea7a3252fff0cf178c754c5490a21f6&type=album'
         },
         {
-            img: 'https://sun9-16.userapi.com/impg/l9WxXmysucE1_H-FR_aWX-HoHNLgQo-_KMDCEg/U7SURtC_YX4.jpg?size=1080x720&quality=95&sign=49805dcd2595149dfce32166f0cfe58a&type=album'
+            img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1920x1280&quality=95&sign=0a72f13de1f1801ad0d4dd1bbb50fce1&type=album'
         }
 
     ]
 
     let sliderPlants = [
         {
-            img: 'https://sun9-48.userapi.com/impg/tbUSHneizP5m-aOqnNMkwuF6leihuHqJ0II5ug/qFtOOvvWvrI.jpg?size=1078x720&quality=95&sign=9118adbc3740c5b47f2aacd53cf1f634&type=album'
+            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
         },
         {
-            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1280x853&quality=95&sign=084963b3cdeb9b2cd8f0f18100c30f16&type=album'
+            img: 'https://sun9-9.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1920x1280&quality=95&sign=96f8c9028e60c8a54dbd130535c9169f&type=album'
         },
         {
-            img: 'https://sun9-15.userapi.com/impg/TuPwr6vZkxsS1-km13U7Xj539A0hzQzxLgpHjg/-9wZz7pdeho.jpg?size=1920x1280&quality=95&sign=84b12418dc525ead76d3834a8824a4b5&type=album'
+            img: 'https://sun9-19.userapi.com/impg/JC93k9wvvtBo-T0sBVnxFh-iWZce7_TMgVS5dg/bbYlEKvENGo.jpg?size=1920x1280&quality=95&sign=e4bf27f4fddbc6fe868d963e7b40aaf5&type=album'
         }
 
     ]
