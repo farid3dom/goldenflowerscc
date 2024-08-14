@@ -101,8 +101,8 @@ const Index = () => {
 
                     <div className="about_div">
                         <div className="about_title">
-                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона</h1>
-                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
+                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона!</h1>
+                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса.</span>
                         </div>
 
                         <div className="animated_numbers_wrapper">
@@ -161,13 +161,6 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="yandex_otziv">
-                        <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=rating" width={150} height={50} frameborder="0"></iframe>
-                    </div> */}
-
-
-
                 </div>
 
 

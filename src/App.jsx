@@ -11,14 +11,10 @@ import NavbarMenu from '@layout/Menu';
 import Footer from '@layout/Footer';
 import AnimatedRoutes from '@routes/index';
 
-///Import Utils
-import { useTranslation } from 'react-i18next';
-
 //Import React router dom
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 
 function App() {
-  const { t, i18n } = useTranslation();
   const [menuIsActive, setMenuIsActive] = useState(null);
 
   ///PAGE SCROLL TO TOP
@@ -43,7 +39,7 @@ function App() {
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
 
         {/* ANIMATED ROUTE */}
-        <AnimatedRoutes lng={i18n.language} />
+        <AnimatedRoutes />
       </>
     </Router>
   )

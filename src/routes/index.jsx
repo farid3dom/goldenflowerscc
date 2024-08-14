@@ -16,15 +16,13 @@ import Footer from '@layout/Footer';
 import { AnimatePresence } from 'framer-motion';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
-const AnimatedRoutes = ({ lng }) => {
+const AnimatedRoutes = () => {
    const location = useLocation();
-
-   console.log(lng)
 
    return (
       <AnimatePresence mode="wait">
          <Routes location={location} key={location.pathname}>
-            <Route path={`/${lng}`} element={<Home />} />
+            <Route path='/' element={<Home />} />
 
             {/* PRODUCTS PAGES */}
             <Route path='/products/flowers/' element={<Products />} />
@@ -42,10 +40,10 @@ const AnimatedRoutes = ({ lng }) => {
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/about' element={<About />} />
 
-            {/* <Route
+            <Route
                path="*"
                element={<Navigate to="/" replace />}
-            /> */}
+            />
          </Routes>
 
          <Footer />

@@ -29,7 +29,7 @@ const Index = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
-    const lang = 'en';
+    const lang = 'ru';
     const searchParams = new URLSearchParams(location.search);
     const searchValue = searchParams.get('s');
     const [galleryLoading, setGalleryLoading] = useState(false);

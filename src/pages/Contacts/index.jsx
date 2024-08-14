@@ -96,8 +96,9 @@ function index() {
                     </div>
                     <div className="map">
                         <div className='map_inner'>
-                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14" width={500} height={500} frameBorder={1} allowfullscreen={true} style={{ position: 'relative' }}>
+                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14">
                             </iframe>
+                            {/* <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad053836cb0c9f0b843abbfd6a18c4b31ca836facc1b13aeca320826e49a697ed&amp;source=constructor" width={650} height={650} frameborder={0}></iframe> */}
                         </div>
                     </div>
 

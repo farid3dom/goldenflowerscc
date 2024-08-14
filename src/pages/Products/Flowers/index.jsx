@@ -69,7 +69,7 @@ const Index = () => {
          <div className="gallery_grid_wrapper">
             {galleryLoading &&
                <div className="loading_wrapper">
-                  <img className='loading_icon' src={Loading} alt='' />
+                  <img className='loading_icon' width={100} height={100} src={Loading} alt='' />
                </div>
             }
 

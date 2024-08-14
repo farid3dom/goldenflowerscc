@@ -4,10 +4,13 @@
     --f-regular: 'Geologica_Regular';
     --white: #fff;
     --black: #000;
-    --gray: #9d9d9daf;
+    --gray: #00000069;
     --gold: #ECBB47;
     --btn-transition: .25s ease;
 }
+
+
+//GEOLOGICA
 
 @font-face {
     font-family: 'Geologica_Bold';
@@ -29,6 +32,34 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+//PHILOSOPHER
+
+// @font-face {
+//     font-family: 'Geologica_Bold';
+//     src: url('./assets/fonts/phil/Philosopher-Bold.ttf') format("OpenType");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Geologica_Medium';
+//     src: url('./assets/fonts/phil/Philosopher-Regular.ttf') format("OpenType");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Geologica_Regular';
+//     src: url('./assets/fonts/phil/Philosopher-Regular.ttf') format("OpenType");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
+
+
 
 * {
     box-sizing: border-box;

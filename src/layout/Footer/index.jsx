@@ -71,7 +71,7 @@ const Index = () => {
                                 <img src={TGimg} alt="telegram" /> </Link>
                             <Link to={'https://vk.com/goldenflowerscc'} target='_blank'>
                                 <img src={VKimg} alt="facebook" /> </Link>
-                            <Link to={'https://www.youtube.com/channel/UCsOclqfB25LzHOh7W9QpSqw'} target='_blank'>
+                            <Link to={'https://www.youtube.com/@gfccru'} target='_blank'>
                                 <img src={YTimg} alt="youtube" /> </Link>
                         </div>
                         <div className="adres_container">
