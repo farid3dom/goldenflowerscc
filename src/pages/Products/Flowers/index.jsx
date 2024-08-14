@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
 //Import Images
-import Loading from '../../../assets/icons/loading.svg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Component
-import Button from '../../../components/Button/Index';
-import Input from '../../../components/Input/Index';
-import GalleryCard from '../../../components/GalleryCard/Index';
+import Button from '@components/Button/Index';
+import Input from '@components/Input/Index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import DB
-import FlowersData from '../../../db/flowers.json';
+import FlowersData from '@db/flowers.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
 
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ const Index = () => {
    const location = useLocation();
    const navigate = useNavigate();
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
-   const lang = 'en';
+   const lang = 'ru';
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');
    const [galleryLoading, setGalleryLoading] = useState(false);
@@ -69,7 +69,7 @@ const Index = () => {
          <div className="gallery_grid_wrapper">
             {galleryLoading &&
                <div className="loading_wrapper">
-                  <img className='loading_icon' src={Loading} alt='' />
+                  <img className='loading_icon' width={100} height={100} src={Loading} alt='' />
                </div>
             }
 
@@ -84,7 +84,7 @@ const Index = () => {
             {!galleryLoading && galleryData?.slice(0, visibleCardLength).map((f, i) => (
                <GalleryCard
                   key={i}
-                  img={f.images && f.images[0].img}
+                  img={f.images ? f.images[0].img : null}
                   title={f?.name[lang]}
                   href={
                      f.inner_URL ?

@@ -1,23 +1,26 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 //Import Images
-import CooperationBG from '../../assets/media/images/materials/truck_gold.jpg';
-import Loading from '../../assets/icons/loading.svg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Layout
-import HeaderRepeat from '../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
-import Button from '../../components/Button/Index';
-import Input from '../../components/Input/Index';
-import GalleryCard from '../../components/GalleryCard/Index';
+import Button from '@components/Button/Index';
+import Input from '@components/Input/Index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import Utils
-import PagesData from '../../db/pages.json';
-import CooperationData from '../../db/cooperation.json';
+import PagesData from '@db/pages.json';
+import CooperationData from '@db/cooperation.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
+
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -26,7 +29,7 @@ const Index = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
-    const lang = 'en';
+    const lang = 'ru';
     const searchParams = new URLSearchParams(location.search);
     const searchValue = searchParams.get('s');
     const [galleryLoading, setGalleryLoading] = useState(false);
@@ -59,7 +62,15 @@ const Index = () => {
     }
 
     return (
-        <div className="products-page__container">
+        <motion.div
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}
+            className="products-page__container">
+
+            <div className="fixed-img__wrapper"></div>
 
             <HeaderRepeat
                 title={pageData?.headerWrapper.title[lang]}
@@ -134,7 +145,7 @@ const Index = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

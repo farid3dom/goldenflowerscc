@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 //Import Layout
-import HeaderRepeat from '../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
 import Flowers from './Flowers/index';
@@ -9,13 +10,16 @@ import Plants from './Plants/index';
 import Accessories from './Accessories/index';
 
 //Import DB
-import PagesData from '../../db/pages.json';
+import PagesData from '@db/pages.json';
+
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 //Import react router dom
 import { useLocation } from 'react-router-dom';
 
 const Index = () => {
-   let lang = 'en';
+   let lang = 'ru';
    const location = useLocation();
    const [pageData, setPageData] = useState({});
 
@@ -31,7 +35,16 @@ const Index = () => {
    }, [location]);
 
    return (
-      <div className="products-page__container">
+      <motion.div
+         initial="initial"
+         animate="in"
+         exit="out"
+         variants={pageVariants}
+         transition={pageTransition}
+         className="products-page__container">
+
+         <div className="fixed-img__wrapper"></div>
+
          <HeaderRepeat
             title={pageData?.headerTitle}
             img={pageData?.headerImg}
@@ -51,7 +64,7 @@ const Index = () => {
                }
             </div>
          </div>
-      </div>
+      </motion.div>
    )
 }
 

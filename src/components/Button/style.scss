@@ -44,7 +44,7 @@
 }
 
 .btn_white {
-    border: 1px solid var(--white);
+    border: .5px solid var(--white);
     color: var(--white);
 
     svg {
@@ -56,7 +56,7 @@
 
 
 .btn_black {
-    border: 1px solid var(--black);
+    border: .5px solid var(--black);
     color: var(--black);
 
     svg {
@@ -70,7 +70,7 @@
     .hover_blue {
         &:hover {
             background: #056add;
-            border: 1px solid #056add;
+            border: .5px solid #056add;
             color: var(--white);
 
             svg {
@@ -84,7 +84,7 @@
     .hover_gold {
         &:hover {
             background: var(--gold);
-            border: 1px solid var(--gold);
+            border: .5px solid var(--gold);
             color: var(--white);
 
             svg {

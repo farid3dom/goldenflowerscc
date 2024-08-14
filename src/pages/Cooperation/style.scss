@@ -57,6 +57,12 @@
 
             .single_gallery_card a .image_wrapper img {
                height: auto;
+               filter: grayscale(100%);
+ 
+               &:hover {
+                  filter: grayscale(0%);
+               }
+
             }
 
             .loading_wrapper,

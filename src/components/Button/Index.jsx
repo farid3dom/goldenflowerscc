@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-import ArrowRight from '../../assets/icons/arrowRight';
+import ArrowRight from '@assets/icons/arrowRight';
 
 //Import React router dom
 import { Link } from 'react-router-dom';

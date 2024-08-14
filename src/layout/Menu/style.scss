@@ -32,21 +32,23 @@
                 align-items: center;
                 font-family: var(--f-medium);
                 color: var(--white);
-                font-size: 18px;
+                font-size: 20px;
                 text-decoration: none;
                 padding-bottom: 30px;
             }
         }
 
-        .language {
+        .localization__wrapper {
             display: flex;
+            align-items: center;
+            gap: 6px;
 
-            a {
+            span {
+                font-family: var(--f-regular);
                 color: var(--white);
                 font-size: 18px;
-                text-decoration: none;
-                font-family: var(--f-medium);
-                padding-left: 25px;
+                padding-left: 5px;
+                cursor: pointer;
             }
         }
     }

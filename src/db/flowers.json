@@ -5,10 +5,13 @@
          "ru": "Гвоздика ⥤"
       },
       "inner_URL": "dianthus",
-      "galleryTitle": "lorem ipsum dolar sit amet yarrak kurek isler amk",
+      "galleryTitle": {
+         "en": "Just as <span>carnations</span> bloom in the sun, so our feelings blossom in the warmth of care and attention!",
+         "ru": "Как <span>гвоздики</span> распускаются на солнце, так и наши чувства расцветают в тепле заботы и внимания!"
+      },
       "images": [
          {
-            "img": "https://sun9-23.userapi.com/impg/NbBGV630A3DuNBf0ctEn7IZFgAAGP-6nFZH-Xg/cmCAO7BdyEs.jpg?size=1080x720&quality=95&sign=ded0bec62752d090550f9e60d0975912&type=album"
+            "img": "https://mykaleidoscope.ru/uploads/posts/2021-10/1635269788_54-mykaleidoscope-ru-p-krasnaya-gvozdika-tsveti-62.jpg"
          }
       ],
       "items": [
@@ -94,8 +97,8 @@
                }
             ],
             "desc": {
-               "en": "Carnation Fancy\nDianthus florigena\nCarnation Türkiye Single Head",
-               "ru": "Гвоздика Фанси\nГвоздика Флоригена\nГвоздика Турция Одноголовая"
+               "en": "Carnation Fancy<br>Dianthus florigena<br>Carnation Türkiye Single Head",
+               "ru": "Гвоздика Фанси<br>Гвоздика Флоригена<br>Гвоздика Турция Одноголовая"
             },
             "plantation": "",
             "quantity": 25,
@@ -125,8 +128,8 @@
                }
             ],
             "desc": {
-               "en": "Carnation Ecuador\nCarnation Ecuador Mix",
-               "ru": "Гвоздика Эквадор\nГвоздика Эквадор Микс"
+               "en": "Carnation Ecuador<br>Carnation Ecuador Mix",
+               "ru": "Гвоздика Эквадор<br>Гвоздика Эквадор Микс"
             },
             "plantation": "Azeriflores",
             "quantity": 20,
@@ -156,8 +159,8 @@
                }
             ],
             "desc": {
-               "en": "Carnation Colombia Floregene\nCarnation Colombia Geo Flora Bush\nCarnation Colombia Geo Flora Mix\nCarnation Colombia Geo Flora Varietal",
-               "ru": "Гвоздика Колумбия Floregene\nГвоздика Колумбия Geo Flora Кустовая\nГвоздика Колумбия Geo Flora Микс\nГвоздика Колумбия Geo Flora Сортовая"
+               "en": "Carnation Colombia Floregene<br>Carnation Colombia Geo Flora Bush<br>Carnation Colombia Geo Flora Mix<br>Carnation Colombia Geo Flora Varietal",
+               "ru": "Гвоздика Колумбия Floregene<br>Гвоздика Колумбия Geo Flora Кустовая<br>Гвоздика Колумбия Geo Flora Микс<br>Гвоздика Колумбия Geo Flora Сортовая"
             },
             "plantation": "Geo Flora, Floregene",
             "quantity": 25,
@@ -236,10 +239,13 @@
          "en": "Roses ⥤",
          "ru": "Розы ⥤"
       },
-      "galleryTitle": "lorem ipsum dolar sit amet yarrak kurek isler amk",
+      "galleryTitle": {
+         "en": "Roses are flowers that speak of <span>love</span> without words!",
+         "ru": "Розы — это цветы, которые говорят о <span>любви </span> без слов!"
+      },
       "images": [
          {
-            "img": "https://sun9-66.userapi.com/impg/f373G0H7ve9Ke0IEF3fVKcQigOCi0MCjF3N5yw/aFwUD29NDng.jpg?size=1080x720&quality=95&sign=8609649f7db18dc63101dd2aecb71898&type=album"
+            "img": "https://sun9-30.userapi.com/impg/Fz05P51ZbpeyBooQNWe-qXwTWsWu7OLVLL1Kuw/3zQRg0qBWlI.jpg?size=2560x1707&quality=95&sign=be332b8b3c142b183ca65fcbd43d07c2&type=album"
          }
       ],
       "inner_URL": "roses",
@@ -267,8 +273,8 @@
                }
             ],
             "desc": {
-               "en": "Alva\nAnnesley\nBachelor\nWhite Chapel\nWestminster\nWindsor\nVuvuzella\nGolden\nJust\nDorset\nCountry\nCoffee\nLovely\nMayfield\nMenta\nMix\nParadise\nPinky\nPriscilla\nEd\nRetro\nSanta\nSweet\nSilvermine\nTinkerbelle\nHarper\nChick\nAbby",
-               "ru": "Альва\nАннесли\nБакалавр\nВайт шапл\nВестминстер\nВиндзор\nВувузелла\nГолден\nДжаст\nДорсет\nКантри\nКофе\nЛавли\nМайфилд\nМента\nМикс\nПарадайс\nПинки\nПрисцилла\nРед\nРетро\nСант\nСвит\nСилвермайн\nТинкербель\nХарпер\nЧик\nЭбби"
+               "en": "Alva<br>Annesley<br>Bachelor<br>White Chapel<br>Westminster<br>Windsor<br>Vuvuzella<br>Golden<br>Just<br>Dorset<br>Country<br>Coffee<br>Lovely<br>Mayfield<br>Menta<br>Mix<br>Paradise<br>Pinky<br>Priscilla<br>Ed<br>Retro<br>Santa<br>Sweet<br>Silvermine<br>Tinkerbelle<br>Harper<br>Chick<br>Abby",
+               "ru": "Альва<br>Аннесли<br>Бакалавр<br>Вайт шапл<br>Вестминстер<br>Виндзор<br>Вувузелла<br>Голден<br>Джаст<br>Дорсет<br>Кантри<br>Кофе<br>Лавли<br>Майфилд<br>Мента<br>Микс<br>Парадайс<br>Пинки<br>Присцилла<br>Ред<br>Ретро<br>Сант<br>Свит<br>Силвермайн<br>Тинкербель<br>Харпер<br>Чик<br>Эбби"
             },
             "plantation": "Vip Roses, Sian Flowers",
             "quantity": "10 15",
@@ -285,7 +291,7 @@
             },
             "images": [
                {
-                  "img": "https://thursd.com/storage/media/60193/Rose-Be-Sweet-Top-10-De-Ruiter-Ecuador-(1).jpg?1695827068909"
+                  "img": "https://sun9-66.userapi.com/impg/oIXpBJnti2jnoZbWOd6LZelZeOZ4O_942kCQGA/Jn2KTmXR1SM.jpg?size=2560x1707&quality=95&sign=428b8944c3f1b63ba055f74363337b6f&type=album"
                },
                {
                   "img": "https://kampongflowers.com/cdn/shop/products/Mandarin_Xpression_Single_Alta-scaled_1200x.jpg?v=1664424710"
@@ -301,8 +307,8 @@
                }
             ],
             "desc": {
-               "en": "3D \nAbsalut Pink\nAlba \nAljoha \nAltamira \nAmsterdam \nEngagement \nAspen (Rosaprima)\nAtomic \nBarista \nWhite chocolate\nBee Sweet\nBlues \nBrighton \nBoulevard \nWild Cat\nWhite Shimmer\nWhite/Pink Ohara\nVeggie \nWendella \nWestminster Abbey\nGotcha \nDallas \nDeep Purple\nIguazu \nIguana \nCabaret \nKaen \nCountry Blues\nCountry Sun\nCountry Home\nCarousel \nKahala (Tessa)\nKahala \nQuicksend \nQueen Crown\nCoral Reef\nCotton Expression\nCream Carpediem\nCream Expression\nCandy Expression\nCandlelight \nLemonade \nLola \nLorena Sommerhous\nLuciana \nMyra Pink\nMyra Red\nMandala \nMandarin Expression\nMarzipan \nMagic Time\nMenta \nMix \nMia \nModi Blue\nMomentum \nMondial \nMohana \nMoonstone \nMansfield Park\nNautica \nNina \nNovia \nOpal \nHoya Verde+Joy\nPaloma \nPandora \nPink Mondial\nPink Promise\nPink Floyd\nPink Expression\nPeony-shaped \nPlaya Blanca\nPolar Star\nPomarosa \nPrincess Crown\nProud \nRagazza \nRed Panther\nRed/Pink Monster\nRainbow \nSalma \nSunset Expression\nSwan \nSweet Memoriy\nSweet Eskimo\nSweetness \nCielo/Rosalin \nSilantoy \nTiffany \nToffee \nFarfalla \nFelicity \nFlamingo (Rosaprima)\nFreedom \nFrutetto \nFull Monty\nHigh Yellow\nHigh Magic\nHearts \nHot Spot\nHot/Pink Explorer\nHoudini \nHoudini50cm (Annie\nHermosa \nCheckmate \nShimmer \nEq Mix\nExplorer \nEnchantment \nApple Jack\nEsperanza ",
-               "ru": "3Д \nАбсалут Пинк\nАльба \nАльоха \nАльтамира \nАмстердам \nАнгажемент \nАспен (Розаприма)\nАтомик \nБариста \nБелый Шоколад\nБи Свит\nБлюз \nБрайтон \nБулевард \nВайлд Кэт\nВайт Шиммер\nВайт/Пинк Охара\nВеггие \nВенделла \nВестминстер Эбби\nГотча \nДаллас \nДип Перпл\nИгуазу \nИгуана \nКабарет \nКаен \nКантри Блюз\nКантри Сан\nКантри Хоум\nКарусель \nКахала (Тесса)\nКахала \nКвиксенд \nКвин Краун\nКорал Риф\nКоттон Экспрешн\nКрем Карпедием\nКрем Экспрешн\nКэнди Экспрешн\nКэндллайт \nЛимонад \nЛола \nЛорена Соммерхоус\nЛусиана \nМайра Пинк\nМайра Ред\nМандала \nМандарин Экспрешн\nМарзипан \nМеджик Тайм\nМента \nМикс \nМия \nМоди Блю\nМоментум \nМондиаль \nМохана \nМунстоун \nМэнсфилд Парк\nНаутика \nНина \nНовиа \nОпала \nХойа Верде+Джой\nПалома \nПандора \nПинк Мондиаль\nПинк Промис\nПинк Флойд\nПинк Экспрешн\nПионовидная \nПлайя Бланка\nПолар Стар\nПомароса \nПринсесс Краун\nПроуд \nРагацца \nРед Пантера\nРед/Пинк Монстер\nРейнбоу \nСалма \nСансет Экспрешн\nСван \nСвит Меморий\nСвит Эскимо\nСвитнесс \nСиело/Росалин \nСилантой \nТиффани \nТоффи \nФарфала \nФелисити \nФламинго (Розаприма)\nФридом \nФрутетто \nФул Монти\nХай Еллоу\nХай Мэджик\nХартс \nХот Спот\nХот/Пинк Эксплорер\nХоудини \nХоудини50См (Анни\nХэрмоса \nЧекмэйт \nШиммер \nЭкв Микс\nЭксплорер \nЭнчантмент \nЭппл Джек\nЭсперанса "
+               "en": "3D <br>Absalut Pink<br>Alba <br>Aljoha <br>Altamira <br>Amsterdam <br>Engagement <br>Aspen (Rosaprima)<br>Atomic <br>Barista <br>White chocolate<br>Bee Sweet<br>Blues <br>Brighton <br>Boulevard <br>Wild Cat<br>White Shimmer<br>White/Pink Ohara<br>Veggie <br>Wendella <br>Westminster Abbey<br>Gotcha <br>Dallas <br>Deep Purple<br>Iguazu <br>Iguana <br>Cabaret <br>Kaen <br>Country Blues<br>Country Sun<br>Country Home<br>Carousel <br>Kahala (Tessa)<br>Kahala <br>Quicksend <br>Queen Crown<br>Coral Reef<br>Cotton Expression<br>Cream Carpediem<br>Cream Expression<br>Candy Expression<br>Candlelight <br>Lemonade <br>Lola <br>Lorena Sommerhous<br>Luciana <br>Myra Pink<br>Myra Red<br>Mandala <br>Mandarin Expression<br>Marzipan <br>Magic Time<br>Menta <br>Mix <br>Mia <br>Modi Blue<br>Momentum <br>Mondial <br>Mohana <br>Moonstone <br>Mansfield Park<br>Nautica <br>Nina <br>Novia <br>Opal <br>Hoya Verde+Joy<br>Paloma <br>Pandora <br>Pink Mondial<br>Pink Promise<br>Pink Floyd<br>Pink Expression<br>Peony-shaped <br>Playa Blanca<br>Polar Star<br>Pomarosa <br>Princess Crown<br>Proud <br>Ragazza <br>Red Panther<br>Red/Pink Monster<br>Rainbow <br>Salma <br>Sunset Expression<br>Swan <br>Sweet Memoriy<br>Sweet Eskimo<br>Sweetness <br>Cielo/Rosalin <br>Silantoy <br>Tiffany <br>Toffee <br>Farfalla <br>Felicity <br>Flamingo (Rosaprima)<br>Freedom <br>Frutetto <br>Full Monty<br>High Yellow<br>High Magic<br>Hearts <br>Hot Spot<br>Hot/Pink Explorer<br>Houdini <br>Houdini50cm (Annie<br>Hermosa <br>Checkmate <br>Shimmer <br>Eq Mix<br>Explorer <br>Enchantment <br>Apple Jack<br>Esperanza ",
+               "ru": "3Д <br>Абсалут Пинк<br>Альба <br>Альоха <br>Альтамира <br>Амстердам <br>Ангажемент <br>Аспен (Розаприма)<br>Атомик <br>Бариста <br>Белый Шоколад<br>Би Свит<br>Блюз <br>Брайтон <br>Булевард <br>Вайлд Кэт<br>Вайт Шиммер<br>Вайт/Пинк Охара<br>Веггие <br>Венделла <br>Вестминстер Эбби<br>Готча <br>Даллас <br>Дип Перпл<br>Игуазу <br>Игуана <br>Кабарет <br>Каен <br>Кантри Блюз<br>Кантри Сан<br>Кантри Хоум<br>Карусель <br>Кахала (Тесса)<br>Кахала <br>Квиксенд <br>Квин Краун<br>Корал Риф<br>Коттон Экспрешн<br>Крем Карпедием<br>Крем Экспрешн<br>Кэнди Экспрешн<br>Кэндллайт <br>Лимонад <br>Лола <br>Лорена Соммерхоус<br>Лусиана <br>Майра Пинк<br>Майра Ред<br>Мандала <br>Мандарин Экспрешн<br>Марзипан <br>Меджик Тайм<br>Мента <br>Микс <br>Мия <br>Моди Блю<br>Моментум <br>Мондиаль <br>Мохана <br>Мунстоун <br>Мэнсфилд Парк<br>Наутика <br>Нина <br>Новиа <br>Опала <br>Хойа Верде+Джой<br>Палома <br>Пандора <br>Пинк Мондиаль<br>Пинк Промис<br>Пинк Флойд<br>Пинк Экспрешн<br>Пионовидная <br>Плайя Бланка<br>Полар Стар<br>Помароса <br>Принсесс Краун<br>Проуд <br>Рагацца <br>Ред Пантера<br>Ред/Пинк Монстер<br>Рейнбоу <br>Салма <br>Сансет Экспрешн<br>Сван <br>Свит Меморий<br>Свит Эскимо<br>Свитнесс <br>Сиело/Росалин <br>Силантой <br>Тиффани <br>Тоффи <br>Фарфала <br>Фелисити <br>Фламинго (Розаприма)<br>Фридом <br>Фрутетто <br>Фул Монти<br>Хай Еллоу<br>Хай Мэджик<br>Хартс <br>Хот Спот<br>Хот/Пинк Эксплорер<br>Хоудини <br>Хоудини50См (Анни<br>Хэрмоса <br>Чекмэйт <br>Шиммер <br>Экв Микс<br>Эксплорер <br>Энчантмент <br>Эппл Джек<br>Эсперанса "
             },
             "plantation": "Vip Roses, Sian Flowers",
             "quantity": "25",
@@ -353,7 +359,7 @@
             },
             "images": [
                {
-                  "img": "https://voornroses.com/wp-content/uploads/2022/06/voorn_spray_roses_joyful.jpg"
+                  "img": "https://opt-fp.ru/uploads/store/product/17898b0d617711eb80dd005056aebb19_4051d3879b1911eb80e4005056aebb19.jpg"
                },
                {
                   "img": "https://voornroses.com/wp-content/uploads/2018/09/voorn_spray_roses-Coral-Bubbles_W1A1304.jpg"
@@ -365,12 +371,12 @@
                   "img": "https://img.webcdn.ru/catalog/Photo/00-00011730.jpg"
                },
                {
-                  "img": "https://opt-fp.ru/uploads/store/product/17898b0d617711eb80dd005056aebb19_4051d3879b1911eb80e4005056aebb19.jpg"
+                  "img": "https://voornroses.com/wp-content/uploads/2022/06/voorn_spray_roses_joyful.jpg"
                }
             ],
             "desc": {
-               "en": "Azores\nEyeliner\nAleksina\nAmata\nAmazing\nAngel\nAntigua\nAria\nArtesia\nAerobics\nAyala\nBandalero\nBarbados\nBella-Trendsetter\nBlushing\nBombastic\nBridal\nBritney\nBaby\nWeding\nVictor\nGaletto\nGalina\nGiseli\nGrandee\nGrandmays\nGreen\nGood\nGuincy\nJustin\nGentle\nJosephine\nJoyful\nJudy\nJuliet\nDominica\nDomino\nDaylight\nButt\nYoga\nKata-Lin\nCatalina\nClass\nCandylane\nLa Vie\nLavender\nLatoya\nLady\nLeila\nLem\nLianna\nLydia\nLimousine\nLov-Ait\nMadam\nMix\nMirabel\nMiss\nMisty\nMoring\nMotoun\nMagic\nMansfield\nNadia\nNinka\nNew\nNotre\nOdile\nHe\nOrange\nPiano\nPink\nPurple\nRamona\nEd\nReflex\nRoma\nRosanella\nRoyal\nSummer\nSummerrose\nSandial\nSancerre\nSweet\nSeverina\nSilva\nSliviana\nSmashing\nSofia\nSofia\nSpeke\nSushi\nTahiti\nTanya\nTrinity\nWhitney\nFireWorks\nFi-Flash\nFancy\nFatal\nFemka\nFurst\nFlinder\nFlow\nFlame\nHappy\nChimo\nCheyenne\nEmilia",
-               "ru": "Азоре\nАй лайнер\nАлексина\nАмата\nАмейзинг\nАнгел\nАнтигуа\nАрия\nАртесиа\nАэробик\nАяла\nБандалеро\nБарбадос\nБелла-Трендсеттер\nБлашинг\nБомбастик\nБрайдал\nБритни\nБэйби\nВединг\nВиктор\nГалетто\nГалина\nГисели\nГранд\nГрандмайс\nГрин\nГуд\nГуинси\nДжастин\nДжентл\nДжозефина\nДжойфул\nДжуди\nДжульетта\nДоминика\nДомино\nДэйлайт\nЗадик\nЙога\nКата-Лин\nКаталина\nКласс\nКэндилейн\nЛа-Вие\nЛавандер\nЛатоя\nЛеди\nЛейла\nЛем\nЛианна\nЛидия\nЛимузин\nЛов-Айт\nМадам\nМикс\nМирабел\nМисс\nМисти\nМоринг\nМотоун\nМэджик\nМэнсфилд\nНадиа\nНинка\nНовый\nНотр\nОдилия\nОн\nОранж\nПиано\nПинк\nПурпл\nРамона\nРед\nРефлекс\nРома\nРосанелла\nРоял\nСаммер\nСаммерроуз\nСандиал\nСансерра\nСвит\nСеверина\nСилва\nСливиана\nСмэшинг\nСофиа\nСофие\nСпик\nСуши\nТаити\nТаня\nТринити\nУитни\nФаеворкс\nФай-Флеш\nФанси\nФатал\nФемка\nФерст\nФлиндер\nФлоу\nФлэйм\nХеппи\nЧимо\nШайенн\nЭмилья"
+               "en": "Azores<br>Eyeliner<br>Aleksina<br>Amata<br>Amazing<br>Angel<br>Antigua<br>Aria<br>Artesia<br>Aerobics<br>Ayala<br>Bandalero<br>Barbados<br>Bella-Trendsetter<br>Blushing<br>Bombastic<br>Bridal<br>Britney<br>Baby<br>Weding<br>Victor<br>Galetto<br>Galina<br>Giseli<br>Grandee<br>Grandmays<br>Green<br>Good<br>Guincy<br>Justin<br>Gentle<br>Josephine<br>Joyful<br>Judy<br>Juliet<br>Dominica<br>Domino<br>Daylight<br>Butt<br>Yoga<br>Kata-Lin<br>Catalina<br>Class<br>Candylane<br>La Vie<br>Lavender<br>Latoya<br>Lady<br>Leila<br>Lem<br>Lianna<br>Lydia<br>Limousine<br>Lov-Ait<br>Madam<br>Mix<br>Mirabel<br>Miss<br>Misty<br>Moring<br>Motoun<br>Magic<br>Mansfield<br>Nadia<br>Ninka<br>New<br>Notre<br>Odile<br>He<br>Orange<br>Piano<br>Pink<br>Purple<br>Ramona<br>Ed<br>Reflex<br>Roma<br>Rosanella<br>Royal<br>Summer<br>Summerrose<br>Sandial<br>Sancerre<br>Sweet<br>Severina<br>Silva<br>Sliviana<br>Smashing<br>Sofia<br>Sofia<br>Speke<br>Sushi<br>Tahiti<br>Tanya<br>Trinity<br>Whitney<br>FireWorks<br>Fi-Flash<br>Fancy<br>Fatal<br>Femka<br>Furst<br>Flinder<br>Flow<br>Flame<br>Happy<br>Chimo<br>Cheyenne<br>Emilia",
+               "ru": "Азоре<br>Ай лайнер<br>Алексина<br>Амата<br>Амейзинг<br>Ангел<br>Антигуа<br>Ария<br>Артесиа<br>Аэробик<br>Аяла<br>Бандалеро<br>Барбадос<br>Белла-Трендсеттер<br>Блашинг<br>Бомбастик<br>Брайдал<br>Бритни<br>Бэйби<br>Вединг<br>Виктор<br>Галетто<br>Галина<br>Гисели<br>Гранд<br>Грандмайс<br>Грин<br>Гуд<br>Гуинси<br>Джастин<br>Джентл<br>Джозефина<br>Джойфул<br>Джуди<br>Джульетта<br>Доминика<br>Домино<br>Дэйлайт<br>Задик<br>Йога<br>Ката-Лин<br>Каталина<br>Класс<br>Кэндилейн<br>Ла-Вие<br>Лавандер<br>Латоя<br>Леди<br>Лейла<br>Лем<br>Лианна<br>Лидия<br>Лимузин<br>Лов-Айт<br>Мадам<br>Микс<br>Мирабел<br>Мисс<br>Мисти<br>Моринг<br>Мотоун<br>Мэджик<br>Мэнсфилд<br>Надиа<br>Нинка<br>Новый<br>Нотр<br>Одилия<br>Он<br>Оранж<br>Пиано<br>Пинк<br>Пурпл<br>Рамона<br>Ред<br>Рефлекс<br>Рома<br>Росанелла<br>Роял<br>Саммер<br>Саммерроуз<br>Сандиал<br>Сансерра<br>Свит<br>Северина<br>Силва<br>Сливиана<br>Смэшинг<br>Софиа<br>Софие<br>Спик<br>Суши<br>Таити<br>Таня<br>Тринити<br>Уитни<br>Фаеворкс<br>Фай-Флеш<br>Фанси<br>Фатал<br>Фемка<br>Ферст<br>Флиндер<br>Флоу<br>Флэйм<br>Хеппи<br>Чимо<br>Шайенн<br>Эмилья"
             },
             "plantation": "Voorn Spray Roses, Vip Roses, Rift Valley Roses, Holla Roses, Sian Flowers",
             "quantity": "10",
@@ -421,10 +427,13 @@
          "en": "Roses Local ⥤",
          "ru": "Розы местные ⥤"
       },
-      "galleryTitle": "lorem ipsum dolar sit amet yarrak kurek isler amk",
+      "galleryTitle": {
+         "en": "Roses are flowers that speak of <span>love</span> without words!",
+         "ru": "Розы — это цветы, которые говорят о <span>любви </span> без слов!"
+      },
       "images": [
          {
-            "img": "https://sun9-66.userapi.com/impg/f373G0H7ve9Ke0IEF3fVKcQigOCi0MCjF3N5yw/aFwUD29NDng.jpg?size=1080x720&quality=95&sign=8609649f7db18dc63101dd2aecb71898&type=album"
+            "img": "https://sun9-64.userapi.com/impg/1Rfr2dSl0cf999cHBfR4B1Aaij9Jhm_waNffnw/X_fprLRQgdc.jpg?size=2560x1707&quality=95&sign=7e7f5e9368c5889a49540e98383c280e&type=album"
          }
       ],
       "inner_URL": "roses-local",
@@ -446,8 +455,8 @@
                }
             ],
             "desc": {
-               "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen house\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
-               "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+               "en": "Avalange<br>Annabelle<br>B-Bubbles<br>B-Twain<br>Brocante<br>Jumilia<br>Deep Water<br>Dolomiti<br>Yellow Bubles<br>Green house<br>Candy Avalange<br>Meni/Miss<br>Mix<br>Miss Bombastic<br>Naira<br>Peach Avalange<br>Priscella<br>Red Bubbles<br>Red Naomi<br>Summer Dance<br>Super Sensation<br>Taleya<br>Fana<br>Chekhov's Garden<br>Espana<br>Yanara",
+               "ru": "Аваланж<br>Аннабель<br>Б-Баблс<br>Би-Твен<br>Броканте<br>Джумилия<br>Дип Ватер<br>Доломити<br>Еллов Бублес<br>Зелёный Дом<br>Кэнди Аваланж<br>Мени/Мисс<br>Микс<br>Мисс Бомбастик<br>Наира<br>Пич Аваланж<br>Присцелла<br>Ред Баблс<br>Ред Наоми<br>Саммер Данс<br>Супер Сенсейшн<br>Талея<br>Фана<br>Чеховский Сад<br>Эспана<br>Янара"
             },
             "plantation": "",
             "quantity": 10,
@@ -455,7 +464,7 @@
                "en": "",
                "ru": ""
             },
-            "height": "50\n60\n70\n80"
+            "height": "50 60 70 80"
          },
           {
             "name": {
@@ -474,8 +483,8 @@
                }
             ],
             "desc": {
-               "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen house\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
-               "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+               "en": "Avalange<br>Annabelle<br>B-Bubbles<br>B-Twain<br>Brocante<br>Jumilia<br>Deep Water<br>Dolomiti<br>Yellow Bubles<br>Green house<br>Candy Avalange<br>Meni/Miss<br>Mix<br>Miss Bombastic<br>Naira<br>Peach Avalange<br>Priscella<br>Red Bubbles<br>Red Naomi<br>Summer Dance<br>Super Sensation<br>Taleya<br>Fana<br>Chekhov's Garden<br>Espana<br>Yanara",
+               "ru": "Аваланж<br>Аннабель<br>Б-Баблс<br>Би-Твен<br>Броканте<br>Джумилия<br>Дип Ватер<br>Доломити<br>Еллов Бублес<br>Зелёный Дом<br>Кэнди Аваланж<br>Мени/Мисс<br>Микс<br>Мисс Бомбастик<br>Наира<br>Пич Аваланж<br>Присцелла<br>Ред Баблс<br>Ред Наоми<br>Саммер Данс<br>Супер Сенсейшн<br>Талея<br>Фана<br>Чеховский Сад<br>Эспана<br>Янара"
             },
             "plantation": "",
             "quantity": 10,
@@ -483,7 +492,7 @@
                "en": "",
                "ru": ""
             },
-            "height": "50\n60\n70\n80"
+            "height": "50 60 70 80"
          }
       ]
    },
@@ -492,7 +501,10 @@
          "en": "Chrysanthemum ⥤",
          "ru": "Хризантема ⥤"
       },
-      "galleryTitle": "lorem ipsum dolar sit amet yarrak kurek isler amk",
+      "galleryTitle": {
+         "en": "In Eastern culture, the <span>chrysanthemum</span> symbolizes longevity and happiness, as if nature itself gives us its blessings!",
+         "ru": "В восточной культуре <span>хризантема </span> символизирует долголетие и счастье, как будто сама природа дарит нам свои благословения!"
+      },
       "inner_URL": "chrysanthemum",
       "images": [
          {
@@ -523,8 +535,8 @@
                }
             ],
             "desc": {
-               "en": "Anastasia white\nAnastasia yellow\nUndercover\nAntonov\nAntonov painted\nBrasiliana\nGagarin\nKalimba\nKalimba Salmon\nKasandra\nLamira\nMagnum\nMagnum yellow\nMomoko\nPeter\nPip\nPeep red\nPip Pretty\nRossano\nSouvenir\nSuper Bowl\nEtrusco Pink",
-               "ru": "Анастасия белая\nАнастасия желтая\nАндекавер\nАнтонов\nАнтонов крашеный\nБрасилиана\nГагарин\nКалимба\nКалимба Салмон\nКасандра\nЛамира\nМагнум\nМагнум желтый\nМомоко\nПётр\nПип\nПип красный\nПип Претти\nРоссано\nСувенир\nСупербоул\nЭтруско Пинк"
+               "en": "Anastasia white<br>Anastasia yellow<br>Undercover<br>Antonov<br>Antonov painted<br>Brasiliana<br>Gagarin<br>Kalimba<br>Kalimba Salmon<br>Kasandra<br>Lamira<br>Magnum<br>Magnum yellow<br>Momoko<br>Peter<br>Pip<br>Peep red<br>Pip Pretty<br>Rossano<br>Souvenir<br>Super Bowl<br>Etrusco Pink",
+               "ru": "Анастасия белая<br>Анастасия желтая<br>Андекавер<br>Антонов<br>Антонов крашеный<br>Брасилиана<br>Гагарин<br>Калимба<br>Калимба Салмон<br>Касандра<br>Ламира<br>Магнум<br>Магнум желтый<br>Момоко<br>Пётр<br>Пип<br>Пип красный<br>Пип Претти<br>Россано<br>Сувенир<br>Супербоул<br>Этруско Пинк"
             },
             "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
             "quantity": 10,
@@ -557,8 +569,8 @@
                }
             ],
             "desc": {
-               "en": "Altai\nAltai Yellow\nBacardi Yellow\nBacardi Dyed\nBaller Dark\nBaller Pink\nBaltika\nBaltika Yellow\nBaltika Painted\nBaltika Cream\nBaltika Pink\nBaltika Salmon\nBaltika Beyond\nBolte\nBombardino\nBontempi\nBonus\nBaby\nGaidar\nGaidar Yellow\nGuinthus\nDelian Yellow\nJulin\nEuro White\nEuro Yellow\nKalimba\nKatinka\nKatinka Salmon\nKaya\nCode Green\nCommander\nCommander Painted\nCommander Pink\nCrown\nLamira\nLet's Go Pink\nLimoncello\nMexicano\nNewton\nOptimist Pink\nPastel White\nPastel Yellow\nPastela Pink\nProsecco\nPurple Star\nJoy\nJoy Cream\nRihana\nSerenity\nSerenity Purple\nSerenity Suite\nSofton\nStellini\nStress\nSouvenir\nTendenza\nTopspin\nFabianna\nFlarstar\nChick\nChick Cream\nAbby",
-               "ru": "Алтай\nАлтай Желтый\nБакарди Желтый\nБакарди Крашеный\nБаллер Дарк\nБаллер Пинк\nБалтика\nБалтика Желтая\nБалтика Крашеная\nБалтика Крем\nБалтика Розовая\nБалтика Салмон\nБалтика Beyond\nБолте\nБомбардино\nБонтемпи\nБонус\nБэби\nГайдар\nГайдар Желтый\nГуинтус\nДелиан Желтый\nДжулин\nЕвро Белый\nЕвро Желтый\nКалимба\nКатинка\nКатинка Салмон\nКая\nКод Грин\nКомандир\nКомандир Крашеный\nКомандир Розовый\nКорона\nЛамира\nЛетс Го Пинк\nЛимончелло\nМексикано\nНьютон\nОптимист Розовый\nПастела Белая\nПастела Желтая\nПастела Пинк\nПросекко\nПурпл Стар\nРадость\nРадость Крем\nРихана\nСеренити\nСеренити Пурпл\nСеренити Свит\nСофтон\nСтеллини\nСтреса\nСувенир\nТенденза\nТопспин\nФабианна\nФларстар\nЧик\nЧик Крем\nЭбби"
+               "en": "Altai<br>Altai Yellow<br>Bacardi Yellow<br>Bacardi Dyed<br>Baller Dark<br>Baller Pink<br>Baltika<br>Baltika Yellow<br>Baltika Painted<br>Baltika Cream<br>Baltika Pink<br>Baltika Salmon<br>Baltika Beyond<br>Bolte<br>Bombardino<br>Bontempi<br>Bonus<br>Baby<br>Gaidar<br>Gaidar Yellow<br>Guinthus<br>Delian Yellow<br>Julin<br>Euro White<br>Euro Yellow<br>Kalimba<br>Katinka<br>Katinka Salmon<br>Kaya<br>Code Green<br>Commander<br>Commander Painted<br>Commander Pink<br>Crown<br>Lamira<br>Let's Go Pink<br>Limoncello<br>Mexicano<br>Newton<br>Optimist Pink<br>Pastel White<br>Pastel Yellow<br>Pastela Pink<br>Prosecco<br>Purple Star<br>Joy<br>Joy Cream<br>Rihana<br>Serenity<br>Serenity Purple<br>Serenity Suite<br>Softon<br>Stellini<br>Stress<br>Souvenir<br>Tendenza<br>Topspin<br>Fabianna<br>Flarstar<br>Chick<br>Chick Cream<br>Abby",
+               "ru": "Алтай<br>Алтай Желтый<br>Бакарди Желтый<br>Бакарди Крашеный<br>Баллер Дарк<br>Баллер Пинк<br>Балтика<br>Балтика Желтая<br>Балтика Крашеная<br>Балтика Крем<br>Балтика Розовая<br>Балтика Салмон<br>Балтика Beyond<br>Болте<br>Бомбардино<br>Бонтемпи<br>Бонус<br>Бэби<br>Гайдар<br>Гайдар Желтый<br>Гуинтус<br>Делиан Желтый<br>Джулин<br>Евро Белый<br>Евро Желтый<br>Калимба<br>Катинка<br>Катинка Салмон<br>Кая<br>Код Грин<br>Командир<br>Командир Крашеный<br>Командир Розовый<br>Корона<br>Ламира<br>Летс Го Пинк<br>Лимончелло<br>Мексикано<br>Ньютон<br>Оптимист Розовый<br>Пастела Белая<br>Пастела Желтая<br>Пастела Пинк<br>Просекко<br>Пурпл Стар<br>Радость<br>Радость Крем<br>Рихана<br>Серенити<br>Серенити Пурпл<br>Серенити Свит<br>Софтон<br>Стеллини<br>Стреса<br>Сувенир<br>Тенденза<br>Топспин<br>Фабианна<br>Фларстар<br>Чик<br>Чик Крем<br>Эбби"
             },
             "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
             "quantity": 5,
@@ -591,8 +603,8 @@
                }
             ],
             "desc": {
-               "en": "Santini Dyed\nSantini Mix\nSantini Rossi Cream\nSantini Rossi Pink\nSantini Rossi Sunny\nSantini Rossi White\nSantini Sun Up",
-               "ru": "Сантини Крашеный\nСантини Микс\nСантини Rossi Cream\nСантини Rossi Pink\nСантини Rossi Sunny\nСантини Rossi White\nСантини Sun Up"
+               "en": "Santini Dyed<br>Santini Mix<br>Santini Rossi Cream<br>Santini Rossi Pink<br>Santini Rossi Sunny<br>Santini Rossi White<br>Santini Sun Up",
+               "ru": "Сантини Крашеный<br>Сантини Микс<br>Сантини Rossi Cream<br>Сантини Rossi Pink<br>Сантини Rossi Sunny<br>Сантини Rossi White<br>Сантини Sun Up"
             },
             "plantation": "Zentoo, Vannova",
             "quantity": 25,
@@ -621,7 +633,7 @@
          }
       ],
       "desc": {
-         "en": "The lily is a majestic flower with a long stem and large, cup-shaped flowers. Lily petals can vary in color, from white to hot pink and purple. Lily flowers have a strong, sweet scent that can be suffocating indoors. Lilies are a popular choice for wedding bouquets and other special occasions. Lilies are native to the Northern Hemisphere and there are about 100 different species. They belong to the lily family, which also includes tulips and hyacinths. Lilies have a long history of cultivation and have been cultivated in China and Japan for over 3,000 years. This flower has a pleasant aroma that fills the space with its gentle and sophisticated energy. The lily is not only a wonderful decoration for a garden or bouquet, but also a symbol of purity of soul and sublimity.\n",
+         "en": "The lily is a majestic flower with a long stem and large, cup-shaped flowers. Lily petals can vary in color, from white to hot pink and purple. Lily flowers have a strong, sweet scent that can be suffocating indoors. Lilies are a popular choice for wedding bouquets and other special occasions. Lilies are native to the Northern Hemisphere and there are about 100 different species. They belong to the lily family, which also includes tulips and hyacinths. Lilies have a long history of cultivation and have been cultivated in China and Japan for over 3,000 years. This flower has a pleasant aroma that fills the space with its gentle and sophisticated energy. The lily is not only a wonderful decoration for a garden or bouquet, but also a symbol of purity of soul and sublimity.",
          "ru": "Лилия - величественный цветок с длинным стеблем и крупными, чашеобразными цветками. Лепестки лилии могут быть разного цвета, от белого до ярко-розового и фиолетового. Цветки лилии имеют сильный, сладкий аромат, который может быть удушающим в закрытом помещении. Лилии являются популярным выбором для свадебных букетов и других особых мероприятий. Лилии произрастают в Северном полушарии и насчитывают около 100 различных видов. Они относятся к семейству лилейных, в которое также входят тюльпаны и гиацинты. Лилии имеют долгую историю культивирования, и их выращивали в Китае и Японии более 3000 лет. Этот цветок обладает приятным ароматом, который наполняет пространство своей нежной и утонченной энергией. Лилия является не только прекрасным украшением сада или букета, но и символом чистоты души и возвышенности."
       },
       "plantation": "Decorum",
@@ -640,8 +652,8 @@
       },
       "height": "100 120",
       "care": {
-         "en": "Lily loves moisture, but cannot tolerate stagnant water. During the germination period, the plant requires a strict watering regime. After germination, you can water less often, but not during drought. Water the plants after fertilizing and changing the soil composition.\n",
-         "ru": "Лилия любит влагу, но не выносит застоя воды. В период прорастания растению требуется строгий режим полива. После появления всходов можно поливать реже, но только не в засуху. Поливайте растения после внесения удобрений и изменения состава почвы.\n"
+         "en": "Lily loves moisture, but cannot tolerate stagnant water. During the germination period, the plant requires a strict watering regime. After germination, you can water less often, but not during drought. Water the plants after fertilizing and changing the soil composition.",
+         "ru": "Лилия любит влагу, но не выносит застоя воды. В период прорастания растению требуется строгий режим полива. После появления всходов можно поливать реже, но только не в засуху. Поливайте растения после внесения удобрений и изменения состава почвы."
       }
    },
    {
@@ -2231,8 +2243,8 @@
       },
       "height": "60",
       "care": {
-         "en": "Irises prefer well-drained, light, slightly acidic soil. When planting, it is necessary to ensure that the flower faces north for better warming and the formation of flower buds. When planting iris, the rhizome must protrude from the ground. After planting, irises need abundant watering.\n",
-         "ru": "Ирисы предпочитают хорошо дренированную, легкую почву, слабокислой реакции. При посадке необходимо учесть, чтобы цветок смотрел на север, для лучшего прогревания и закладывания цветочных почек. Во время посадки ириса, корневище обязательно должно выступать из земли. После посадки ирисы нуждаются в обильном поливе.\n"
+         "en": "Irises prefer well-drained, light, slightly acidic soil. When planting, it is necessary to ensure that the flower faces north for better warming and the formation of flower buds. When planting iris, the rhizome must protrude from the ground. After planting, irises need abundant watering.",
+         "ru": "Ирисы предпочитают хорошо дренированную, легкую почву, слабокислой реакции. При посадке необходимо учесть, чтобы цветок смотрел на север, для лучшего прогревания и закладывания цветочных почек. Во время посадки ириса, корневище обязательно должно выступать из земли. После посадки ирисы нуждаются в обильном поливе."
       }
    },
    {
@@ -2618,8 +2630,8 @@
       },
       "height": "60 70",
       "care": {
-         "en": "Caring for a liatris flower consists of watering it as needed, removing weeds, and periodically hilling up the bushes instead of loosening the soil, since the root system of the plant is superficial and can be exposed during prolonged rains.\n",
-         "ru": "Уход за цветком лиатрис заключается в его поливе по мере необходимости, удалении сорняков, в периодическом окучивании кустиков вместо рыхления почвы, поскольку корневая система у растения поверхностная и во время продолжительных дождей может оголиться.\n"
+         "en": "Caring for a liatris flower consists of watering it as needed, removing weeds, and periodically hilling up the bushes instead of loosening the soil, since the root system of the plant is superficial and can be exposed during prolonged rains.",
+         "ru": "Уход за цветком лиатрис заключается в его поливе по мере необходимости, удалении сорняков, в периодическом окучивании кустиков вместо рыхления почвы, поскольку корневая система у растения поверхностная и во время продолжительных дождей может оголиться."
       }
    },
    {
@@ -3693,8 +3705,8 @@
       },
       "height": "70 80",
       "care": {
-         "en": "Strelitzia prefers warmth. The optimal temperature in summer is from 18 to 24 degrees, in winter not lower than 15 degrees. The exotic beauty prefers high humidity (about 75%). You need to regularly spray the leaves to prevent water from getting on the flowers.\n",
-         "ru": "Стрелиция предпочитает тепло. Оптимальная температура летом от 18 до 24 градусов, зимой не ниже 15 градусов. Экзотическая красавица предпочитает повышенную влажность (около 75%). Нужно регулярно опрыскивать листья, чтобы вода не попадала на цветы.\n"
+         "en": "Strelitzia prefers warmth. The optimal temperature in summer is from 18 to 24 degrees, in winter not lower than 15 degrees. The exotic beauty prefers high humidity (about 75%). You need to regularly spray the leaves to prevent water from getting on the flowers.",
+         "ru": "Стрелиция предпочитает тепло. Оптимальная температура летом от 18 до 24 градусов, зимой не ниже 15 градусов. Экзотическая красавица предпочитает повышенную влажность (около 75%). Нужно регулярно опрыскивать листья, чтобы вода не попадала на цветы."
       }
    },
    {
@@ -3846,7 +3858,7 @@
          }
       ],
       "desc": {
-         "en": "Tulips are beautiful and graceful flowers that are widely known for their vibrant colors and elegant shape. They are native to many parts of the world and are one of the most popular flowers for decorating gardens, bouquets and interiors. Tulips have ancient roots and are associated with various symbolic meanings. For example, in some cultures they are considered a symbol of wealth and abundance, while in others they are associated with love and passion. In Dutch culture, tulips were of great importance in the 17th century, when \"tulip mania\" was considered a mass trade in tulip bulbs. Tulips come in many different varieties that differ in color, shape and size. They can be plain or multi-colored, with different shades and shades. Thanks to this, tulips can decorate any garden or interior, giving them a bright and picturesque look. Overall, tulips are beautiful flowers that have deep symbolic meanings and attractive appearance, making them popular all over the world.\n",
+         "en": "Tulips are beautiful and graceful flowers that are widely known for their vibrant colors and elegant shape. They are native to many parts of the world and are one of the most popular flowers for decorating gardens, bouquets and interiors. Tulips have ancient roots and are associated with various symbolic meanings. For example, in some cultures they are considered a symbol of wealth and abundance, while in others they are associated with love and passion. In Dutch culture, tulips were of great importance in the 17th century, when \"tulip mania\" was considered a mass trade in tulip bulbs. Tulips come in many different varieties that differ in color, shape and size. They can be plain or multi-colored, with different shades and shades. Thanks to this, tulips can decorate any garden or interior, giving them a bright and picturesque look. Overall, tulips are beautiful flowers that have deep symbolic meanings and attractive appearance, making them popular all over the world.",
          "ru": "Тюльпаны - это красивые и изящные цветы, которые широко известны своими яркими окрасками и элегантной формой. Они произрастают во многих частях мира и являются одними из самых популярных цветов для украшения садов, букетов и интерьеров. Тюльпаны имеют древние корни и ассоциируются с различными символическими значениями. Например, в некоторых культурах они считаются символом богатства и изобилия, в то время как в других они ассоциируются с любовью и страстью. В нидерландской культуре тюльпаны имели огромное значение в 17 веке, когда \"тюльпаноманию\" считали массовую торговлю луковицами тюльпана. Тюльпаны представлены во множестве разнообразных сортов, которые отличаются по цвету, форме и размеру. Они могут быть однотонными или многоцветными, с различными оттенками и оттенками. Благодаря этому тюльпаны могут украсить любой сад или интерьер, придавая им яркий и живописный вид. В целом, тюльпаны - это прекрасные цветы, которые обладают глубокими символическими значениями и привлекательным внешним видом, делая их популярными по всему миру."
       },
       "plantation": "B&L Tulips",
@@ -3865,8 +3877,8 @@
       },
       "height": "50 55",
       "care": {
-         "en": "Change the water daily and wash the container, especially the bottom. In stagnant water, microbes develop especially intensively, which leads to withering of plants. It is recommended to trim flowers by 1 cm daily. In fresh water, tulips grow successfully - the stems slightly lengthen, the buds become larger.\n",
-         "ru": "Ежедневно меняйте воду и мойте емкость, особенно дно. В стоячей воде микробы развиваются особенно интенсивно, что приводит к увяданию растений. Цветы рекомендуется ежедневно подрезать на 1 см. В свежей воде тюльпаны успешно растут – стебли слегка удлиняются, бутоны становятся крупнее.\n"
+         "en": "Change the water daily and wash the container, especially the bottom. In stagnant water, microbes develop especially intensively, which leads to withering of plants. It is recommended to trim flowers by 1 cm daily. In fresh water, tulips grow successfully - the stems slightly lengthen, the buds become larger.",
+         "ru": "Ежедневно меняйте воду и мойте емкость, особенно дно. В стоячей воде микробы развиваются особенно интенсивно, что приводит к увяданию растений. Цветы рекомендуется ежедневно подрезать на 1 см. В свежей воде тюльпаны успешно растут – стебли слегка удлиняются, бутоны становятся крупнее."
       }
    },
    {

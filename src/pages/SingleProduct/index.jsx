@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import './style.scss';
+import { motion } from 'framer-motion';
 
 ////IMPORT COMPONENT
-import Button from '../../components/Button/Index';
-import BackBtn from '../../components/BackBtn/index';
+import Button from '@components/Button/Index';
+import BackBtn from '@components/BackBtn/index';
 
 ////IMPORT DB
-import FlowersData from '../../db/flowers.json';
-import PlantsData from '../../db/plants.json';
-import AccessoriesData from '../../db/accessories.json';
+import FlowersData from '@db/flowers.json';
+import PlantsData from '@db/plants.json';
+import AccessoriesData from '@db/accessories.json';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
+
 const Index = () => {
-   const lang = 'en';
+   const lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);
@@ -22,7 +26,7 @@ const Index = () => {
 
    useEffect(() => {
       getProductDatas();
-   }, []);
+   }, [location]);
 
    const getProductDatas = async () => {
       switch (searchParams.get('productType')) {
@@ -60,7 +64,16 @@ const Index = () => {
    }
 
    return (
-      <div className="single-product_container">
+      <motion.div
+         initial="initial"
+         animate="in"
+         exit="out"
+         variants={pageVariants}
+         transition={pageTransition}
+         className="single-product_container">
+
+         <div className="fixed-img__wrapper"></div>
+
          <div className="product_about">
             <BackBtn className={'btn btn_white hover_gold'} />
 
@@ -130,9 +143,23 @@ const Index = () => {
                   }
                   {
                      productData?.department &&
-                     <div className="product_care product-elements__item">
-                        <h1>Уход</h1>
+                     <div className="product_department product-elements__item">
+                        <h1>Товары</h1>
                         <span>{productData?.department}</span>
+                     </div>
+                  }
+                  {
+                     productData?.brand &&
+                     <div className="product_brand product-elements__item">
+                        <h1>Бренд</h1>
+                        <span>{productData?.brand}</span>
+                     </div>
+                  }
+                  {
+                     productData?.country &&
+                     <div className="product_country product-elements__item">
+                        <h1>Страна производителя</h1>
+                        <span>{productData?.country[lang]}</span>
                      </div>
                   }
                </div>
@@ -159,7 +186,7 @@ const Index = () => {
          </div>
 
          <Outlet />
-      </div >
+      </motion.div>
 
    )
 }

@@ -1,29 +1,29 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Images
-import Loading from '../../../../assets/icons/loading.svg';
+import Loading from '@assets/icons/loading.svg';
 
 //Import Layout
-import HeaderRepeat from '../../../../layout/HeaderRepeat/index';
+import HeaderRepeat from '@layout/HeaderRepeat/index';
 
 //Import Component
-import Input from '../../../../components/Input/Index';
-import Button from '../../../../components/Button/Index';
-import BackBtn from '../../../../components/BackBtn/index';
-import GalleryCard from '../../../../components/GalleryCard/Index';
+import Input from '@components/Input/Index';
+import Button from '@components/Button/Index';
+import BackBtn from '@components/BackBtn/index';
+import GalleryCard from '@components/GalleryCard/Index';
 
 //Import DB
-import PagesData from '../../../../db/pages.json';
-import FlowersData from '../../../../db/flowers.json';
+import PagesData from '@db/pages.json';
+import FlowersData from '@db/flowers.json';
 
 ///IMPORT HOOKS
-import useShowMore from '../../../../hooks/useShowMore';
+import useShowMore from '@hooks/useShowMore';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-   let lang = 'en';
+   let lang = 'ru';
    const location = useLocation();
    const navigate = useNavigate();
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
@@ -70,8 +70,6 @@ const Index = () => {
       }
    }
 
-   console.log(collectionData);
-
    //Search On Submit
    const searchSubmit = (e) => {
       e.preventDefault();
@@ -83,6 +81,8 @@ const Index = () => {
 
    return (
       <div className="products-page__container">
+         <div className="fixed-img__wrapper"></div>
+         
          <HeaderRepeat
             title={collectionData?.name[lang].replace('⥤', ' ')}
             img={collectionData?.images[0].img}
@@ -90,7 +90,7 @@ const Index = () => {
 
          <div className="products_content_wrapper">
             <div className="content_wrapper_inner">
-               <p className='content_title' dangerouslySetInnerHTML={{ __html: collectionData?.galleryTitle }}></p>
+               <p className='content_title' dangerouslySetInnerHTML={{ __html: collectionData?.galleryTitle[lang] }}></p>
 
                <div className="details__container">
 
