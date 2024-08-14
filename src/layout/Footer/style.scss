@@ -3,6 +3,7 @@ footer {
     position: relative;
     width: 100%;
     border-top: 0.5px solid #292929;
+    z-index: 999;
 
     .footer_container {
         display: flex;

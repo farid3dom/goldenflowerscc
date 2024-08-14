@@ -5,6 +5,7 @@
    align-items: center;
    position: relative;
    padding: 0 64px;
+   z-index: 1;
 
    .header_img {
       width: 100%;
@@ -47,7 +48,7 @@
 
    @media screen and (max-width: 767px) {
       padding: 0 16px;
-      height: 240px;
+      height: 220px;
 
       .page_header_inner {
          justify-content: center;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './style.scss';
+import { motion } from 'framer-motion';
 
 ////IMPORT COMPONENT
 import Button from '@components/Button/Index';
@@ -12,6 +13,9 @@ import AccessoriesData from '@db/accessories.json';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
+
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 const Index = () => {
    const lang = 'ru';
@@ -60,7 +64,16 @@ const Index = () => {
    }
 
    return (
-      <div className="single-product_container">
+      <motion.div
+         initial="initial"
+         animate="in"
+         exit="out"
+         variants={pageVariants}
+         transition={pageTransition}
+         className="single-product_container">
+
+         <div className="fixed-img__wrapper"></div>
+
          <div className="product_about">
             <BackBtn className={'btn btn_white hover_gold'} />
 
@@ -173,7 +186,7 @@ const Index = () => {
          </div>
 
          <Outlet />
-      </div >
+      </motion.div>
 
    )
 }

@@ -8,6 +8,9 @@
          "@components/*": [
             "src/components/*"
          ],
+         "@constants/*": [
+            "src/constants/*"
+         ],
          "@db/*": [
             "src/db/*"
          ],
@@ -19,6 +22,9 @@
          ],
          "@pages/*": [
             "src/pages/*"
+         ],
+         "@routes/*": [
+            "src/routes/*"
          ],
          "@utils/*": [
             "src/utils/*"

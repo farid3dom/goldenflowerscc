@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import './style.scss';
+import { motion } from 'framer-motion';
 
 import { useLocation } from 'react-router-dom';
 
@@ -16,6 +17,8 @@ import PlantationIcon from '@assets/icons/num_icons/plantation.svg'
 import ProductsIcon from '@assets/icons/num_icons/products.svg'
 import ReviewsIcon from '@assets/icons/num_icons/reviews.svg'
 
+///Import Constants
+import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
 const Index = () => {
     const collectionRef = useRef(null);
@@ -82,7 +85,15 @@ const Index = () => {
     ]
 
     return (
-        <div className="about_page">
+        <motion.div
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}
+            className="about_page">
+
+            <div className="fixed-img__wrapper"></div>
 
             <div className="about_content_wrapper">
 
@@ -90,8 +101,8 @@ const Index = () => {
 
                     <div className="about_div">
                         <div className="about_title">
-                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона</h1>
-                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса!</span>
+                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона!</h1>
+                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса.</span>
                         </div>
 
                         <div className="animated_numbers_wrapper">
@@ -150,13 +161,6 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="yandex_otziv">
-                        <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=rating" width={150} height={50} frameborder="0"></iframe>
-                    </div> */}
-
-
-
                 </div>
 
 
@@ -263,7 +267,7 @@ const Index = () => {
 
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 
