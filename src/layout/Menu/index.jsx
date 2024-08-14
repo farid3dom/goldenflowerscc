@@ -26,7 +26,6 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
     }
 
     const changeLanguage = async lang => {
-        window.location.reload();
         await i18n.changeLanguage(lang);
     }
 
@@ -63,7 +62,8 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <p>КОНТАКТЫ</p>
                     </div>
                 </Link>
-                <div className='localization__wrapper'>
+                
+                {/* <div className='localization__wrapper'>
                     <span
                         onClick={() => changeLanguage('ru')}
                         style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
@@ -73,7 +73,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         onClick={() => changeLanguage('en')}
                         style={{ color: i18n.language === 'en' && 'var(--gold)' }}
                     >EN</span>
-                </div>
+                </div> */}
             </div>
             <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" />
 

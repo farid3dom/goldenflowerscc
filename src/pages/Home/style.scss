@@ -179,123 +179,6 @@
                     justify-content: center;
                     align-items: center;
                 }
-
-                .scroller_inner {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 16px;
-                    width: max-content;
-                    mask: linear-gradient(90deg,
-                            transparent,
-                            white 20%,
-                            white 80%,
-                            transparent);
-                    overflow: hidden;
-                    -webkit-mask:
-                        linear-gradient(90deg,
-                            transparent,
-                            white 20%,
-                            white 80%,
-                            transparent);
-
-                    .scroll_img {
-                        // width: 100%;
-                        // height: auto;
-                        // display: flex;
-                        // width: max-content;
-                        // flex-direction: row;
-                        // gap: 16px;
-                        // animation: scrollRight 20s linear infinite;
-
-                        // @keyframes scrollRight {
-                        //     to {
-                        //         transform: translate(100%);
-                        //     }
-                        // }
-
-                        img {
-                            width: 250px;
-                            height: auto;
-                            border-radius: 5px;
-                            margin: 15px;
-                            filter: grayscale(100%);
-                        }
-                    }
-
-
-                    .marquee {
-                        overflow: hidden;
-                        display: flex;
-
-                        img {
-                            white-space: nowrap;
-                            width: 250px;
-                            height: auto;
-                            border-radius: 5px;
-                            margin: 15px;
-                            filter: grayscale(100%);
-                        }
-                    }
-                }
-
-            }
-
-            .scroll_plants {
-                width: 100%;
-                display: flex;
-
-                .tag-list_2 {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 16px;
-                    width: max-content;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    mask: linear-gradient(90deg,
-                            transparent,
-                            white 20%,
-                            white 80%,
-                            transparent);
-                    overflow: hidden;
-                    -webkit-mask:
-                        linear-gradient(90deg,
-                            transparent,
-                            white 20%,
-                            white 80%,
-                            transparent);
-
-                    .scroll_img_plants {
-                        // width: 100%;
-                        // height: auto;
-                        // display: flex;
-                        // width: max-content;
-                        // flex-direction: row;
-                        // white-space: nowrap;
-                        // gap: 16px;
-                        // animation: scrollLeft 20s;
-                        // animation-iteration-count: infinite;
-                        // animation-timing-function: linear;
-
-                        // @keyframes scrollLeft {
-                        //     from {
-                        //         transform: translateX(0%);
-                        //     }
-
-                        //     to {
-                        //         transform: translateX(-100%);
-                        //     }
-                        // }
-
-                        img {
-                            display: inline-block;
-                            width: 250px;
-                            height: auto;
-                            border-radius: 5px;
-                            margin: 15px;
-                            filter: grayscale(100%);
-                        }
-                    }
-                }
             }
         }
     }
@@ -438,8 +321,6 @@
             }
         }
 
-
-
         .main_title_wrapper {
             height: 70vh;
             display: flex;
@@ -485,7 +366,6 @@
             }
 
             .scroller_departments {
-                gap: 0;
 
                 .scroll_parts {
 
@@ -495,30 +375,6 @@
 
                         h1 {
                             font-size: 24px;
-                        }
-                    }
-
-                    .scroller_inner {
-                        mask: linear-gradient(90deg,
-                                transparent,
-                                white 30%,
-                                white 70%,
-                                transparent);
-                        overflow: hidden;
-                        -webkit-mask:
-                            linear-gradient(90deg,
-                                transparent,
-                                white 30%,
-                                white 70%,
-                                transparent);
-
-                        .scroll_img {
-                            gap: 10px;
-
-                            img {
-                                width: 250px;
-                                margin: 5px;
-                            }
                         }
                     }
                 }
@@ -674,7 +530,7 @@
             }
 
             .scroller_departments {
-                gap: 0;
+                gap: 12px;
 
                 .scroll_parts {
 
@@ -683,30 +539,6 @@
 
                         h1 {
                             font-size: 20px;
-                        }
-                    }
-
-                    .scroller_inner {
-                        mask: linear-gradient(90deg,
-                                transparent,
-                                white 30%,
-                                white 70%,
-                                transparent);
-                        overflow: hidden;
-                        -webkit-mask:
-                            linear-gradient(90deg,
-                                transparent,
-                                white 30%,
-                                white 70%,
-                                transparent);
-
-                        .scroll_img {
-                            gap: 10px;
-
-                            img {
-                                width: 150px;
-                                margin: 5px;
-                            }
                         }
                     }
                 }
