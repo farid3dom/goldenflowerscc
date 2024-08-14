@@ -7,7 +7,11 @@ import NavMenuBG from '@assets/media/images/container_image.jpg';
 //import react router dom
 import { Link } from 'react-router-dom';
 
+///Import Utils
+import { useTranslation } from 'react-i18next';
+
 const Index = ({ menuIsActive, setMenuIsActive }) => {
+    const { t, i18n } = useTranslation();
 
     useEffect(() => {
         if (menuIsActive) {
@@ -19,6 +23,11 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
     function menuHide() {
         setMenuIsActive(false)
+    }
+
+    const changeLanguage = async lang => {
+        window.location.reload();
+        await i18n.changeLanguage(lang);
     }
 
     return (
@@ -54,9 +63,16 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <p>КОНТАКТЫ</p>
                     </div>
                 </Link>
-                <div className='language'>
-                    <a href=""><p>EN</p></a>
-                    <a href=""><p>RU</p></a>
+                <div className='localization__wrapper'>
+                    <span
+                        onClick={() => changeLanguage('ru')}
+                        style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
+                    >RU</span>
+                    <span>|</span>
+                    <span
+                        onClick={() => changeLanguage('en')}
+                        style={{ color: i18n.language === 'en' && 'var(--gold)' }}
+                    >EN</span>
                 </div>
             </div>
             <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" />

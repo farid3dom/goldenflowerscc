@@ -42,8 +42,9 @@ body,
     overflow: hidden;
     overflow-y: auto;
     // height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background: url('../../assets/media/images/container_image.jpg');
+    background: url('./assets/media/images/container_image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +124,7 @@ body,
 
 .scroll-to__top {
     position: fixed;
-    bottom: 50px;
+    bottom: 90px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -157,7 +158,7 @@ body,
     }
 
     to {
-        bottom: 50px;
+        bottom: 90px;
         opacity: 1;
     }
 }
@@ -168,7 +169,7 @@ body,
 
 @keyframes scrollToTopHide {
     from {
-        bottom: 50px;
+        bottom: 90px;
         opacity: 1;
     }
 

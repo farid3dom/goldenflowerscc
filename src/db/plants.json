@@ -6934,12 +6934,18 @@
       "items": [
          {
             "name": {
-               "en": "Soils",
-               "ru": "Грунты"
+               "en": "Soil",
+               "ru": "Грунт"
             },
             "images": [
                {
                   "img": "https://sun9-29.userapi.com/impg/drxke4U_kpLiyOAlcALQeeX07TdnWtNpKiwk3Q/m1Qur-LFdCo.jpg?size=2560x1865&quality=95&sign=f15dd3eb0e9c9f35f597cdca0387dce4&type=album"
+               },
+               {
+                  "img": "https://cbo.org.ua/wp-content/uploads/2020/09/3434343.jpg"
+               },
+               {
+                  "img": "https://ir.ozone.ru/s3/multimedia-4/c1000/6618858412.jpg"
                }
             ],
             "desc": {
@@ -6954,19 +6960,23 @@
          },
          {
             "name": {
-               "en": "Liquid fertilizer Сад Чудес for long-lasting flowering",
-               "ru": "Жидкое удобрение Сад Чудес для продолжительного цветения"
+               "en": "Growing grass Skipfire Травянчик",
+               "ru": "Растущая травка Skipfire Травянчик"
             },
             "images": [
                {
-                  "img": "https://sun9-18.userapi.com/impg/uDbWijhmls5Add7pM_GLoc59VEJ64V-3gdaZ3Q/Kk2uIGzhyFQ.jpg?size=2560x1920&quality=95&sign=c96df481a75709c096e578ddfa73f4fa&type=album"
+                  "img": "https://sun9-51.userapi.com/impg/N-BtdG2L6cZ65cXsQhoUOFX76EJuHzCFdnes7A/-JNhODif06w.jpg?size=2560x1920&quality=95&sign=0bb81d182b521fa06ad10c9926f9ab45&type=album"
+               },
+               {
+                  "img": "https://masterpodelkin.ru/wp-content/uploads/2018/03/travyanchik3-e1565704911640.jpg"
                }
+
             ],
             "desc": {
-               "en": "The fertilizer contains natural humic compounds, as well as the main micro- and macroelements necessary for the full growth and development of plants in a form accessible to them. Fertilizer guarantees high seed germination and healthy seedlings. Plants treated with this fertilizer develop a strong root system and improve their decorative qualities. Plants bloom longer and more. In addition, the fertilizer increases plant resistance to late blight, powdery mildew, root rot, blackleg and other bacterial and fungal diseases.",
-               "ru": "Удобрение содержит природные гуминовые соединения, а также основные микро- и макроэлементы, необходимые для полноценного роста и развития растений в доступной для них форме. Удобрение гарантирует высокую всхожесть семян и здоровую рассаду. У растений, обработанных этим удобрением, развивается сильная корневая система, улучшаются декоративные качества. Растения дольше и больше цветут. Кроме того, удобрение повышает сопротивляемость растений к фитофторе, мучнистой росе, корневым гнилям, черной ножке и другим бактериальным и грибковым заболеваниям."
+               "en": "Growing grass Grasshopper is a funny and cute herbal little man that will be a great decoration for your home or a gift for friends. It is made of high-quality materials and painted with safe acrylic paints that do not fade over time. For your Grass to start growing, place it in warm water for 2-3 hours, then place it in a bright and warm place. Water it regularly, but avoid drying out or waterlogging the soil. After some time, delicate green sprouts will appear on the Troll’s head, which will delight you and your loved ones with their freshness and beauty.",
+               "ru": "Растущая травка Травянчик — это забавный и милый травяной человечек, который станет отличным украшением вашего дома или подарком для друзей. Он выполнен из качественных материалов и окрашен безопасными акриловыми красками, которые не выцветают со временем. Чтобы ваш Травянчик начал расти, поместите его в тёплую воду на 2–3 часа, затем поставьте в светлое и тёплое место. Регулярно поливайте его, но избегайте пересушивания и переувлажнения почвы. Через некоторое время на голове Тролля появятся нежные зелёные ростки, которые будут радовать вас и ваших близких своей свежестью и красотой."
             },
-            "brand": "Сад Чудес",
+            "brand": "Skipfire LTD",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -6974,19 +6984,22 @@
          },
          {
             "name": {
-               "en": "Insecticide Актара Expert Garden against colorado potato beetle",
-               "ru": "Инсектицид Актара Expert Garden от колорадского жука"
+               "en": "Shahcoal balm spray for indoor plants",
+               "ru": "Спрей бальзам Shahcoal для комнатных растений"
             },
             "images": [
                {
-                  "img": "https://sun9-13.userapi.com/impg/glivfmHiNi7ksvpzLqtDKSzXqgTK3SnRdB-rqg/Xh6QpT60Xew.jpg?size=2560x1920&quality=95&sign=b8017cc4e3dbd8d3a4d1caa8a43930c2&type=album"
+                  "img": "https://sun9-12.userapi.com/impg/bMnarHRBwHo4LSQLdWYdtUh1oNI_sNKUitbfCA/dPfkefeEk0c.jpg?size=2560x1920&quality=95&sign=1375c81e39006bf4c4af252bf055c63d&type=album"
+               },
+               {
+                  "img": "https://basket-09.wbbasket.ru/vol1230/part123006/123006017/images/big/4.webp"
                }
             ],
             "desc": {
-               "en": "Suspension concentrate. Insecticide for controlling the Colorado potato beetle on potatoes, aphids on currants and a complex of pests on potted flower plants. 1 ml per 8 liters of water. Dilute the contents of the ampoule in water in accordance with the table. Spray plants when pests appear in dry, windless weather, evenly wetting the leaves. Single treatment 20 days before potato harvest; in 60 days on currants.",
-               "ru": "Концентрат суспензии. Инсектицид для борьбы с колорадским жуком на картофеле, тлями на смородине и комплексом вредителей на горшечных цветочных растениях. 1 мл на 8 литров воды. Содержимое ампулы развести в воде в соответствии с таблицей. Опрыскивать растения при появлении вредителей в сухую, безветренную погоду, равномерно смачивая листья. Однократная обработка за 20 дней до сбора урожая на картофеле; за 60 дней на смородине."
+               "en": "The shape of the fertilizer bottle may differ from the photo depending on the delivery batch. If you receive a flat bottle, when you remove the cap, a protective plastic ring remains on the neck, which also needs to be removed. After this, screw the nozzle tightly. The balm is made from organic raw materials based on wood vinegar from walnut shells, a proven means for promoting growth, controlling pests, and improving soil quality. Suitable for indoor, exotic, garden plants and flowers, as well as for fruit crops, various vegetables and fruits. Organic fertilizer, a unique environmentally friendly product. This series is intended for indoor decorative flowering plants (violet, hibiscus, geranium, spathiphyllum, anthurium, fuchsia, primrose, balsam, hydrangea, camellia, petunia, begonia, etc.) The fertilizer contains a complex of macro- and microelements necessary for complete and balanced plant nutrition. Ingredients: water, wood vinegar from walnut shells, a complex of macro- and microelements (Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B) Promotes the growth and development of plants; Activates photosynthesis; Promotes abundant foliage growth and the formation of strong shoots; Maintains rich color; Increases plant immunity to diseases and pests. As a top dressing to improve plant growth and strengthen immunity: spray on leaves/stems with medium intensity once every 10 days. When the plant wilts (yellowing of leaves, loss, weakening of stems), as well as to combat diseases and pests, spray the affected areas once every 3 days for 10 days. If necessary, extend for another 10 days. Do not use this product together with alkaline preparations! Apply the balm only to the leaves, do not apply to the flowers! The balm has the smell of liquid smoke. Precautions: Use strictly as directed. In case of contact with eyes or mouth, rinse with plenty of water and consult a doctor. Keep out of the reach of children. Avoid exposure to direct sunlight. Store at temperature: from 1C to 35C. Shake before use, turn the valve to SPRAY or STREAM, and use as directed. Liquid in a plastic bottle with a sprayer.",
+               "ru": "Форма флакона удобрения может отличаться от фото в зависимости от партии поставки. В случае получения плоской бутылки, при снятии крышки на горлышке остаётся защитное пластиковое кольцо, которое тоже необходимо снять. После этого плотно закрутить распылитель. Бальзам изготовлен из органического сырья на основе древесного уксуса из скорлупы грецкого ореха, - зарекомендовавшего себя средства для развития роста, борьбы с вредителями, улучшения качества почвы. Подходит для комнатных, экзотических, садовых растений и цветов, а так же для плодовых культур, различных овощей и фруктов. Органическое удобрение, уникальный экологически чистый продукт. Данная серия предназначена для комнатных декоративно-цветущих растений (фиалка, гибискус, герань, спатифилум, антуриум,  фуксии, примулы, бальзамин, гортензии, камелии, петунии, бегонии и др.) Удобрение содержит комплекс макро- и микроэлементов, необходимых для полноценного и сбалансированного питания растений. Состав: вода, древесный уксус из скорлупы грецкого ореха, комплекс макро- и микроэлементов (Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B) Способствует росту и развитию растений; Активизирует фотосинтез; Способствует обильному росту листвы, формированию крепких побегов; Поддерживает сочность окраски; Повышает иммунитет растений к заболеваниям и вредителям. В качестве подкормки для улучшения роста и укрепления иммунитета растения: опрыскивать на листья/стебли со средней интенсивностью 1 раз в 10  дней. При увядании растения (пожелтении листьев, выпадении, ослаблении стеблей), а также для борьбы с болезнями и вредителями опрыскивать пораженные места  1 раз в 3 дня на протяжении 10 дней. При необходимости продлить еще на 10 дней. Не использовать данный продукт совместно с щелочными препаратами! Бальзам применять только по листьям, по цветкам не применять! Бальзам имеет запах жидкого дыма. Меры предосторожности: Использовать строго по назначению. При попадании в глаза или рот промыть большим количеством воды и обратиться к врачу. Хранить в недоступном для детей месте. Избегать попадания прямых солнечных лучей. Хранить при температуре: от 1С до 35C. Перед использованием встряхнуть, повернуть клапан на SPRAY или STREAM, использовать по назначению. Жидкость в пластиковой бутылке с распылителем."
             },
-            "brand": "Expert Garden",
+            "brand": "Shahcoal",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -6994,8 +7007,8 @@
          },
          {
             "name": {
-               "en": "Complex mineral fertilizer JOY",
-               "ru": "Комплексное минеральное удобрение JOY"
+               "en": "Complex mineral fertilizer JOY Garden",
+               "ru": "Комплексное минеральное удобрение JOY Garden"
             },
             "images": [
                {
@@ -7014,8 +7027,8 @@
          },
          {
             "name": {
-               "en": "Complex mineral fertilizer JOY Цветы",
-               "ru": "Комплексное минеральное удобрение JOY Цветы"
+               "en": "Complex mineral fertilizer JOY Garden Цветы",
+               "ru": "Комплексное минеральное удобрение JOY Garden Цветы"
             },
             "images": [
                {
@@ -7026,7 +7039,7 @@
                "en": "Mineral complex fertilizer \"Flowers\" will become an indispensable assistant in the garden, vegetable garden, country house and apartment. Universal fertilizer increases resistance to adverse environmental influences, diseases and pests. Suitable for all annual and perennial flower crops.",
                "ru": "Минеральное комплексное удобрение \"Цветы\" станет незаменимым помощником в саду, огороде, на даче и в квартире. Универсальное удобрение повышает устойчивость к неблагоприятным воздействиям окружающей среды, болезням и вредителям. Подходит для всех цветочных однолетних и многолетних культур."
             },
-            "brand": "JOY",
+            "brand": "JOY Garden",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7034,8 +7047,8 @@
          },
          {
             "name": {
-               "en": "Complex mineral fertilizer Seda",
-               "ru": "Комплексное минеральное удобрение Seda"
+               "en": "Complex mineral fertilizer JOY Garden Seda",
+               "ru": "Комплексное минеральное удобрение JOY Garden Seda"
             },
             "images": [
                {
@@ -7043,10 +7056,10 @@
                }
             ],
             "desc": {
-               "en": "Completely prepared nutritious fertilizer is intended for the successful cultivation of various flower and ornamental crops and green plants. Its soft, well-drained and stable structure ensures an optimal balance of moisture and air, preventing caking and maintaining activity for a long time. Fertilizer avoids waterlogging of roots and promotes healthy plant growth. Enriched with essential microelements that help strengthen plant immunity and increase their resistance to diseases and pests. Has the correct pH level that suits most plants. This helps them absorb essential nutrients. Seda biomolecules are a unique complex of microorganisms and their metabolic products, ensuring maximum bioavailability of nutrients for plants. Seda differs from other fertilizers in that its composition has been optimized to stimulate plant growth. This is achieved due to the synergistic interaction of humic substances and mineral components. As a result, plants receive more nutrients and develop better.",
+               "en": "Completely prepared nutritious fertilizer is intended for the successful cultivation of various flower and ornamental crops and green plants. Its soft, well-drained and stable structure ensures an optimal balance of moisture and air, preventing caking and maintaining activity for a long time. Fertilizer avoids waterlogging of roots and promotes healthy plant growth. Enriched with essential microelements that help strengthen plant immunity and increase their resistance to diseases and pests. Has the correct pH level that suits most plants. This helps them absorb essential nutrients. Seda biomolecules are a unique complex of microorganisms and their metabolic products, ensuring maximum bioavailability of nutrients for plants. Seda differs from other fertilizers in that its composition has been optimized to stimulate plant growth. This is achieved through the synergistic interaction of humic substances and mineral components. As a result, plants receive more nutrients and develop better.",
                "ru": "Полностью готовое питательное удобрение предназначено для успешного выращивания различных цветочно-декоративных культур и зеленных растений. Его мягкая, хорошо дренированная и стабильная структура обеспечивает оптимальный баланс влаги и воздуха, предотвращая слеживание и сохраняя активность в течение длительного времени. Удобрение позволяет избежать переувлажнения корней и способствует здоровому росту растений. Обогащен необходимыми микроэлементами, которые способствуют укреплению иммунитета растений и повышению их устойчивости к болезням и вредителям. Имеет правильный уровень pH, который подходит для большинства растений. Это помогает им поглощать необходимые питательные вещества. Биомолекулы Seda - уникальный комплекс микроорганизмов и продуктов их жизнедеятельности, обеспечивающий максимальную биодоступность элементов питания для растений. Seda отличается от других удобрений тем, что его состав был оптимизирован для стимулирования роста растений. Это достигается за счет синергетического взаимодействия гуминовых веществ и минеральных компонентов. В результате растения получают больше питательных веществ и лучше развиваются."
             },
-            "brand": "Seda",
+            "brand": "JOY Garden",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7054,19 +7067,19 @@
          },
          {
             "name": {
-               "en": "Potassium permanganate Власта",
-               "ru": "Марганцовка Власта"
+               "en": "Spray JOY Garden Seda Green Soap Insecticide ",
+               "ru": "Спрей JOY Garden Seda Зеленое мыло Инсектицид "
             },
             "images": [
                {
-                  "img": "https://sun9-34.userapi.com/impg/GMwadvms1k3GagJ2m3jG7qYop5k23osj_dPkGQ/QstXTns4V-w.jpg?size=1280x960&quality=95&sign=5ea2142b080e3085d938bd1f556a1854&type=album"
+                  "img": "https://sun9-77.userapi.com/impg/MT4ZQKow6CMgMW6ViVEqYD7U7Dt_OR1DLB_KJg/Gpy9CU9Ohos.jpg?size=1280x960&quality=95&sign=ce76bb036dc5bb2dc137e0c5e40784a7&type=album"
                }
             ],
             "desc": {
-               "en": "Potassium permanganate (potassium permanganate) 44.95% is a popular multifunctional product, used as an antiseptic, antibacterial and disinfectant.",
-               "ru": "Марганцовка (перманганат калия) 44,95% - популярный многофункциональный продукт, применяется в качестве антисептического, антибактериального и обеззараживающего средства."
+               "en": "SEDA Green Soap is a natural and safe plant care product based on salts of fatty acids and vegetable oils. An environmentally friendly means of protecting indoor plants, vegetable and fruit crops from diseases (powdery mildew, scab, rust, late blight) and pests (aphids, California thrips, scale insects, bedbugs). Forms a thin film on leaves and stems, under which insect pests die from lack of oxygen. Suitable for treating any plants, including indoor plants. Increases plant resistance to pests and diseases. An environmentally friendly product, safe for the environment and humans. Biodegradable product.",
+               "ru": "SEDA Зеленое мыло — это натуральный и безопасный продукт для ухода за растениями на основе солей жирных кислот и растительных масел. Экологически чистое средство защиты комнатных растений, овощных и плодово-ягодных культур от болезней (мучнистая роса, парша, ржавчина, фитофтора) и вредителей (тля, калифорнийский трипс, щитовка, клопы). Образует тонкую пленку на листьях и стеблях, под которой насекомые-вредители погибают от недостатка кислорода. Подходит для обработки любых растений, включая комнатные. Повышает устойчивость растений к вредителям и болезням. Экологичный продукт, безопасный для окружающей среды и человека. Биоразлагаемое средство."
             },
-            "brand": "Власта",
+            "brand": "JOY Garden",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7074,19 +7087,19 @@
          },
          {
             "name": {
-               "en": "Potassium permanganate Зеленая Аптека Садовода",
-               "ru": "Марганцовка Зеленая Аптека Садовода"
+               "en": "Vermicompost JOY Garden organic fertilizer for vegetable and flower crops",
+               "ru": "Биогумус JOY Garden органическое удобрение для овощных и цветочных культур"
             },
             "images": [
                {
-                  "img": "https://sun9-66.userapi.com/impg/faVmkcw7l5Q-aWITPbSeNyN2HjoZr7s42hF0tA/mIk22qmprmw.jpg?size=1280x960&quality=95&sign=2d6442c86f1710714a55a95b936b4d34&type=album"
+                  "img": "https://sun9-78.userapi.com/impg/-gbpAR9ohZKYCVkAhDC0_rwvhuaPnQUAxZoTpg/_zfMUdiH4W8.jpg?size=1280x960&quality=95&sign=eca503809729becaeb2fdbab03a943a7&type=album"
                }
             ],
             "desc": {
-               "en": "Potassium permanganate or potassium permanganate is one of the most powerful antiseptics. It suppresses the activity of most pathogenic microorganisms. \nDirections for use:\n1. Disinfection of planting material.\n2. Disinfection of seedling containers.\n3. Soil disinfection.\n4. Feeding.\n5. Black leg on seedlings.\n6. Late blight.\n7. Powdery mildew.\n8. Gray rot of strawberries.\n9. Disinfection of the greenhouse and cellar, garden tools.",
-               "ru": "Марганцовка или перманганат калия — один из самых мощных антисептиков. Он подавляет деятельность большинства патогенных микроорганизмов. \nСпособы применения:\n1. Обеззараживание посадочного материала.\n2. Дезинфекция рассадной тары.\n3. Обеззараживание почвы.\n4. Подкормка.\n5. Черная ножка на рассаде.\n6. Фитофтороз.\n7. Мучнистая роса.\n8. Серая гниль земляники.\n9. Дезинфекция теплицы и погреба, садового инструмента."
+               "en": "Universal organic fertilizer. Increases seed germination and ensures high survival rate of seedlings and seedlings, stimulates the growth and development of plants, reduces ripening time, reduces the nitrate content in fruits and vegetables, and increases the content of vitamins. Improves soil structure. Active ingredient: extract from vermicompost. Accelerated growth. Stimulation of flowering. Increased productivity. Protection from diseases. Environmentally safe. Activator effect. Method of application: Soaking: 40 ml per 0.5 liters of water, soaking seeds, tubers, bulbs for 6-24 hours. Watering: 40 ml per 2 liters of water, watering at the root once every 7-10 days. Spraying: 40 ml per 4-6 liters of water , spraying foliage and stems once every 10-14 days. Shelf life: 2 years.",
+               "ru": "Универсальное органическое удобрение. Повышает всхожесть семян и обеспечивает высокую приживаемость рассады и саженцев, стимулирует рост и развитие растений, сокращает сроки созревания, снижает содержание нитратов в плодах и овощах, увеличивает содержание витаминов. Улучшает структуру почвы.Действующее вещество: вытяжка из биогумуса. Ускорение роста. Стимуляция цветения. Повышение урожайности.Защита от болезней.Экологически безопасен.Эффект активатора. Способ применения:Замачивание:40мл на 0,5л воды, замачивание семян, клубней, луковиц на 6-24 часов.Полив:40мл на 2л воды, полив под корень 1 раз в 7-10 дней.Опрыскивание:40мл на 4-6л воды, опрыскивание листвы и стеблей 1 раз в 10-14 дней.Срок годности: 2 года."
             },
-            "brand": "Зеленая Аптека Садовода",
+            "brand": "JOY Garden",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7094,28 +7107,8 @@
          },
          {
             "name": {
-               "en": "Powerful beast against insect Зеленая Аптека Садовода ЗУБР",
-               "ru": "Мощный зверь против букашки Зеленая Аптека Садовода ЗУБР"
-            },
-            "images": [
-               {
-                  "img": "https://sun9-51.userapi.com/impg/NaR6zq6PQ6u7lqYG4l7_7sQvdWLG3L2569Yqjw/PqXIZz3CTRE.jpg?size=1280x960&quality=95&sign=37cf39172abe1fb50df6368f008a5029&type=album"
-               }
-            ],
-            "desc": {
-               "en": "It is used against the Colorado potato beetle against a complex of pests (aphids, thrips, leafhoppers, bugs, whiteflies, etc.) on flower plants, including potted plants. This is a systemic drug: it penetrates the leaves, is distributed throughout the plant, protects it entirely, destroys the Colorado potato beetle and its larvae of any age, and is effective against hidden pests. Spray plants when pests appear. Hazard class 3 (moderately hazardous substance) is dangerous for bees. Do not use during flowering.",
-               "ru": "Применяют против колорадского жука на картофеле от комплекса вредителей (тли, трипса, цикадки, клопов, белокрылки и др.) на цветочных, в том числе горшечных растениях. Это системный препарат: проникает в листья, распределяется по всему растению, защищает его целиком, уничтожает колорадского жука и его личинки любых возрастов, эффективен против скрытоживущих вредителей. Опрыскивать растения при появлении вредителей. 3 класс опасности (умеренно опасное вещество) опасен для пчел. Не применять во время цветения."
-            },
-            "brand": "Зеленая Аптека Садовода",
-            "country": {
-               "en": "Russia",
-               "ru": "Россия"
-            }
-         },
-         {
-            "name": {
-               "en": "Vegetable fertilizer JOY",
-               "ru": "Овощное удобрение JOY"
+               "en": "Vegetable fertilizer JOY Garden",
+               "ru": "Овощное удобрение JOY Garden"
             },
             "images": [
                {
@@ -7123,7 +7116,7 @@
                }
             ],
             "desc": {
-               "en": "Specialized liquid fertilizer JOY \"Vegetable\" with a high content of humic and fulvic acids contains a full range of substances necessary for complete nutrition in an easily accessible form. It will be an excellent assistant to the gardener in growing vegetable crops (tomatoes, cucumbers, peppers, potatoes, etc.) in the garden. Crops: potatoes, cabbage, tomatoes, cucumbers, zucchini, peppers, eggplants, root vegetables. Active ingredient: lignohumate. Contains the necessary microelements: iron, manganese, copper, zinc, molybdenum, boron, etc.; Reduces plant stress during transplantation, when treated with pesticides, and during temperature fluctuations; Increases productivity up to 30%, accelerates plant growth and development; Preserves and improves soil fertility. Composition: Mass fraction of salts of humic substances, % in solution up to: 5.4%. Mass fraction of macro- and microelements, % of dry matter not less than: potassium-9, sulfur-3, not more than: iron-0.2, manganese-0.12, copper-0.12, zinc-0.12, molybdenum -0.015, boron-0.15, cobalt-0.12, calcium, silicon, magnesium - presence. Hydrogen ion concentration indicator: pH-7.0-10.0. Watering: Root feeding: dissolve 30 ml (1 cap) of the drug in 10 liters of water. Water once every 10 days. Spraying: Foliar feeding: dissolve 20 ml (2/3 cap) of the drug in 10 liters of water. Spray once every 7 days. Shelf-life Unlimited. ",
+               "en": "Specialized liquid fertilizer JOY \"Vegetable\" with a high content of humic and fulvic acids contains a full range of substances necessary for complete nutrition in an easily accessible form. It will be an excellent assistant to the gardener in growing vegetable crops (tomatoes, cucumbers, peppers, potatoes, etc.) in the garden. Crops: potatoes, cabbage, tomatoes, cucumbers, zucchini, peppers, eggplants, root vegetables. Active ingredient: lignohumate. Contains the necessary microelements: iron, manganese, copper, zinc, molybdenum, boron, etc.; Reduces plant stress during transplantation, when treated with pesticides, and during temperature fluctuations; Increases productivity up to 30%, accelerates plant growth and development; Preserves and improves soil fertility. Composition: Mass fraction of salts of humic substances, % in solution up to: 5.4%. Mass fraction of macro- and microelements, % of dry matter not less than: potassium-9, sulfur-3, not more than: iron-0.2, manganese-0.12, copper-0.12, zinc-0.12, molybdenum -0.015, boron-0.15, cobalt-0.12, calcium, silicon, magnesium - presence. Hydrogen ion concentration indicator: pH-7.0-10.0. Watering: Root feeding: dissolve 30 ml (1 cap) of the drug in 10 liters of water. Water once every 10 days. Spraying: Foliar feeding: dissolve 20 ml (2/3 cap) of the drug in 10 liters of water. Spray once every 7 days. Shelf life: unlimited. ",
                "ru": "Специализированное жидкое удобрение JOY \"Овощное\" с высоким содержанием гуминовых и фульвовых кислот содержит полный комплекс веществ, необходимый  для полноценного питания в легкодоступной форме. Оно станет отличным помощником садоводу и огороднику в выращивании овощных культур (для томатов, для огурцов, для перцев, для картофеля и др) в саду и огороде. Культура: картофель, капуста, томаты, огурцы, кабачки, перцы, баклажаны, корнеплоды. Действующее вещество: лигногумат. Имеет в составе необходимые микроэлементы: железо, марганец, медь, цинк, молибден, бор и др; Снижает стрессы растений при пересадке, при обработке пестицидами, при колебаниях температур; Повышает урожайность до 30%, ускоряет рост и развитие растений; Сохраняет и улучшает плодородие почвы. Состав: Массовая доля солей гуминовых веществ, % в растворе до: 5,4%. Массовая доля макро- и микроэлементов, % от сухих веществ не менее: калий-9, сера-3, не более: железо-0,2, марганец-0,12, медь-0,12, цинк-0,12,молибден-0,015, бор-0,15, кобальт-0,12, кальций, кремний, магний - присутствие. Показатель концентрации водородных ионов: рН-7,0-10,0. Полив: Корневая подкормка: 30мл (1колпачок) препарата растворить в 10л воды. Поливать один раз в 10 дней. Опрыскивание: Некорневая подкормка: 20мл (2/3 колпачка) препарата растворить в 10л воды. Опрыскивать один раз в 7 дней. Срок годности: не ограничен. "
             },
             "brand": "JOY",
@@ -7134,39 +7127,19 @@
          },
          {
             "name": {
-               "en": "Organomineral fertilizer Bona Forte",
-               "ru": "Органоминеральное удобрение Bona Forte"
+               "en": "Stimulator of growth, flowering and fruit formation JOY \"AGB\"",
+               "ru": "Стимулятор роста, цветения и плодообразования JOY Garden\"Эй Джи Би\""
             },
             "images": [
                {
-                  "img": "https://sun9-77.userapi.com/impg/DJgL00Nvp5U-Br_4U5ASrd4LG82o-HiIUyecqw/gpuzgRHI5eI.jpg?size=2560x1920&quality=95&sign=0156db3194d409fa49e40b68bf24e315&type=album"
+                  "img": "https://sun9-79.userapi.com/impg/yzU_uaCEEHERyNLHC-g703CZ6kPX-_L05bKHow/4nC___f4DZg.jpg?size=2560x1920&quality=95&sign=0ce81120513b30546b15df6adde70161&type=album"
                }
             ],
             "desc": {
-               "en": "The fertilizer was created by Bona Forte laboratories to restore depleted soil and increase plant immunity. Health is the first and main step to the beauty of ornamental plants. The fertilizer contains a full range of substances necessary for complete and balanced nutrition of plants.\n\nConsumption of one bottle:\n• for root feeding: 43 liters of solution.\n\n! Unused ready-made working solution can be stored until the next feeding, but no more than two weeks.\n\nImportant:\n·Feed transplanted plants no earlier than after 7-14 days.\n·You should not feed sick plants unless the disease is due to a lack of nutrients.\n\nApplication period\nMarch-October 1 time per week; November-February once a month.\n\nAdditional Information:\nThe fertilizer is not afraid of freezing: after defrosting, the fertilizer does not lose its properties.\nAfter the expiration date, the fertilizer does not lose its agronomic value.\n\n> Bona Forte recommendation: to provide plants with all the substances necessary for life, alternate the use of mineral fertilizers from the BEAUTY series and organo-mineral fertilizers from the HEALTH series. Bona Forte recommends using a fertilizer from one series for at least two to three months, and a fertilizer from a different series for the next 2-3 months.\n\nCOMPOUND\nThree main macroelements (NPK): nitrogen (N) - 6%, phosphorus (P2O5) - 4%, potassium (K2O) - 5%\nHumic acids: humate – 0.5%\nNine trace elements: boron, iron, manganese, zinc, copper, molybdenum, cobalt, as well as calcium and magnesium. Of these, six microelements are in chelated form: (iron, manganese, zinc, copper, molybdenum, cobalt).",
-               "ru": "Удобрение создано создана лабораториями Bona Forte для восстановления истощенной почвы и повышения иммунитета растений. Здоровье – первый и основной шаг к красоте декоративных растений. Удобрение содержит полный комплекс веществ, необходимых для полноценного и сбалансированного питания растений.\n\nРасход одного флакона:\n• при корневой подкормке: 43 литра раствора.\n\n! Неиспользованный готовый рабочий раствор можно хранить до следующей подкормки, но не более двух недель.\n\nВажно:\n·Пересаженные растения подкармливать не ранее, чем через 7-14 дней.\n·Нельзя подкармливать больные растения, если только это болезненное состояние не связано с недостатком питательных веществ.\n\nПериод применения\nМарт-октябрь 1 раз в неделю; ноябрь- февраль 1 раз в месяц.\n\nДополнительная информация:\nУдобрение не боится заморозки: после размораживания, удобрение не теряет своих свойств.\nПосле окончания срока годности удобрение не теряет агрономической ценности.\n\n> Рекомендация Bona Forte: для обеспечения растений всеми необходимыми для жизнедеятельности веществами чередуйте использование минеральных удобрений серии КРАСОТА и органо-минеральных удобрений серии ЗДОРОВЬЕ. Bona Forte рекомендует минимум два - три месяца использовать удобрение одной серии, в последующие 2-3 месяца - удобрение другой серии.\n\nСОСТАВ\nТри основных макроэлемента (NPK): азот (N) - 6 %, фосфор (P2O5) - 4 %, калий (K2O) - 5 %\nГуминовые кислоты: гумат – 0,5 %\nДевять микроэлементов: бор, железо, марганец, цинк, медь, молибден, кобальт, а также кальций и магний. Из них шесть микроэлементов в хелатной форме: (железо, марганец, цинк, медь, молибден, кобальт)."
+               "en": "A modern, highly effective natural preparation based on fir extract. The product regulates the growth and supports the immunity of vegetable, fruit and flower crops. Economical: 60 liters of water require 50 ml of the drug. Composition: triterpene acids (10 g/l).",
+               "ru": "Современный высокоэффективный натуральный препарат на основе вытяжки из пихты. Средство регулирует рост и поддерживает иммунитет овощных, плодово-ягодных и цветочных культур. Экономичный: на 60 л воды требуется 50 мл препарата. Состав: тритерпеновые кислоты (10 г/л)."
             },
-            "brand": "Bona Forte",
-            "country": {
-               "en": "Germany",
-               "ru": "Германия"
-            }
-         },
-         {
-            "name": {
-               "en": "Deoxidizer Башинком Известь-Гуми",
-               "ru": "Раскислитель Башинком Известь-Гуми"
-            },
-            "images": [
-               {
-                  "img": "https://sun9-23.userapi.com/impg/bLPVEB9eRWwLeiilFq7uxTkiTix38K39okdjbA/PcAG8OODZQI.jpg?size=1280x960&quality=95&sign=dc8717d407f468f5a9294f0481201e80&type=album"
-               }
-            ],
-            "desc": {
-               "en": "The soft soil deoxidizer Lime-Gumi is enriched with the microelement boron, as well as calcium, magnesium, nitrogen, phosphorus, potassium, fertile humus and the natural growth vitamin Gumi. Required for application to acidic soils. Profitable! 2.0 kg per 6-10 m2 when applied in spring and autumn when digging or loosening beds and tree trunks (10 kg per 30-50 m2). Improves acidic soils. Lime applied in full dose is effective for 5–7 years.",
-               "ru": "Мягкий раскислитель почвы Известь–Гуми обогащен микроэлементом бором, а также кальцием, магнием, азотом, фосфором, калием, плодородным гумусом и природным витамином роста Гуми. Необходим для внесения в кислые почвы. Выгодно! 2,0 кг на 6-10 м2 при внесении весной и осенью при перекопке или рыхлении грядок и приствольных кругов (10 кг на 30-50 м2). Улучшает кислые почвы. Внесенная в полной дозе известь действует в течение 5–7 лет."
-            },
-            "brand": "БашИнком",
+            "brand": "JOY",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7174,19 +7147,39 @@
          },
          {
             "name": {
-               "en": "Spray balm Shahcoal for indoor plants",
-               "ru": "Спрей бальзам Shahcoal для комнатных растений"
+               "en": "Elixir for seedlings JOY Garden",
+               "ru": "Эликсир для рассады JOY Garden"
             },
             "images": [
                {
-                  "img": "https://sun9-12.userapi.com/impg/bMnarHRBwHo4LSQLdWYdtUh1oNI_sNKUitbfCA/dPfkefeEk0c.jpg?size=2560x1920&quality=95&sign=1375c81e39006bf4c4af252bf055c63d&type=album"
+                  "img": "https://sun9-2.userapi.com/impg/kyryct50vb_aWBOlAuY1yfrvK4u5hbR6ZMZhCg/VW8E9m9wNhM.jpg?size=2560x1920&quality=95&sign=d2170713f20687382845cb245f0d7db5&type=album"
                }
             ],
             "desc": {
-               "en": "The shape of the fertilizer bottle may differ from the photo depending on the delivery batch. If you receive a flat bottle, when you remove the cap, a protective plastic ring remains on the neck, which also needs to be removed. After this, screw the nozzle tightly. The balm is made from organic raw materials based on wood vinegar from walnut shells, a proven means for promoting growth, controlling pests, and improving soil quality. Suitable for indoor, exotic, garden plants and flowers, as well as for fruit crops, various vegetables and fruits. Organic fertilizer, a unique environmentally friendly product. This series is intended for indoor decorative flowering plants (violet, hibiscus, geranium, spathiphyllum, anthurium, fuchsia, primrose, balsam, hydrangea, camellia, petunia, begonia, etc.) The fertilizer contains a complex of macro- and microelements necessary for complete and balanced plant nutrition. Ingredients: water, wood vinegar from walnut shells, a complex of macro- and microelements (Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B) Promotes the growth and development of plants; Activates photosynthesis; Promotes abundant foliage growth and the formation of strong shoots; Maintains rich color; Increases plant immunity to diseases and pests. As a top dressing to improve plant growth and strengthen immunity: spray on leaves/stems with medium intensity once every 10 days. When the plant wilts (yellowing of leaves, loss, weakening of stems), as well as to combat diseases and pests, spray the affected areas once every 3 days for 10 days. If necessary, extend for another 10 days. Do not use this product together with alkaline preparations! Apply the balm only to the leaves, do not apply to the flowers! The balm has the smell of liquid smoke. Precautions: Use strictly as directed. In case of contact with eyes or mouth, rinse with plenty of water and consult a doctor. Keep out of the reach of children. Avoid exposure to direct sunlight. Store at temperature: from 1C to 35C. Shake before use, turn the valve to SPRAY or STREAM, and use as directed. Liquid in a plastic bottle with a sprayer.",
-               "ru": "Форма флакона удобрения может отличаться от фото в зависимости от партии поставки. В случае получения плоской бутылки, при снятии крышки на горлышке остаётся защитное пластиковое кольцо, которое тоже необходимо снять. После этого плотно закрутить распылитель. Бальзам изготовлен из органического сырья на основе древесного уксуса из скорлупы грецкого ореха, - зарекомендовавшего себя средства для развития роста, борьбы с вредителями, улучшения качества почвы. Подходит для комнатных, экзотических, садовых растений и цветов, а так же для плодовых культур, различных овощей и фруктов. Органическое удобрение, уникальный экологически чистый продукт. Данная серия предназначена для комнатных декоративно-цветущих растений (фиалка, гибискус, герань, спатифилум, антуриум,  фуксии, примулы, бальзамин, гортензии, камелии, петунии, бегонии и др.) Удобрение содержит комплекс макро- и микроэлементов, необходимых для полноценного и сбалансированного питания растений. Состав: вода, древесный уксус из скорлупы грецкого ореха, комплекс макро- и микроэлементов (Fe,N,P,K,Mg,Na,Mr,Si,Zn,Al,B) Способствует росту и развитию растений; Активизирует фотосинтез; Способствует обильному росту листвы, формированию крепких побегов; Поддерживает сочность окраски; Повышает иммунитет растений к заболеваниям и вредителям. В качестве подкормки для улучшения роста и укрепления иммунитета растения: опрыскивать на листья/стебли со средней интенсивностью 1 раз в 10  дней. При увядании растения (пожелтении листьев, выпадении, ослаблении стеблей), а также для борьбы с болезнями и вредителями опрыскивать пораженные места  1 раз в 3 дня на протяжении 10 дней. При необходимости продлить еще на 10 дней. Не использовать данный продукт совместно с щелочными препаратами! Бальзам применять только по листьям, по цветкам не применять! Бальзам имеет запах жидкого дыма. Меры предосторожности: Использовать строго по назначению. При попадании в глаза или рот промыть большим количеством воды и обратиться к врачу. Хранить в недоступном для детей месте. Избегать попадания прямых солнечных лучей. Хранить при температуре: от 1С до 35C. Перед использованием встряхнуть, повернуть клапан на SPRAY или STREAM, использовать по назначению. Жидкость в пластиковой бутылке с распылителем."
+               "en": "A solution ready to use for spraying the leaves of vegetable, ornamental, and green crops during the seedling period. Composition: aqueous solution of chitosan gel based on lactic acid (0.45 g/l) Purpose: stimulation of active growth and root formation; prevention of fungal, viral and bacterial diseases; relieving stress from negative environmental influences; improving the survival rate and adaptation of young plants. Advantages: environmentally friendly product; does not contain growth hormones; visible effect after 2-3 days. Directions for use: Shake the bottle before use. Spray the spray evenly onto dry leaves until completely wet. Repeated treatment can be carried out after 7-10 days.",
+               "ru": "Раствор, готовый к использованию для опрыскивания листьев овощных, декоративных, зеленных культур в рассадный период. Состав: водный раствор  геля хитозана на основе молочной кислоты (0,45 г/л) Назначение: стимуляция  активного роста и корнеобразования; профилактика грибных, вирусных и бактериальных заболеваний; снятие стресса от негативных воздействий окружающей среды; улучшение приживаемости и адаптации молодых растений. Преимущества:экологически безопасный продукт; не содержит гормонов роста; видимый эффект через 2-3 дня. Способ применения: перед использованием встряхнуть флакон. Равномерно распылять спрей на сухие листья до полного смачивания. Повторную обработку  можно проводить через 7-10 дней."
             },
-            "brand": "Shahcoal",
+            "brand": "JOY",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
+               "en": "Elixir for growth JOY Garden",
+               "ru": "Эликсир для роста JOY Garden"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-52.userapi.com/impg/BFA7V8r05JpFQP-rmwuxmcACoJz1SbnjdilTCw/4g-lBVxgpH4.jpg?size=2560x1920&quality=95&sign=32986e42901e28499dc797105f8f969d&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Stimulator for indoor plants “Energy Charge JOY” is an effective tool that promotes the active growth and development of your indoor flowers. In the package you will find two ampoules of 30 ml each. \"JOY Energy Charge\" is suitable for use on all types of indoor plants, including cacti, succulents, decorative foliage and flowering plants. \"JOY Energy Charge\" fertilizer contains all the necessary nutrients and microelements that ensure the full development of indoor plants. It activates the process photosynthesis, strengthens the root system, improves the appearance of plants, promotes more abundant and long-lasting flowering. It is safe for people, animals and the environment, and does not have a negative effect on the soil. Don’t miss the opportunity to give your indoor flowers a “charge of Energy” with this stimulator! they will feel comfortable, grow and develop to their full potential, delighting you with their beauty and freshness every day.",
+               "ru": "Стимулятор для комнатных растений “Заряд Энергии JOY” - это эффективное средство, которое способствует активному росту и развитию ваших комнатных цветов. В упаковке вы найдете две ампулы объемом по 30 мл каждая. \"Заряд Энергии JOY” подходит для использования на всех видах комнатных растений, включая кактусы, суккуленты, декоративно-лиственные и цветущие растения. Удобрение “Заряд Энергии JOY” содержит все необходимые питательные вещества и микроэлементы, которые обеспечивают полноценное развитие комнатных растений. Оно активизирует процесс фотосинтеза, укрепляет корневую систему, улучшает внешний вид растений, способствует более обильному и продолжительному цветению. Он безопасен для людей, животных и окружающей среды, не оказывает негативного влияния на почву. Не упустите возможность подарить своим комнатным цветам “Заряд Энергии”! С этим стимулятором они будут чувствовать себя комфортно, расти и развиваться в полную силу, радуя вас своей красотой и свежестью каждый день."
+            },
+            "brand": "JOY",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7214,19 +7207,39 @@
          },
          {
             "name": {
-               "en": "Remedy for mole crickets Зеленая Аптека Садовода Гром",
-               "ru": "Средство от медведки Зеленая Аптека Садовода Гром"
+               "en": "Universal food for cut flowers Flora Life",
+               "ru": "Универсальная подкормка для срезанных цветов Flora Life"
             },
             "images": [
                {
-                  "img": "https://sun9-53.userapi.com/impg/-YFM8h6wdBkCICi_yujrfpCQ2SY2ytdGkr44EA/UQL4cZcRfGA.jpg?size=1280x960&quality=95&sign=9bf43bf0f5bb14f74ba02f004cf4bc8c&type=album"
+                  "img": "https://sun9-26.userapi.com/impg/cJEsN_7130na3-3jsYDH8r0IO1w3OIocsS6msA/D0K1SSrE090.jpg?size=2560x1920&quality=95&sign=5aa0c66f8f5c61fb123cda0e49b279d7&type=album"
                }
             ],
             "desc": {
-               "en": "Why choose a remedy for mole crickets \"Green Pharmacy Sadovoda\", \"Thunder\", 20 g  \nloose granules are well eaten by mole crickets;  \nit is convenient to simultaneously fight mole crickets and ants in the beds;  \nhigh efficiency in all agroclimatic zones.  \n\nWhy and where to use it  \nto fight mole crickets;  \nin vegetable beds, strawberries, potatoes and root vegetables, flowers, in a greenhouse;  \nat the same time to combat garden ants in beds, under trees and shrubs, in a greenhouse, near buildings.  \n   \nHow to use  \nthe bait preparation is ready for use;  \neasy to use. The granules are placed in the mole cricket’s burrows and passages, and the soil is moistened;  \nThe first treatment should be carried out 5-10 days before sowing seeds or planting; if there is a large concentration of pests, treatments can be carried out at other times.  \n\nAction and result  \nworks flawlessly: 8 bait components attract the pest much more strongly than young roots and roots; \nAfter a few days, all the mole crickets in the treated area die!  \nprotects for 10-14 days.  \n\nSafety and ecology  \nClass 3 (moderately hazardous substance);  \nsafe for plants, earthworms, soil microflora;  \ndangerous for birds, do not allow poultry to eat it.  \n\nGranules, 30 g/kg diazinon",
-               "ru": "Почему выбирают средство от медведки \"Зеленая Аптека Садовода\", \"Гром\", 20 г  \nрыхлые гранулы хорошо поедаются медведкой;  \nудобно одновременно бороться с медведкой и муравьями на грядках;  \nвысокая эффективность во всех агроклиматических зонах.  \n\nДля чего и где применять  \nдля борьбы с медведкой;  \nна овощных грядках, землянике, картофеле и корнеплодах, цветах, в теплице;  \nодновременно для борьбы с садовыми муравьями на грядках, под деревьями и кустарниками, в теплице, около строений.  \n   \nКак применять  \nпрепарат-приманка готов к применению;  \nпрост в обращении. Гранулы раскладывают в норки и ходы медведки, почву увлажняют;  \nпервую обработку следует провести за 5-10 дней до посева семян или посадки растений, при большом скоплении вредителей можно проводить обработки в другие сроки.  \n\nДействие и результат  \nдействует безотказно: 8 приманочных компонентов привлекают вредителя гораздо сильнее, чем молоденькие корешки и корнеплоды; \nчерез несколько дней на обработанном участке погибают все медведки!  \nзащищает 10-14 дней.  \n\nБезопасность и экология  \n3 класс (умеренно опасное вещество);  \nбезопасен для растений, дождевых червей, почвенной микрофлоры;  \nопасен для птиц, не допускать поедания домашней птицей.  \n\nГранулы, 30 г/кг диазинона"
+               "en": "To extend the life of cut flowers, it is important to provide them with all the necessary nutrients and prevent the growth of bacteria. By presenting a bag of food along with a bouquet or arrangement, you give the recipient the opportunity to enjoy the flowers for as long as possible. The best results are achieved with the correct dosage. Instructions for use: Feeding cut flowers will extend the life of your bouquet. Trim the stems of the bouquet and remove the lower leaves. Open the package, pour the contents into a vase with 0.5 liters of water. Stir until completely dissolved. Place the bouquet in a vase with fertilizer. There is no need to change the water in the vase.",
+               "ru": "Для продления жизни срезанных светов важно обеспечить их всеми необходимыми полезными веществами и недопустить размножения бактерий. Преподнося пакетик с подкормкой вместе с букетом или композицией вы даете получателю возможность насладиться цветами так долго, как это возможно. Наилучшие результаты достигаются при правильной дозировке. Инструкция по эксплуатации: Подкормка для срезанных цветов продлит срок жизни вашего букета. У букета подрезать стебли и убрать нижние листья Открыть пакет, высыпать содержимое в вазу с 0,5л воды. Перемешать до полного растворения. Поставить букет в вазу с подкормкой. Нет необходимости менять воду в вазе."
             },
-            "brand": "Зеленая Аптека Садовода",
+            "brand": "Flora Life",
+            "country": {
+               "en": "Germany",
+               "ru": "Германия"
+            }
+         },
+         {
+            "name": {
+               "en": "Insecticide Актара Expert Garden against colorado potato beetle",
+               "ru": "Инсектицид Актара Expert Garden от колорадского жука"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-13.userapi.com/impg/glivfmHiNi7ksvpzLqtDKSzXqgTK3SnRdB-rqg/Xh6QpT60Xew.jpg?size=2560x1920&quality=95&sign=b8017cc4e3dbd8d3a4d1caa8a43930c2&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Suspension concentrate. Insecticide for controlling the Colorado potato beetle on potatoes, aphids on currants and a complex of pests on potted flower plants. 1 ml per 8 liters of water. Dilute the contents of the ampoule in water in accordance with the table. Spray plants when pests appear in dry, windless weather, evenly wetting the leaves. Single treatment 20 days before potato harvest; in 60 days on currants.",
+               "ru": "Концентрат суспензии. Инсектицид для борьбы с колорадским жуком на картофеле, тлями на смородине и комплексом вредителей на горшечных цветочных растениях. 1 мл на 8 литров воды. Содержимое ампулы развести в воде в соответствии с таблицей. Опрыскивать растения при появлении вредителей в сухую, безветренную погоду, равномерно смачивая листья. Однократная обработка за 20 дней до сбора урожая на картофеле; за 60 дней на смородине."
+            },
+            "brand": "Expert Garden",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7234,19 +7247,59 @@
          },
          {
             "name": {
-               "en": "Remedy for soil flies and ants Зеленая Аптека Садовода Гром-2",
-               "ru": "Средство от почвенных мушек и муравьев Зеленая Аптека Садовода Гром-2"
+               "en": "Organomineral fertilizer Bona Forte",
+               "ru": "Органоминеральное удобрение Bona Forte"
             },
             "images": [
                {
-                  "img": "https://sun9-23.userapi.com/impg/mfAwe8eLtwKn95Ggye9RyLUnb85JsZCd3CLVrA/VQXgeQKcil8.jpg?size=1280x960&quality=95&sign=4badfdc926e77e2b080e111d1169a991&type=album"
+                  "img": "https://sun9-77.userapi.com/impg/DJgL00Nvp5U-Br_4U5ASrd4LG82o-HiIUyecqw/gpuzgRHI5eI.jpg?size=2560x1920&quality=95&sign=0156db3194d409fa49e40b68bf24e315&type=album"
                }
             ],
             "desc": {
-               "en": "What's good about Thunder-2:\nmicro granule size ensures high effect\ngranular form has a long-term protective effect (more than a month)\nconvenient to use.\n\nWhy and where to use:\nfor the destruction of ants in beds, flower beds, under trees, in blind areas of houses\nagainst soil flies on seedlings and indoor flowers.\n\nHow to use: (the drug is ready for use)\nmicrogranules are introduced into anthills and places where ants gather\nscattered into pots and seedling boxes.\n\nAction and result:\nthe drug penetrates perfectly into ant passages, the ants die the next day after treatment\nin pots destroys soil fly larvae living in the soil. No larvae - no flies!",
-               "ru": "Чем хорош Гром-2:\nмикро размер гранул обеспечивает высокий эффект\nгранулированная форма обладает длительным защитным действием (более месяца)\nудобен в применении.\n\nДля чего и где применять:\nдля уничтожения муравьев на грядках, в цветниках, под деревьями, в отмостках домов\nпротив почвенных мушек на рассаде и комнатных цветах.\n\nКак применять: (препарат готов к применению)\nмикрогранулы вносят в муравейники и места скопления муравьев\nрассыпают в горшки и рассадные ящики.\n\nДействие и результат:\nпрепарат отлично проникает в муравьиные ходы, муравьи гибнут на следующий день после обработки\nв горшках уничтожает личинок почвенных мушек, живущих в почве. Нет личинок - не будет и мушек!"
+               "en": "The fertilizer was created by Bona Forte laboratories to restore depleted soil and increase plant immunity. Health is the first and main step to the beauty of ornamental plants. The fertilizer contains a full range of substances necessary for complete and balanced nutrition of plants.\n\nConsumption of one bottle:\n• for root feeding: 43 liters of solution.\n\n! Unused ready-made working solution can be stored until the next feeding, but no more than two weeks.\n\nImportant:\n·Feed transplanted plants no earlier than after 7-14 days.\n·You should not feed sick plants unless the disease is due to a lack of nutrients.\n\nApplication period\nMarch-October 1 time per week; November-February once a month.\n\nAdditional information:\nThe fertilizer is not afraid of freezing: after defrosting, the fertilizer does not lose its properties.\nAfter the expiration date, the fertilizer does not lose its agronomic value.\n\n> Bona Forte recommendation: to provide plants with all the substances necessary for life, alternate the use of mineral fertilizers from the BEAUTY series and organic-mineral fertilizers from the HEALTH series. Bona Forte recommends using a fertilizer from one series for at least two to three months, and a fertilizer from a different series for the next 2-3 months.\n\nCOMPOUND\nThree main macroelements (NPK): nitrogen (N) - 6%, phosphorus (P2O5) - 4%, potassium (K2O) - 5%\nHumic acids: humate – 0.5%\nNine trace elements: boron, iron, manganese, zinc, copper, molybdenum, cobalt, as well as calcium and magnesium. Of these, six microelements are in chelated form: (iron, manganese, zinc, copper, molybdenum, cobalt).",
+               "ru": "Удобрение создано создана лабораториями Bona Forte для восстановления истощенной почвы и повышения иммунитета растений. Здоровье – первый и основной шаг к красоте декоративных растений. Удобрение содержит полный комплекс веществ, необходимых для полноценного и сбалансированного питания растений.\n\nРасход одного флакона:\n• при корневой подкормке: 43 литра раствора.\n\n! Неиспользованный готовый рабочий раствор можно хранить до следующей подкормки, но не более двух недель.\n\nВажно:\n·Пересаженные растения подкармливать не ранее, чем через 7-14 дней.\n·Нельзя подкармливать больные растения, если только это болезненное состояние не связано с недостатком питательных веществ.\n\nПериод применения\nМарт-октябрь 1 раз в неделю; ноябрь- февраль 1 раз в месяц.\n\nДополнительная информация:\nУдобрение не боится заморозки: после размораживания, удобрение не теряет своих свойств.\nПосле окончания срока годности удобрение не теряет агрономической ценности.\n\n> Рекомендация Bona Forte: для обеспечения растений всеми необходимыми для жизнедеятельности веществами чередуйте использование минеральных удобрений серии КРАСОТА и органо-минеральных удобрений серии ЗДОРОВЬЕ. Bona Forte рекомендует минимум два - три месяца использовать удобрение одной серии, в последующие 2-3 месяца - удобрение другой серии.\n\nСОСТАВ\nТри основных макроэлемента (NPK): азот (N) - 6 %, фосфор (P2O5) - 4 %, калий (K2O) - 5 %\nГуминовые кислоты: гумат – 0,5 %\nДевять микроэлементов: бор, железо, марганец, цинк, медь, молибден, кобальт, а также кальций и магний. Из них шесть микроэлементов в хелатной форме: (железо, марганец, цинк, медь, молибден, кобальт)."
             },
-            "brand": "Зеленая Аптека Садовода",
+            "brand": "Bona Forte",
+            "country": {
+               "en": "Germany",
+               "ru": "Германия"
+            }
+         },
+         {
+            "name": {
+               "en": "Spray for indoor plants Bona Forte Insecticide ",
+               "ru": "Спрей для комнатных растений Bona Forte Инсектицид "
+            },
+            "images": [
+               {
+                  "img": "https://sun6-20.userapi.com/impg/BWXGVxvZtzIvTRnwsVqF9fPSVbpR-MGnlRItjQ/b1BcyjayThY.jpg?size=2560x1920&quality=95&sign=0c825e117b44dd0733c798d95c817914&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Natural insecticide Bona Forte, spray against flying insect pests, 500 ml bottle. Bona Forte is recommended for the immediate destruction of flying insect pests on indoor and ornamental outdoor plants. The plant protection product against insect pests is made from purified concentrate of natural pyrethrum from the American company MGK, a world leader in the production of products from natural pyrethrins, which has more than a century of experience in the insect protection market. APPLICATION: It is better to treat indoor and garden plants in the morning or evening in diffused lighting conditions. Many hairy plants, including those in the Gesneriaceae family (Saintpaulias), plants with a bluish, waxy coating (succulents), plants with very delicate leaves (Soleirolia) and ferns that do not respond well to any plant protection products require very careful spray treatment. Plant safety is an important factor when using an insecticide.",
+               "ru": "Натуральный инсектицид Bona Forte, средство спрей от летающих насекомых-вредителей, флакон 500 мл. Средство Бона Форте рекомендуется для моментального уничтожения летающих насекомых-вредителей на комнатных и декоративных растениях открытого грунта. Средство для защиты растений от насекомых вредителей производится из очищенного концентрата натурального пиретрума американской фирмы MGK – мирового лидера в производстве продукции из натуральных пиретринов, имеющей более чем вековой опыт на рынке средств защиты от насекомых. ПРИМЕНЕНИЕ: обработку комнатных и садовых растений лучше проводить утром или вечером в условиях рассеянного освещения. Многие опушенные растения, в том числе из семейства геснериевых (сенполии), растения с сизым восковым налетом (суккуленты), растения с очень нежными листочками (солейролия) и папоротники, которые плохо реагируют на любые средства защиты растений, требуют очень осторожной обработки спреем. Безопасность растений - важный фактор при использовании инсектицида."
+            },
+            "brand": "Bona Forte",
+            "country": {
+               "en": "Germany",
+               "ru": "Германия"
+            }
+         },
+         {
+            "name": {
+               "en": "Fungicide Avgust Pure color for the protection of roses and other flowers",
+               "ru": "Фунгицид Avgust Чистоцвет для защиты роз и других цветов"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-37.userapi.com/impg/NechpNeZ6Zd_f_uMEh3YcsOzdCPWGA6CMGy6Kw/EhmCdWYR_S4.jpg?size=1280x960&quality=95&sign=132bdee2631b8913eaae7df544f379d0&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Fungicide Chistotsvet for the protection of roses and other flowers. The drug \"Chistotsvet\" belongs to the new generation of systemic fungicides. Its main active ingredient is difenoconazole, which allows you to quickly cope with diseases even in the most unfavorable seasons. “Pure Flower” effectively suppresses fungal plant diseases: gray rot, spotting, powdery mildew. The drug has protective, healing and immunizing properties, is not washed off by rain, and is resistant to adverse weather conditions.",
+               "ru": "Фунгицид Чистоцвет для защиты роз и других цветов. Препарат «Чистоцвет» относится к системным фунгицидам нового поколения. Его основным действующим веществом является дифеноконазол, позволяющий быстро справиться с болезнями даже в наиболее неблагоприятные сезоны. «Чистоцвет» эффективно подавляет грибные заболевания растений: серую гниль, пятнистость, мучнистую росу. Препарат имеет защитные, лечебные и иммунизирующие свойства, не смывается дождем, устойчив к неблагоприятным погодным условиям."
+            },
+            "brand": "Avgust",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7254,39 +7307,19 @@
          },
          {
             "name": {
-               "en": "Fruit formation stimulator Зеленая Аптека Садовода Цветень",
-               "ru": "Стимулятор плодообразования Зеленая Аптека Садовода Цветень"
+               "en": "Growth and nutrition stimulator AVGUST Yantarine",
+               "ru": "Стимулятор роста и питания Avgust Янтарин"
             },
             "images": [
                {
-                  "img": "https://sun9-57.userapi.com/impg/508cNDiIrQUHy5MCLjh6ZP4-81_jzAGUvRF7TQ/UtNKogbMx7Y.jpg?size=1280x960&quality=95&sign=419fd3d95a5d0579f7a63cdab279706c&type=album"
+                  "img": "https://sun9-50.userapi.com/impg/FuTUBw74_btCjlnYTF-E_34fiamGseAjOaOh1g/Plm3yDwM8mk.jpg?size=1280x960&quality=95&sign=25b7f56942e07db511d1f727c1aaebb5&type=album"
                }
             ],
             "desc": {
-               "en": "Pollen is produced on the basis of real plant hormones, so it is very useful for plants. It is used for spraying many types of agricultural plants. To do this, it is diluted with water - the contents of a bag with 5 grams of powder should be filled with approximately 3-4 liters of water, depending on the specific crop. Typically, this solution is enough for approximately 100 square meters of garden. The drug is quite toxic to humans, so it is worth taking at least minimal precautions when preparing the solution. At the same time, the substance is safe for bees, so it can be used in the garden without any concern for the environment.",
-               "ru": "Цветень выпускается на основе настоящих растительных гормонов, поэтому для растений очень полезен. Применяется для опрыскивания сельскохозяйственных растений многих видов. Для этого его разводят с водой – содержимое пакетика с 5 граммами порошка следует заливать приблизительно 3-4 литрами воды, в зависимости от конкретной культуры. Обычно такого раствора хватает приблизительно на 100 квадратных метров огорода. Препарат довольно токсичен для человека, поэтому стоит предпринять хотя бы минимальные меры предосторожности при приготовлении раствора. При этом для пчел вещество безопасно, так что применять его на огороде можно безо всяких опасений за окружающую среду."
+               "en": "Amber (100 ml bottle) is a plant growth regulator, a universal product that affects most types of plants. The active component of the drug is succinic acid. Amber can be used to feed berries, fruit and ornamental shrubs, grapes, and trees. The drug is non-toxic and completely safe for vegetation, provided the recommended dosage is followed. Sold as a water-soluble concentrate. Can be used throughout the entire growing season. The drug has limited danger to animals and people, only in concentrated form. The danger to bees is moderate. If you have an apiary, it is recommended to carry out processing in the early morning or late evening. The result of using Yantarine is the activation of the growing season and increased productivity. After treatment, plants demonstrate increased resistance to various unfavorable factors: diseases, excessive or insufficient watering, etc.",
+               "ru": "Янтарин (флакон 100 мл) – регулятор роста растений, средство универсально, воздействует на большинство видов растений. Активный компонент препарата – янтарная кислота. Янтарин может использоваться для подкормки ягод, плодовых и декоративных кустарников, винограда, деревьев. Препарат нетоксичен и полностью безопасен для растительности при условии соблюдения рекомендуемой дозы применения. Реализуется в виде водорастворимого концентрата. Может быть использован на протяжении всего вегетационного периода. Препарат имеет ограниченную опасность для животных и людей, только в концентрированном виде. Опасности для пчёл умеренная. При наличии пасеки рекомендуется осуществлять обработку ранним утром или поздним вечером. Результатом использования Янтарина является активизация процесса вегетации, повышение урожайности. После обработки растения демонстрируют повышенную устойчивость к различным неблагоприятным факторам: болезням, чрезмерному или недостаточному поливу и т.п.."
             },
-            "brand": "Зеленая Аптека Садовода",
-            "country": {
-               "en": "Russia",
-               "ru": "Россия"
-            }
-         },
-         {
-            "name": {
-               "en": "Stimulator of growth, flowering and fruit formation JOY \"AGB\"",
-               "ru": "Стимулятор роста, цветения и плодообразования JOY \"Эй Джи Би\""
-            },
-            "images": [
-               {
-                  "img": "https://sun9-79.userapi.com/impg/yzU_uaCEEHERyNLHC-g703CZ6kPX-_L05bKHow/4nC___f4DZg.jpg?size=2560x1920&quality=95&sign=0ce81120513b30546b15df6adde70161&type=album"
-               }
-            ],
-            "desc": {
-               "en": "A modern, highly effective natural preparation based on fir extract. The product regulates the growth and supports the immunity of vegetable, fruit and flower crops. Economical: 60 liters of water require 50 ml of the drug. Composition: triterpene acids (10 g/l).",
-               "ru": "Современный высокоэффективный натуральный препарат на основе вытяжки из пихты. Средство регулирует рост и поддерживает иммунитет овощных, плодово-ягодных и цветочных культур. Экономичный: на 60 л воды требуется 50 мл препарата. Состав: тритерпеновые кислоты (10 г/л)."
-            },
-            "brand": "JOY",
+            "brand": "Avgust",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7474,6 +7507,46 @@
          },
          {
             "name": {
+               "en": "Spray Садовые рецепты Tar soap Insecticide ",
+               "ru": "Спрей Садовые рецепты Мыло дегтярное Инсектицид "
+            },
+            "images": [
+               {
+                  "img": "https://sun9-64.userapi.com/impg/xD7gD73FQQ2aGFAkdregfT6cDtjsf4uxWuVFVg/I-eWuCaRb_U.jpg?size=1280x960&quality=95&sign=ee61c0a6b1d973d60f93d0029e2a31ea&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Insecticide Soap tar spray is a multifunctional product, completely ready for use. Used to care for gardening and indoor plants. Treatment must be carried out in the morning or evening hours. It is important to ensure that the weather is dry and calm. This product is excellent for spraying and wiping leaves, neutralizing acidified soils, as an adhesive or fixative. Before resorting to treating indoor plants, it is recommended to do a preliminary test by applying the insecticide to 1-2 leaves. If after a couple of days a stain does not appear on them, then you can begin to fully treat the plant.",
+               "ru": "Инсектицид Мыло дегтярное спрей — многофункциональное средство, полностью готовое к применению. Используется для ухода за садово-огородными и комнатным растениями. Обработку необходимо проводить в утренние или вечерние часы. Важно убедиться, что погода сухая и безветренная. Данное средство отлично подходит для опрыскивания и протирания листьев, нейтрализации закисленных почв, в качестве прилипателя или закрепителя. Прежде чем прибегнуть к обработке комнатных растений рекомендуется сделать предварительную пробу, нанеся инсектицид на 1-2 листочка. Если спустя пару дней на них не появилось пятно, то можно приступить к полной обработке растения."
+            },
+            "brand": "Садовые рецепты",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
+               "en": "Liquid fertilizer Сад Чудес for long-lasting flowering",
+               "ru": "Жидкое удобрение Сад Чудес для продолжительного цветения"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-18.userapi.com/impg/uDbWijhmls5Add7pM_GLoc59VEJ64V-3gdaZ3Q/Kk2uIGzhyFQ.jpg?size=2560x1920&quality=95&sign=c96df481a75709c096e578ddfa73f4fa&type=album"
+               }
+            ],
+            "desc": {
+               "en": "The fertilizer contains natural humic compounds, as well as the main micro- and macroelements necessary for the full growth and development of plants in a form accessible to them. Fertilizer guarantees high seed germination and healthy seedlings. Plants treated with this fertilizer develop a strong root system and improve their decorative qualities. Plants bloom longer and more. In addition, the fertilizer increases plant resistance to late blight, powdery mildew, root rot, blackleg and other bacterial and fungal diseases.",
+               "ru": "Удобрение содержит природные гуминовые соединения, а также основные микро- и макроэлементы, необходимые для полноценного роста и развития растений в доступной для них форме. Удобрение гарантирует высокую всхожесть семян и здоровую рассаду. У растений, обработанных этим удобрением, развивается сильная корневая система, улучшаются декоративные качества. Растения дольше и больше цветут. Кроме того, удобрение повышает сопротивляемость растений к фитофторе, мучнистой росе, корневым гнилям, черной ножке и другим бактериальным и грибковым заболеваниям."
+            },
+            "brand": "Сад Чудес",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
                "en": "Fertilizer in a microtube НЭСТ-М Ferovit",
                "ru": "Удобрение в микропробирке НЭСТ-М Феровит"
             },
@@ -7494,22 +7567,22 @@
          },
          {
             "name": {
-               "en": "Universal food for cut flowers Flora Life",
-               "ru": "Универсальная подкормка для срезанных цветов Flora Life"
+               "en": "Plant growth stimulator НЭСТ-М Zircon",
+               "ru": "Cтимулятор роста растений НЭСТ-М Циркон"
             },
             "images": [
                {
-                  "img": "https://sun9-26.userapi.com/impg/cJEsN_7130na3-3jsYDH8r0IO1w3OIocsS6msA/D0K1SSrE090.jpg?size=2560x1920&quality=95&sign=5aa0c66f8f5c61fb123cda0e49b279d7&type=album"
+                  "img": "https://sun9-80.userapi.com/impg/xtpzUnmBjNVm8T1u2F6fjQqt6ceQJlrXT0Jh9w/Z6troriePHY.jpg?size=1280x960&quality=95&sign=062b1022dcfa61527cc9d470ff88332b&type=album"
                }
             ],
             "desc": {
-               "en": "To extend the life of cut flowers, it is important to provide them with all the necessary nutrients and prevent the growth of bacteria. By presenting a bag of food along with a bouquet or arrangement, you give the recipient the opportunity to enjoy the flowers for as long as possible. The best results are achieved with the correct dosage. Instructions for use: Feeding cut flowers will extend the life of your bouquet. Trim the stems of the bouquet and remove the lower leaves. Open the package, pour the contents into a vase with 0.5 liters of water. Stir until completely dissolved. Place the bouquet in a vase with fertilizer. There is no need to change the water in the vase.",
-               "ru": "Для продления жизни срезанных светов важно обеспечить их всеми необходимыми полезными веществами и недопустить размножения бактерий. Преподнося пакетик с подкормкой вместе с букетом или композицией вы даете получателю возможность насладиться цветами так долго, как это возможно. Наилучшие результаты достигаются при правильной дозировке. Инструкция по эксплуатации: Подкормка для срезанных цветов продлит срок жизни вашего букета. У букета подрезать стебли и убрать нижние листья Открыть пакет, высыпать содержимое в вазу с 0,5л воды. Перемешать до полного растворения. Поставить букет в вазу с подкормкой. Нет необходимости менять воду в вазе."
+               "en": "Zircon for plants. What is unique about the growth stimulator?\n100% natural composition. Recommended for use in organic farming.\nZircon for plants is absolutely safe for humans, animals and the environment.\nIncreases the germination power of seeds, as well as their germination (soaking seeds in a solution of the drug increases the amount of water penetrating under the shell several times).\nPromotes root formation (three times greater volume compared to experimental samples). \nIt is an effective means for rooting cuttings (due to the formation of callus and new roots).\nIncreases the biological mass of plants by stimulating plant growth and development, improves the quality of commercial products.\nHas an antifungal effect: reduces the effects of powdery mildew, pernospora, late blight, root rot from 20% to 60%.\nMitigates transplant stress in plants by reducing water evaporation from the leaf surface, increasing its absorption and improving photosynthesis.\nHas increased efficiency during dry periods. Softens the effect of drought on plants. \nStimulates flowering, preservation of ovaries of vegetables, trees and shrubs, as well as the formation of fruits.",
+               "ru": "Циркон для растений. В чем уникальность стимулятора роста?\n100% натуральный состав. Рекомендован для применения в органическом земледелии.\nЦиркон для растений абсолютно безопасен человека, животных и окружающей среды.\nУвеличивает силу прорастания семян, а также их всхожесть (замачивание семян в растворе препарата в несколько раз увеличивает количество проникающей под оболочку воды).\nСпособствует корнеобразованию (в три раза больший объем по сравнению с опытными образцами). \nЯвляется эффективным средством для укоренения черенков (за счет образования каллуса и новых корешков).\nУвеличивает биологическую массу растений за счет стимуляции роста и развития растения, повышает качество товарной продукции.\nОбладает противогрибковым действием: снижает последствия от мучнистой росы, перноспороза, фитофтороза, корневых гнилей от 20% до 60%.\nСмягчает пересадочный стресс у растений за счет снижения испарения воды с поверхности листьев, повышения ее всасывания и улучшения фотосинтеза.\nОбладает повышенной эффективностью в засушливый период. Смягчает влияние засухи на растения. \nСтимулирует цветение, сохранение завязей овощей, деревьев и кустарников, а также образование плодов."
             },
-            "brand": "Flora Life",
+            "brand": "НЭСТ-М",
             "country": {
-               "en": "Germany",
-               "ru": "Германия"
+               "en": "Russia",
+               "ru": "Россия"
             }
          },
          {
@@ -7534,19 +7607,19 @@
          },
          {
             "name": {
-               "en": "Fungicide Avgust Pure color for the protection of roses and other flowers",
-               "ru": "Фунгицид Avgust Чистоцвет для защиты роз и других цветов"
+               "en": "Potassium permanganate Зеленая Аптека Садовода",
+               "ru": "Марганцовка Зеленая Аптека Садовода"
             },
             "images": [
                {
-                  "img": "https://sun9-37.userapi.com/impg/NechpNeZ6Zd_f_uMEh3YcsOzdCPWGA6CMGy6Kw/EhmCdWYR_S4.jpg?size=1280x960&quality=95&sign=132bdee2631b8913eaae7df544f379d0&type=album"
+                  "img": "https://sun9-66.userapi.com/impg/faVmkcw7l5Q-aWITPbSeNyN2HjoZr7s42hF0tA/mIk22qmprmw.jpg?size=1280x960&quality=95&sign=2d6442c86f1710714a55a95b936b4d34&type=album"
                }
             ],
             "desc": {
-               "en": "Fungicide Chistotsvet for the protection of roses and other flowers. The drug \"Chistotsvet\" belongs to the new generation of systemic fungicides. Its main active ingredient is difenoconazole, which allows you to quickly cope with diseases even in the most unfavorable seasons. “Pure Flower” effectively suppresses fungal plant diseases: gray rot, spotting, powdery mildew. The drug has protective, healing and immunizing properties, is not washed off by rain, and is resistant to adverse weather conditions.",
-               "ru": "Фунгицид Чистоцвет для защиты роз и других цветов. Препарат «Чистоцвет» относится к системным фунгицидам нового поколения. Его основным действующим веществом является дифеноконазол, позволяющий быстро справиться с болезнями даже в наиболее неблагоприятные сезоны. «Чистоцвет» эффективно подавляет грибные заболевания растений: серую гниль, пятнистость, мучнистую росу. Препарат имеет защитные, лечебные и иммунизирующие свойства, не смывается дождем, устойчив к неблагоприятным погодным условиям."
+               "en": "Potassium permanganate or potassium permanganate is one of the most powerful antiseptics. It suppresses the activity of most pathogenic microorganisms. \nDirections for use:\n1. Disinfection of planting material.\n2. Disinfection of seedling containers.\n3. Soil disinfection.\n4. Feeding.\n5. Black leg on seedlings.\n6. Late blight.\n7. Powdery mildew.\n8. Gray rot of strawberries.\n9. Disinfection of the greenhouse and cellar, garden tools.",
+               "ru": "Марганцовка или перманганат калия — один из самых мощных антисептиков. Он подавляет деятельность большинства патогенных микроорганизмов. \nСпособы применения:\n1. Обеззараживание посадочного материала.\n2. Дезинфекция рассадной тары.\n3. Обеззараживание почвы.\n4. Подкормка.\n5. Черная ножка на рассаде.\n6. Фитофтороз.\n7. Мучнистая роса.\n8. Серая гниль земляники.\n9. Дезинфекция теплицы и погреба, садового инструмента."
             },
-            "brand": "Avgust",
+            "brand": "Зеленая Аптека Садовода",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7554,19 +7627,19 @@
          },
          {
             "name": {
-               "en": "Elixir for seedlings JOY",
-               "ru": "Эликсир для рассады JOY"
+               "en": "Powerful beast against insect Зеленая Аптека Садовода ЗУБР",
+               "ru": "Мощный зверь против букашки Зеленая Аптека Садовода ЗУБР"
             },
             "images": [
                {
-                  "img": "https://sun9-2.userapi.com/impg/kyryct50vb_aWBOlAuY1yfrvK4u5hbR6ZMZhCg/VW8E9m9wNhM.jpg?size=2560x1920&quality=95&sign=d2170713f20687382845cb245f0d7db5&type=album"
+                  "img": "https://sun9-51.userapi.com/impg/NaR6zq6PQ6u7lqYG4l7_7sQvdWLG3L2569Yqjw/PqXIZz3CTRE.jpg?size=1280x960&quality=95&sign=37cf39172abe1fb50df6368f008a5029&type=album"
                }
             ],
             "desc": {
-               "en": "A solution ready to use for spraying the leaves of vegetable, ornamental, and green crops during the seedling period. Composition: aqueous solution of chitosan gel based on lactic acid (0.45 g/l) Purpose: stimulation of active growth and root formation; prevention of fungal, viral and bacterial diseases; relieving stress from negative environmental influences; improving the survival rate and adaptation of young plants. Advantages: environmentally friendly product; does not contain growth hormones; visible effect after 2-3 days. Directions for use: Shake the bottle before use. Spray the spray evenly onto dry leaves until completely wet. Repeated treatment can be carried out after 7-10 days.",
-               "ru": "Раствор, готовый к использованию для опрыскивания листьев овощных, декоративных, зеленных культур в рассадный период. Состав: водный раствор  геля хитозана на основе молочной кислоты (0,45 г/л) Назначение: стимуляция  активного роста и корнеобразования; профилактика грибных, вирусных и бактериальных заболеваний; снятие стресса от негативных воздействий окружающей среды; улучшение приживаемости и адаптации молодых растений. Преимущества:экологически безопасный продукт; не содержит гормонов роста; видимый эффект через 2-3 дня. Способ применения: перед использованием встряхнуть флакон. Равномерно распылять спрей на сухие листья до полного смачивания. Повторную обработку  можно проводить через 7-10 дней."
+               "en": "It is used against the Colorado potato beetle against a complex of pests (aphids, thrips, leafhoppers, bugs, whiteflies, etc.) on flower plants, including potted plants. This is a systemic drug: it penetrates the leaves, is distributed throughout the plant, protects it entirely, destroys the Colorado potato beetle and its larvae of any age, and is effective against hidden pests. Spray plants when pests appear. Hazard class 3 (moderately hazardous substance) is dangerous for bees. Do not use during flowering.",
+               "ru": "Применяют против колорадского жука на картофеле от комплекса вредителей (тли, трипса, цикадки, клопов, белокрылки и др.) на цветочных, в том числе горшечных растениях. Это системный препарат: проникает в листья, распределяется по всему растению, защищает его целиком, уничтожает колорадского жука и его личинки любых возрастов, эффективен против скрытоживущих вредителей. Опрыскивать растения при появлении вредителей. 3 класс опасности (умеренно опасное вещество) опасен для пчел. Не применять во время цветения."
             },
-            "brand": "JOY",
+            "brand": "Зеленая Аптека Садовода",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7574,19 +7647,19 @@
          },
          {
             "name": {
-               "en": "Elixir for growth JOY",
-               "ru": "Эликсир для роста"
+               "en": "Remedy for mole crickets Зеленая Аптека Садовода Гром",
+               "ru": "Средство от медведки Зеленая Аптека Садовода Гром"
             },
             "images": [
                {
-                  "img": "https://sun9-52.userapi.com/impg/BFA7V8r05JpFQP-rmwuxmcACoJz1SbnjdilTCw/4g-lBVxgpH4.jpg?size=2560x1920&quality=95&sign=32986e42901e28499dc797105f8f969d&type=album"
+                  "img": "https://sun9-53.userapi.com/impg/-YFM8h6wdBkCICi_yujrfpCQ2SY2ytdGkr44EA/UQL4cZcRfGA.jpg?size=1280x960&quality=95&sign=9bf43bf0f5bb14f74ba02f004cf4bc8c&type=album"
                }
             ],
             "desc": {
-               "en": "Stimulator for indoor plants “Energy Charge JOY” is an effective tool that promotes the active growth and development of your indoor flowers. In the package you will find two ampoules of 30 ml each. \"JOY Energy Charge\" is suitable for use on all types of indoor plants, including cacti, succulents, decorative foliage and flowering plants. \"JOY Energy Charge\" fertilizer contains all the necessary nutrients and microelements that ensure the full development of indoor plants. It activates the process photosynthesis, strengthens the root system, improves the appearance of plants, promotes more abundant and long-lasting flowering. It is safe for people, animals and the environment, and does not have a negative effect on the soil. Don’t miss the opportunity to give your indoor flowers a “charge of Energy” with this stimulator! they will feel comfortable, grow and develop to their full potential, delighting you with their beauty and freshness every day.",
-               "ru": "Стимулятор для комнатных растений “Заряд Энергии JOY” - это эффективное средство, которое способствует активному росту и развитию ваших комнатных цветов. В упаковке вы найдете две ампулы объемом по 30 мл каждая. \"Заряд Энергии JOY” подходит для использования на всех видах комнатных растений, включая кактусы, суккуленты, декоративно-лиственные и цветущие растения. Удобрение “Заряд Энергии JOY” содержит все необходимые питательные вещества и микроэлементы, которые обеспечивают полноценное развитие комнатных растений. Оно активизирует процесс фотосинтеза, укрепляет корневую систему, улучшает внешний вид растений, способствует более обильному и продолжительному цветению. Он безопасен для людей, животных и окружающей среды, не оказывает негативного влияния на почву. Не упустите возможность подарить своим комнатным цветам “Заряд Энергии”! С этим стимулятором они будут чувствовать себя комфортно, расти и развиваться в полную силу, радуя вас своей красотой и свежестью каждый день."
+               "en": "Why choose a remedy for mole crickets \"Green Pharmacy Sadovoda\", \"Thunder\", 20 g  \nloose granules are well eaten by mole crickets;  \nit is convenient to simultaneously fight mole crickets and ants in the beds;  \nhigh efficiency in all agroclimatic zones.  \n\nWhy and where to use it  \nto fight mole crickets;  \nin vegetable beds, strawberries, potatoes and root vegetables, flowers, in a greenhouse;  \nat the same time to combat garden ants in beds, under trees and shrubs, in a greenhouse, near buildings.  \n   \nHow to use  \nthe bait preparation is ready for use;  \neasy to use. The granules are placed in the mole cricket’s burrows and passages, and the soil is moistened;  \nThe first treatment should be carried out 5-10 days before sowing seeds or planting; if there is a large concentration of pests, treatments can be carried out at other times.  \n\nAction and result  \nworks flawlessly: 8 bait components attract the pest much more strongly than young roots and roots; \nAfter a few days, all the mole crickets in the treated area die!  \nprotects for 10-14 days.  \n\nSafety and ecology  \nClass 3 (moderately hazardous substance);  \nsafe for plants, earthworms, soil microflora;  \ndangerous for birds, do not allow poultry to eat it.  \n\nGranules, 30 g/kg diazinon",
+               "ru": "Почему выбирают средство от медведки \"Зеленая Аптека Садовода\", \"Гром\", 20 г  \nрыхлые гранулы хорошо поедаются медведкой;  \nудобно одновременно бороться с медведкой и муравьями на грядках;  \nвысокая эффективность во всех агроклиматических зонах.  \n\nДля чего и где применять  \nдля борьбы с медведкой;  \nна овощных грядках, землянике, картофеле и корнеплодах, цветах, в теплице;  \nодновременно для борьбы с садовыми муравьями на грядках, под деревьями и кустарниками, в теплице, около строений.  \n   \nКак применять  \nпрепарат-приманка готов к применению;  \nпрост в обращении. Гранулы раскладывают в норки и ходы медведки, почву увлажняют;  \nпервую обработку следует провести за 5-10 дней до посева семян или посадки растений, при большом скоплении вредителей можно проводить обработки в другие сроки.  \n\nДействие и результат  \nдействует безотказно: 8 приманочных компонентов привлекают вредителя гораздо сильнее, чем молоденькие корешки и корнеплоды; \nчерез несколько дней на обработанном участке погибают все медведки!  \nзащищает 10-14 дней.  \n\nБезопасность и экология  \n3 класс (умеренно опасное вещество);  \nбезопасен для растений, дождевых червей, почвенной микрофлоры;  \nопасен для птиц, не допускать поедания домашней птицей.  \n\nГранулы, 30 г/кг диазинона"
             },
-            "brand": "JOY",
+            "brand": "Зеленая Аптека Садовода",
             "country": {
                "en": "Russia",
                "ru": "Россия"
@@ -7594,19 +7667,79 @@
          },
          {
             "name": {
-               "en": "Plant growth stimulator НЭСТ-М Zircon",
-               "ru": "Cтимулятор роста растений НЭСТ-М Циркон"
+               "en": "Remedy for soil flies and ants Зеленая Аптека Садовода Гром-2",
+               "ru": "Средство от почвенных мушек и муравьев Зеленая Аптека Садовода Гром-2"
             },
             "images": [
                {
-                  "img": "https://sun9-80.userapi.com/impg/xtpzUnmBjNVm8T1u2F6fjQqt6ceQJlrXT0Jh9w/Z6troriePHY.jpg?size=1280x960&quality=95&sign=062b1022dcfa61527cc9d470ff88332b&type=album"
+                  "img": "https://sun9-23.userapi.com/impg/mfAwe8eLtwKn95Ggye9RyLUnb85JsZCd3CLVrA/VQXgeQKcil8.jpg?size=1280x960&quality=95&sign=4badfdc926e77e2b080e111d1169a991&type=album"
                }
             ],
             "desc": {
-               "en": "Zircon for plants. What is unique about the growth stimulator?\n100% natural composition. Recommended for use in organic farming.\nZircon for plants is absolutely safe for humans, animals and the environment.\nIncreases the force of seed germination, as well as their germination (soaking seeds in a solution of the drug increases the amount of water penetrating under the shell several times).\nPromotes root formation (three times greater volume compared to experimental samples). \nIt is an effective means for rooting cuttings (due to the formation of callus and new roots).\nIncreases the biological mass of plants by stimulating plant growth and development, improves the quality of marketable products.\nHas an antifungal effect: reduces the effects of powdery mildew, pernospora, late blight, root rot from 20% to 60%.\nMitigates transplant stress in plants by reducing water evaporation from the leaf surface, increasing its absorption and improving photosynthesis.\nHas increased efficiency during dry periods. Softens the effect of drought on plants. \nStimulates flowering, preservation of ovaries of vegetables, trees and shrubs, as well as the formation of fruits.",
-               "ru": "Циркон для растений. В чем уникальность стимулятора роста?\n100% натуральный состав. Рекомендован для применения в органическом земледелии.\nЦиркон для растений абсолютно безопасен человека, животных и окружающей среды.\nУвеличивает силу прорастания семян, а также их всхожесть (замачивание семян в растворе препарата в несколько раз увеличивает количество проникающей под оболочку воды).\nСпособствует корнеобразованию (в три раза больший объем по сравнению с опытными образцами). \nЯвляется эффективным средством для укоренения черенков (за счет образования каллуса и новых корешков).\nУвеличивает биологическую массу растений за счет стимуляции роста и развития растения, повышает качество товарной продукции.\nОбладает противогрибковым действием: снижает последствия от мучнистой росы, перноспороза, фитофтороза, корневых гнилей от 20% до 60%.\nСмягчает пересадочный стресс у растений за счет снижения испарения воды с поверхности листьев, повышения ее всасывания и улучшения фотосинтеза.\nОбладает повышенной эффективностью в засушливый период. Смягчает влияние засухи на растения. \nСтимулирует цветение, сохранение завязей овощей, деревьев и кустарников, а также образование плодов."
+               "en": "What's good about Thunder-2:\nmicro granule size ensures high effect\ngranular form has a long-term protective effect (more than a month)\nconvenient to use.\n\nWhy and where to use:\nfor the destruction of ants in beds, flower beds, under trees, in blind areas of houses\nagainst soil flies on seedlings and indoor flowers.\n\nHow to use: (the drug is ready for use)\nmicrogranules are introduced into anthills and places where ants gather\nscattered into pots and seedling boxes.\n\nAction and result:\nthe drug penetrates perfectly into ant passages, the ants die the next day after treatment\nin pots destroys soil fly larvae living in the soil. No larvae - no flies!",
+               "ru": "Чем хорош Гром-2:\nмикро размер гранул обеспечивает высокий эффект\nгранулированная форма обладает длительным защитным действием (более месяца)\nудобен в применении.\n\nДля чего и где применять:\nдля уничтожения муравьев на грядках, в цветниках, под деревьями, в отмостках домов\nпротив почвенных мушек на рассаде и комнатных цветах.\n\nКак применять: (препарат готов к применению)\nмикрогранулы вносят в муравейники и места скопления муравьев\nрассыпают в горшки и рассадные ящики.\n\nДействие и результат:\nпрепарат отлично проникает в муравьиные ходы, муравьи гибнут на следующий день после обработки\nв горшках уничтожает личинок почвенных мушек, живущих в почве. Нет личинок - не будет и мушек!"
             },
-            "brand": "НЭСТ-М",
+            "brand": "Зеленая Аптека Садовода",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
+               "en": "Fruit formation stimulator Зеленая Аптека Садовода Цветень",
+               "ru": "Стимулятор плодообразования Зеленая Аптека Садовода Цветень"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-57.userapi.com/impg/508cNDiIrQUHy5MCLjh6ZP4-81_jzAGUvRF7TQ/UtNKogbMx7Y.jpg?size=1280x960&quality=95&sign=419fd3d95a5d0579f7a63cdab279706c&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Pollen is produced on the basis of real plant hormones, so it is very useful for plants. It is used for spraying many types of agricultural plants. To do this, it is diluted with water - the contents of a bag with 5 grams of powder should be filled with approximately 3-4 liters of water, depending on the specific crop. Typically, this solution is enough for approximately 100 square meters of garden. The drug is quite toxic to humans, so it is worth taking at least minimal precautions when preparing the solution. At the same time, the substance is safe for bees, so it can be used in the garden without any concern for the environment.",
+               "ru": "Цветень выпускается на основе настоящих растительных гормонов, поэтому для растений очень полезен. Применяется для опрыскивания сельскохозяйственных растений многих видов. Для этого его разводят с водой – содержимое пакетика с 5 граммами порошка следует заливать приблизительно 3-4 литрами воды, в зависимости от конкретной культуры. Обычно такого раствора хватает приблизительно на 100 квадратных метров огорода. Препарат довольно токсичен для человека, поэтому стоит предпринять хотя бы минимальные меры предосторожности при приготовлении раствора. При этом для пчел вещество безопасно, так что применять его на огороде можно безо всяких опасений за окружающую среду."
+            },
+            "brand": "Зеленая Аптека Садовода",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
+               "en": "Potassium permanganate Власта",
+               "ru": "Марганцовка Власта"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-34.userapi.com/impg/GMwadvms1k3GagJ2m3jG7qYop5k23osj_dPkGQ/QstXTns4V-w.jpg?size=1280x960&quality=95&sign=5ea2142b080e3085d938bd1f556a1854&type=album"
+               }
+            ],
+            "desc": {
+               "en": "Potassium permanganate (potassium permanganate) 44.95% is a popular multifunctional product, used as an antiseptic, antibacterial and disinfectant.",
+               "ru": "Марганцовка (перманганат калия) 44,95% - популярный многофункциональный продукт, применяется в качестве антисептического, антибактериального и обеззараживающего средства."
+            },
+            "brand": "Власта",
+            "country": {
+               "en": "Russia",
+               "ru": "Россия"
+            }
+         },
+         {
+            "name": {
+               "en": "Deoxidizer Башинком Известь-Гуми",
+               "ru": "Раскислитель Башинком Известь-Гуми"
+            },
+            "images": [
+               {
+                  "img": "https://sun9-23.userapi.com/impg/bLPVEB9eRWwLeiilFq7uxTkiTix38K39okdjbA/PcAG8OODZQI.jpg?size=1280x960&quality=95&sign=dc8717d407f468f5a9294f0481201e80&type=album"
+               }
+            ],
+            "desc": {
+               "en": "The soft soil deoxidizer Lime-Gumi is enriched with the microelement boron, as well as calcium, magnesium, nitrogen, phosphorus, potassium, fertile humus and the natural growth vitamin Gumi. Required for application to acidic soils. Profitable! 2.0 kg per 6-10 m2 when applied in spring and autumn when digging or loosening beds and tree trunks (10 kg per 30-50 m2). Improves acidic soils. Lime applied in full dose is effective for 5–7 years.",
+               "ru": "Мягкий раскислитель почвы Известь–Гуми обогащен микроэлементом бором, а также кальцием, магнием, азотом, фосфором, калием, плодородным гумусом и природным витамином роста Гуми. Необходим для внесения в кислые почвы. Выгодно! 2,0 кг на 6-10 м2 при внесении весной и осенью при перекопке или рыхлении грядок и приствольных кругов (10 кг на 30-50 м2). Улучшает кислые почвы. Внесенная в полной дозе известь действует в течение 5–7 лет."
+            },
+            "brand": "БашИнком",
             "country": {
                "en": "Russia",
                "ru": "Россия"
