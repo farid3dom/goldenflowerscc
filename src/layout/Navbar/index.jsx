@@ -7,6 +7,7 @@ import Logo_S from '@assets/icons/logo_sm.svg'
 import ArrowDown from '@assets/icons/arrowDown';
 import ShopSVG from '@assets/icons/shop.svg'
 import DownloadSVG from '@assets/icons/download.svg'
+import VideoCam from '@assets/icons/videocam.png'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -90,6 +91,17 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             <Link to={'/contacts'}>
                                 <div className='menu_text_main_inner'>
                                     <p>Контакты</p>
+                                </div>
+                            </Link>
+
+                        </div>
+
+                        <div className="menu_text_main camera">
+
+                            <Link to={'/cameras'}>
+                                <div className='menu_text_main_inner camera_inner'>
+                                    <img src={VideoCam} width={24} />
+                                    <p>Камеры</p>
                                 </div>
                             </Link>
 

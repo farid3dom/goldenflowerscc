@@ -19,7 +19,7 @@
             padding: 150px 64px;
 
             .p1 {
-                padding-bottom: 15px;
+                padding-bottom: 16px;
                 background: -webkit-linear-gradient(var(--gold), #eeeeee);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -34,7 +34,7 @@
             }
 
             .yandex_otziv {
-                padding-top: 15px;
+                padding-top: 16px;
 
                 iframe {
                     height: 50px;
@@ -50,7 +50,7 @@
 
     .about_wrapper {
         width: 100%;
-        height: 50vh;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -63,16 +63,17 @@
             max-width: 1140px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
 
 
-            .left_content {
+            .right_content {
+                width: 40%;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 35px;
+                gap: 16px;
                 flex: 1;
-                padding-right: 25px;
+                padding-left: 64px;
 
                 .content_title {
                     font-family: var(--f-bold);
@@ -87,12 +88,22 @@
                     letter-spacing: .25px;
                     line-height: 1.3;
                 }
+
+                .videoplayer_controls_item {
+                    opacity: 0;
+                }
             }
 
-            .right_content {
+            .left_content {
+                width: 60%;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-end;
+
+                iframe {
+                    width: 600px;
+                    height: 338px;
+                }
             }
         }
     }
@@ -118,22 +129,25 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 0 64px;
             z-index: 5;
 
 
             .main_slogan_text {
                 color: var(--white);
-                padding: 35px 64px 35px 35px;
+                padding: 0;
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
 
                 h1 {
                     font-family: var(--f-bold);
                     font-size: 36px;
-                    padding-bottom: 15px;
                 }
 
                 p {
                     font-family: var(--f-regular);
-                    padding-bottom: 15px;
                     line-height: 1.2;
                     font-size: 14px;
 
@@ -151,10 +165,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 35px 0;
+        gap: 16px;
+        padding: 16px 0;
 
         h1 {
-            padding: 16px;
             color: var(--white);
             font-size: 36px;
             font-family: var(--f-bold);
@@ -207,7 +221,7 @@
 
         .map {
             width: 100%;
-            height: 70vh;
+            height: 100%;
             position: relative;
             display: flex;
             justify-content: center;
@@ -216,13 +230,12 @@
 
 
             img {
-                width: 100%;
                 height: 100%;
                 background-position: center;
                 background-repeat: no-repeat;
                 object-fit: cover;
                 position: absolute;
-                background: linear-gradient(to top, rgb(0, 0, 0), rgba(97, 97, 97, 0.295), rgba(117, 117, 117, 0))
+                opacity: 0.7;
             }
 
             .map_wrapper {
@@ -238,7 +251,7 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 15px;
+                    gap: 16px;
                     padding: 64px;
                     color: var(--white);
                     font-family: var(--f-regular);
@@ -267,7 +280,7 @@
             height: 50vh;
 
             .header_slogan {
-                padding: 150px 40px;
+                padding: 120px 40px;
 
 
                 .p1 {
@@ -280,7 +293,7 @@
                 }
 
                 .yandex_otziv {
-                    padding-top: 15px;
+                    padding-top: 16px;
 
                     iframe {
                         height: 50px;
@@ -299,12 +312,10 @@
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                gap: 25px;
+                gap: 16px;
                 justify-content: center;
 
-
-
-                .left_content {
+                .right_content {
                     align-items: center;
                     width: 100%;
                     padding: 0;
@@ -319,11 +330,18 @@
                         text-align: center;
                     }
                 }
+
+                .left_content {
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+
+                }
             }
         }
 
         .main_title_wrapper {
-            height: 70vh;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -338,26 +356,23 @@
             .main_slogan {
                 position: absolute;
                 width: 100%;
-                text-align: center;
-                background: #0000004e;
+                background: #00000070;
                 backdrop-filter: blur(2px);
+                padding: 0 40px;
 
                 .main_slogan_text {
-                    padding: 64px;
+                    text-align: center;
 
                     h1 {
                         font-size: 36px;
-                        padding-bottom: 20px;
                     }
 
                     p {
                         font-size: 20px;
-                        padding-bottom: 20px;
                     }
                 }
             }
         }
-
 
         .scroller_container {
             padding: 0 0 16px 0;
@@ -393,22 +408,21 @@
 
                             img {
                                 width: 250px;
-                                margin: 15px;
+                                margin: 16px;
                             }
                         }
                     }
                 }
             }
-
         }
-
 
         .home_map_wrapper {
 
             .map {
+                padding: 0;
 
                 .map_wrapper {
-                    padding: 0 40px;
+                    padding: 40px;
 
                     .map_wrapper_text {
                         width: 100%;
@@ -418,7 +432,6 @@
                 }
             }
         }
-
     }
 
     @media screen and (max-width: 767px) {
@@ -442,7 +455,7 @@
                 }
 
                 .yandex_otziv {
-                    padding-top: 15px;
+                    padding-top: 16px;
 
                     iframe {
                         height: 50px;
@@ -456,13 +469,12 @@
         }
 
         .about_wrapper {
-            padding: 48px 16px;
+            padding: 16px 16px;
 
             .about_wrapper_inner {
-                gap: 48px;
+                gap: 16px;
 
-                .left_content {
-                    gap: 28px;
+                .right_content {
                     padding: 0;
 
                     .content_title {
@@ -478,7 +490,8 @@
                     }
                 }
 
-                .right_content {
+                .left_content {
+                    width: 100%;
 
                     iframe {
                         width: 360px;
@@ -489,7 +502,7 @@
         }
 
         .main_title_wrapper {
-            height: 50vh;
+            height: 40vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -505,27 +518,24 @@
                 position: absolute;
                 width: 100%;
                 text-align: center;
-                // background: #8e8e8e85;
+                padding: 16px;
 
                 .main_slogan_text {
-                    padding: 35px;
+
 
                     h1 {
                         font-size: 24px;
-                        padding-bottom: 20px;
                     }
 
                     p {
                         font-size: 14px;
-                        padding-bottom: 20px;
                     }
                 }
             }
         }
 
-
         .scroller_container {
-            padding: 0 0 20px 0;
+            padding: 0 0 16px 0;
 
             h1 {
                 font-size: 24px;
@@ -566,19 +576,17 @@
 
         }
 
-
         .home_map_wrapper {
-            height: 50vh;
+            height: 100%;
 
             .map {
-                width: 100%;
-                height: 100%;
 
                 .map_wrapper {
+                    height: 100%;
+                    padding: 0;
 
                     .map_wrapper_text {
-                        padding: 35px;
-
+                        padding: 64px 16px;
 
                         span {
                             text-align: center;

@@ -8,7 +8,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Index = ({ href, className, handleClick }) => {
    const navigate = useNavigate();
-   const lang = 'en';
+   const lang = 'RU';
 
 
    return (

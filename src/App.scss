@@ -5,7 +5,7 @@
     --white: #fff;
     --black: #000;
     --gray: #00000069;
-    --gold: #ECBB47;
+    --gold: #ecbb47;
     --btn-transition: .25s ease;
 }
 
@@ -167,6 +167,21 @@ body,
     bottom: 60px !important;
 }
 
+.cjTloD {
+    padding: 10px !important;
+}
+
+.kTQorS {
+border-radius: 15px;
+}
+
+.OKGMH {
+    margin: 20px !important;
+}
+
+.eapps-widget {
+    position: inherit !important;
+}
 
 .parallax__wrapper {
     overflow: hidden;
@@ -178,14 +193,14 @@ body,
     flex-wrap: nowrap;
     mask: linear-gradient(90deg,
             transparent,
-            white 20%,
-            white 80%,
+            white 10%,
+            white 90%,
             transparent);
     -webkit-mask:
         linear-gradient(90deg,
             transparent,
-            white 20%,
-            white 80%,
+            white 10%,
+            white 90%,
             transparent);
 
     .parallax__scroller {
