@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.scss';
 import { motion } from 'framer-motion';
+import axios from 'axios';
+import Alert from '@mui/material/Alert';
 
 import HeaderRepeat from '@layout/HeaderRepeat/index'
 
@@ -12,12 +14,61 @@ import Num5 from '@assets/icons/flowers_icons/rose.png'
 import Num7 from '@assets/icons/flowers_icons/rose.png'
 import Num4 from '@assets/icons/flowers_icons/exotic.png'
 import Num6 from '@assets/icons/flowers_icons/domestic.png'
-import Num8 from '@assets/icons/flowers_icons/packaging.png'
+import Num8 from '@assets/icons/flowers_icons/packaging.png';
+import Loading from '@assets/icons/loading.svg';
+
+///Import Components
+import Input from '@components/Input/Index';
 
 ///Import Constants
 import { pageVariants, pageTransition } from '@constants/framerSettings.js';
 
+///Formik Import
+import { useFormik } from 'formik';
+
+///Import Validation
+import { contactFormSchema } from '@validation/contactFormValidation';
+
 function index() {
+    const [formLoading, setFormLoading] = useState(false);
+    const [sendingDone, setSendingDone] = useState(false);
+
+    const formSubmitHandler = async (values, action) => {
+
+        if (values) {
+            setFormLoading(true);
+
+            try {
+                await axios.post(`https://goldenflowerscc-b-1bb111f79e27.herokuapp.com/api/send-mail`, values)
+                    .then(res => {
+                        action.resetForm();
+                        setFormLoading(false);
+                        setSendingDone('success');
+
+                        setTimeout(() => { setSendingDone(null) }, 5000)
+                        return res.data;
+                    });
+            } catch (err) {
+                action.resetForm();
+                setFormLoading(false);
+                setSendingDone('error');
+
+                setTimeout(() => { setSendingDone(null) }, 5000)
+                console.log(err, 'error from send mail front');
+            }
+        }
+    }
+
+    const { values, touched, errors, initialErrors, handleChange, handleSubmit } = useFormik({
+        initialValues: {
+            fullName: '',
+            email: '',
+            message: ''
+        },
+        validationSchema: contactFormSchema,
+        onSubmit: formSubmitHandler
+    });
+
     return (
         <motion.div
             initial="initial"
@@ -104,6 +155,103 @@ function index() {
 
                 </div>
 
+                <div className="contact-form__wrapper">
+
+                    <div className="image__wrapper">
+                        <img src="https://plus.unsplash.com/premium_photo-1682125235036-d1ab54136ff4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                    </div>
+
+                    <div className="form__wrapper">
+
+                        <div className="wrapper__title">
+                            <h2>Cвяжитесь с нами</h2>
+                        </div>
+
+                        {
+                            sendingDone === 'success' ?
+                                <Alert severity="success">
+                                    Message has been sent successfully!
+                                </Alert>
+                                : sendingDone === 'error' ?
+                                    <Alert severity="error">
+                                        Message can't sent!
+                                    </Alert> : null
+                        }
+
+                        <form onSubmit={handleSubmit}>
+                            <div className="form__controller">
+                                <label htmlFor="fullName">Full Name</label>
+                                <div className="input__wrapper">
+                                    <input
+                                        type="text"
+                                        id='fullName'
+                                        placeholder='Your Name...'
+                                        className='input_white'
+                                        value={values.fullName}
+                                        onChange={handleChange}
+                                        maxLength={30}
+                                    />
+                                </div>
+                                {
+                                    errors.fullName && touched.fullName ?
+                                        <span className="error__message">{errors.fullName}</span>
+                                        : null
+                                }
+                            </div>
+
+                            <div className="form__controller">
+                                <label htmlFor="email">Email</label>
+                                <div className="input__wrapper">
+                                    <input
+                                        type="text"
+                                        id='email'
+                                        placeholder='Your Email...'
+                                        className='input_white'
+                                        value={values.email}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                {
+                                    errors.email && touched.email ?
+                                        <span className="error__message">{errors.email}</span>
+                                        : null
+                                }
+                            </div>
+
+                            <div className="form__controller">
+                                <label htmlFor="message">Message</label>
+                                <div className="input__wrapper">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        placeholder='Your message here...'
+                                        className='input_white'
+                                        value={values.message}
+                                        onChange={handleChange}
+                                        maxLength={2000}
+                                    ></textarea>
+                                </div>
+                                {
+                                    errors.message && touched.message ?
+                                        <span className="error__message">{errors.message}</span>
+                                        : null
+                                }
+                            </div>
+
+                            <div className="form__controller">
+                                <div className="button__wrapper">
+                                    <button type='submit' className='btn btn_white hover_gold'>
+                                        {
+                                            !formLoading ?
+                                                'Send message' :
+                                                <img className='loading_icon' width={34} height={34} src={Loading} alt='' />
+                                        }
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
 
         </motion.div>
