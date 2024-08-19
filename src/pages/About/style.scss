@@ -27,7 +27,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: url('https://sun9-66.userapi.com/impg/275BlY1J897xI56yBvL9_9ajYjJpJLl6o-Wnjg/9abc57NmMNw.jpg?size=2560x1707&quality=95&sign=bc02d5f714e9866114da1132ca011aa5&type=album');
+            background: url('https://sun9-13.userapi.com/impg/z17V7wi8F_0ysc0dCXrqVojbHaaa40miHQNpYQ/fl4z2GDEh5A.jpg?size=2560x1707&quality=95&sign=09e75a180c10b5b21d2ecfb5facb569f&type=album');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -77,6 +77,7 @@
                         align-items: center;
 
                         .num_section {
+                            height: 182px;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
@@ -124,7 +125,7 @@
         }
 
         .about_slider_container {
-            max-width: 1140px;
+            width: 1140px;
             height: 100%;
             padding-bottom: 25px;
 
@@ -241,6 +242,7 @@
                         color: var(--white);
                         padding: 35px;
                         background: var(--gray);
+
                         h1 {
                             font-family: var(--f-bold);
                             font-size: 36px;
@@ -291,6 +293,7 @@
 
 
                             .num_section {
+                                height: 150px;
 
                                 padding: 10px;
 
@@ -329,6 +332,7 @@
             .about_slider_container {
                 max-width: 1140px;
                 width: 100%;
+                padding: 40px;
 
                 .container_title {
                     text-align: center;
@@ -457,6 +461,7 @@
                         padding: 0 !important;
 
                         .num_section {
+                            height: 140px !important;
                             padding: 10px !important;
 
                             .num_icon {
@@ -491,14 +496,13 @@
 
             .about_slider_container {
                 width: 100%;
-                padding-bottom: 0;
+                padding: 16px;
 
                 .container_title {
                     padding: 20px;
                 }
 
                 .about_slider_container_inner {
-                    gap: 0;
 
                     .flowers_slider {
                         display: flex;

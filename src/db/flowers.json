@@ -48,37 +48,6 @@
          },
          {
             "name": {
-               "en": "Single-headed Baku",
-               "ru": "Одноголовые Баку"
-            },
-            "images": [
-               {
-                  "img": "https://www.roza4u.ru/image/cache/catalog/gvozdika/gvozdika-bordovaya-1-1400x1400.jpg"
-               },
-               {
-                  "img": "https://img.vkusvill.ru/pim/images/site_LargeWebP/da49350c-8f99-44c4-9630-bd06c1974f14.webp?1701183217.3902"
-               },
-               {
-                  "img": "https://krd.monoflowers.ru/upload/resize_cache/iblock/dc1/600_600_140cd750bba9870f18aada2478b24840a/d237jh6geux1b3kgmszgupzis53cl7tz.jpg"
-               },
-               {
-                  "img": "https://www.roza4u.ru/image/catalog/51_krasnaya_gvozdika_v_korzine_/51_krasnaya_gvozdika_v_korzine_5.jpg"
-               }
-            ],
-            "desc": {
-               "en": "Carnation Baku",
-               "ru": "Гвоздика Баку"
-            },
-            "plantation": "",
-            "quantity": 25,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
-         },
-         {
-            "name": {
                "en": "Single-headed Turkey",
                "ru": "Одноголовые Турция"
             },

@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Index = () => {
    const [scrollTopIsActive, setScrollTopIsActive] = useState(false);
 
-   document.addEventListener('scroll', (e) => {
-      let y = window.scrollY;
+   useEffect(() => {
+      document.addEventListener('scroll', (e) => {
+         let y = window.scrollY;
 
-      if(y > 10) {
-         setScrollTopIsActive(true);
-      } else {
-         setScrollTopIsActive(false);
-      }
+         if (y > 10) {
+            setScrollTopIsActive(true);
+         } else {
+            setScrollTopIsActive(false);
+         }
+      })
    })
 
    return (

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 //import icons
 import YearIcon from '@assets/icons/num_icons/work.svg'
 import PlantationIcon from '@assets/icons/num_icons/plantation.svg'
-import ProductsIcon from '@assets/icons/num_icons/products.svg'
+import ProductsIcon from '@assets/icons/num_icons/clients.svg'
 import ReviewsIcon from '@assets/icons/num_icons/reviews.svg'
 
 ///Import Constants
@@ -33,53 +33,53 @@ const Index = () => {
     // }, [location]);
 
     let sliderFlowers = [
-        {
-            img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1920x1280&quality=95&sign=020b3999919f7fb9eb94d3ae355cc713&type=album'
-        },
+        // {
+        //     img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1920x1280&quality=95&sign=020b3999919f7fb9eb94d3ae355cc713&type=album'
+        // },
         {
             img: 'https://sun9-3.userapi.com/impg/c2-OXz5M5WF2-YCAJ3AeDXHhJ2fsf4xQp3drGA/3SaU5cxIB2k.jpg?size=1920x1280&quality=95&sign=2ea7a3252fff0cf178c754c5490a21f6&type=album'
-        },
-        {
-            img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1920x1280&quality=95&sign=0a72f13de1f1801ad0d4dd1bbb50fce1&type=album'
         }
+        // {
+        //     img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1920x1280&quality=95&sign=0a72f13de1f1801ad0d4dd1bbb50fce1&type=album'
+        // }
 
     ]
 
     let sliderPlants = [
-        {
-            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
-        },
+        // {
+        //     img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
+        // },
         {
             img: 'https://sun9-9.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1920x1280&quality=95&sign=96f8c9028e60c8a54dbd130535c9169f&type=album'
-        },
-        {
-            img: 'https://sun9-19.userapi.com/impg/JC93k9wvvtBo-T0sBVnxFh-iWZce7_TMgVS5dg/bbYlEKvENGo.jpg?size=1920x1280&quality=95&sign=e4bf27f4fddbc6fe868d963e7b40aaf5&type=album'
         }
+        // {
+        //     img: 'https://sun9-19.userapi.com/impg/JC93k9wvvtBo-T0sBVnxFh-iWZce7_TMgVS5dg/bbYlEKvENGo.jpg?size=1920x1280&quality=95&sign=e4bf27f4fddbc6fe868d963e7b40aaf5&type=album'
+        // }
 
     ]
 
     let sliderAccessories = [
         {
             img: 'https://sun9-43.userapi.com/impg/ftLTaPKsEa5DTQGFTve8J57c1GwkcXYhBjzlhg/3tutFvEh7EY.jpg?size=1080x720&quality=95&sign=30a0f4b3f9de9695b1ab450ec6099145&type=album'
-        },
-        {
-            img: 'https://sun9-19.userapi.com/impg/J4OKLEcTzvUeduVwKw90eqSldDkQmpGimROL-w/BoF69awLVu0.jpg?size=1080x720&quality=95&sign=a498faf687ff20c7eb25fdb72822c28b&type=album'
-        },
-        {
-            img: 'https://sun9-57.userapi.com/impg/ms8bwccVh1djh6bQ_3WDSuPQnhv8zg6Ua0fPRQ/WvHgd9rIgps.jpg?size=1080x720&quality=95&sign=5ad31c30a44210496cbbcb1e01194913&type=album'
-        },
-        {
-            img: 'https://sun9-80.userapi.com/impg/9HIxo772QkQeGkK6P_9BzNEc4wVEhYQTuBwq9w/xk4mr88pa_E.jpg?size=1080x720&quality=95&sign=3c7d08307946ae8528930c9d9716e0d3&type=album'
-        },
-        {
-            img: 'https://sun9-33.userapi.com/impg/aYFNjBZG_28vdHCn2lMkiW2maOn8Z5AQGjEE-A/5atvVZbduzE.jpg?size=1080x720&quality=95&sign=7f5306773cadfcf218fea132a58ac6b2&type=album'
-        },
-        {
-            img: 'https://sun9-80.userapi.com/impg/KNaO7_yhul1-dqWFjaoil_-vHq40VvVLNMEQwQ/o_tMgcIBd2U.jpg?size=1080x720&quality=95&sign=22f32d542935dda4e5b7b9905fa10eac&type=album'
-        },
-        {
-            img: 'https://sun9-17.userapi.com/impg/cXtHr6XmLXD2pBo6eC5EF1JKoaBDCDtdG0usGQ/rS0YlZp4cyI.jpg?size=1080x720&quality=95&sign=f7b13559ef6029d4d6a1ae299a25bb32&type=album'
         }
+        // {
+        //     img: 'https://sun9-19.userapi.com/impg/J4OKLEcTzvUeduVwKw90eqSldDkQmpGimROL-w/BoF69awLVu0.jpg?size=1080x720&quality=95&sign=a498faf687ff20c7eb25fdb72822c28b&type=album'
+        // },
+        // {
+        //     img: 'https://sun9-57.userapi.com/impg/ms8bwccVh1djh6bQ_3WDSuPQnhv8zg6Ua0fPRQ/WvHgd9rIgps.jpg?size=1080x720&quality=95&sign=5ad31c30a44210496cbbcb1e01194913&type=album'
+        // },
+        // {
+        //     img: 'https://sun9-80.userapi.com/impg/9HIxo772QkQeGkK6P_9BzNEc4wVEhYQTuBwq9w/xk4mr88pa_E.jpg?size=1080x720&quality=95&sign=3c7d08307946ae8528930c9d9716e0d3&type=album'
+        // },
+        // {
+        //     img: 'https://sun9-33.userapi.com/impg/aYFNjBZG_28vdHCn2lMkiW2maOn8Z5AQGjEE-A/5atvVZbduzE.jpg?size=1080x720&quality=95&sign=7f5306773cadfcf218fea132a58ac6b2&type=album'
+        // },
+        // {
+        //     img: 'https://sun9-80.userapi.com/impg/KNaO7_yhul1-dqWFjaoil_-vHq40VvVLNMEQwQ/o_tMgcIBd2U.jpg?size=1080x720&quality=95&sign=22f32d542935dda4e5b7b9905fa10eac&type=album'
+        // },
+        // {
+        //     img: 'https://sun9-17.userapi.com/impg/cXtHr6XmLXD2pBo6eC5EF1JKoaBDCDtdG0usGQ/rS0YlZp4cyI.jpg?size=1080x720&quality=95&sign=f7b13559ef6029d4d6a1ae299a25bb32&type=album'
+        // }
 
 
     ]
@@ -139,10 +139,10 @@ const Index = () => {
                                         <img src={ProductsIcon} />
                                     </div>
                                     <div className="products_count count">
-                                        <h1><CountUp end={25} duration={2} />+</h1>
+                                        <h1><CountUp end={500} duration={2} />+</h1>
                                     </div>
                                     <div className="products_text num_text">
-                                        <span>МЛН ТОВАРОВ ПРОДАЕТСЯ В ГОД</span>
+                                        <span>КЛИЕНТОВ СОТРУДНИЧАЮТ С НАМИ</span>
                                     </div>
                                 </div>
 
@@ -154,7 +154,7 @@ const Index = () => {
                                         <h1><CountUp end={5} duration={2} />+</h1>
                                     </div>
                                     <div className="starts_text num_text">
-                                        <span>ОЦЕНКА КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
+                                        <span>ОЦЕНКА НАШИХ КЛИЕНТОВ НА ЯНДЕКС КАРТАХ</span>
                                     </div>
                                 </div>
 

@@ -5,7 +5,7 @@
     --white: #fff;
     --black: #000;
     --gray: #00000069;
-    --gold: #ECBB47;
+    --gold: #ecbb47;
     --btn-transition: .25s ease;
 }
 
@@ -73,6 +73,7 @@ body,
     overflow: hidden;
     overflow-y: auto;
     // height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background: url('./assets/media/images/container_image.jpg');
     background-position: center;
@@ -152,9 +153,107 @@ body,
     }
 }
 
+.button_feb2 {
+    width: 50px !important;
+    height: 50px !important;
+    background: var(--gold) !important;
+
+    .icons_de38 {
+        transform: rotateY(0deg) scale(0.8) !important;
+    }
+}
+
+.menuWrap_e187.__hover_d24d {
+    bottom: 60px !important;
+}
+
+.cjTloD {
+    padding: 10px !important;
+}
+
+.kTQorS {
+border-radius: 15px;
+}
+
+.OKGMH {
+    margin: 20px !important;
+}
+
+.eapps-widget {
+    position: inherit !important;
+}
+
+.parallax__wrapper {
+    overflow: hidden;
+    letter-spacing: -2px;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    mask: linear-gradient(90deg,
+            transparent,
+            white 10%,
+            white 90%,
+            transparent);
+    -webkit-mask:
+        linear-gradient(90deg,
+            transparent,
+            white 10%,
+            white 90%,
+            transparent);
+
+    .parallax__scroller {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 64px;
+        display: flex;
+        white-space: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 28px;
+
+        span {
+            display: flex;
+            gap: 28px;
+
+            img {
+                width: 250px;
+                border-radius: 5px;
+                filter: grayscale(100%);
+            }
+        }
+
+        @media screen and (max-width: 1140px) {
+            gap: 16px;
+
+            span {
+                gap: 16px;
+
+                img {
+                    width: 200px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            gap: 12px;
+
+            span {
+                gap: 12px;
+
+                img {
+                    width: 150px;
+                }
+            }
+        }
+
+    }
+}
+
 .scroll-to__top {
     position: fixed;
-    bottom: 50px !important;
+    bottom: 80px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -188,7 +287,7 @@ body,
     }
 
     to {
-        bottom: 50px;
+        bottom: 80px;
         opacity: 1;
     }
 }
@@ -199,7 +298,7 @@ body,
 
 @keyframes scrollToTopHide {
     from {
-        bottom: 50px;
+        bottom: 80px;
         opacity: 1;
     }
 

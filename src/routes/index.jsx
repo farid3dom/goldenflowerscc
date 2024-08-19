@@ -9,6 +9,7 @@ import SingleProduct from '@pages/SingleProduct';
 import Cooperation from '@pages/Cooperation';
 import Contacts from '@pages/Contacts';
 import About from '@pages/About';
+import Cameras from '@pages/Cameras';
 
 import Footer from '@layout/Footer';
 
@@ -33,6 +34,8 @@ const AnimatedRoutes = () => {
 
             <Route path='/products/accessories' element={<Products />} />
             <Route path='/cooperation' element={<Cooperation />} />
+            <Route path='/cameras' element={<Cameras />} />
+
 
             {/* SINGLE PRODUCT PAGE */}
             <Route path='/product' element={<SingleProduct />} />

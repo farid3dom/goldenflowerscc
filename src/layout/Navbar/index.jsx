@@ -7,6 +7,7 @@ import Logo_S from '@assets/icons/logo_sm.svg'
 import ArrowDown from '@assets/icons/arrowDown';
 import ShopSVG from '@assets/icons/shop.svg'
 import DownloadSVG from '@assets/icons/download.svg'
+import VideoCam from '@assets/icons/videocam.png'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -24,7 +25,6 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
     console.log(i18n.language)
 
     const changeLanguage = async lang => {
-        window.location.reload();
         await i18n.changeLanguage(lang);
     }
 
@@ -57,7 +57,6 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                     <ArrowDown />
                                 </div>
                             </Link>
-
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
@@ -96,6 +95,17 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             </Link>
 
                         </div>
+
+                        <div className="menu_text_main camera">
+
+                            <Link to={'/cameras'}>
+                                <div className='menu_text_main_inner camera_inner'>
+                                    <img src={VideoCam} width={24} />
+                                    <p>Камеры</p>
+                                </div>
+                            </Link>
+
+                        </div>
                     </div>
                 </div>
 
@@ -108,7 +118,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 <span>Магазин</span>
                             </button>
                         </a> */}
-                        <a href={"https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148"} target={'_blank'}>
+                        <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
                             <button>
                                 <img src={DownloadSVG} />
                                 <span>Прайс-лист</span>
@@ -116,7 +126,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         </a>
                     </div>
 
-                    <div className="localization__wrapper">
+                    {/* <div className="localization__wrapper">
                         <span
                             onClick={() => changeLanguage('ru')}
                             style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
@@ -126,7 +136,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             onClick={() => changeLanguage('en')}
                             style={{ color: i18n.language === 'en' && 'var(--gold)' }}
                         >EN</span>
-                    </div>
+                    </div> */}
 
                     <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>
 
