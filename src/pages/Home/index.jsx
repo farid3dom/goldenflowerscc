@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 //Import Components
 import Button from '@components/Button/Index';
 import Slider from '@components/Slider/index';
+import MapSVG from '@components/Map/map.svg';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -74,7 +75,7 @@ const Index = () => {
 
             <div className="fixed-img__wrapper"></div>
 
-            
+
 
             {/* <model-viewer
                 src={ThreeDItem && ThreeDItem}

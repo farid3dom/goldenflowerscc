@@ -51,12 +51,13 @@
     .about_wrapper {
         width: 100%;
         height: 100%;
-        display: flex;
+        display: flex;flex-direction: column;
         align-items: center;
         justify-content: center;
         object-fit: cover;
         padding: 64px;
         z-index: 1;
+        gap: 64px;
         position: relative;
 
         .about_wrapper_inner {

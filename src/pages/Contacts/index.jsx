@@ -16,6 +16,7 @@ import Num4 from '@assets/icons/flowers_icons/exotic.png'
 import Num6 from '@assets/icons/flowers_icons/domestic.png'
 import Num8 from '@assets/icons/flowers_icons/packaging.png';
 import Loading from '@assets/icons/loading.svg';
+import CustomerSupport from '@assets/media/images/customer_support.jpg';
 
 ///Import Components
 import Input from '@components/Input/Index';
@@ -86,8 +87,8 @@ function index() {
             />
 
             <div className="contacts_content_wrapper">
-                <div className="content_inner">
 
+                <div className="content_num_map">
                     <div className="number_container">
                         <div className="number_text">
                             <p className='p1'>Позвоните для получения подробной информации.<br />Мы работаем <span>круглосуточно!</span></p>
@@ -152,13 +153,22 @@ function index() {
                             {/* <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad053836cb0c9f0b843abbfd6a18c4b31ca836facc1b13aeca320826e49a697ed&amp;source=constructor" width={650} height={650} frameborder={0}></iframe> */}
                         </div>
                     </div>
+                </div>
+                <div className="about_vk_inner">
+                    <div className="vk_left_content">
+                        <div id="vk_groups"></div>
+                    </div>
+                    <div className="vk_right_content">
+                        <span className='vk_content_title'>
+                            Будьте в курсе всех последних новостей нашей компании - подпишитесь на нас в Вконтакте!
+                        </span>
+                    </div>
 
                 </div>
-
                 <div className="contact-form__wrapper">
 
                     <div className="image__wrapper">
-                        <img src="https://plus.unsplash.com/premium_photo-1682125235036-d1ab54136ff4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                        <img src={CustomerSupport} />
                     </div>
 
                     <div className="form__wrapper">
@@ -170,22 +180,22 @@ function index() {
                         {
                             sendingDone === 'success' ?
                                 <Alert severity="success">
-                                    Message has been sent successfully!
+                                    Сообщение отправлено!
                                 </Alert>
                                 : sendingDone === 'error' ?
                                     <Alert severity="error">
-                                        Message can't sent!
+                                        Сообщение не отправлено!
                                     </Alert> : null
                         }
 
                         <form onSubmit={handleSubmit}>
                             <div className="form__controller">
-                                <label htmlFor="fullName">Full Name</label>
+                                <label htmlFor="fullName">ФИО</label>
                                 <div className="input__wrapper">
                                     <input
                                         type="text"
                                         id='fullName'
-                                        placeholder='Your Name...'
+                                        placeholder='Ваше имя...'
                                         className='input_white'
                                         value={values.fullName}
                                         onChange={handleChange}
@@ -200,12 +210,12 @@ function index() {
                             </div>
 
                             <div className="form__controller">
-                                <label htmlFor="email">Email</label>
+                                <label htmlFor="email">Почта</label>
                                 <div className="input__wrapper">
                                     <input
                                         type="text"
                                         id='email'
-                                        placeholder='Your Email...'
+                                        placeholder='Ваша почта...'
                                         className='input_white'
                                         value={values.email}
                                         onChange={handleChange}
@@ -219,12 +229,12 @@ function index() {
                             </div>
 
                             <div className="form__controller">
-                                <label htmlFor="message">Message</label>
+                                <label htmlFor="message">Напишите ваше обращение</label>
                                 <div className="input__wrapper">
                                     <textarea
                                         name="message"
                                         id="message"
-                                        placeholder='Your message here...'
+                                        placeholder='Ваше сообщение...'
                                         className='input_white'
                                         value={values.message}
                                         onChange={handleChange}
@@ -243,7 +253,7 @@ function index() {
                                     <button type='submit' className='btn btn_white hover_gold'>
                                         {
                                             !formLoading ?
-                                                'Send message' :
+                                                'Отправить' :
                                                 <img className='loading_icon' width={34} height={34} src={Loading} alt='' />
                                         }
                                     </button>
