@@ -80,16 +80,6 @@ const Index = () => {
             <h1 className='product_title'>{productData?.name[lang]}</h1>
             <span className='product_description' dangerouslySetInnerHTML={{ __html: productData?.desc && productData.desc[lang] }}></span>
             {/* <span className='product_description' dangerouslySetInnerHTML={{ __html: Grund[1].desc['ru'] }}></span> */}
-            {/* <div className="product_flag">
-               {
-                  productData?.productInfo?.map((p, i) => (
-                     <div className="single-flag__item" key={i}>
-                        <img src={p.img} alt="" />
-                        <p>{p.title}</p>
-                     </div>
-                  ))
-               }
-            </div> */}
             <div className="product_elements">
                <div className="product_elements_wrapper">
                   {
