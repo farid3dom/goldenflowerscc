@@ -90,7 +90,7 @@ const Index = () => {
                      f.inner_URL ?
                         `${location.pathname}/${f.inner_URL}`
                         :
-                        `/product?productType=accessories&productName=${f.name['en'].toLowerCase()}`
+                        `/product?productType=accessories&productName=${f.name['ru'].toLowerCase()}`
                   }
                />
             ))
@@ -116,7 +116,11 @@ const Index = () => {
                   :
                   null
          }
-      </div>
+
+         <div className="vk_container">
+            <div id='vk_post_-226312646_13'></div>
+         </div>
+      </div >
    )
 }
 

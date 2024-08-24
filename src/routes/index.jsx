@@ -34,14 +34,13 @@ const AnimatedRoutes = () => {
 
             <Route path='/products/accessories' element={<Products />} />
             <Route path='/cooperation' element={<Cooperation />} />
-            <Route path='/cameras' element={<Cameras />} />
-
 
             {/* SINGLE PRODUCT PAGE */}
             <Route path='/product' element={<SingleProduct />} />
 
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/about' element={<About />} />
+            <Route path='/cameras' element={<Cameras />} />
 
             <Route
                path="*"

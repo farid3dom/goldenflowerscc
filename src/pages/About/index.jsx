@@ -37,7 +37,7 @@ const Index = () => {
         //     img: 'https://sun9-17.userapi.com/impg/OTMeHO6_w77SJh8pkVBBO8R32GpJgEfsyf6WUw/g_8QCx6lPws.jpg?size=1920x1280&quality=95&sign=020b3999919f7fb9eb94d3ae355cc713&type=album'
         // },
         {
-            img: 'https://sun9-3.userapi.com/impg/c2-OXz5M5WF2-YCAJ3AeDXHhJ2fsf4xQp3drGA/3SaU5cxIB2k.jpg?size=1920x1280&quality=95&sign=2ea7a3252fff0cf178c754c5490a21f6&type=album'
+            img: 'https://sun9-67.userapi.com/impg/jX-0ApmiVvwI51S32oNOVZFJDVry9zG_PjngPw/MTF0ZWxy5jw.jpg?size=2560x1707&quality=95&sign=05ad46b891ea73410dcdb8d68e3e4c85&type=album'
         }
         // {
         //     img: 'https://sun9-22.userapi.com/impg/-8UFvYg0nkGAdFPZ-qqxNQtJ2neMzxTae3t-Ow/0OoWPDTx6io.jpg?size=1920x1280&quality=95&sign=0a72f13de1f1801ad0d4dd1bbb50fce1&type=album'
@@ -46,12 +46,12 @@ const Index = () => {
     ]
 
     let sliderPlants = [
-        // {
-        //     img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
-        // },
         {
-            img: 'https://sun9-9.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1920x1280&quality=95&sign=96f8c9028e60c8a54dbd130535c9169f&type=album'
-        }
+            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
+        },
+        // {
+        //     img: 'https://sun9-9.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1920x1280&quality=95&sign=96f8c9028e60c8a54dbd130535c9169f&type=album'
+        // }
         // {
         //     img: 'https://sun9-19.userapi.com/impg/JC93k9wvvtBo-T0sBVnxFh-iWZce7_TMgVS5dg/bbYlEKvENGo.jpg?size=1920x1280&quality=95&sign=e4bf27f4fddbc6fe868d963e7b40aaf5&type=album'
         // }
@@ -102,7 +102,7 @@ const Index = () => {
                     <div className="about_div">
                         <div className="about_title">
                             <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона!</h1>
-                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса.</span>
+                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и является одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса.</span>
                         </div>
 
                         <div className="animated_numbers_wrapper">

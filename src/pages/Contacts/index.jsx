@@ -154,7 +154,7 @@ function index() {
                         </div>
                     </div>
                 </div>
-                <div className="about_vk_inner">
+                {/* <div className="about_vk_inner">
                     <div className="vk_left_content">
                         <div id="vk_groups"></div>
                     </div>
@@ -164,7 +164,7 @@ function index() {
                         </span>
                     </div>
 
-                </div>
+                </div> */}
                 <div className="contact-form__wrapper">
 
                     <div className="image__wrapper">

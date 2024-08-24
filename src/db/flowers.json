@@ -229,9 +229,6 @@
                   "img": "https://content2.flowwow-images.com/data/flowers/1000x1000/76/1625823918_62178776.jpg"
                },
                {
-                  "img": "https://voornroses.com/wp-content/uploads/2021/12/Party-Trendsetter_bunch.jpg"
-               },
-               {
                   "img": "https://rozyminsk.by/assets/images/products/60/%D1%80%D0%BE%D0%B7%D0%B0-sweet-avalanche.jpg"
                },
                {
@@ -328,10 +325,10 @@
             },
             "images": [
                {
-                  "img": "https://opt-fp.ru/uploads/store/product/17898b0d617711eb80dd005056aebb19_4051d3879b1911eb80e4005056aebb19.jpg"
+                  "img": "https://voornroses.com/wp-content/uploads/2018/09/voorn_spray_roses-Coral-Bubbles_W1A1304.jpg"
                },
                {
-                  "img": "https://voornroses.com/wp-content/uploads/2018/09/voorn_spray_roses-Coral-Bubbles_W1A1304.jpg"
+                  "img": "https://opt-fp.ru/uploads/store/product/17898b0d617711eb80dd005056aebb19_4051d3879b1911eb80e4005056aebb19.jpg"
                },
                {
                   "img": "https://kartinki.pics/pics/uploads/posts/2022-09/1663556420_1-kartinkin-net-p-trendsetter-roza-kustovaya-vkontakte-1.jpg"
@@ -407,63 +404,57 @@
       ],
       "inner_URL": "roses-local",
       "items": [
-         {
-            "name": {
-               "en": "Single-headed",
-               "ru": "Одноголовые"
-            },
-            "images": [
-               {
-                  "img": "https://opt-fp.ru/uploads/store/product/693fe002cc4e11eb80e6005056aebb19_693fe003cc4e11eb80e6005056aebb19.jpg"
-               },
-               {
-                  "img": "https://delo360.ru/wp-content/uploads/2016/01/vyrashchivanie-roz-na-prodazhu-0-min.jpg"
-               },
-               {
-                  "img": "https://cdn.myslo.ru/Content/Contents/a6/78/c1c7-b2b6-4c85-a200-f8399fc3144d/7c035139-e8f5-4d34-8206-3b233211aad9.jpg"
-               }
-            ],
-            "desc": {
-               "en": "Avalange<br>Annabelle<br>B-Bubbles<br>B-Twain<br>Brocante<br>Jumilia<br>Deep Water<br>Dolomiti<br>Yellow Bubles<br>Green house<br>Candy Avalange<br>Meni/Miss<br>Mix<br>Miss Bombastic<br>Naira<br>Peach Avalange<br>Priscella<br>Red Bubbles<br>Red Naomi<br>Summer Dance<br>Super Sensation<br>Taleya<br>Fana<br>Chekhov's Garden<br>Espana<br>Yanara",
-               "ru": "Аваланж<br>Аннабель<br>Б-Баблс<br>Би-Твен<br>Броканте<br>Джумилия<br>Дип Ватер<br>Доломити<br>Еллов Бублес<br>Зелёный Дом<br>Кэнди Аваланж<br>Мени/Мисс<br>Микс<br>Мисс Бомбастик<br>Наира<br>Пич Аваланж<br>Присцелла<br>Ред Баблс<br>Ред Наоми<br>Саммер Данс<br>Супер Сенсейшн<br>Талея<br>Фана<br>Чеховский Сад<br>Эспана<br>Янара"
-            },
-            "plantation": "",
-            "quantity": 10,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": "50 60 70 80"
-         },
-          {
-            "name": {
-               "en": "Spray",
-               "ru": "Кустовые"
-            },
-            "images": [
-               {
-                  "img": "https://www.agroinvestor.ru/upload/iblock/593/5935517c7b9a443dda2d7d7da327d91d.jpg"
-               },
-               {
-                  "img": "https://dubabah.club/uploads/posts/2023-05/1684211206_dubabah-club-p-roza-kustovaya-chekhovskii-sad-pinterest-16.jpg"
-               },
-               {
-                  "img": "https://dubabah.club/uploads/posts/2023-02/1675274448_dubabah-club-p-samie-obilnotsvetushchie-rozi-vkontakte-67.jpg"
-               }
-            ],
-            "desc": {
-               "en": "Avalange<br>Annabelle<br>B-Bubbles<br>B-Twain<br>Brocante<br>Jumilia<br>Deep Water<br>Dolomiti<br>Yellow Bubles<br>Green house<br>Candy Avalange<br>Meni/Miss<br>Mix<br>Miss Bombastic<br>Naira<br>Peach Avalange<br>Priscella<br>Red Bubbles<br>Red Naomi<br>Summer Dance<br>Super Sensation<br>Taleya<br>Fana<br>Chekhov's Garden<br>Espana<br>Yanara",
-               "ru": "Аваланж<br>Аннабель<br>Б-Баблс<br>Би-Твен<br>Броканте<br>Джумилия<br>Дип Ватер<br>Доломити<br>Еллов Бублес<br>Зелёный Дом<br>Кэнди Аваланж<br>Мени/Мисс<br>Микс<br>Мисс Бомбастик<br>Наира<br>Пич Аваланж<br>Присцелла<br>Ред Баблс<br>Ред Наоми<br>Саммер Данс<br>Супер Сенсейшн<br>Талея<br>Фана<br>Чеховский Сад<br>Эспана<br>Янара"
-            },
-            "plantation": "",
-            "quantity": 10,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": "50 60 70 80"
-         }
-      ]
+ {
+   "name": {
+      "en": "Single-headed",
+      "ru": "Одноголовые"
+   },
+   "images": [
+      null,
+      {
+         "img": "https://opt-fp.ru/uploads/store/product/693fe002cc4e11eb80e6005056aebb19_693fe003cc4e11eb80e6005056aebb19.jpg"
+      },
+      {
+         "img": "https://delo360.ru/wp-content/uploads/2016/01/vyrashchivanie-roz-na-prodazhu-0-min.jpg"
+      },
+      {
+         "img": "https://cdn.myslo.ru/Content/Contents/a6/78/c1c7-b2b6-4c85-a200-f8399fc3144d/7c035139-e8f5-4d34-8206-3b233211aad9.jpg"
+      }
+   ],
+   "desc": {
+      "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen House\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
+      "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+   },
+   "plantation": "Чеховский сад",
+   "quantity": 10,
+   "height": "50 60 70 80"
+},
+ {
+   "name": {
+      "en": "Spray",
+      "ru": "Кустовые"
+   },
+   "images": [
+      null,
+      {
+         "img": "https://www.agroinvestor.ru/upload/iblock/593/5935517c7b9a443dda2d7d7da327d91d.jpg"
+      },
+      {
+         "img": "https://dubabah.club/uploads/posts/2023-05/1684211206_dubabah-club-p-roza-kustovaya-chekhovskii-sad-pinterest-16.jpg"
+      },
+      {
+         "img": "https://dubabah.club/uploads/posts/2023-02/1675274448_dubabah-club-p-samie-obilnotsvetushchie-rozi-vkontakte-67.jpg"
+      }
+   ],
+   "desc": {
+      "en": "Avalange\nAnnabelle\nB-Bubbles\nB-Twain\nBrocante\nJumilia\nDeep Water\nDolomiti\nYellow Bubles\nGreen House\nCandy Avalange\nMeni/Miss\nMix\nMiss Bombastic\nNaira\nPeach Avalange\nPriscella\nRed Bubbles\nRed Naomi\nSummer Dance\nSuper Sensation\nTaleya\nFana\nChekhov's Garden\nEspana\nYanara",
+      "ru": "Аваланж\nАннабель\nБ-Баблс\nБи-Твен\nБроканте\nДжумилия\nДип Ватер\nДоломити\nЕллов Бублес\nЗелёный Дом\nКэнди Аваланж\nМени/Мисс\nМикс\nМисс Бомбастик\nНаира\nПич Аваланж\nПрисцелла\nРед Баблс\nРед Наоми\nСаммер Данс\nСупер Сенсейшн\nТалея\nФана\nЧеховский Сад\nЭспана\nЯнара"
+   },
+   "plantation": "Чеховский сад",
+   "quantity": 10,
+   "height": "50 60 70 80"
+}
+]
    },
    {
       "name": {

@@ -366,7 +366,7 @@
             },
             "images": [
                {
-                  "img": "https://aogarden.ru/upload/resize_cache/webp/iblock/f35/xkpj3d08k4eareaz780j0uhfd00lee03.webp"
+                  "img": "https://luxuryplants.ru/wa-data/public/shop/products/97/15/11597/images/33967/33967.1500x0.jpg"
                },
                {
                   "img": "https://twam.ru/wp-content/uploads/2023/12/anturium-andre-oranzhevyi-1.webp"
@@ -3640,7 +3640,7 @@
                   "img": "https://my-plants.com/uploads/articles/2020/09/9edb606a6c036a03bf93353a27767dbf.jpg"
                },
                {
-                  "img": "https://blog.eva.ua/wp-content/uploads/2022/10/havortiya-2-min.jpg"
+                  "img": "https://i.pinimg.com/originals/31/57/36/315736b1ff373a5bf78ef703bbf6ffb0.jpg"
                },
                {
                   "img": "https://my-plants.com/uploads/articles/2020/09/c68a02c6a12b0f04b55b38faeaf51768.jpg"
@@ -3664,7 +3664,7 @@
                "en": "Spring Summer",
                "ru": "Весна Лето"
             },
-            "height": "25",
+            "height": "до 25",
             "care": {
                "en": "In autumn and winter, the ideal temperature for succulents is 13-15 degrees, which achieves natural hibernation of the plant and the formation of buds for subsequent flowering and reproduction. In spring and summer, room temperature is quite suitable for succulents; in summer, you can even move the plants outdoors (provided that the temperature does not drop below 18-19 degrees at night). Lighting is very important for succulents. It is desirable that the plants receive sunlight, so it is best to place them on or near a window. If necessary, especially in the autumn-winter period, additional lighting can be created. During the hot season, it is advisable to shade succulents from scorching sun rays to avoid burns.",
                "ru": "Осенью и зимой идеальная температура для суккулентов – 13-15 градусов, при этом достигается естественная спячка растения и закладывание почек для последующего цветения и размножения. Весной и летом комнатная температура является вполне подходящей для суккулентов, летом можно даже выносить растения на открытый воздух (при условии, что температура не падает ниже 18-19 градусов ночью). Освещение для суккулентов очень важно. Желательно, чтобы растения получали солнечный свет, поэтому лучше всего размещать их на окне или рядом с ним. При необходимости, особенно в осенне-зимний период, можно создавать дополнительное освещение. В жаркое время года суккуленты желательно притенять от палящих, солнечных лучей, чтобы избежать ожогов."
@@ -6055,6 +6055,47 @@
       "items": [
          {
             "name": {
+               "en": "Umbrella",
+               "ru": "Амбрелла"
+            },
+            "images": [
+               {
+                  "img": "https://btfgroup.com/wp-content/uploads/2021/06/Umberlla-Fern-600x600-1.jpg"
+               },
+               {
+                  "img": "https://fiftyflowers.com/cdn/shop/products/umbrella_fern_bunch_close_up_350_cab98964_e9329a8b-cd5d-45f9-9398-f426b34f07ca.jpg?v=1683166313&width=800"
+               },
+               {
+                  "img": "https://www.trianglenursery.co.uk/pictures/products/medium/UMBRELLA-FERN-35cm.jpg"
+               },
+               {
+                  "img": "https://fiftyflowers.com/cdn/shop/products/umbrella_fern_stem_350_ccf10baf_9d529618-8b3b-49c2-a10d-346096f9a699.jpg?v=1683166314&width=800"
+               }
+            ],
+            "desc": {
+               "en": "The mid-season Umbrella variety is a plant up to two meters tall when in flower. Greens begin to be harvested after a month and a half from germination. At the same time, the greens retain their aromatic qualities even during flowering. The leaves are large, green, elongated into a thread.",
+               "ru": "Среднеспелый сорт Амбрелла представляет собой растение до двух метров высотой во время цветущей корзинки. Зелень начинают убирать через полтора месяца от всходов. При этом зелень сохраняет свои ароматные качества и во время цветения. Листья крупные, зелёные, вытянутые в нить."
+            },
+            "plantation": "",
+            "flag": {
+               "en": "Holland",
+               "ru": "Голландия"
+            },
+            "productInfo": [
+               null,
+               {
+                  "title": ""
+               }
+            ],
+            "quantity": 1,
+            "color": {
+               "en": "Green",
+               "ru": "Зеленый"
+            },
+            "height": "40"
+         },
+         {
+            "name": {
                "en": "Aralia",
                "ru": "Аралия"
             },
@@ -6670,47 +6711,6 @@
          },
          {
             "name": {
-               "en": "Umbrella",
-               "ru": "Амбрелла"
-            },
-            "images": [
-               {
-                  "img": "https://btfgroup.com/wp-content/uploads/2021/06/Umberlla-Fern-600x600-1.jpg"
-               },
-               {
-                  "img": "https://fiftyflowers.com/cdn/shop/products/umbrella_fern_bunch_close_up_350_cab98964_e9329a8b-cd5d-45f9-9398-f426b34f07ca.jpg?v=1683166313&width=800"
-               },
-               {
-                  "img": "https://www.trianglenursery.co.uk/pictures/products/medium/UMBRELLA-FERN-35cm.jpg"
-               },
-               {
-                  "img": "https://fiftyflowers.com/cdn/shop/products/umbrella_fern_stem_350_ccf10baf_9d529618-8b3b-49c2-a10d-346096f9a699.jpg?v=1683166314&width=800"
-               }
-            ],
-            "desc": {
-               "en": "The mid-season Umbrella variety is a plant up to two meters tall when in flower. Greens begin to be harvested after a month and a half from germination. At the same time, the greens retain their aromatic qualities even during flowering. The leaves are large, green, elongated into a thread.",
-               "ru": "Среднеспелый сорт Амбрелла представляет собой растение до двух метров высотой во время цветущей корзинки. Зелень начинают убирать через полтора месяца от всходов. При этом зелень сохраняет свои ароматные качества и во время цветения. Листья крупные, зелёные, вытянутые в нить."
-            },
-            "plantation": "",
-            "flag": {
-               "en": "Holland",
-               "ru": "Голландия"
-            },
-            "productInfo": [
-               null,
-               {
-                  "title": ""
-               }
-            ],
-            "quantity": 1,
-            "color": {
-               "en": "Green",
-               "ru": "Зеленый"
-            },
-            "height": "40"
-         },
-         {
-            "name": {
                "en": "Pistacia",
                "ru": "Фисташка"
             },
@@ -6970,7 +6970,6 @@
                {
                   "img": "https://masterpodelkin.ru/wp-content/uploads/2018/03/travyanchik3-e1565704911640.jpg"
                }
-
             ],
             "desc": {
                "en": "Growing grass Grasshopper is a funny and cute herbal little man that will be a great decoration for your home or a gift for friends. It is made of high-quality materials and painted with safe acrylic paints that do not fade over time. For your Grass to start growing, place it in warm water for 2-3 hours, then place it in a bright and warm place. Water it regularly, but avoid drying out or waterlogging the soil. After some time, delicate green sprouts will appear on the Troll’s head, which will delight you and your loved ones with their freshness and beauty.",

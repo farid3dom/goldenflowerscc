@@ -96,7 +96,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                         </div>
 
-                        {/* <div className="menu_text_main camera">
+                        <div className="menu_text_main camera">
 
                             <Link to={'/cameras'}>
                                 <div className='menu_text_main_inner camera_inner'>
@@ -105,7 +105,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 </div>
                             </Link>
 
-                        </div> */}
+                        </div>
                     </div>
                 </div>
 
