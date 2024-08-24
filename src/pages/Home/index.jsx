@@ -106,7 +106,7 @@ const Index = () => {
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>
 
-                        <span className='content_desc'>{t('home.aboutSection.desc')}</span>
+                        <span className='content_desc'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. У нас оптовая продажа срезанных цветов, горшечных растений, упаковочного материала. Здесь вы найдете все для цветочного бизнеса!</span>
 
                         <div className="content_button">
                             <Button
@@ -205,7 +205,7 @@ const Index = () => {
 
             <div className="home_map_wrapper">
                 <div className='map'>
-                    <img src="https://media.discordapp.net/attachments/974017405045076028/1273302896070623232/World_Map_1.png?ex=66be1f3b&is=66bccdbb&hm=36d8d30ab47f0c335c8fc39baf0b323a81859e0b7810779e7d0d20384671216d&=&format=webp&quality=lossless&width=1440&height=602" />
+                    <img src={MapSVG} />
                     <div className='map_wrapper'>
                         <div className="map_wrapper_text">
                             <span>{t('home.supplierSection.title')}</span>
