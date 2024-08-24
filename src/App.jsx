@@ -3,13 +3,13 @@ import './App.scss';
 import './reset.css';
 
 ///Import Components
-import ScrollToTop from '@components/ScrollToTop';
+import ScrollToTop from '@/components/ScrollToTop';
 
 //import layout
-import Navbar from '@layout/Navbar';
-import NavbarMenu from '@layout/Menu';
-import Footer from '@layout/Footer';
-import AnimatedRoutes from '@routes/index';
+import Navbar from '@/layout/Navbar';
+import NavbarMenu from '@/layout/Menu';
+import Footer from '@/layout/Footer';
+import AnimatedRoutes from '@/routes/index';
 
 //Import React router dom
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';

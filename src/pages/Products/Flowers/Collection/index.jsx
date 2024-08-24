@@ -1,29 +1,33 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Images
-import Loading from '@assets/icons/loading.svg';
+import Loading from '@/assets/icons/loading.svg';
 
 //Import Layout
-import HeaderRepeat from '@layout/HeaderRepeat/index';
+import HeaderRepeat from '@/layout/HeaderRepeat/index';
 
 //Import Component
-import Input from '@components/Input/Index';
-import Button from '@components/Button/Index';
-import BackBtn from '@components/BackBtn/index';
-import GalleryCard from '@components/GalleryCard/Index';
+import Input from '@/components/Input/Index';
+import Button from '@/components/Button/Index';
+import BackBtn from '@/components/BackBtn/index';
+import GalleryCard from '@/components/GalleryCard/Index';
 
 //Import DB
-import PagesData from '@db/pages.json';
-import FlowersData from '@db/flowers.json';
+import PagesData from '@/db/pages.json';
+import FlowersData from '@/db/flowers.json';
 
 ///IMPORT HOOKS
-import useShowMore from '@hooks/useShowMore';
+import useShowMore from '@/hooks/useShowMore';
+
+///Import Utils
+import { useTranslation } from 'react-i18next';
 
 //Import react router dom
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Index = () => {
-   let lang = 'ru';
+   const { t, i18n } = useTranslation();
+   let lang = i18n.language;
    const location = useLocation();
    const navigate = useNavigate();
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
@@ -101,7 +105,7 @@ const Index = () => {
                         value={searchInputValue}
                         type={'text'}
                         className={'input_white'}
-                        placeholder={'Искать...'}
+                        placeholder={t('searchInput')}
                         icon={'search'}
                         handleChange={(e) => setSearchInputValue(e.target.value)}
                         handleBlur={searchSubmit}

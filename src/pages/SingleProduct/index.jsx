@@ -3,22 +3,26 @@ import './style.scss';
 import { motion } from 'framer-motion';
 
 ////IMPORT COMPONENT
-import Button from '@components/Button/Index';
-import BackBtn from '@components/BackBtn/index';
+import Button from '@/components/Button/Index';
+import BackBtn from '@/components/BackBtn/index';
 
 ////IMPORT DB
-import FlowersData from '@db/flowers.json';
-import PlantsData from '@db/plants.json';
-import AccessoriesData from '@db/accessories.json';
+import FlowersData from '@/db/flowers.json';
+import PlantsData from '@/db/plants.json';
+import AccessoriesData from '@/db/accessories.json';
+
+///Import Utils
+import { useTranslation } from 'react-i18next';
 
 ///Import React router Dom
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 
 ///Import Constants
-import { pageVariants, pageTransition } from '@constants/framerSettings.js';
+import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
 
 const Index = () => {
-   const lang = 'ru';
+   const { t, i18n } = useTranslation();
+   let lang = i18n.language;
    const location = useLocation();
    const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);

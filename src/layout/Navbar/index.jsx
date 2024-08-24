@@ -2,12 +2,12 @@ import React from 'react'
 import './style.scss'
 
 //import images
-import Logo from '@assets/icons/logo.svg'
-import Logo_S from '@assets/icons/logo_sm.svg'
-import ArrowDown from '@assets/icons/arrowDown';
-import ShopSVG from '@assets/icons/shop.svg'
-import DownloadSVG from '@assets/icons/download.svg'
-import VideoCam from '@assets/icons/videocam.png'
+import Logo from '@/assets/icons/logo.svg'
+import Logo_S from '@/assets/icons/logo_sm.svg'
+import ArrowDown from '@/assets/icons/arrowDown';
+import ShopSVG from '@/assets/icons/shop.svg'
+import DownloadSVG from '@/assets/icons/download.svg'
+import VideoCam from '@/assets/icons/videocam.png'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -22,11 +22,16 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
         menuIsActive ? setMenuIsActive(false) : setMenuIsActive(true)
     }
 
-    console.log(i18n.language)
+    // const changeLanguage = async lang => {
+    //     await i18n.changeLanguage(lang);
+    // }
 
-    const changeLanguage = async lang => {
-        await i18n.changeLanguage(lang);
-    }
+    const changeLanguage = (lang) => {
+        // Store the selected language in localStorage
+        localStorage.setItem('i18nextLng', lang);
+        // Reload the page to apply the new language
+        window.location.reload();
+    };
 
     return (
         <div className='Navbar'>
@@ -53,35 +58,40 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <div className="menu_text_main">
                             <Link to={'/products/flowers'}>
                                 <div className='menu_text_main_inner'>
-                                    <p>Коллекция</p>
+                                    <p>{t('navbar.collection')}</p>
                                     <ArrowDown />
                                 </div>
                             </Link>
 
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <Link to={'/products/flowers'}><li>Цветы
-                                    </li></Link>
-                                    <Link to={'/products/plants'}><li>Растения
-                                    </li></Link>
-                                    <Link to={'/products/accessories'}><li>Аксессуары
-                                    </li></Link>
+                                    <Link to={'/products/flowers'}>
+                                        <li>{t('navbar.flowers')}</li>
+                                    </Link>
+                                    <Link to={'/products/plants'}>
+                                        <li>{t('navbar.plants')}</li>
+                                    </Link>
+                                    <Link to={'/products/accessories'}>
+                                        <li>{t('navbar.accessories')}</li>
+                                    </Link>
                                 </ul>
                             </div>
                         </div>
                         <div className="menu_text_main">
                             <Link to={'/about'}>
                                 <div className='menu_text_main_inner'>
-                                    <p>О нас</p>
+                                    <p>{t('navbar.aboutUs')}</p>
                                     <ArrowDown />
                                 </div>
                             </Link>
                             <div className='nav_menu_arrow_list'>
                                 <ul>
-                                    <Link to={'/about'}><li>Наша история
-                                    </li></Link>
-                                    <Link to={'/cooperation'}><li>Сотрудничество
-                                    </li></Link>
+                                    <Link to={'/about'}>
+                                        <li>{t('navbar.whoWeAre')}</li>
+                                    </Link>
+                                    <Link to={'/cooperation'}>
+                                        <li>{t('navbar.cooperation')}</li>
+                                    </Link>
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +100,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                             <Link to={'/contacts'}>
                                 <div className='menu_text_main_inner'>
-                                    <p>Контакты</p>
+                                    <p>{t('navbar.contact')}</p>
                                 </div>
                             </Link>
 
@@ -121,22 +131,22 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
                             <button>
                                 <img src={DownloadSVG} />
-                                <span>Прайс-лист</span>
+                                <span>{t('navbar.priceList')}</span>
                             </button>
                         </a>
                     </div>
 
-                    {/* <div className="localization__wrapper">
+                    <div className="localization__wrapper">
                         <span
-                            onClick={() => changeLanguage('ru')}
+                            onClick={() => i18n.language === 'en' && changeLanguage('ru')}
                             style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
                         >RU</span>
                         <span>|</span>
                         <span
-                            onClick={() => changeLanguage('en')}
+                            onClick={() => i18n.language === 'ru' && changeLanguage('en')}
                             style={{ color: i18n.language === 'en' && 'var(--gold)' }}
                         >EN</span>
-                    </div> */}
+                    </div>
 
                     <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>
 

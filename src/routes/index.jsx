@@ -1,17 +1,17 @@
 import React from 'react';
 
 //Import Pages
-import Home from '@pages/Home';
-import Products from '@pages/Products';
-import FlowersCollection from '@pages/Products/Flowers/Collection';
-import PlantsCollection from '@pages/Products/Plants/Collection';
-import SingleProduct from '@pages/SingleProduct';
-import Cooperation from '@pages/Cooperation';
-import Contacts from '@pages/Contacts';
-import About from '@pages/About';
-import Cameras from '@pages/Cameras';
+import Home from '@/pages/Home';
+import Products from '@/pages/Products';
+import FlowersCollection from '@/pages/Products/Flowers/Collection';
+import PlantsCollection from '@/pages/Products/Plants/Collection';
+import SingleProduct from '@/pages/SingleProduct';
+import Cooperation from '@/pages/Cooperation';
+import Contacts from '@/pages/Contacts';
+import About from '@/pages/About';
+import Cameras from '@/pages/Cameras';
 
-import Footer from '@layout/Footer';
+import Footer from '@/layout/Footer';
 
 //IMPORT
 import { AnimatePresence } from 'framer-motion';

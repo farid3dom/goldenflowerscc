@@ -1,25 +1,29 @@
 import React, { useEffect, useState } from 'react';
 
 //Import Images
-import Loading from '@assets/icons/loading.svg';
+import Loading from '@/assets/icons/loading.svg';
 
 //Import Component
-import Button from '@components/Button/Index';
-import Input from '@components/Input/Index';
-import GalleryCard from '@components/GalleryCard/Index';
+import Button from '@/components/Button/Index';
+import Input from '@/components/Input/Index';
+import GalleryCard from '@/components/GalleryCard/Index';
 
 //Import DB
-import PlantsData from '@db/plants.json';
+import PlantsData from '@/db/plants.json';
+
+///Import Utils
+import { useTranslation } from 'react-i18next';
 
 ///IMPORT HOOKS
-import useShowMore from '@hooks/useShowMore';
+import useShowMore from '@/hooks/useShowMore';
 
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 
 const Index = () => {
+   const { t, i18n } = useTranslation();
+   let lang = i18n.language;
    const location = useLocation();
    const navigate = useNavigate();
-   const lang = 'ru';
    const { visibleCardLength, showMoreFunc, loading, setMaxLengthDefault } = useShowMore();
    const searchParams = new URLSearchParams(location.search);
    const searchValue = searchParams.get('s');
@@ -58,7 +62,7 @@ const Index = () => {
                value={searchInputValue}
                type={'text'}
                className={'input_white'}
-               placeholder={'Искать...'}
+               placeholder={t('searchInput')}
                icon={'search'}
                handleChange={(e) => setSearchInputValue(e.target.value)}
                handleBlur={searchSubmit}

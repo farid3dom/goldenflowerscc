@@ -3,19 +3,22 @@ import React from 'react'
 import './style.scss'
 
 //Import Images
-import LogoMini from '@assets/icons/logo_mini.png'
-import TGimg from '@assets/icons/social/icons8-telegram.svg'
-import VKimg from '@assets/icons/social/icons8-vk.svg'
-import Ximg from '@assets/icons/social/icons8-x.svg'
-import YTimg from '@assets/icons/social/icons8-youtube.svg'
+import LogoMini from '@/assets/icons/logo_mini.png'
+import TGimg from '@/assets/icons/social/icons8-telegram.svg'
+import VKimg from '@/assets/icons/social/icons8-vk.svg'
+import Ximg from '@/assets/icons/social/icons8-x.svg'
+import YTimg from '@/assets/icons/social/icons8-youtube.svg'
 
 import { Link } from 'react-router-dom';
 
+//Import Utils
+import { useTranslation } from 'react-i18next';
+
 //Import Components
-import Button from '@components/Button/Index'
+import Button from '@/components/Button/Index'
 
 const Index = () => {
-
+    const { t, i18n } = useTranslation();
     const date = new Date();
     const year = date.getFullYear();
 
@@ -29,37 +32,37 @@ const Index = () => {
 
                 <div className="footer_container_inner">
                     <div className="f_cont_nav_list list_1">
-                        <Link to={'/products/flowers'}>Цветы</Link>
+                        <Link to={'/products/flowers'}>{t('footer.flowers.title')}</Link>
                         <div className="nav_list_inner">
                             <ul className="list_text">
-                                <Link to={'/products/flowers/roses'}><li>Розы</li></Link>
-                                <Link to={'/product?productType=flowers&productName=lily'}><li>Лилии</li></Link>
-                                <Link to={'/product?productType=flowers&productName=peonies'}><li>Пионы</li></Link>
-                                <Link to={'/product?productType=flowers&productName=tulips'}><li>Тюльпаны</li></Link>
-                                <Link to={'/products/flowers/chrysanthemum'}><li>Хризантема</li></Link>
+                                <Link to={'/products/flowers/roses'}><li>{t('footer.flowers.rose')}</li></Link>
+                                <Link to={'/product?productType=flowers&productName=lily'}><li>{t('footer.flowers.lily')}</li></Link>
+                                <Link to={'/product?productType=flowers&productName=peonies'}><li>{t('footer.flowers.peony')}</li></Link>
+                                <Link to={'/product?productType=flowers&productName=tulips'}><li>{t('footer.flowers.tulip')}</li></Link>
+                                <Link to={'/products/flowers/chrysanthemum'}><li>{t('footer.flowers.chrysanthemum')}</li></Link>
                             </ul>
                         </div>
                     </div>
                     <div className="f_cont_nav_list list_2">
-                        <Link to={'/products/plants'}>Растения</Link>
+                        <Link to={'/products/plants'}>{t('footer.plants.title')}</Link>
                         <div className="nav_list_inner">
                             <ul className="list_text">
-                                <Link to={'/products/plants/domestic'}><li>Комнатные</li></Link>
-                                <Link to={'/products/plants/greenery'}><li>Зелень</li></Link>
-                                <Link to={'/products/plants/grunt'}><li>Грунты и удобрения</li></Link>
+                                <Link to={'/products/plants/domestic'}><li>{t('footer.plants.indoor')}</li></Link>
+                                <Link to={'/products/plants/greenery'}><li>{t('footer.plants.green')}</li></Link>
+                                <Link to={'/products/plants/grunt'}><li>{t('footer.plants.soils')}</li></Link>
                             </ul>
                         </div>
                     </div>
                     <div className="f_cont_nav_list list_3">
-                        <Link to={'/products/accessories'}>Аксессуары</Link>
+                        <Link to={'/products/accessories'}>{t('footer.accessories.title')}</Link>
                         <div className="nav_list_inner">
                             <ul className="list_text">
-                                <Link to={'/product?productType=accessories&productName=dried%20flowers'}><li>Сухоцветы</li></Link>
-                                <Link to={'/product?productType=accessories&productName=package'}><li>Упаковка</li></Link>
-                                <Link to={'/product?productType=accessories&productName=ribbons'}><li>Ленты</li></Link>
-                                <Link to={'/product?productType=accessories&productName=vases'}><li>Вазы</li></Link>
-                                <Link to={'/product?productType=accessories&productName=baskets'}><li>Корзины</li></Link>
-                                <Link to={'/product?productType=accessories&productName=interior%20items'}><li>Предметы интерьера</li></Link>
+                                <Link to={'/product?productType=accessories&productName=dried%20flowers'}><li>{t('footer.accessories.dried')}</li></Link>
+                                <Link to={'/product?productType=accessories&productName=package'}><li>{t('footer.accessories.package')}</li></Link>
+                                <Link to={'/product?productType=accessories&productName=ribbons'}><li>{t('footer.accessories.ribbons')}</li></Link>
+                                <Link to={'/product?productType=accessories&productName=vases'}><li>{t('footer.accessories.vases')}</li></Link>
+                                <Link to={'/product?productType=accessories&productName=baskets'}><li>{t('footer.accessories.baskets')}</li></Link>
+                                <Link to={'/product?productType=accessories&productName=interior%20items'}><li>{t('footer.accessories.interior')}</li></Link>
                             </ul>
                         </div>
                     </div>
@@ -75,12 +78,12 @@ const Index = () => {
                                 <img src={YTimg} alt="youtube" /> </Link>
                         </div>
                         <div className="adres_container">
-                            <Link to={'https://yandex.ru/maps/-/CDrK4P8v'} target='_blank' className='adres'>Адрес: Московская область, Ленинский городской округ, деревня Апаринки, владение 9, строение 1, помещение 3</Link>
+                            <Link to={'https://yandex.ru/maps/-/CDrK4P8v'} target='_blank' className='adres'>{t('footer.address')}</Link>
                         </div>
                     </div>
                 </div>
 
-                <p className='rights_text'>© {year} Golden Flowers Cash&Carry. Все права защищены.</p>
+                <p className='rights_text'>© {year} Golden Flowers Cash&Carry. {t('footer.rights')}</p>
             </div>
 
         </footer>

@@ -4,60 +4,61 @@ import { motion } from 'framer-motion';
 import axios from 'axios';
 import Alert from '@mui/material/Alert';
 
-import HeaderRepeat from '@layout/HeaderRepeat/index'
+import HeaderRepeat from '@/layout/HeaderRepeat/index'
 
 //import images
-import Num1 from '@assets/icons/logo_mini.png'
-import Num2 from '@assets/icons/flowers_icons/chrysanthemum.png'
-import Num3 from '@assets/icons/flowers_icons/rose.png'
-import Num5 from '@assets/icons/flowers_icons/rose.png'
-import Num7 from '@assets/icons/flowers_icons/rose.png'
-import Num4 from '@assets/icons/flowers_icons/exotic.png'
-import Num6 from '@assets/icons/flowers_icons/domestic.png'
-import Num8 from '@assets/icons/flowers_icons/packaging.png';
-import Loading from '@assets/icons/loading.svg';
-import CustomerSupport from '@assets/media/images/customer_support.jpg';
+import Num1 from '@/assets/icons/logo_mini.png'
+import Num2 from '@/assets/icons/flowers_icons/chrysanthemum.png'
+import Num3 from '@/assets/icons/flowers_icons/rose.png'
+import Num5 from '@/assets/icons/flowers_icons/rose.png'
+import Num7 from '@/assets/icons/flowers_icons/rose.png'
+import Num4 from '@/assets/icons/flowers_icons/exotic.png'
+import Num6 from '@/assets/icons/flowers_icons/domestic.png'
+import Num8 from '@/assets/icons/flowers_icons/packaging.png';
+import Loading from '@/assets/icons/loading.svg';
+import CustomerSupport from '@/assets/media/images/customer_support.jpg';
 
 ///Import Components
-import Input from '@components/Input/Index';
+import Input from '@/components/Input/Index';
 
 ///Import Constants
-import { pageVariants, pageTransition } from '@constants/framerSettings.js';
+import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
+
+///Import Utils
+import { useTranslation } from 'react-i18next';
 
 ///Formik Import
 import { useFormik } from 'formik';
 
 ///Import Validation
-import { contactFormSchema } from '@validation/contactFormValidation';
+import { contactFormSchema } from '@/validation/contactFormValidation';
 
 function index() {
+    const { t, i18n } = useTranslation();
     const [formLoading, setFormLoading] = useState(false);
     const [sendingDone, setSendingDone] = useState(false);
 
     const formSubmitHandler = async (values, action) => {
-
         if (values) {
             setFormLoading(true);
-
             try {
                 await axios.post(`https://goldenflowerscc-b-1bb111f79e27.herokuapp.com/api/send-mail`, values)
                     .then(res => {
-                        action.resetForm();
-                        setFormLoading(false);
-                        setSendingDone('success');
-
-                        setTimeout(() => { setSendingDone(null) }, 5000)
+                        submitResult('success', action);
                         return res.data;
                     });
             } catch (err) {
-                action.resetForm();
-                setFormLoading(false);
-                setSendingDone('error');
-
-                setTimeout(() => { setSendingDone(null) }, 5000)
+                submitResult('error', action);
                 console.log(err, 'error from send mail front');
             }
         }
+    }
+
+    const submitResult = (result, action) => {
+        action.resetForm();
+        setFormLoading(false);
+        setSendingDone(result);
+        setTimeout(() => { setSendingDone(null) }, 5000);
     }
 
     const { values, touched, errors, initialErrors, handleChange, handleSubmit } = useFormik({
@@ -82,7 +83,7 @@ function index() {
             <div className="fixed-img__wrapper"></div>
 
             <HeaderRepeat
-                title={'Контакты'}
+                title={t('contact.title')}
                 img={'https://sun9-11.userapi.com/impg/SV5dio_s-WuOSeti8urkzfFtF8vPfIh9ZsH1QQ/Gz72YJKRNHk.jpg?size=2560x1707&quality=95&sign=b15efe0d2281fdc23eeca731ce6ee10c&type=album'}
             />
 
@@ -91,56 +92,56 @@ function index() {
                 <div className="content_num_map">
                     <div className="number_container">
                         <div className="number_text">
-                            <p className='p1'>Позвоните для получения подробной информации.<br />Мы работаем <span>круглосуточно!</span></p>
-                            <p className='p2'>Нажмите чтобы позвонить.<br />Мы работаем <span>круглосуточно!</span></p>
+                            <p className='p1' dangerouslySetInnerHTML={{ __html: t('contact.section1.title') }}></p>
+                            <p className='p2'>Нажмите чтобы позвонить. Мы работаем <span>круглосуточно!</span></p>
                         </div>
                         <div className="numbers">
 
                             <a href='tel:84957818888'>
                                 <span><img src={Num1} width={35} /></span>
-                                Главный офис
+                                {t('contact.section1.office1')}
                                 <p>+7 (495) 781 88 88</p>
                             </a>
 
                             <a href='tel:89251665204'>
                                 <span><img src={Num2} width={35} /></span>
-                                Хризантема и Зелень
+                                {t('contact.section1.office2')}
                                 <p>+7 (925) 166 52 04</p>
                             </a>
 
                             <a href='tel:89254533969'>
                                 <span><img src={Num3} width={35} /></span>
-                                Роза Кения
+                                {t('contact.section1.office3')}
                                 <p>+7 (925) 453 39 69</p>
                             </a>
 
                             <a href='tel:89645117113'>
                                 <span><img src={Num4} width={35} /></span>
-                                Экзотика
+                                {t('contact.section1.office4')}
                                 <p>+7 (964) 511 71 13</p>
                             </a>
 
                             <a href='tel:89672921155'>
                                 <span><img src={Num5} width={35} /></span>
-                                Роза Эквадор
+                                {t('contact.section1.office5')}
                                 <p>+7 (967) 292 11 55</p>
                             </a>
 
                             <a href='tel:89266355181'>
                                 <span><img src={Num6} width={35} /></span>
-                                Комнатные растения
+                                {t('contact.section1.office6')}
                                 <p>+7 (926) 635 51 81</p>
                             </a>
 
                             <a href='tel:89060280248'>
                                 <span><img src={Num7} width={35} /></span>
-                                Роза на воде
+                                {t('contact.section1.office7')}
                                 <p>+7 (906) 028 02 48</p>
                             </a>
 
                             <a href='tel:89654118885'>
                                 <span><img src={Num8} width={35} /></span>
-                                Упаковка
+                                {t('contact.section1.office8')}
                                 <p>+7 (965) 411 88 85</p>
                             </a>
 
@@ -160,7 +161,7 @@ function index() {
                     </div>
                     <div className="vk_right_content">
                         <span className='vk_content_title'>
-                            Будьте в курсе всех последних новостей нашей компании - подпишитесь на нас в Вконтакте!
+                            {t('contact.section2title')}
                         </span>
                     </div>
 
@@ -174,28 +175,28 @@ function index() {
                     <div className="form__wrapper">
 
                         <div className="wrapper__title">
-                            <h2>Cвяжитесь с нами</h2>
+                            <h2>{t('contact.form.title')}</h2>
                         </div>
 
                         {
                             sendingDone === 'success' ?
                                 <Alert severity="success">
-                                    Сообщение отправлено!
+                                    {t('contact.form.successMsg')}
                                 </Alert>
                                 : sendingDone === 'error' ?
                                     <Alert severity="error">
-                                        Сообщение не отправлено!
+                                        {t('contact.form.errorMsg')}
                                     </Alert> : null
                         }
 
                         <form onSubmit={handleSubmit}>
                             <div className="form__controller">
-                                <label htmlFor="fullName">ФИО</label>
+                                <label htmlFor="fullName">{t('contact.form.name.label')}</label>
                                 <div className="input__wrapper">
                                     <input
                                         type="text"
                                         id='fullName'
-                                        placeholder='Ваше имя...'
+                                        placeholder={t('contact.form.name.placeholder')}
                                         className='input_white'
                                         value={values.fullName}
                                         onChange={handleChange}
@@ -210,12 +211,12 @@ function index() {
                             </div>
 
                             <div className="form__controller">
-                                <label htmlFor="email">Почта</label>
+                                <label htmlFor="email">{t('contact.form.email.label')}</label>
                                 <div className="input__wrapper">
                                     <input
                                         type="text"
                                         id='email'
-                                        placeholder='Ваша почта...'
+                                        placeholder={t('contact.form.email.placeholder')}
                                         className='input_white'
                                         value={values.email}
                                         onChange={handleChange}
@@ -229,12 +230,12 @@ function index() {
                             </div>
 
                             <div className="form__controller">
-                                <label htmlFor="message">Напишите ваше обращение</label>
+                                <label htmlFor="message">{t('contact.form.message.label')}</label>
                                 <div className="input__wrapper">
                                     <textarea
                                         name="message"
                                         id="message"
-                                        placeholder='Ваше сообщение...'
+                                        placeholder={t('contact.form.message.placeholder')}
                                         className='input_white'
                                         value={values.message}
                                         onChange={handleChange}
@@ -253,7 +254,7 @@ function index() {
                                     <button type='submit' className='btn btn_white hover_gold'>
                                         {
                                             !formLoading ?
-                                                'Отправить' :
+                                                t('contact.form.btnText') :
                                                 <img className='loading_icon' width={34} height={34} src={Loading} alt='' />
                                         }
                                     </button>

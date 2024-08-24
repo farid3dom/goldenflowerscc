@@ -1,5 +1,139 @@
 {
    "navbar": {
-      "welcome": "Hello"
-   }
+      "collection": "Collection",
+      "flowers": "Flowers",
+      "plants": "Plants",
+      "accessories": "Accessories",
+      "aboutUs": "About us",
+      "whoWeAre": "Who we are",
+      "cooperation": "Cooperation",
+      "contact": "Contact",
+      "priceList": "Price list"
+   },
+   "footer": {
+      "flowers": {
+         "title": "Flowers",
+         "rose": "Roses",
+         "lily": "Lilies",
+         "peony": "Peonies",
+         "tulip": "Tulips",
+         "chrysanthemum": "Chrysanthemum"
+      },
+      "plants": {
+         "title": "Plants",
+         "indoor": "Indoor",
+         "green": "Green",
+         "soils": "Soils and fertilizers"
+      },
+      "accessories": {
+         "title": "Accessories",
+         "dried": "Dried flowers",
+         "package": "Package",
+         "ribbons": "Ribbons",
+         "vases": "Vases",
+         "baskets": "Baskets",
+         "interior": "Interior items"
+      },
+      "address": "Address: Moscow region, Leninsky urban district, Aparinki village, property 9, building 1, room 3",
+      "rights": "All rights reserved."
+   },
+   "home": {
+      "headerDesc": "EVERYTHING FOR FLOWER BUSINESS",
+      "aboutSection": {
+         "title": "Briefly about us:",
+         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. We have wholesale sales of cut flowers, potted plants, packaging materials. Here you will find everything for the flower business!",
+         "btnText": "Read more"
+      },
+      "collectionSection": {
+         "title": "Only fresh flowers and plants from fertile soil",
+         "desc": "In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
+         "btnText": "Collection"
+      },
+      "marqueeSection": {
+         "title": "Plantations",
+         "flowers": "Flowers",
+         "plants": "Plants",
+         "accessories": "Accessories"
+      },
+      "supplierSection": {
+         "title": "We import goods from all continents of the world",
+         "desc": "We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others.",
+         "btnText": "Our suppliers"
+      }
+   },
+   "about": {
+      "header": {
+         "title": "We are the largest flower base in the region!",
+         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower",
+         "num1": "YEARS OF EXPERIENCE IN THE FLOWER BUSINESS",
+         "num2": "THE BEST PLANTATIONS COLLABORATE WITH US",
+         "num3": "CLIENTS COLLABORATE WITH US",
+         "num4": "ASSESSMENT OF OUR CLIENTS ON YANDEX MAPS"
+      },
+      "departments": {
+         "title": "Our departments",
+         "flowers": {
+            "title": "Department of flowers",
+            "link1": "Roses",
+            "link2": "Chrysanthemum",
+            "link3": "Carnations",
+            "btnText": "Go to"
+         },
+         "plants": {
+            "title": "Department of Plants",
+            "link1": "Houseplants",
+            "link2": "Green",
+            "link3": "Soil and fertilizers",
+            "btnText": "Go to"
+         },
+         "accessories": {
+            "title": "Accessories department",
+            "link1": "For floristry",
+            "link2": "Package",
+            "link3": "Baskets",
+            "btnText": "Go to"
+         }
+      }
+   },
+   "contact": {
+      "title": "Contacts",
+      "section1": {
+         "title": "Call for more information. We work <span>24/7</span>!",
+         "office1": "Head office",
+         "office2": "Chrysanthemum and Greenery",
+         "office3": "Rose Kenya",
+         "office4": "Exotic",
+         "office5": "Rose Ecuador",
+         "office6": "Houseplants",
+         "office7": "Rose on the water",
+         "office8": "Package"
+      },
+      "section2title": "Stay up to date with all the latest news from our company - subscribe to us on Vkontakte!",
+      "form": {
+         "title": "Contact us",
+         "successMsg": "Message sent!",
+         "errorMsg": "Message not sent!",
+         "name": {
+            "label": "Full name",
+            "placeholder": "Your name...",
+            "matchError": "Only letters",
+            "requiredError": "Please fill the Input.",
+            "minError": "Minimum 2 letters"
+         },
+         "email": {
+            "label": "E-Mail",
+            "placeholder": "Your email...",
+            "emailError": "Please check the correct spelling of your email.",
+            "requiredError": "Please provide your email address"
+         },
+         "message": {
+            "label": "Write your message",
+            "placeholder": "Your message...",
+            "requiredError": "Please write your message",
+            "minError": "Minimum 20 characters"
+         },
+         "btnText": "Send"
+      }
+   },
+   "searchInput": "Search..."
 }

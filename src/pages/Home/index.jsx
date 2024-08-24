@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 // import './marquee.js';
 
 //Import Components
-import Button from '@components/Button/Index';
-import Slider from '@components/Slider/index';
-import MapSVG from '@components/Map/map.svg';
+import Button from '@/components/Button/Index';
+import Slider from '@/components/Slider/index';
+import MapSVG from '@/components/Map/map.svg';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
 
 ///Import Constants
-import { pageVariants, pageTransition } from '@constants/framerSettings.js';
-import ParallaxText from '@components/Parallax';
+import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
+import ParallaxText from '@/components/Parallax';
 
 const Index = () => {
     const { t, i18n } = useTranslation();
@@ -75,28 +75,11 @@ const Index = () => {
 
             <div className="fixed-img__wrapper"></div>
 
-
-
-            {/* <model-viewer
-                src={ThreeDItem && ThreeDItem}
-                className="model-viewer"
-                // shadow-intensity="2"
-                camera-controls
-                // disable-zoom
-                ar
-                autoplay
-                style={{
-                    width: '100%',
-                    height: '600px',
-                }}
-            >
-            </model-viewer> */}
-
             <header>
 
                 <div className="header_slogan">
                     <p className='p1'>GOLDEN FLOWERS <br />Сash&Сarry</p>
-                    <p className='p2'>ВСЕ ДЛЯ ЦВЕТОЧНОГО БИЗНЕСА</p>
+                    <p className='p2'>{t('home.headerDesc')}</p>
 
                     <div className="yandex_otziv">
                         <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=rating&theme=dark"></iframe>
@@ -118,16 +101,16 @@ const Index = () => {
                 <div className="about_wrapper_inner">
 
                     <div className="left_content">
-                        <iframe src="https://vk.com/video_ext.php?oid=-226312646&id=456239018&hd=2&autoplay=1" width="1080" height="720" allow="autoplay; encrypted-media; muted; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://vk.com/video_ext.php?oid=-226312646&id=456239018&hd=2&autoplay=1" width="1080" height="720" allow="autoplay; encrypted-media; muted; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowFullScreen></iframe>
                     </div>
                     <div className="right_content">
-                        <p className='content_title'>Коротко о нас:</p>
+                        <p className='content_title'>{t('home.aboutSection.title')}</p>
 
-                        <span className='content_desc'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. У нас оптовая продажа срезанных цветов, горшечных растений, упаковочного материала. Здесь вы найдете все для цветочного бизнеса!</span>
+                        <span className='content_desc'>{t('home.aboutSection.desc')}</span>
 
                         <div className="content_button">
                             <Button
-                                btnText={'Подробнее'}
+                                btnText={t('home.aboutSection.btnText')}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
                                 href={'/about'}
@@ -142,15 +125,14 @@ const Index = () => {
                 <div className="main_slogan">
 
                     <div className="main_slogan_text">
-                        <h1>Только свежие цветы и растения из плодородной почвы</h1>
-                        <p>Кроме того, на складе всегда имеются товары для ухода за растениями: грунт и почвосмеси, минеральные и органические удобрения, подкормки по оптовым ценам. Для владельцев салонов цветов и флористов представлен большой ассортимент аксессуаров для создания букетов.
-                        </p>
+                        <h1>{t('home.collectionSection.title')}</h1>
+                        <p>{t('home.collectionSection.desc')}</p>
                         <div className="content_button">
                             <Button
-                                btnText={'Коллекция'}
+                                btnText={t('home.collectionSection.btnText')}
                                 className={'btn btn_white hover_gold'}
                                 icon={'arrow-right'}
-                                href={'/about/#collection'}
+                                href={'/about'}
                             />
                         </div>
                     </div>
@@ -165,12 +147,12 @@ const Index = () => {
             </div>
 
             <div className="scroller_container">
-                <h1>Плантации</h1>
+                <h1>{t('home.marqueeSection.title')}</h1>
                 <div className="scroller_departments">
 
                     <div className="scroll_flowers scroll_parts">
                         <div className="scroller_text">
-                            <h1>Цветы</h1>
+                            <h1>{t('home.marqueeSection.flowers')}</h1>
                         </div>
 
                         <ParallaxText baseVelocity={-1} size={2}>
@@ -198,13 +180,13 @@ const Index = () => {
                         </ParallaxText>
 
                         <div className="scroller_text">
-                            <h1>Растения</h1>
+                            <h1>{t('home.marqueeSection.plants')}</h1>
                         </div>
                     </div>
 
                     <div className="scroll_accessories scroll_parts">
                         <div className="scroller_text">
-                            <h1>Аксессуары</h1>
+                            <h1>{t('home.marqueeSection.accessories')}</h1>
                         </div>
 
                         <ParallaxText baseVelocity={-1} size={2}>
@@ -226,11 +208,11 @@ const Index = () => {
                     <img src="https://media.discordapp.net/attachments/974017405045076028/1273302896070623232/World_Map_1.png?ex=66be1f3b&is=66bccdbb&hm=36d8d30ab47f0c335c8fc39baf0b323a81859e0b7810779e7d0d20384671216d&=&format=webp&quality=lossless&width=1440&height=602" />
                     <div className='map_wrapper'>
                         <div className="map_wrapper_text">
-                            <span>Импортируем товары со всех континентов мира</span>
-                            <p>Мы поставляем цветы, растения и аксессуары из Голландии, Италии, Германии, Испании, Израиля, США, Китая, Турции, Азербайджана, Армении, Эквадора, Коста Рики, Колумбии, Эфиопии, Уганды, Кении и др.</p>
+                            <span>{t('home.supplierSection.title')}</span>
+                            <p>{t('home.supplierSection.desc')}</p>
                             <div className="content_button">
                                 <Button
-                                    btnText={'Наши поставщики'}
+                                    btnText={t('home.supplierSection.btnText')}
                                     className={'btn btn_white hover_gold'}
                                     icon={'arrow-right'}
                                     href={'/cooperation'}
