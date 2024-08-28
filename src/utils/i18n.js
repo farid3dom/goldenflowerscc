@@ -25,9 +25,6 @@ i18n
       fallbackLng: 'en',
       debug: true,
       // resources
-      interpolation: {
-         escapeValue: false, // react already safes from xss
-      },
    })
 
 export default i18n

@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.scss'
 import { motion } from 'framer-motion';
-import { pageVariants, pageTransition } from '@constants/framerSettings.js';
-import HeaderRepeat from '@layout/HeaderRepeat/index'
+import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
+import HeaderRepeat from '@/layout/HeaderRepeat/index'
 
 // IMAGES
 // import Kenya from "@assets/media/images/camera/kenya.jpg"
@@ -10,8 +10,8 @@ import HeaderRepeat from '@layout/HeaderRepeat/index'
 // import Ekv from "@assets/media/images/camera/ekv.jpg"
 
 // COMPONENTS
-import Left from '@assets/media/images/left.png'
-import Right from '@assets/media/images/right.png'
+import Left from '@/assets/media/images/left.png'
+import Right from '@/assets/media/images/right.png'
 
 
 
