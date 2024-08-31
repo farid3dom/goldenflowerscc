@@ -125,7 +125,7 @@ body,
         }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         grid-template-columns: 1fr 1fr;
         gap: 15px;
 
@@ -153,63 +153,6 @@ body,
     }
 }
 
-
-
-.vk_container {
-
-    #vk_post_-226312646_13 {
-
-        iframe {
-            width: 100%;
-            height: 100% !important;
-        }
-    }
-
-}
-
-
-.button_feb2 {
-    width: 50px !important;
-    height: 50px !important;
-    background: var(--gold) !important;
-
-    .icons_de38 {
-        transform: rotateY(0deg) scale(0.8) !important;
-    }
-}
-
-.menuWrap_e187.__hover_d24d {
-    bottom: 60px !important;
-}
-
-.kTEidz {
-    position: relative !important;
-
-    .lbvXTF {
-        margin: 0 !important;
-        position: fixed !important;
-        bottom: 20px !important;
-        right: 20px !important;
-    }
-}
-
-
-.cjTloD {
-    padding: 10px !important;
-}
-
-.kTQorS {
-    border-radius: 15px;
-}
-
-.OKGMH .fZYca {
-    margin: 20px !important;
-    inset: auto 0px 120px auto !important;
-}
-
-.eapps-widget {
-    position: inherit !important;
-}
 
 .parallax__wrapper {
     overflow: hidden;
@@ -264,7 +207,7 @@ body,
             }
         }
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 768px) {
             gap: 12px;
 
             span {
@@ -281,7 +224,7 @@ body,
 
 .scroll-to__top {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -315,7 +258,7 @@ body,
     }
 
     to {
-        bottom: 20px;
+        bottom: 80px;
         opacity: 1;
     }
 }
@@ -335,6 +278,34 @@ body,
         opacity: 0;
     }
 }
+
+
+.icons8-app {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gold);
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px rgba(40, 40, 40, 0.23);
+    transition: all 0.3s ease;
+
+    &:active {
+        transform: scale(.97);
+    }
+
+    .svg_tg {
+        height: 30px;
+        padding-right: 5px;
+    }
+}
+
 
 .slide_wrapper {
     width: 100%;
@@ -480,13 +451,13 @@ body,
 
     }
 
-    @media screen and (max-width: 1023px) {
+    @media screen and (max-width: 1140px) {
         .products_content_wrapper {
             padding: 75px 40px;
         }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         .products_content_wrapper {
             padding: 50px 16px;
 

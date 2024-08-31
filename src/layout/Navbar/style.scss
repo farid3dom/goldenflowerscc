@@ -157,7 +157,7 @@
 
                         a .camera_inner p {
                             color: var(--white);
-                            
+
                         }
                     }
 
@@ -184,6 +184,12 @@
 
 
             .shop_button {
+                transition: all 0.3s ease;
+
+                &:active {
+                    transform: scale(.97);
+                }
+
 
                 a {
 
@@ -201,7 +207,7 @@
                         span {
                             font-family: var(--f-regular);
                             color: var(--white);
-                            font-size: 20px;
+                            font-size: 18px;
                             padding: 5px;
                         }
 
@@ -291,7 +297,7 @@
         }
     }
 
-    @media screen and (max-width: 1023px) {
+    @media screen and (max-width: 1140px) {
         padding: 15px 40px;
 
         .inner_nav {
@@ -331,7 +337,7 @@
         }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         padding: 8px 16px;
 
         .inner_nav {

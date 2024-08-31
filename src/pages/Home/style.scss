@@ -13,16 +13,31 @@
             width: 40%;
             height: 100%;
             font-size: 48px;
-            font-family: var(--f-bold);
+            font-weight: 800;
             color: var(--white);
             background: var(--gray);
             padding: 150px 64px;
 
             .p1 {
                 padding-bottom: 16px;
-                background: -webkit-linear-gradient(var(--gold), #eeeeee);
-                -webkit-background-clip: text;
+                background: radial-gradient(circle at 100%,
+                        #ecbb47,
+                        #ffffff 50%,
+                        #ecbb47 75%,
+                        #ecbb47 75%, );
+                font-weight: 600;
+                background-size: 200% auto;
+                color: #000;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
+                animation: animatedTextGradient 8s linear infinite;
+            }
+
+            @keyframes animatedTextGradient {
+                to {
+                    background-position: 200% center;
+                }
+            
             }
 
             .p2 {
@@ -435,7 +450,7 @@
         }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         header {
             height: auto;
             display: flex;

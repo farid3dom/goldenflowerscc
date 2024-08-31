@@ -8,7 +8,6 @@ import ScrollToTop from '@/components/ScrollToTop';
 //import layout
 import Navbar from '@/layout/Navbar';
 import NavbarMenu from '@/layout/Menu';
-import Footer from '@/layout/Footer';
 import AnimatedRoutes from '@/routes/index';
 
 //Import React router dom

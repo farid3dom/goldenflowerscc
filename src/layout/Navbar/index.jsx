@@ -5,8 +5,9 @@ import './style.scss'
 import Logo from '@/assets/icons/logo.svg'
 import Logo_S from '@/assets/icons/logo_sm.svg'
 import ArrowDown from '@/assets/icons/arrowDown';
-import ShopSVG from '@/assets/icons/shop.svg'
-import DownloadSVG from '@/assets/icons/download.svg'
+// import ShopSVG from '@/assets/icons/shop.svg'
+// import DownloadSVG from '@/assets/icons/download.svg'
+import DownloadSVG from '@/assets/icons/eye.png'
 import VideoCam from '@/assets/icons/videocam.png'
 
 ///Import react router dom
@@ -111,7 +112,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                             <Link to={'/cameras'}>
                                 <div className='menu_text_main_inner camera_inner'>
                                     <img src={VideoCam} width={24} />
-                                    <p>Камеры</p>
+                                    <p>{t('navbar.showcase')}</p>
                                 </div>
                             </Link>
 
@@ -130,7 +131,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         </a> */}
                         <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
                             <button>
-                                <img src={DownloadSVG} />
+                                <img src={DownloadSVG} width={24}/>
                                 <span>{t('navbar.priceList')}</span>
                             </button>
                         </a>
@@ -138,12 +139,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                     <div className="localization__wrapper">
                         <span
-                            onClick={() => i18n.language === 'en' && changeLanguage('ru')}
+                            onClick={() => changeLanguage('ru')}
                             style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
                         >RU</span>
                         <span>|</span>
                         <span
-                            onClick={() => i18n.language === 'ru' && changeLanguage('en')}
+                            onClick={() => changeLanguage('en')}
                             style={{ color: i18n.language === 'en' && 'var(--gold)' }}
                         >EN</span>
                     </div>

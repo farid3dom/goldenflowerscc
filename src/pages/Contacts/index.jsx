@@ -18,9 +18,6 @@ import Num8 from '@/assets/icons/flowers_icons/packaging.png';
 import Loading from '@/assets/icons/loading.svg';
 import CustomerSupport from '@/assets/media/images/customer_support.jpg';
 
-///Import Components
-import Input from '@/components/Input/Index';
-
 ///Import Constants
 import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
 
@@ -93,7 +90,7 @@ function index() {
                     <div className="number_container">
                         <div className="number_text">
                             <p className='p1' dangerouslySetInnerHTML={{ __html: t('contact.section1.title') }}></p>
-                            <p className='p2'>Нажмите чтобы позвонить. Мы работаем <span>круглосуточно!</span></p>
+                            <p className='p2' dangerouslySetInnerHTML={{ __html: t('contact.section1.title2') }}></p>
                         </div>
                         <div className="numbers">
 
