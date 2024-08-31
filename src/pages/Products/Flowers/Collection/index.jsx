@@ -132,7 +132,7 @@ const Index = () => {
                      {!galleryLoading && galleryData?.slice(0, visibleCardLength).map((f, i) => (
                         <GalleryCard
                            key={i}
-                           img={f.images && f.images[0].img}
+                           img={f?.images && f?.images[0]?.img}
                            title={f?.name[lang]}
                            href={
                               `/product?productType=flowers&productName=${f.name['en'].toLowerCase()}&collection=${collectionData.inner_URL}`

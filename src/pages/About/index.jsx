@@ -36,13 +36,13 @@ const Index = () => {
 
     let sliderPlants = [
         {
-            img: 'https://sun9-9.userapi.com/impg/iTy1PhBbrdyETmmwNgR_GFQAaUmzI51EKGOBzA/FIbv_CIROi0.jpg?size=1920x1280&quality=95&sign=96f8c9028e60c8a54dbd130535c9169f&type=album'
+            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
         }
     ]
 
     let sliderAccessories = [
         {
-            img: 'https://sun9-43.userapi.com/impg/ftLTaPKsEa5DTQGFTve8J57c1GwkcXYhBjzlhg/3tutFvEh7EY.jpg?size=1080x720&quality=95&sign=30a0f4b3f9de9695b1ab450ec6099145&type=album'
+            img: 'https://sun9-79.userapi.com/impg/3QHsB5ssjUoeeEwG05VMMTKsdBBB2MvPDQ3-MA/yUB1CLbahA0.jpg?size=1080x720&quality=95&sign=cc1394fc131b7401ce46f7e4cbc1cd85&type=album'
         }
     ]
 
@@ -63,8 +63,8 @@ const Index = () => {
 
                     <div className="about_div">
                         <div className="about_title">
-                            <h1 className='container_title_num'>Мы - крупнейшая цветочная база региона!</h1>
-                            <span className='container_text_num'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. Здесь вы найдете все для цветочного бизнеса.</span>
+                            <h1 className='container_title_num'>{t('about.header.title')}</h1>
+                            <span className='container_text_num'>{t('about.header.desc')}</span>
                         </div>
 
                         <div className="animated_numbers_wrapper">

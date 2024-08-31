@@ -27,6 +27,8 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.0.1",
+    "react-modal-image": "^2.6.0",
+    "react-photo-view": "^1.2.6",
     "react-router-dom": "^6.26.0",
     "sass": "^1.77.8",
     "styled-components": "^6.1.12",

@@ -8,7 +8,8 @@
       "whoWeAre": "Who we are",
       "cooperation": "Cooperation",
       "contact": "Contact",
-      "priceList": "Price list"
+      "priceList": "Price list",
+      "showcase": "Showcase"
    },
    "footer": {
       "flowers": {
@@ -56,7 +57,7 @@
          "accessories": "Accessories"
       },
       "supplierSection": {
-         "title": "We import goods from all continents of the world",
+         "title": "We import products from all continents of the world",
          "desc": "We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others.",
          "btnText": "Our suppliers"
       }
@@ -64,7 +65,7 @@
    "about": {
       "header": {
          "title": "We are the largest flower base in the region!",
-         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower",
+         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower businness. We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others. In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
          "num1": "YEARS OF EXPERIENCE IN THE FLOWER BUSINESS",
          "num2": "THE BEST PLANTATIONS COLLABORATE WITH US",
          "num3": "CLIENTS COLLABORATE WITH US",
@@ -99,6 +100,7 @@
       "title": "Contacts",
       "section1": {
          "title": "Call for more information. We work <span>24/7</span>!",
+         "title2": "Click to call. We work <span>24/7!</span>",
          "office1": "Head office",
          "office2": "Chrysanthemum and Greenery",
          "office3": "Rose Kenya",
@@ -108,7 +110,6 @@
          "office7": "Rose on the water",
          "office8": "Package"
       },
-      "section2title": "Stay up to date with all the latest news from our company - subscribe to us on Vkontakte!",
       "form": {
          "title": "Contact us",
          "successMsg": "Message sent!",
@@ -133,6 +134,18 @@
             "minError": "Minimum 20 characters"
          },
          "btnText": "Send"
+      }
+   },
+   "showcase": {
+      "title": "Showcase",
+      "sectionMain": {
+         "caution": "<span>Dear guests and clients!</span> We try to show the showcase without violating confidentiality. Also, pay attention to the time and date of publication of the showcase photos from CCTV cameras. The assortment can change every hour. For detailed information, call us.",
+         "xrizant": "Chrysanthemum",
+         "exotic": "Exotics",
+         "plant": "Domestic plants",
+         "plant2": "Domestic plants 2",
+         "kenya": "Rose Kenya",
+         "ecuador": "Rose Ecuador"
       }
    },
    "searchInput": "Search..."

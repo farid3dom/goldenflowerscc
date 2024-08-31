@@ -3,6 +3,7 @@ import './style.scss';
 import $ from 'jquery';
 
 import NavMenuBG from '@/assets/media/images/container_image.jpg';
+import VideoCam from '@/assets/icons/videocam.png'
 
 //import react router dom
 import { Link } from 'react-router-dom';
@@ -39,6 +40,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
     return (
         <div className="Navbar-animated__menu" data-isactive={menuIsActive === true ? 'true' : menuIsActive === false ? 'false' : null}>
             <div className="hamburger_menu_list">
+
+                <Link to={'/cameras'} onClick={menuHide}>
+                    <div className='menu_text_main_inner'>
+                    <img src={VideoCam} width={48} />
+                    </div>
+                </Link>
                 <Link to={'/products/flowers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>{t('navbar.flowers')}</p>
@@ -56,12 +63,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 </Link>
                 <Link to={'/about'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>{t('navbar.aboutUs')}</p>
+                        <p>{t('navbar.whoWeAre')}</p>
                     </div>
                 </Link>
                 <Link to={'/cooperation'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>{t('navbar.whoWeAre')}</p>
+                        <p>{t('navbar.cooperation')}</p>
                     </div>
                 </Link>
                 <Link to={'/contacts'} onClick={menuHide}>
@@ -72,12 +79,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                 <div className='localization__wrapper'>
                     <span
-                        onClick={() => i18n.language === 'en' && changeLanguage('ru')}
+                        onClick={() => changeLanguage('ru')}
                         style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
                     >RU</span>
                     <span>|</span>
                     <span
-                        onClick={() => i18n.language === 'ru' && changeLanguage('en')}
+                        onClick={() => changeLanguage('en')}
                         style={{ color: i18n.language === 'en' && 'var(--gold)' }}
                     >EN</span>
                 </div>

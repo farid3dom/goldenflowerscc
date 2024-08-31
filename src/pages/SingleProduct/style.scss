@@ -95,7 +95,7 @@
       }
    }
 
-   @media screen and (max-width: 1023px) {
+   @media screen and (max-width: 1140px) {
       flex-direction: column;
 
       .product_about {
@@ -110,7 +110,7 @@
       }
    }
 
-   @media screen and (max-width: 767px) {
+   @media screen and (max-width: 768px) {
       .product_about {
          padding: 105px 16px 32px 16px;
          gap: 20px;
@@ -157,7 +157,7 @@
    }
 }
 
-// @media screen and (max-width: 767px) {
+// @media screen and (max-width: 768px) {
 
 //    .product_container {
 //       width: 100%;

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 //Import Components
 import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
-import MapSVG from '@/components/Map/map.svg';
+import MapSVG from '@/assets/media/images/materials/world_map.png';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -20,7 +20,7 @@ const Index = () => {
 
     let sliderOptions = [
         // {
-        //     img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac102310ed9f9d5&type=album'
+        //     img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac114010ed9f9d5&type=album'
         // },
         // {
         //     img: 'https://sun9-47.userapi.com/impg/aWv40Qsp8VC0zhUq0ANKb_4y7jXeCqJFGi-h6A/QYUpjoTH_GI.jpg?size=1216x832&quality=95&sign=5187438ce2d23eee6b57157d028b4006&type=album'
