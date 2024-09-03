@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import './style.scss';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
+
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import Alert from '@mui/material/Alert';
@@ -17,6 +23,9 @@ import Num6 from '@/assets/icons/flowers_icons/domestic.png'
 import Num8 from '@/assets/icons/flowers_icons/packaging.png';
 import Loading from '@/assets/icons/loading.svg';
 import CustomerSupport from '@/assets/media/images/customer_support.jpg';
+
+import Call from '@/assets/icons/flowers_icons/call.png'
+import Whatsapp from '@/assets/icons/flowers_icons/whatsapp.svg'
 
 ///Import Constants
 import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
@@ -79,7 +88,7 @@ function index() {
 
             <HeaderRepeat
                 title={t('contact.title')}
-                img={'https://sun9-11.userapi.com/impg/SV5dio_s-WuOSeti8urkzfFtF8vPfIh9ZsH1QQ/Gz72YJKRNHk.jpg?size=2560x1707&quality=95&sign=b15efe0d2281fdc23eeca731ce6ee10c&type=album'}
+                img={'https://sun9-26.userapi.com/impg/c4i4Bp5Q4Q3-ZJ1yPmZJOJ5bVXtjv7qQZOB7OQ/vI6zcEP2ijI.jpg?size=2560x1707&quality=95&sign=c02b2bc86ab35ec942a3c8b1753363fd&type=album'}
             />
 
             <div className="contacts_content_wrapper">
@@ -90,57 +99,301 @@ function index() {
                             <p className='p1' dangerouslySetInnerHTML={{ __html: t('contact.section1.title') }}></p>
                             <p className='p2' dangerouslySetInnerHTML={{ __html: t('contact.section1.title2') }}></p>
                         </div>
-                        <div className="numbers">
+
+                        <>
+                            <Swiper
+                                effect={'cards'}
+                                grabCursor={true}
+                                modules={[EffectCards]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <div className="num_cards bg_head">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num1} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office1')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>+7 (495) 781 88 88</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:84957818888' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>
+                                                <a className="icon_wp" href='https://wa.me/79637818889' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_xrizant">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num2} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office2')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>+7 (925) 166 52 04</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89251665204' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_exotics">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num4} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office4')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>1. +7 (964) 511 71 13</p>
+                                                <p>2. +7 (903) 286 81 88</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89645117113' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>1
+                                                <a className="icon_call" href='tel:89092868188' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>2
+                                                <a className="icon_wp" href='https://wa.me/79645117113' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>1
+                                                <a className="icon_wp" href='https://wa.me/79092868188' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>2
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_plant">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num6} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office6')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                            <p>+7 (926) 635 51 81</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89266355181' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>
+                                                <a className="icon_wp" href='https://wa.me/79266355181' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_rosekenya">
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num3} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office3')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>1. +7 (925) 453 39 69</p>
+                                                <p>2. +7 (965) 239 85 88</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89254533969' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>1
+                                                <a className="icon_call" href='tel:89652398588' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>2
+                                                <a className="icon_wp" href='https://wa.me/79254533969' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>1
+                                                <a className="icon_wp" href='https://wa.me/79652398588' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>2
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_roseecuador">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num5} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office5')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>1. +7 (967) 292 11 55</p>
+                                                <p>2. +7 (909) 698 81 88</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89672921155' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>1
+                                                <a className="icon_call" href='tel:89096988188' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>2
+                                                <a className="icon_wp" href='https://wa.me/79672921155' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>1
+                                                <a className="icon_wp" href='https://wa.me/79096988188' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>2
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_rosewater">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num7} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office7')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>+7 (906) 028 02 48</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89060280248' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>
+                                                <a className="icon_wp" href='https://wa.me/89060280248' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="num_cards bg_upakovka">
+
+                                        <div className="num_filter">
+                                            <div className="num_logo_text">
+                                                <div className="num_logo">
+                                                    <img src={Num8} width={40} />
+                                                </div>
+                                                <div className="num_text">
+                                                    {t('contact.section1.office8')}
+                                                </div>
+                                            </div>
+                                            <div className="num_number">
+                                                <p>+7 (965) 411-88-85</p>
+                                            </div>
+                                            <div className="num_icons">
+                                                <a className="icon_call" href='tel:89654118885' target='_blank'>
+                                                    <img src={Call} width={40} />
+                                                </a>
+                                                <a className="icon_wp" href='https://wa.me/79654118885' target='_blank'>
+                                                    <img src={Whatsapp} width={40} />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+
+                        </>
+
+                        {/* <div className="numbers">
 
                             <a href='tel:84957818888'>
-                                <span><img src={Num1} width={35} /></span>
+                                <span><img src={Num1} width={40} /></span>
                                 {t('contact.section1.office1')}
                                 <p>+7 (495) 781 88 88</p>
                             </a>
 
                             <a href='tel:89251665204'>
-                                <span><img src={Num2} width={35} /></span>
+                                <span><img src={Num2} width={40} /></span>
                                 {t('contact.section1.office2')}
                                 <p>+7 (925) 166 52 04</p>
                             </a>
 
                             <a href='tel:89254533969'>
-                                <span><img src={Num3} width={35} /></span>
+                                <span><img src={Num3} width={40} /></span>
                                 {t('contact.section1.office3')}
                                 <p>+7 (925) 453 39 69</p>
                             </a>
 
                             <a href='tel:89645117113'>
-                                <span><img src={Num4} width={35} /></span>
+                                <span><img src={Num4} width={40} /></span>
                                 {t('contact.section1.office4')}
                                 <p>+7 (964) 511 71 13</p>
                             </a>
 
                             <a href='tel:89672921155'>
-                                <span><img src={Num5} width={35} /></span>
+                                <span><img src={Num5} width={40} /></span>
                                 {t('contact.section1.office5')}
                                 <p>+7 (967) 292 11 55</p>
                             </a>
 
                             <a href='tel:89266355181'>
-                                <span><img src={Num6} width={35} /></span>
+                                <span><img src={Num6} width={40} /></span>
                                 {t('contact.section1.office6')}
                                 <p>+7 (926) 635 51 81</p>
                             </a>
 
                             <a href='tel:89060280248'>
-                                <span><img src={Num7} width={35} /></span>
+                                <span><img src={Num7} width={40} /></span>
                                 {t('contact.section1.office7')}
                                 <p>+7 (906) 028 02 48</p>
                             </a>
 
                             <a href='tel:89654118885'>
-                                <span><img src={Num8} width={35} /></span>
+                                <span><img src={Num8} width={40} /></span>
                                 {t('contact.section1.office8')}
                                 <p>+7 (965) 411 88 85</p>
                             </a>
 
-                        </div>
+                        </div> */}
                     </div>
                     <div className="map">
                         <div className='map_inner'>

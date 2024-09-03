@@ -33,6 +33,8 @@ function index() {
             transition={pageTransition}
             className="cameras_container">
 
+<div className="fixed-img__wrapper"></div>
+
             <HeaderRepeat
                 title={t('navbar.showcase')}
                 img={'https://sun9-64.userapi.com/impg/_5mezx39pBYrSEf2Zu7yRqQ5Jzb8Av3yOCCRdw/wKpkI0H8UMc.jpg?size=2560x1709&quality=95&sign=9327b466c838e22f865e7915915c48ef&type=album'}

@@ -37,7 +37,7 @@
                 to {
                     background-position: 200% center;
                 }
-            
+
             }
 
             .p2 {
@@ -60,13 +60,20 @@
         .slide_wrapper {
             width: 60%;
             height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 
     .about_wrapper {
         width: 100%;
         height: 100%;
-        display: flex;flex-direction: column;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         object-fit: cover;
@@ -116,9 +123,14 @@
                 align-items: center;
                 justify-content: flex-end;
 
-                iframe {
-                    width: 600px;
-                    height: 338px;
+                video {
+                    width: 100%;
+                    height: 100%;
+
+                    source {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }

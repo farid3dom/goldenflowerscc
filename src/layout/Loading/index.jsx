@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 ///Import Assets
-import LoadingVid from '@/assets/media/video/loading.mp4';
+import LoadingVid from '@/assets/media/video/loading.webm';
 
 const Loading = () => {
    const [loading, setLoading] = useState(true);

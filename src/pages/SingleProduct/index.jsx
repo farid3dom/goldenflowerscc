@@ -178,6 +178,8 @@ const Index = () => {
                      </div>
                   }
                </div>
+
+               
                {/* <div className="product_button">
                   <Button
                      btnText={'Перейти в магазин'}
