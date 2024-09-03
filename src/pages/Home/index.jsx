@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.scss';
 import { motion } from 'framer-motion';
-// import './marquee.js';
 
 //Import Components
 import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
 import MapSVG from '@/assets/media/images/materials/world_map.png';
+import AboutVid from '@/assets/media/video/about_vid.mp4';
+import Lemonad from '@/assets/media/images/materials/lemonad.jpg'
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -18,30 +19,30 @@ import ParallaxText from '@/components/Parallax';
 const Index = () => {
     const { t, i18n } = useTranslation();
 
-    let sliderOptions = [
-        // {
-        //     img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac114010ed9f9d5&type=album'
-        // },
-        // {
-        //     img: 'https://sun9-47.userapi.com/impg/aWv40Qsp8VC0zhUq0ANKb_4y7jXeCqJFGi-h6A/QYUpjoTH_GI.jpg?size=1216x832&quality=95&sign=5187438ce2d23eee6b57157d028b4006&type=album'
-        // },
-        // {
-        //     img: 'https://sun9-53.userapi.com/impg/_BCl1gT8S1drOPevOtFY6u5JRZhaoe_DFDPMjQ/Sz7iM2EZgZQ.jpg?size=1216x832&quality=95&sign=da2ca899a9d9b2fa6d3e23fec8352877&type=album'
-        // },
-        // {
-        //     img: 'https://sun9-41.userapi.com/impg/TGyE6UbPtOQngAH5jkDf-FZ0pj-KVgBiiPnmaA/v2lsBASwo4Q.jpg?size=1216x832&quality=95&sign=36c05b0287ad903bc7e276e9e999c9bf&type=album'
-        // }
+    // let sliderOptions = [
+    //     // {
+    //     //     img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac114010ed9f9d5&type=album'
+    //     // },
+    //     // {
+    //     //     img: 'https://sun9-47.userapi.com/impg/aWv40Qsp8VC0zhUq0ANKb_4y7jXeCqJFGi-h6A/QYUpjoTH_GI.jpg?size=1216x832&quality=95&sign=5187438ce2d23eee6b57157d028b4006&type=album'
+    //     // },
+    //     // {
+    //     //     img: 'https://sun9-53.userapi.com/impg/_BCl1gT8S1drOPevOtFY6u5JRZhaoe_DFDPMjQ/Sz7iM2EZgZQ.jpg?size=1216x832&quality=95&sign=da2ca899a9d9b2fa6d3e23fec8352877&type=album'
+    //     // },
+    //     // {
+    //     //     img: 'https://sun9-41.userapi.com/impg/TGyE6UbPtOQngAH5jkDf-FZ0pj-KVgBiiPnmaA/v2lsBASwo4Q.jpg?size=1216x832&quality=95&sign=36c05b0287ad903bc7e276e9e999c9bf&type=album'
+    //     // }
 
-        {
-            img: 'https://sun9-72.userapi.com/impg/hRg9GAGmbSj24DyQ8CmSpSiRDv-p9kBC8C-kgg/haSsPngG0YI.jpg?size=2560x1707&quality=95&sign=9e1e1c8fb37cc71f1be2a3f3463def12&type=album'
-        }
-        // {
-        //     img: 'https://sun9-76.userapi.com/impg/2kejy3hH6Yy-Y7gTL5w1f5o2DMTuWZwFlRbGXA/qb3XcRR4TCg.jpg?size=2560x1707&quality=95&sign=d0f4b5ffb13bc0b9354889ee5a54641a&type=album'
-        // },
-        // {
-        //     img: 'https://sun9-48.userapi.com/impg/AgXdhv0n6IisiPy8R02oxhVYv3KNbadmUsTUIA/SDN-vEvGccI.jpg?size=2560x1707&quality=95&sign=2021863518e97a29440d9e0f93d34cb0&type=album'
-        // }
-    ]
+    //     {
+    //         img: 'https://sun9-72.userapi.com/impg/hRg9GAGmbSj24DyQ8CmSpSiRDv-p9kBC8C-kgg/haSsPngG0YI.jpg?size=2560x1707&quality=95&sign=9e1e1c8fb37cc71f1be2a3f3463def12&type=album'
+    //     }
+    //     // {
+    //     //     img: 'https://sun9-76.userapi.com/impg/2kejy3hH6Yy-Y7gTL5w1f5o2DMTuWZwFlRbGXA/qb3XcRR4TCg.jpg?size=2560x1707&quality=95&sign=d0f4b5ffb13bc0b9354889ee5a54641a&type=album'
+    //     // },
+    //     // {
+    //     //     img: 'https://sun9-48.userapi.com/impg/AgXdhv0n6IisiPy8R02oxhVYv3KNbadmUsTUIA/SDN-vEvGccI.jpg?size=2560x1707&quality=95&sign=2021863518e97a29440d9e0f93d34cb0&type=album'
+    //     // }
+    // ]
 
     let sliderMainOptions = [
         {
@@ -88,12 +89,7 @@ const Index = () => {
 
 
                 <div className="slide_wrapper">
-
-                    <Slider
-                        loop={true}
-                        options={sliderOptions}
-
-                    />
+                    <img src={Lemonad} alt="flower" />
                 </div>
             </header>
 
@@ -101,7 +97,9 @@ const Index = () => {
                 <div className="about_wrapper_inner">
 
                     <div className="left_content">
-                        <iframe src="https://vk.com/video_ext.php?oid=-226312646&id=456239018&hd=2&autoplay=1" width="1080" height="720" allow="autoplay; encrypted-media; muted; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowFullScreen></iframe>
+                        <video playsInline src={AboutVid} autoPlay muted loop>
+                        </video>
+                        {/* <iframe src="https://vk.com/video_ext.php?oid=-226312646&id=456239018&hd=2&autoplay=1" width="1080" height="720" allow="autoplay; encrypted-media; muted; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowFullScreen></iframe> */}
                     </div>
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>

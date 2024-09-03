@@ -34,7 +34,7 @@ function App() {
         {/* SCROLL TO TOP */}
         <ScrollToTop />
         <ScrollToTopFunc />
-        <Loading />
+        {/* <Loading /> */}
 
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
