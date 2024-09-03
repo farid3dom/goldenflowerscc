@@ -75,11 +75,6 @@ body,
     // height: 100vh;
     min-height: 100vh;
     width: 100%;
-    background: url('./assets/media/images/container_image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .loading_icon {
@@ -230,7 +225,7 @@ body,
     height: 50px;
     border-radius: 50%;
     background: var(--gold);
-    z-index: 999;
+    z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,7 +274,6 @@ body,
     }
 }
 
-
 .icons8-app {
     position: fixed;
     bottom: 20px;
@@ -288,7 +282,7 @@ body,
     height: 50px;
     border-radius: 50%;
     background: var(--gold);
-    z-index: 999999;
+    z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -347,10 +341,11 @@ body,
     z-index: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('./assets/media/images/container_image.jpg');
+    background-image: url('./assets/media/images/container_image-new.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // background-color: #fff;
 }
 
 /////////////////////////////PRODUCTS PAGE STYLES

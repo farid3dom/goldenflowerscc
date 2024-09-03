@@ -27,6 +27,8 @@ const Index = () => {
    const navigate = useNavigate();
    const searchParams = new URLSearchParams(location.search);
    const [productData, setProductData] = useState(null);
+   const [showMore, setShowMore] = useState(false);
+   const [showMoreCare, setShowMoreCare] = useState(false);
 
    useEffect(() => {
       getProductDatas();
@@ -76,13 +78,24 @@ const Index = () => {
          transition={pageTransition}
          className="single-product_container">
 
-         <div className="fixed-img__wrapper"></div>
-
          <div className="product_about">
             <BackBtn className={'btn btn_white hover_gold'} />
 
             <h1 className='product_title'>{productData?.name[lang]}</h1>
-            <span className='product_description' dangerouslySetInnerHTML={{ __html: productData?.desc && productData.desc[lang] }}></span>
+            <div>
+               <span className='product_description'
+                  dangerouslySetInnerHTML={{
+                     __html: productData?.desc && (showMore ? productData.desc[lang] : productData.desc[lang].slice(0, 150))
+                  }}
+               ></span>
+               {
+                  productData?.desc[lang].length > 150 &&
+                  <span
+                     style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                     onClick={() => showMore ? setShowMore(false) : setShowMore(true)}
+                  > {showMore ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
+               }
+            </div>
             {/* <span className='product_description' dangerouslySetInnerHTML={{ __html: Grund[1].desc['ru'] }}></span> */}
             <div className="product_elements">
                <div className="product_elements_wrapper">
@@ -132,7 +145,15 @@ const Index = () => {
                      productData?.care &&
                      <div className="product_care product-elements__item">
                         <h1>Уход</h1>
-                        <span>{productData?.care[lang]}</span>
+                        <span>{showMoreCare ? productData?.care[lang] : productData?.care[lang].slice(0, 150)}
+                           {
+                              productData?.care[lang].length > 150 &&
+                              <span
+                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                                 onClick={() => showMoreCare ? setShowMoreCare(false) : setShowMoreCare(true)}
+                              > {showMoreCare ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
+                           }
+                        </span>
                      </div>
                   }
                   {

@@ -73,8 +73,6 @@ const Index = () => {
             transition={pageTransition}
             className="home_page_container">
 
-            <div className="fixed-img__wrapper"></div>
-
             <header>
 
                 <div className="header_slogan">

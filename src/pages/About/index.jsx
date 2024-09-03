@@ -55,8 +55,6 @@ const Index = () => {
             transition={pageTransition}
             className="about_page">
 
-            <div className="fixed-img__wrapper"></div>
-
             <div className="about_content_wrapper">
 
                 <div className="about_head">

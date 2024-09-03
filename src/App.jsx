@@ -35,6 +35,7 @@ function App() {
         <ScrollToTop />
         <ScrollToTopFunc />
         <Loading />
+        <div className="fixed-img__wrapper"></div>
 
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />

@@ -74,8 +74,6 @@ const Index = () => {
             transition={pageTransition}
             className="products-page__container">
 
-            <div className="fixed-img__wrapper"></div>
-
             <HeaderRepeat
                 title={pageData?.headerWrapper.title[lang]}
                 img={pageData?.headerWrapper.img}

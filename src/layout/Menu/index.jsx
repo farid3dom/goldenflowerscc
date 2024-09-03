@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './style.scss';
 import $ from 'jquery';
 
-import NavMenuBG from '@/assets/media/images/container_image.jpg';
 import VideoCam from '@/assets/icons/videocam.png'
 
 //import react router dom
@@ -43,7 +42,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                 <Link to={'/cameras'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                    <img src={VideoCam} width={48} />
+                        <img src={VideoCam} width={48} />
                     </div>
                 </Link>
                 <Link to={'/products/flowers'} onClick={menuHide}>
@@ -89,7 +88,8 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     >EN</span>
                 </div>
             </div>
-            <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" />
+            {/* <img className='nav_ham_menu_bg_image' src={NavMenuBG} alt="navbar_img" /> */}
+            <div className="fixed-img__wrapper"></div>
 
             <div className="phone_number">
                 <a href='tel:84957818888'>+7 (495) 781 88 88</a>
