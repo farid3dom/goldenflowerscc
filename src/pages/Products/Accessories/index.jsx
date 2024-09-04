@@ -13,6 +13,7 @@ import AccessoriesData from '@/db/accessories.json';
 
 ///Import Utils
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 ///IMPORT HOOKS
 import useShowMore from '@/hooks/useShowMore';
@@ -57,6 +58,12 @@ const Index = () => {
 
    return (
       <div className="details__container">
+
+         <Helmet>
+            <title>Golden Flowers Cash&Carry - Accessories</title>
+            <link rel="canonical" href="http://gfcc.ru/products/accessories" />
+         </Helmet>
+
          <div className="search_bar">
             <Input
                value={searchInputValue}

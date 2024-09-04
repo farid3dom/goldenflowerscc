@@ -25,7 +25,8 @@ import Loading from '@/assets/icons/loading.svg';
 import CustomerSupport from '@/assets/media/images/customer_support.jpg';
 
 import Call from '@/assets/icons/flowers_icons/call.png'
-import Whatsapp from '@/assets/icons/flowers_icons/whatsapp.svg'
+import Whatsapp from '@/assets/icons/flowers_icons/whatsapp.svg';
+import { Helmet } from 'react-helmet';
 
 ///Import Constants
 import { pageVariants, pageTransition } from '@/constants/framerSettings.js';
@@ -85,6 +86,11 @@ function index() {
             variants={pageVariants}
             transition={pageTransition}
             className="contact_page">
+
+            <Helmet>
+                <title>Golden Flowers Cash&Carry - Contact</title>
+                <link rel="canonical" href="http://gfcc.ru/contacts" />
+            </Helmet>
 
             <HeaderRepeat
                 title={t('contact.title')}
@@ -205,7 +211,7 @@ function index() {
                                                 </div>
                                             </div>
                                             <div className="num_number">
-                                            <p>+7 (926) 635 51 81</p>
+                                                <p>+7 (926) 635 51 81</p>
                                             </div>
                                             <div className="num_icons">
                                                 <a className="icon_call" href='tel:89266355181' target='_blank'>

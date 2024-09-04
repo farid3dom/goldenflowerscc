@@ -13,6 +13,7 @@ import FlowersData from '@/db/flowers.json';
 
 ///Import Utils
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 ///IMPORT HOOKS
 import useShowMore from '@/hooks/useShowMore';
@@ -69,6 +70,11 @@ const Index = () => {
                submitHandler={searchSubmit}
             />
          </div>
+
+         <Helmet>
+            <title>Golden Flowers Cash&Carry - Flowers</title>
+            <link rel="canonical" href="http://gfcc.ru/products/flowers" />
+         </Helmet>
 
          <div className="gallery_grid_wrapper">
             {galleryLoading &&

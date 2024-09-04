@@ -7,9 +7,7 @@ import { useTranslation } from 'react-i18next';
 // import 'react-photo-view/dist/react-photo-view.css';
 // import { PhotoView } from 'react-photo-view';
 import ModalImage from "react-modal-image";
-
-
-
+import { Helmet } from "react-helmet";
 
 // IMAGES
 import Kenya from "@/assets/media/images/camera/k.jpg"
@@ -33,7 +31,12 @@ function index() {
             transition={pageTransition}
             className="cameras_container">
 
-<div className="fixed-img__wrapper"></div>
+            <Helmet>
+                <title>Golden Flowers Cash&Carry - Cameras</title>
+                <link rel="canonical" href="http://gfcc.ru/cameras" />
+            </Helmet>
+
+            <div className="fixed-img__wrapper"></div>
 
             <HeaderRepeat
                 title={t('navbar.showcase')}

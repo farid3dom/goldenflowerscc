@@ -7,6 +7,7 @@ import Loading from '@/assets/icons/loading.svg';
 import Button from '@/components/Button/Index';
 import Input from '@/components/Input/Index';
 import GalleryCard from '@/components/GalleryCard/Index';
+import { Helmet } from 'react-helmet';
 
 //Import DB
 import PlantsData from '@/db/plants.json';
@@ -57,6 +58,12 @@ const Index = () => {
 
    return (
       <div className="details__container">
+
+         <Helmet>
+            <title>Golden Flowers Cash&Carry - Plants</title>
+            <link rel="canonical" href="http://gfcc.ru/products/plants" />
+         </Helmet>
+
          <div className="search_bar">
             <Input
                value={searchInputValue}

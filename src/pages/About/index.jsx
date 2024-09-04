@@ -13,6 +13,7 @@ import Button from '@/components/Button/Index';
 import { useTranslation } from 'react-i18next';
 
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 //import icons
 import YearIcon from '@/assets/icons/num_icons/work.svg'
@@ -54,6 +55,11 @@ const Index = () => {
             variants={pageVariants}
             transition={pageTransition}
             className="about_page">
+
+            <Helmet>
+                <title>Golden Flowers Cash&Carry - About</title>
+                <link rel="canonical" href="http://gfcc.ru/about" />
+            </Helmet>
 
             <div className="about_content_wrapper">
 

@@ -7,7 +7,8 @@ import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
 import MapSVG from '@/assets/media/images/materials/world_map.png';
 import AboutVid from '@/assets/media/video/about_vid.mp4';
-import Lemonad from '@/assets/media/images/materials/lemonad.jpg'
+import Lemonad from '@/assets/media/images/materials/lemonad.jpg';
+import { Helmet } from 'react-helmet';
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -73,6 +74,11 @@ const Index = () => {
             variants={pageVariants}
             transition={pageTransition}
             className="home_page_container">
+
+            <Helmet>
+                <title>Golden Flowers Cash&Carry - Home</title>
+                <link rel="canonical" href="http://gfcc.ru/" />
+            </Helmet>
 
             <header>
 
