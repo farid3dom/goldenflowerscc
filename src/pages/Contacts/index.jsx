@@ -22,7 +22,7 @@ import Num4 from '@/assets/icons/flowers_icons/exotic.png'
 import Num6 from '@/assets/icons/flowers_icons/domestic.png'
 import Num8 from '@/assets/icons/flowers_icons/packaging.png';
 import Loading from '@/assets/icons/loading.svg';
-import CustomerSupport from '@/assets/media/images/customer_support.jpg';
+import CustomerSupport from '@/assets/media/images/materials/contact_us.jpg';
 
 import Call from '@/assets/icons/flowers_icons/call.png'
 import Whatsapp from '@/assets/icons/flowers_icons/whatsapp.svg';
@@ -94,7 +94,7 @@ function index() {
 
             <HeaderRepeat
                 title={t('contact.title')}
-                img={'https://sun9-26.userapi.com/impg/c4i4Bp5Q4Q3-ZJ1yPmZJOJ5bVXtjv7qQZOB7OQ/vI6zcEP2ijI.jpg?size=2560x1707&quality=95&sign=c02b2bc86ab35ec942a3c8b1753363fd&type=album'}
+                img={'https://sun9-50.userapi.com/impg/zDrK5rOiyrgnBB8ovQqLgnX4QiOrmuwYmfXyKA/3U9wy0Bs_FU.jpg?size=2093x1396&quality=95&sign=3cd95336d7ac32a10f31922e2d9ec88b&type=album'}
             />
 
             <div className="contacts_content_wrapper">

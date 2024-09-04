@@ -12,7 +12,7 @@ import AnimatedRoutes from '@/routes/index';
 
 //Import React router dom
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
-import Loading from '@/layout/Loading/index';
+// import Loading from '@/layout/Loading/index';
 
 function App() {
   const [menuIsActive, setMenuIsActive] = useState(null);
@@ -34,7 +34,7 @@ function App() {
         {/* SCROLL TO TOP */}
         <ScrollToTop />
         <ScrollToTopFunc />
-        <Loading />
+        {/* <Loading /> */}
         <div className="fixed-img__wrapper"></div>
 
         <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />

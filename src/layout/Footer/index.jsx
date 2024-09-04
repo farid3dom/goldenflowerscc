@@ -83,7 +83,12 @@ const Index = () => {
                     </div>
                 </div>
 
-                <p className='rights_text'>© {year} Golden Flowers Cash&Carry. {t('footer.rights')}</p>
+                <div className="footer_bottom">
+                    <span className='rights_text'>© {year} {t('footer.rights')}</span>
+                    <a className='created_by' href='http://wa.me/79309920873' target='_blank'>{t('footer.farid')}</a>
+                </div>
+
+
             </div>
 
         </footer>
