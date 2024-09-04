@@ -54,10 +54,12 @@
 
                 .menu_text_main {
                     position: relative;
+                    
 
                     &:hover {
 
                         .menu_text_main_inner {
+                            transition: all .3s ease;
                             p {
                                 color: var(--gold);
                             }

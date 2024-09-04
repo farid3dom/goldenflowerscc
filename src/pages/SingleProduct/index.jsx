@@ -3,7 +3,7 @@ import './style.scss';
 import { motion } from 'framer-motion';
 
 ////IMPORT COMPONENT
-import Button from '@/components/Button/Index';
+// import Button from '@/components/Button/Index';
 import BackBtn from '@/components/BackBtn/index';
 
 ////IMPORT DB
@@ -29,11 +29,15 @@ const Index = () => {
    const [productData, setProductData] = useState(null);
    const [showMore, setShowMore] = useState(false);
    const [showMoreCare, setShowMoreCare] = useState(false);
+   const [showMoreAssortment, setShowMoreAssortment] = useState(false);
+
 
    useEffect(() => {
       getProductDatas();
    }, [location]);
 
+
+   console.log(productData)
    const getProductDatas = async () => {
       switch (searchParams.get('productType')) {
          case 'flowers':
@@ -152,6 +156,21 @@ const Index = () => {
                                  style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
                                  onClick={() => showMoreCare ? setShowMoreCare(false) : setShowMoreCare(true)}
                               > {showMoreCare ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
+                           }
+                        </span>
+                     </div>
+                  }
+                  {
+                     productData?.assortment &&
+                     <div className="product_assortment product-elements__item">
+                        <h1>Ассортимент</h1>
+                        <span>{showMoreAssortment ? productData?.assortment[lang] : productData?.assortment[lang].slice(0, 50)}
+                           {
+                              productData?.assortment[lang].length > 50 &&
+                              <span
+                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                                 onClick={() => showMoreAssortment ? setShowMoreAssortment(false) : setShowMoreAssortment(true)}
+                              > {showMoreAssortment ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
                            }
                         </span>
                      </div>

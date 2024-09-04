@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.scss';
-import { Skeleton } from '@mui/material';
 
 const index = ({ title, img }) => {
    

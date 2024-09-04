@@ -107,13 +107,16 @@ footer {
                 }
 
                 .adres_container {
-                    max-width: 204px;
+                    max-width: 217px;
+                    text-align: center;
+
 
                     .adres {
                         text-decoration: none;
                         color: var(--white);
                         font-size: 14px;
                         font-family: var(--f-regular);
+                        transition: all .3s ease;
 
                         &:hover {
                             color: var(--gold);
@@ -124,15 +127,27 @@ footer {
 
         }
 
-        .rights_text {
-            padding: 30px 0 0;
-            text-align: center;
-            font-family: var(--f-regular);
+        .footer_bottom {
             font-size: 14px;
             color: var(--white);
-            margin: 0;
-        }
+            font-family: var(--f-regular);
+            padding-top: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 27px;
+            
+            a {
+                color: var(--white);
+                transition: all .3s ease;
 
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--gold);
+                }
+            }
+
+        }
     }
 
     @media screen and (max-width: 1140px) {
@@ -144,9 +159,6 @@ footer {
                 padding-bottom: 28px;
             }
 
-            .rights_text {
-                padding: 28px 0 0;
-            }
         }
     }
 

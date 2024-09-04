@@ -33,34 +33,6 @@
     font-style: normal;
 }
 
-
-//PHILOSOPHER
-
-// @font-face {
-//     font-family: 'Geologica_Bold';
-//     src: url('./assets/fonts/phil/Philosopher-Bold.ttf') format("OpenType");
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'Geologica_Medium';
-//     src: url('./assets/fonts/phil/Philosopher-Regular.ttf') format("OpenType");
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'Geologica_Regular';
-//     src: url('./assets/fonts/phil/Philosopher-Regular.ttf') format("OpenType");
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-
-
-
-
 * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
@@ -75,6 +47,9 @@ body,
     // height: 100vh;
     min-height: 100vh;
     width: 100%;
+    background-image: url('./assets/media/images/container_image-new.svg');
+    background-attachment: fixed;
+
 }
 
 .loading_icon {
