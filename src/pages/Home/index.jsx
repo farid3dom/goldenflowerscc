@@ -7,7 +7,7 @@ import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
 import MapSVG from '@/assets/media/images/materials/world_map.png';
 import AboutVid from '@/assets/media/video/about_vid.mp4';
-import Lemonad from '@/assets/media/images/materials/lemonad.jpg';
+import Lemonad from '@/assets/media/images/materials/lemonad.svg';
 import { Helmet } from 'react-helmet';
 
 //Import Utils
