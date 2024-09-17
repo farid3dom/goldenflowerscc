@@ -296,12 +296,40 @@ body,
                     width: 100%;
                     height: 100%;
                     display: flex;
+                    position: relative;
 
                     img {
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
+                    }
 
+                    h3 {
+                        color: var(--white);
+                        font-family: var(--f-medium);
+                        letter-spacing: 3px;
+                        line-height: 1.2;
+                        font-size: 48px;
+                        position: absolute;
+                        padding: 150px 64px;
+                    }
+                }
+
+                @media screen and (max-width: 1140px) {
+                    .slider_item {
+                        h3 {
+                            padding: 120px 40px;
+                            font-size: 36px;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: 768px) {
+                    .slider_item {
+                        h3 {
+                            padding: 40px 16px;
+                            font-size: 24px;
+                        }
                     }
                 }
             }

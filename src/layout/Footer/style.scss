@@ -6,11 +6,12 @@ footer {
     z-index: 999;
 
     .footer_container {
+        max-width: 1140px;
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0 auto;
-        padding: 30px 64px;
+        padding: 30px 0;
         align-items: center;
 
 
@@ -24,6 +25,7 @@ footer {
         }
 
         .footer_container_inner {
+            width: 100%;
             display: grid;
             grid-template-columns: 1fr 2fr 2fr 2fr;
             padding: 30px 0;
@@ -107,7 +109,7 @@ footer {
                 }
 
                 .adres_container {
-                    max-width: 217px;
+                    max-width: 285px;
                     text-align: center;
 
 
@@ -128,25 +130,15 @@ footer {
         }
 
         .footer_bottom {
+            width: 100%;
             font-size: 14px;
-            color: var(--white);
+            // color: var(--white);
+            color: gray;
             font-family: var(--f-regular);
             padding-top: 16px;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 27px;
-            
-            a {
-                color: var(--white);
-                transition: all .3s ease;
-
-                &:hover {
-                    text-decoration: underline;
-                    color: var(--gold);
-                }
-            }
-
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 
@@ -159,6 +151,12 @@ footer {
                 padding-bottom: 28px;
             }
 
+            .footer_bottom {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+
         }
     }
 
@@ -169,8 +167,8 @@ footer {
             .footer_container_inner {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 25px;
-                padding: 24px;
+                gap: 10px;
+                padding: 24px 0;
                 width: 100%;
 
 
@@ -212,6 +210,13 @@ footer {
                         max-width: 151px;
                     }
                 }
+            }
+
+            .footer_bottom {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                line-height: 1.3;
             }
         }
     }

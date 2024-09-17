@@ -101,7 +101,7 @@ const Index = () => {
                      f.inner_URL ?
                         `${location.pathname}/${f.inner_URL}`
                         :
-                        `/product?productType=accessories&productName=${f.name['ru'].toLowerCase()}`
+                        `/product?productType=accessories&productName=${f.name['en'].toLowerCase()}`
                   }
                />
             ))
