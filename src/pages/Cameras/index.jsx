@@ -10,12 +10,12 @@ import ModalImage from "react-modal-image";
 import { Helmet } from "react-helmet";
 
 // IMAGES
-import Kenya from "@/assets/media/images/camera/k.jpg"
-import Xrizant from "@/assets/media/images/camera/x.jpg"
-import Ecuador from "@/assets/media/images/camera/ec.jpg"
-import Exotics from "@/assets/media/images/camera/ex.jpg"
-import Plant from "@/assets/media/images/camera/p.jpg"
-import Plant2 from "@/assets/media/images/camera/p2.jpg"
+// import Kenya from "@/assets/media/images/camera/k.jpg"
+// import Xrizant from "@/assets/media/images/camera/x.jpg"
+// import Ecuador from "@/assets/media/images/camera/ec.jpg"
+// import Exotics from "@/assets/media/images/camera/ex.jpg"
+// import Plant from "@/assets/media/images/camera/p.jpg"
+// import Plant2 from "@/assets/media/images/camera/p2.jpg"
 
 
 function index() {

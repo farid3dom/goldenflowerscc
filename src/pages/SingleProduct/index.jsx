@@ -3,13 +3,16 @@ import './style.scss';
 import { motion } from 'framer-motion';
 
 ////IMPORT COMPONENT
-// import Button from '@/components/Button/Index';
+import Button from '@/components/Button/Index';
 import BackBtn from '@/components/BackBtn/index';
 
 ////IMPORT DB
 import FlowersData from '@/db/flowers.json';
 import PlantsData from '@/db/plants.json';
 import AccessoriesData from '@/db/accessories.json';
+
+///Import Modals
+import ThreeDModal from '@/components/Modals/ThreeDViewer';
 
 ///Import Utils
 import { useTranslation } from 'react-i18next';
@@ -30,7 +33,7 @@ const Index = () => {
    const [showMore, setShowMore] = useState(false);
    const [showMoreCare, setShowMoreCare] = useState(false);
    const [showMoreAssortment, setShowMoreAssortment] = useState(false);
-
+   const [modalIsActive, setModalIsActive] = useState(false);
 
    useEffect(() => {
       getProductDatas();
@@ -82,8 +85,24 @@ const Index = () => {
          transition={pageTransition}
          className="single-product_container">
 
+         {
+            productData?.threeDPath &&
+            <ThreeDModal
+               modalIsActive={modalIsActive}
+               setModalIsActive={setModalIsActive}
+               glbPath={productData?.threeDPath}
+            />
+         }
+
          <div className="product_about">
-            <BackBtn className={'btn btn_white hover_gold'} />
+            <div className="button__wrapper">
+               <BackBtn className={'btn btn_white hover_gold'} />
+
+               {
+                  productData?.threeDPath &&
+                  <span className='btn btn_white hover_gold' onClick={() => setModalIsActive(true)}>view 3D</span>
+               }
+            </div>
 
             <h1 className='product_title'>{productData?.name[lang]}</h1>
             <div>
@@ -198,7 +217,7 @@ const Index = () => {
                   }
                </div>
 
-               
+
                {/* <div className="product_button">
                   <Button
                      btnText={'Перейти в магазин'}

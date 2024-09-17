@@ -10,6 +10,7 @@ export default defineConfig({
       '@/': '/src/',
     },
   },
+  assetsInclude: ['**/*.glb'],
   server: {
     port: 3000,
     host: true

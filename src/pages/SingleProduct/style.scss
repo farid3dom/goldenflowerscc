@@ -19,6 +19,13 @@
       gap: 30px;
       padding: 150px 32px 48px 64px;
 
+      .button__wrapper {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+      }
+
       .product_title {
          font-family: var(--f-bold);
          font-size: 50px;
