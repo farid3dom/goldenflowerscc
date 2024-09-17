@@ -7,7 +7,7 @@ import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
 import MapSVG from '@/assets/media/images/materials/world_map.png';
 import AboutVid from '@/assets/media/video/about_vid.mp4';
-import Lemonad from '@/assets/media/images/materials/lemonad.svg';
+// import Lemonad from '@/assets/media/images/materials/lemonad.svg';
 import { Helmet } from 'react-helmet';
 
 //Import Utils
@@ -20,30 +20,40 @@ import ParallaxText from '@/components/Parallax';
 const Index = () => {
     const { t, i18n } = useTranslation();
 
-    // let sliderOptions = [
-    //     // {
-    //     //     img: 'https://sun9-21.userapi.com/impg/NE-kwgNCDEvTpuP6poMQYoGtO7Ua8T-4yK6KZg/O2dDUcWUBQw.jpg?size=1216x832&quality=95&sign=eb6f1a3f0ce2e0231ac114010ed9f9d5&type=album'
-    //     // },
-    //     // {
-    //     //     img: 'https://sun9-47.userapi.com/impg/aWv40Qsp8VC0zhUq0ANKb_4y7jXeCqJFGi-h6A/QYUpjoTH_GI.jpg?size=1216x832&quality=95&sign=5187438ce2d23eee6b57157d028b4006&type=album'
-    //     // },
-    //     // {
-    //     //     img: 'https://sun9-53.userapi.com/impg/_BCl1gT8S1drOPevOtFY6u5JRZhaoe_DFDPMjQ/Sz7iM2EZgZQ.jpg?size=1216x832&quality=95&sign=da2ca899a9d9b2fa6d3e23fec8352877&type=album'
-    //     // },
-    //     // {
-    //     //     img: 'https://sun9-41.userapi.com/impg/TGyE6UbPtOQngAH5jkDf-FZ0pj-KVgBiiPnmaA/v2lsBASwo4Q.jpg?size=1216x832&quality=95&sign=36c05b0287ad903bc7e276e9e999c9bf&type=album'
-    //     // }
-
-    //     {
-    //         img: 'https://sun9-72.userapi.com/impg/hRg9GAGmbSj24DyQ8CmSpSiRDv-p9kBC8C-kgg/haSsPngG0YI.jpg?size=2560x1707&quality=95&sign=9e1e1c8fb37cc71f1be2a3f3463def12&type=album'
-    //     }
-    //     // {
-    //     //     img: 'https://sun9-76.userapi.com/impg/2kejy3hH6Yy-Y7gTL5w1f5o2DMTuWZwFlRbGXA/qb3XcRR4TCg.jpg?size=2560x1707&quality=95&sign=d0f4b5ffb13bc0b9354889ee5a54641a&type=album'
-    //     // },
-    //     // {
-    //     //     img: 'https://sun9-48.userapi.com/impg/AgXdhv0n6IisiPy8R02oxhVYv3KNbadmUsTUIA/SDN-vEvGccI.jpg?size=2560x1707&quality=95&sign=2021863518e97a29440d9e0f93d34cb0&type=album'
-    //     // }
-    // ]
+    let sliderOptions = [
+        {
+            img: 'https://sun9-71.userapi.com/impg/CZP1u3gVYIKYixqzQs0En_LT-pvhXf9bmuNmKQ/nligGLe7Bs8.jpg?size=1080x720&quality=95&sign=92ddeae870e45cb004cc12253e5a1896&type=album',
+            title: 'РОЗЫ МЕСТНЫЕ'
+        },
+        {
+            img: 'https://sun9-27.userapi.com/impg/dJFYOgFnn8Lg31pCYxRdrA8fAAQVEOf508qs4Q/5muJqE7ox9g.jpg?size=1080x720&quality=95&sign=fe221955c44202c353e82ea1730c0c90&type=album',
+            title: 'РОЗЫ ГОЛЛАНДСКИЕ'
+        },
+        {
+            img: 'https://sun9-80.userapi.com/impg/-T03Fao9ePC9qoy2tnOq9ojmjaaEP-debSJyUA/5xpt40z0kik.jpg?size=1080x720&quality=95&sign=e835f355ec2c53bd4d4dda9bf3f853a2&type=album',
+            title: 'ХРИЗАНТЕМЫ'
+        },
+        {
+            img: 'https://sun9-78.userapi.com/impg/aoWbwNwDtv3knokAohxi3ToL0TAzDGkp-Aoa9g/r7vThk42F2I.jpg?size=1080x720&quality=95&sign=3429a8dbadc50a3488388590d7611fb5&type=album',
+            title: 'ЭКЗОТИЧЕСКИЕ ЦВЕТЫ'
+        },
+        {
+            img: 'https://sun9-51.userapi.com/impg/al6yuS_JezjJqYg5xa6u8K76HayRtrsFo5KSeQ/TRABzZU4VN8.jpg?size=1080x720&quality=95&sign=4a81b37a4c4fa164743e102cf5c127ef&type=album',
+            title: 'РОЗЫ ИЗ ЭКВАДОРА'
+        },
+        {
+            img: 'https://sun9-39.userapi.com/impg/TM-r-aSfi0SbKaKTT92xVdtJqDLTAjg_bAQftQ/rvksrjdcjvA.jpg?size=1080x720&quality=95&sign=d344a8046deb5e35b1fcf24afe4ffe66&type=album',
+            title: 'РОЗЫ ИЗ КЕНИИ'
+        },
+        {
+            img: 'https://sun9-19.userapi.com/impg/OCuVZn3wl9F8i4rg8mJyFL0NSHHfXV67dYPZ_A/cXWLC3fyd-k.jpg?size=1080x720&quality=95&sign=a6fa13ff568d1a55020dbf4cb1d8e76d&type=album',
+            title: 'КОМНАТНЫЕ РАСТЕНИЯ'
+        },
+        {
+            img: 'https://sun9-50.userapi.com/impg/bb2VpNG76pIE6ZyXbNwRzpGPqLy0NGi4qN0jpg/aTyKt18t6zU.jpg?size=1080x720&quality=95&sign=1c2caf155853e0b488a8d54e5e88da27&type=album',
+            title: 'АКСЕССУАРЫ'
+        }
+    ]
 
     let sliderMainOptions = [
         {
@@ -93,7 +103,10 @@ const Index = () => {
 
 
                 <div className="slide_wrapper">
-                    <img src={Lemonad} alt="flower" />
+                    <Slider
+                        loop={true}
+                        options={sliderOptions}
+                    />
                 </div>
             </header>
 
@@ -103,7 +116,6 @@ const Index = () => {
                     <div className="left_content">
                         <video playsInline src={AboutVid} autoPlay muted loop>
                         </video>
-                        {/* <iframe src="https://vk.com/video_ext.php?oid=-226312646&id=456239018&hd=2&autoplay=1" width="1080" height="720" allow="autoplay; encrypted-media; muted; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowFullScreen></iframe> */}
                     </div>
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>

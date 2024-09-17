@@ -8,7 +8,7 @@ import ArrowDown from '@/assets/icons/arrowDown';
 // import ShopSVG from '@/assets/icons/shop.svg'
 // import DownloadSVG from '@/assets/icons/download.svg'
 import DownloadSVG from '@/assets/icons/eye.png'
-import VideoCam from '@/assets/icons/videocam.png'
+// import VideoCam from '@/assets/icons/videocam.png'
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -107,7 +107,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
 
                         </div>
 
-                        <div className="menu_text_main camera">
+                        {/* <div className="menu_text_main camera">
 
                             <Link to={'/cameras'}>
                                 <div className='menu_text_main_inner camera_inner'>
@@ -116,7 +116,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 </div>
                             </Link>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
