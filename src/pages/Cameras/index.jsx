@@ -50,7 +50,7 @@ function index() {
 
                         <h3 dangerouslySetInnerHTML={{ __html: t('showcase.sectionMain.caution') }}></h3>
 
-                        <div className="camera_gallery">
+                        {/* <div className="camera_gallery">
                             <div className="image_container">
                                 <div className="xrizant img_cont_inner">
                                     <ModalImage hideDownload
@@ -101,7 +101,7 @@ function index() {
                                     <span>{t('showcase.sectionMain.ecuador')}</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
